@@ -26,9 +26,17 @@ Disini **Machine Owner** dapat menerbitkan atau mencetak koin sebanyak mungkin, 
 
 ## Seigniorage
 
-Saat Machine Owner akan mencetak uangsejak mata
+Saat Machine Owner akan mencetak uang, terdapat biaya yang dibutuhkan untuk setiap coin. Pada kasus ini Machine Owner memerlukan biaya sebesar 100 rupiah/koin, untuk itu total biaya yang dibutuhkan untuk membuat 500 coins adalah Rp 50.000,00 :
 
 <img src="../assets/Seigniorage1.png" style="zoom:100%;" />
+
+Kini setelah Machine Owner mencetak 500 coins selanjutnya dia dapat menjualnya dengan harga yang subjektif. 
+
+<img src="../assets/Seigniorage2.png" style="zoom:100%;" />
+
+Jika Machine Owner menjualnya sebesar 1.000 rupiah/koin, maka dia mendapatkan keuntungan dari penciptaan token.
+
+![]()
 
 Gagasan Seigniorage menegaskan bahwa uang diciptakan tidak sesuai dengan nilainya.
 
