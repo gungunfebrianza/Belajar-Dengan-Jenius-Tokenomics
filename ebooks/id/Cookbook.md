@@ -44,12 +44,6 @@ Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk m
 
 ## Supply & Demand
 
-**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh **consumer**. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
-
-**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa. **Quantity Demanded** jumlah **unit** yang akan dibeli oleh konsumen pada harga tertentu.
-
-**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**.
-
 Jika terdapat permintaan di bawah 500 orang **Machine Owner** dapat mendistribusikan penjualan dengan harga 1,000 rupiah/koin. Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali permintaanya (**Demand**) dibandingkan ketersediaanya (**Supply**), maka harga **coin** tersebut bisa meningkat. 
 
 Jika terdapat permintaan dari 1,000 orang maka terdapat pristiwa **high demand**, jumlah **coin** yang terbatas harganya akan meningkat sesuai dengan permintaan. Pristiwa ini juga merepresentasikan kenapa harga **bitcoins** bisa menjadi sangat mahal, karena terdapat permintaan melebihi jumlah ketersediaan unit **bitcoins** itu sendiri.
@@ -65,4 +59,14 @@ Machine Owner da
 ## Non-Fungible Token
 
 Terminologi **Non-Fungible** artinya unik. **Non-Fungible Token** selanjutnya kita sebut **NFT** adalah sebuah aset digital yang keotentikannya mengandalkan **blockchain**. 
+
+# Glossary
+
+**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh **consumer**. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
+
+**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa. 
+
+**Quantity Demanded** adalah jumlah **unit** yang akan dibeli oleh konsumen pada harga tertentu.
+
+**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**.
 
