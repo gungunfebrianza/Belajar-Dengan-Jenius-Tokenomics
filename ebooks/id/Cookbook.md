@@ -16,9 +16,13 @@ Untuk anak 90an ke bawah kalian pasti tau, kalau kita main ke sebuah **supermall
 
 **Token** diciptakan sebagai alat pembayaran (**medium of exchange**) untuk membeli suatu barang atau jasa. Pada kasus mesin ding dong kita dapat menggunakan token untuk menikmati jasa **games** di **supermall**.
 
+## Token Creation
+
 Disini **Machine Owner** dapat menerbitkan atau mencetak koin sebanyak mungkin, jumlahnya koin yang dicetak dibatasi oleh jumlah mesin ding dong dan asumsi jumlah pelanggan yang akan datang. Pada kasus di bawah ini pemilik mesin memutuskan untuk mencetak **fixed supply** sebesar 500 **coins** : 
 
 <img src="../assets/Tokens2.png" style="zoom:100%;" />
+
+## Seigniorage
 
 Dar
 
