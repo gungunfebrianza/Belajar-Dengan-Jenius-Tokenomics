@@ -26,19 +26,19 @@ Disini **Machine Owner** dapat menerbitkan atau mencetak koin sebanyak mungkin, 
 
 ## Seigniorage
 
-Saat Machine Owner akan mencetak uang, terdapat biaya yang dibutuhkan untuk setiap coin. Pada kasus ini Machine Owner memerlukan biaya sebesar 100 rupiah/koin, untuk itu total biaya yang dibutuhkan untuk membuat 500 coins adalah Rp 50.000,00 :
+Saat **Machine Owner** akan mencetak uang, terdapat biaya yang dibutuhkan untuk setiap **coin**. Pada kasus ini **Machine Owner** memerlukan biaya sebesar 100 rupiah/koin, untuk itu total biaya yang dibutuhkan untuk membuat 500 **coins** adalah Rp 50.000,00 :
 
 <img src="../assets/Seigniorage1.png" style="zoom:100%;" />
 
-Kini setelah Machine Owner mencetak 500 coins selanjutnya dia dapat menjualnya dengan harga yang subjektif. 
+Kini setelah **Machine Owner** mencetak 500 **coins** selanjutnya dia dapat menjualnya dengan harga yang subjektif. 
 
 <img src="../assets/Seigniorage2.png" style="zoom:100%;" />
 
-Jika Machine Owner menjualnya sebesar 1.000 rupiah/koin, maka dia mendapatkan keuntungan dari penciptaan token.
+Jika **Machine Owner** menjualnya sebesar 1.000 rupiah/koin, maka dia mendapatkan keuntungan dari penciptaan **token** sebesar 450.000 Rupiah. Gagasan **Seigniorage** menegaskan bahwa uang diciptakan tidak sesuai dengan nilainya, **Seignorage** adalah selisih dari nilai **token** dan biaya untuk pembuatan **token**.
 
-![]()
+<img src="../assets/Seigniorage3.png" style="zoom:100%;" />
 
-Gagasan Seigniorage menegaskan bahwa uang diciptakan tidak sesuai dengan nilainya.
+
 
 ## Non-Fungible Token
 
