@@ -18,15 +18,19 @@ Untuk anak 90an ke bawah kalian pasti tau, kalau kita main ke sebuah **supermall
 
 ## Token Creation
 
-Disini **Machine Owner** dapat menerbitkan atau mencetak koin sebanyak mungkin, jumlahnya koin yang dicetak dibatasi oleh jumlah mesin ding dong dan asumsi jumlah pelanggan yang akan datang. Pada kasus di bawah ini pemilik mesin memutuskan untuk mencetak **fixed supply** sebesar 500 **coins** : 
+Disini **Machine Owner** dapat menerbitkan atau mencetak koin sebanyak mungkin, jumlahnya koin yang dicetak dibatasi oleh jumlah mesin ding dong, luas tempat dan asumsi jumlah pelanggan yang akan datang. Pada kasus di bawah ini pemilik mesin memutuskan untuk mencetak **fixed supply** sebesar 500 **coins** : 
 
 <img src="../assets/Tokens2.png" style="zoom:100%;" />
 
+**Machine Owner** selanjutnya akan mencetak **500 coins**.
+
 ## Seigniorage
 
-Dar
+Saat Machine Owner akan mencetak uangsejak mata
 
 <img src="../assets/Seigniorage1.png" style="zoom:100%;" />
+
+Gagasan Seigniorage menegaskan bahwa uang diciptakan tidak sesuai dengan nilainya.
 
 ## Non-Fungible Token
 
