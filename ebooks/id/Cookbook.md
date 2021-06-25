@@ -40,9 +40,13 @@ Jika **Machine Owner** menjualnya sebesar 1.000 rupiah/koin, maka dia mendapatka
 
 Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk membuat satu dollar sebesar 5 **cents**. Pemerintah amerika mendapatkan keuntungan sebesar 95 **cents** yang akan digunakan untuk membantu beban pengeluaran negara, alternatif selain pajak.
 
+<img src="../assets/Seigniorage4.png" style="zoom:100%;" />
 
+## Supply & Demand
 
+Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali peminatnya 
 
+![]()
 
 ## Non-Fungible Token
 
