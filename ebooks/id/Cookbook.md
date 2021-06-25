@@ -38,15 +38,17 @@ Jika **Machine Owner** menjualnya sebesar 1.000 rupiah/koin, maka dia mendapatka
 
 <img src="../assets/Seigniorage3.png" style="zoom:100%;" />
 
-Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk membuat satu dollar sebesar 5 **cents**. Pemerintah amerika mendapatkan keuntungan sebesar 95 **cents** yang akan digunakan untuk membantu beban pengeluaran negara, alternatif selain pajak.
+Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk membuat satu **dollar** sebesar 5 **cents**. Pemerintah amerika mendapatkan keuntungan sebesar 95 **cents** yang akan digunakan untuk membantu beban pengeluaran negara, alternatif selain pajak.
 
 <img src="../assets/Seigniorage4.png" style="zoom:100%;" />
 
 ## Supply & Demand
 
-**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh konsumen. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
+**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh **consumer**. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
 
-**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa.
+**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa. **Quantity Demanded** jumlah **unit** yang akan dibeli oleh konsumen pada harga tertentu.
+
+**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**.
 
 Jika terdapat permintaan di bawah 500 orang **Machine Owner** dapat mendistribusikan penjualan dengan harga 1,000 rupiah/koin. Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali permintaanya (**Demand**) dibandingkan ketersediaanya (**Supply**), maka harga **coin** tersebut bisa meningkat. 
 
@@ -54,7 +56,7 @@ Jika terdapat permintaan dari 1,000 orang maka terdapat pristiwa **high demand**
 
 <img src="../assets/Supply&Demand.png" style="zoom:100%;" />
 
-Terdapat banyak sekali skenario disini, salah satunya jika terdapat 1,000 orang yang melakukan permintaan masing-masing 1 koin maka **Machine Owner** dapat meningkatkan harga jual coin sebesar 1.500 rupiah/koin. Jika masih terdapat permintaan melebihi ketersediaan **Machine Owner** dapat terus menerus meningkatkan harga jual **coin**.
+Terdapat banyak sekali skenario disini, salah satunya jika terdapat 1,000 orang yang melakukan permintaan masing-masing 1 koin maka **Machine Owner** dapat meningkatkan harga jual **coin** sebesar 1.500 rupiah/koin. Jika masih terdapat permintaan melebihi ketersediaan **Machine Owner** dapat terus menerus meningkatkan harga jual **coin**.
 
 Machine Owner da
 
