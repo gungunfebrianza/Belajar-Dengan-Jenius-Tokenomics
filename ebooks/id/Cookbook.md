@@ -44,9 +44,13 @@ Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk m
 
 ## Supply & Demand
 
-Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali peminatnya 
+Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali permintaanya (**Demand**) dibandingkan ketersediaanya (**Supply**), maka harga **coin** tersebut bisa meningkat. Jika terdapat permintaan di bawah 500 orang Machine Owner dapat mendistribusikannya dengan harga 1,000 perkoin.
 
-![]()
+Jika terdapat permintaan dari 1,000 orang maka terdapat **high demand** pada coin yang jumlahnya terbatas.
+
+<img src="../assets/Supply&Demand.png" style="zoom:100%;" />
+
+
 
 ## Non-Fungible Token
 
