@@ -50,6 +50,10 @@ Jika terdapat permintaan dari 1,000 orang maka terdapat pristiwa **high demand**
 
 <img src="../assets/Supply&Demand.png" style="zoom:100%;" />
 
+Terdapat banyak sekali skenario disini, salah satunya jika terdapat 1,000 orang yang melakukan permintaan masing-masing 1 koin maka **Machine Owner** dapat meningkatkan harga jual coin sebesar 1.500 rupiah/koin. Jika masih terdapat permintaan melebihi ketersediaan **Machine Owner** dapat terus menerus meningkatkan harga jual **coin**.
+
+Machine Owner da
+
 
 
 ## Non-Fungible Token
