@@ -44,9 +44,9 @@ Konsep **Seigniorage** juga berlaku untuk bank sentral, di amerika biaya untuk m
 
 ## Supply & Demand
 
-Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali permintaanya (**Demand**) dibandingkan ketersediaanya (**Supply**), maka harga **coin** tersebut bisa meningkat. Jika terdapat permintaan di bawah 500 orang Machine Owner dapat mendistribusikannya dengan harga 1,000 perkoin.
+Jika terdapat permintaan di bawah 500 orang **Machine Owner** dapat mendistribusikan penjualan dengan harga 1,000 rupiah/koin. Jika saat pembukaan mesin ding dong ternyata terdapat banyak sekali permintaanya (**Demand**) dibandingkan ketersediaanya (**Supply**), maka harga **coin** tersebut bisa meningkat. 
 
-Jika terdapat permintaan dari 1,000 orang maka terdapat **high demand** pada coin yang jumlahnya terbatas.
+Jika terdapat permintaan dari 1,000 orang maka terdapat pristiwa **high demand**, jumlah **coin** yang terbatas harganya akan meningkat sesuai dengan permintaan. Pristiwa ini juga merepresentasikan kenapa harga **bitcoins** bisa menjadi sangat mahal, karena terdapat permintaan melebihi jumlah ketersediaan unit **bitcoins** itu sendiri.
 
 <img src="../assets/Supply&Demand.png" style="zoom:100%;" />
 
