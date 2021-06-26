@@ -78,7 +78,9 @@ Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut 
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
 
-Ketika harga **coins** meningkat maka **Machine Owner** dapat membangun mesin ding dong terbaru, memperluas tempat **games** dan membiaya marketing lebih efektif lagi. 
+Ketika harga **coins** meningkat maka **Machine Owner** dapat mencetak lebih banyak **coins** lagi, sehingga dapat membangun mesin ding dong terbaru, memperluas tempat **games** dan membiaya marketing lebih efektif lagi. 
+
+**Law of Supply** menegaskan bahwa Tingginya harga menimbulkan tingginya jumlah ketersediaan (**Quantity Supplied**) dan rendahnya harga menimbulkan rendahnya ketersediaan (**Quantity Supplied**).
 
 **Supply Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** menurun dan sebaliknya. 
 
