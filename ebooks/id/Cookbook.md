@@ -52,9 +52,23 @@ Jika terdapat permintaan dari 1,000 orang maka terdapat pristiwa **high demand**
 
 Terdapat banyak sekali skenario disini, salah satunya jika terdapat 1,000 orang yang melakukan permintaan masing-masing 1 koin maka **Machine Owner** dapat meningkatkan harga jual **coin** sebesar 1.500 rupiah/koin. Jika masih terdapat permintaan melebihi ketersediaan **Machine Owner** dapat terus menerus meningkatkan harga jual **coin**.
 
-Skenario lainnya terdapat seorang buyer tunggal (whale) yang memborong 300 coins dengan harga 1.500 rupiah/koin, sedangkan sisanya 200 koin juga sudah terjual untuk buyers yang lain dengan harga yang sama. Jika masih terdapat permintaan yang tinggi whale akan menjualnya untuk buyer lain dengan harga yang lebih tinggi lagi.
+Skenario lainnya terdapat seorang **buyer** tunggal (**whale**) yang memborong 300 **coins** dengan harga 1.500 rupiah/koin, sedangkan sisanya 200 **coins** juga sudah terjual untuk **buyers** yang lain dengan harga yang sama. Jika masih terdapat permintaan yang tinggi **whale** akan menjualnya untuk **buyer** lain dengan harga yang lebih tinggi lagi.
+
+### Demand
+
+**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh **consumer**. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
+
+**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa. **Quantity Demanded** adalah jumlah **unit** yang akan dibeli oleh konsumen pada harga tertentu.
 
 Semakin tinggi **Machine Owner** menentukan harga **coin** maka akan menurunkan permintaan (**Quantity Demanded**).
+
+<img src="../assets/Demand1.png" style="zoom:100%;" />
+
+Ketika harga coin mulai menurun maka permintaan (**Quantity Demanded**) akan meningkat.
+
+<img src="../assets/Demand2.png" style="zoom:100%;" />
+
+
 
 
 
@@ -64,11 +78,9 @@ Terminologi **Non-Fungible** artinya unik. **Non-Fungible Token** selanjutnya ki
 
 # Glossary
 
-**Demand** adalah jumlah barang atau jasa yang diinginkan untuk dibeli oleh **consumer**. **Demand** lahir karena secara fundamental manusia memiliki **need** dan **want**, namun dalam bahasa ekonomi keduanya dianggap sama. **Demand** juga menjabarkan jumlah konsumen yang akan membeli.
 
-**Price** adalah harga yang harus dibayar oleh konsumen untuk setiap unit barang atau jasa. 
 
-**Quantity Demanded** adalah jumlah **unit** yang akan dibeli oleh konsumen pada harga tertentu.
+
 
 **Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**.
 
