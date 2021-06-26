@@ -64,7 +64,11 @@ Semakin tinggi **Machine Owner** menentukan harga **coin** maka akan menurunkan 
 
 <img src="../assets/Demand1.png" style="zoom:100%;" />
 
-Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut dengan **demand schedule**. Ketika harga **coin** mulai menurun maka permintaan (**Quantity Demanded**) akan meningkat.
+Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut dengan **demand schedule**. Harga **coin** per unit dihitung dengan rupiah. Pada diagram di atas kita mengukur **Quantity Demanded** berdasarkan periode waktu tertentu, bisa perjam, perhari atau perminggu.
+
+Demand Curve menggambarkan relasi antara harga (**Price**) dengan permintaan (**Quantity Demanded**)
+
+Ketika harga **coin** mulai menurun maka permintaan (**Quantity Demanded**) akan meningkat.
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
 
