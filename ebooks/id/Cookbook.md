@@ -68,17 +68,23 @@ Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut 
 
 **Demand Curve** menggambarkan relasi antara harga (**Price**) dengan permintaan (**Quantity Demanded**). **Demand Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** menurun dan sebaliknya. 
 
-**Graph** di bawah ini adalah Kurva permintaan (**demand**) dengan ciri garis miring ke bawah dimulai dari kiri ke kanan yang melambangkah hukum permintaan (**Law of Demand**)
+**Graph** di bawah ini adalah Kurva permintaan (**demand**) dengan ciri garis miring ke bawah dimulai dari kiri ke kanan yang melambangkan hukum permintaan (**Law of Demand**)
 
 <img src="../assets/Demand3.png" style="zoom:100%;" />
 
 ### Supply
 
-**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**. Jika harga dari barang atau jasa yang diproduksi meningkat maka akan ketersedian (**Quantity Supplied**) dari barang atau jasa tersebut juga akan meningkat. Namun saat harga dari suatu barang atau jasa tersebut menurun maka jumlah ketersediaanpun akan menurun.
+**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**. Jika harga dari barang atau jasa yang diproduksi meningkat maka ketersedian (**Quantity Supplied**) dari barang atau jasa tersebut juga akan meningkat. Namun saat harga (**Price**) dari suatu barang atau jasa tersebut menurun maka jumlah ketersediaanpun (**Supply**) akan menurun.
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
 
 Ketika harga **coins** meningkat maka **Machine Owner** dapat membangun mesin ding dong terbaru, memperluas tempat **games** dan membiaya marketing lebih efektif lagi. 
+
+**Supply Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** menurun dan sebaliknya. 
+
+**Supply Curve** menggambarkan relasi antara harga (**Price**) pada sumbu vertikal dengan permintaan (**Quantity Supplied**) pada sumbu horizontal. 
+
+**Graph** di bawah ini adalah Kurva ketersediaan (**supply**) dengan ciri garis miring ke atas dimulai dari kanan ke kiri yang melambangkan hukum permintaan (**Law of Supply**)
 
 <img src="../assets/Supply1.png" style="zoom:100%;" />
 
