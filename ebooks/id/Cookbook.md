@@ -74,11 +74,13 @@ Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut 
 
 ### Supply
 
-Ketika harga **coin** mulai menurun maka permintaan (**Quantity Demanded**) akan meningkat.
+**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**. Jika harga dari barang atau jasa yang diproduksi meningkat maka akan ketersedian (**Quantity Supplied**) dari barang atau jasa tersebut juga akan meningkat. Namun saat harga dari suatu barang atau jasa tersebut menurun maka jumlah ketersediaanpun akan menurun.
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
 
+Ketika harga **coins** meningkat maka **Machine Owner** dapat membangun mesin ding dong terbaru, memperluas tempat **games** dan membiaya marketing lebih efektif lagi. 
 
+<img src="../assets/Supply1.png" style="zoom:100%;" />
 
 
 
@@ -92,5 +94,5 @@ Terminologi **Non-Fungible** artinya unik. **Non-Fungible Token** selanjutnya ki
 
 
 
-**Supply** adalah jumlah barang atau jasa yang disediakan oleh **producer**.
+
 
