@@ -72,6 +72,8 @@ Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut 
 
 <img src="../assets/Demand3.png" style="zoom:100%;" />
 
+### Supply
+
 Ketika harga **coin** mulai menurun maka permintaan (**Quantity Demanded**) akan meningkat.
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
