@@ -82,7 +82,7 @@ Ketika harga **coins** meningkat maka **Machine Owner** dapat mencetak lebih ban
 
 **Law of Supply** menegaskan bahwa Tingginya harga menimbulkan tingginya jumlah ketersediaan (**Quantity Supplied**) dan rendahnya harga menimbulkan rendahnya ketersediaan (**Quantity Supplied**).
 
-**Supply Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** menurun dan sebaliknya. 
+**Supply Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** juga semakin meningkat.
 
 **Supply Curve** menggambarkan relasi antara harga (**Price**) pada sumbu vertikal dengan permintaan (**Quantity Supplied**) pada sumbu horizontal. 
 
