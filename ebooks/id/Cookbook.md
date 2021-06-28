@@ -78,19 +78,19 @@ Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut 
 
 <img src="../assets/Demand2.png" style="zoom:100%;" />
 
+Pada diagram di atas masing-masing jumlah **coins** dan harga **coins** disebut dengan **Supply Schedule**. Harga **coin** per unit dihitung dengan rupiah. Pada diagram di atas kita mengukur **Quantity Supplied** berdasarkan periode waktu tertentu, bisa perjam, perhari atau perminggu.
+
 Ketika harga **coins** meningkat maka **Machine Owner** dapat mencetak lebih banyak **coins** lagi, sehingga dapat membangun mesin ding dong terbaru, memperluas tempat **games** dan membiaya marketing lebih efektif lagi. 
 
-**Law of Supply** menegaskan bahwa Tingginya harga menimbulkan tingginya jumlah ketersediaan (**Quantity Supplied**) dan rendahnya harga menimbulkan rendahnya ketersediaan (**Quantity Supplied**).
-
-**Supply Schedule** menampilkan semakin meningkat harga **coins** maka permintaan **coins** juga semakin meningkat.
-
-**Supply Curve** menggambarkan relasi antara harga (**Price**) pada sumbu vertikal dengan permintaan (**Quantity Supplied**) pada sumbu horizontal. 
+**Law of Supply** menegaskan bahwa tingginya harga (**Price**) menimbulkan tingginya jumlah ketersediaan (**Quantity Supplied**) dan rendahnya harga (**Price**) menimbulkan rendahnya ketersediaan (**Quantity Supplied**).
 
 **Graph** di bawah ini adalah Kurva ketersediaan (**supply**) dengan ciri garis miring ke atas dimulai dari kanan ke kiri yang melambangkan hukum permintaan (**Law of Supply**)
 
 <img src="../assets/Supply1.png" style="zoom:100%;" />
 
+--Tokenomics
 
+Inti dari **Internet of Value** adalah superioritas **value** terhadap information. Jika kita memberikan informasi untuk orang lain kita masih memilikinya, namun jika kita mengirimkan sebuah **value** ke seseorang maka kita tidak memilikinya lagi. Contoh value seperti : stock, intellectual property dan intangible asset.
 
 ## Non-Fungible Token
 
