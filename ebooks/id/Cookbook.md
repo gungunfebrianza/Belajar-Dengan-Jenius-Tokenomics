@@ -90,7 +90,13 @@ Ketika harga **coins** meningkat maka **Machine Owner** dapat mencetak lebih ban
 
 --Tokenomics
 
-Inti dari **Internet of Value** adalah superioritas **value** terhadap information. Jika kita memberikan informasi untuk orang lain kita masih memilikinya, namun jika kita mengirimkan sebuah **value** ke seseorang maka kita tidak memilikinya lagi. Contoh value seperti : stock, intellectual property dan intangible asset.
+Inti dari **Internet of Value** adalah superioritas **value** terhadap information. Jika kita memberikan informasi untuk orang lain kita masih memilikinya, namun jika kita mengirimkan sebuah **value** ke seseorang maka kita tidak memilikinya lagi. Contoh **value** seperti : Uang di **Bank** atau uang anda di **Paypal**.
+
+<img src="../assets/DoubleSpendingProblem.png" style="zoom:100%;" />
+
+Alasan kita memerlukan pihak ketiga seperti **bank** dan **paypal** adalah karena kita ingin menghindari **double spending problem**. Tidak boleh ada orang yang dapat membelanjakan uangnya lebih dari satu kali.
+
+
 
 ## Non-Fungible Token
 
