@@ -36,3 +36,11 @@ Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam
 
 **State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage**.
 
+# Types
+
+### Value Types
+
+### Reference Types 
+
+### Mapping Types
+
