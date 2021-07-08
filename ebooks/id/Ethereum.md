@@ -4,9 +4,13 @@
 
 ## Penulis : Gun Gun Febrianza
 
-# Cookbook
 
 
+# Smart Contract
+
+# Solidity 
+
+Solidity adalah bahasa pemrograman dengan karakteristik statically typed language. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
 
 # Solidity Anatomy
 
@@ -26,9 +30,9 @@ Informasi lebih lengkap terkait SPDX License Identifier dapat ditemui di [sini](
 
 ## Pragma
 
-Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam compiler 
+Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam compiler.
 
+## State Variables
 
-
-
+**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage**.
 
