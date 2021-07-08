@@ -94,7 +94,7 @@ Inti dari **Internet of Value** adalah superioritas **value** terhadap informati
 
 <img src="../assets/DoubleSpendingProblem.png" style="zoom:100%;" />
 
-Alasan kita memerlukan pihak ketiga seperti **bank** dan **paypal** adalah karena kita ingin menghindari **double spending problem**. Tidak boleh ada orang yang dapat membelanjakan uangnya lebih dari satu kali.
+Alasan kita memerlukan pihak ketiga seperti **bank** dan **paypal** adalah karena kita ingin menghindari **double spending problem**. Tidak boleh ada orang yang dapat membelanjakan uangnya lebih dari satu kali. Value harus dipastikan berpindah dan tidak bisa digunakan lagi.
 
 
 
