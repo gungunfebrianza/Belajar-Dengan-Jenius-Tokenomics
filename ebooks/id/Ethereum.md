@@ -8,9 +8,9 @@
 
 # Ethereum
 
-Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete.
+Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete. Transaksi dalam bitcoin rata-rata diproses sekitar 10 menit sekali.
 
-Ethereum sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). 
+Ethereum sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). Transaksi dalam ethereum diproses lebih cepat jika dibandingkan dengan bitcoin.
 
 # Smart Contract
 
