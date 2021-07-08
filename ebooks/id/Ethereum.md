@@ -6,6 +6,10 @@
 
 
 
+# Ethereum
+
+Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete.
+
 # Smart Contract
 
 # Solidity 
@@ -38,9 +42,24 @@ Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam
 
 # Types
 
-### Value Types
+## Value Types
 
-### Reference Types 
+## Reference Types 
 
-### Mapping Types
+### Arrays
+
+### Structs
+
+Solidity menyediakan cara untuk membuat sebuah types baru menggunakan structs. Di bawah ini contoh structs :
+
+```
+struct Funder {
+    address addr;
+    uint amount;
+}
+```
+
+Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
+
+## Mapping Types
 
