@@ -10,6 +10,8 @@
 
 Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete.
 
+Ethereum sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). 
+
 # Smart Contract
 
 # Solidity 
