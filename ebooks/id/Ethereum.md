@@ -4,9 +4,19 @@
 
 ## Penulis : Gun Gun Febrianza
 
-# Cookbook
 
 
+# Ethereum
+
+Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete. Transaksi dalam bitcoin rata-rata diproses sekitar 10 menit sekali.
+
+Ethereum sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). Transaksi dalam ethereum diproses lebih cepat jika dibandingkan dengan bitcoin.
+
+# Smart Contract
+
+# Solidity 
+
+Solidity adalah bahasa pemrograman dengan karakteristik statically typed language. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
 
 # Solidity Anatomy
 
@@ -26,9 +36,32 @@ Informasi lebih lengkap terkait SPDX License Identifier dapat ditemui di [sini](
 
 ## Pragma
 
-Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam compiler 
+Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam compiler.
 
+## State Variables
 
+**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage**.
 
+# Types
 
+## Value Types
+
+## Reference Types 
+
+### Arrays
+
+### Structs
+
+Solidity menyediakan cara untuk membuat sebuah types baru menggunakan structs. Di bawah ini contoh structs :
+
+```
+struct Funder {
+    address addr;
+    uint amount;
+}
+```
+
+Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
+
+## Mapping Types
 
