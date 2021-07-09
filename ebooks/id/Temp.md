@@ -12,3 +12,4 @@ Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggu
 
 
 
+Smart Contract dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereum adalah world computer yang mekanisme eksekusinya berbasis single-threaded.
