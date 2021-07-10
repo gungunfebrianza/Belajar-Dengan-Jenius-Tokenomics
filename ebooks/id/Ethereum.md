@@ -116,11 +116,11 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 ### EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi **Smart Contract**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi **Smart Contract**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
 
 <img src="../assets/Smart-Contract-Language.png" style="zoom:100%;" />
 
-Pengembangan LLL, Serpent dan Bamboo sudah mulai jarang, pengembangan solidity dan vyper masih aktif dan intens saat buku ini ditulis.
+Pengembangan **LLL**, **Serpent** dan **Bamboo** sudah mulai jarang, pengembangan **Solidity** dan **Vyper** masih aktif dan intens saat buku ini ditulis.
 
 Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
 
