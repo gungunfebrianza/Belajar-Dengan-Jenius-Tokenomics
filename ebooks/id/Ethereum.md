@@ -94,7 +94,11 @@ Sebuah **number** yang ditemukan oleh **miners** untuk memecahkan **cryptographi
 
 #### Receipt Roots 
 
+Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure**.
+
 #### Timestamp 
+
+Waktu saat **blockchain** diproduksi dan disimpan ke dalam **Ethereum Blockchain**.
 
 #### Transaction Root 
 
