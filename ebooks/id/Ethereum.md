@@ -154,9 +154,15 @@ Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **
 
 <img src="../assets/Ethereum-Currency.png" style="zoom:100%;" />
 
-Secara internal value ether direpresentasikan dalam unsigned integer wei. Setiap transaksi yang dilakukan dalam protokol Ethereum memerlukan sebuah biaya berupa gas yang harus dibeli menggunakan Ether. Biaya tersebut selanjutnya akan menjadi insentif untuk para miners.
+Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei**. Setiap transaksi yang dilakukan dalam protokol **Ethereum** memerlukan sebuah biaya berupa **gas** yang harus dibeli menggunakan **Ether**. Biaya tersebut selanjutnya akan menjadi insentif untuk para **miners**.
 
 ## Token
+
+**Ethereum** menyediakan fitur yang dapat kita gunakan untuk menerbitkan sebuah **Token**. Sebuah **Token** dapat diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
+
+**ERC** artinya **Ethereum Request for Comment** dan angka 20 adalah identitas nomor yang diberikan. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. Ada banyak standard lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
+
+## Gas
 
 
 
