@@ -49,11 +49,18 @@ Dalam jaringan P2P terdapat dua atau lebih komputer yang terhubung untuk berbagi
 
 ### Node
 
+Node adalah setiap perangkat komputer yang terhubung ke dalam jaringan Ethereum. Setiap Node memiliki salinan terbaru dari Ethereum Blockchain secara aktual selama terhubung ke internet. Setiap Node dapat melakukan transaksi secara independen. 
 
+Terdapat dua tipe Node :
+
+- Full Node
+- Lightweight Node
 
 ### Full Node
 
 ### Lightweight Node
+
+
 
 **---Brain-Dump**
 
