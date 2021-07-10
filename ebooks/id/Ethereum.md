@@ -10,11 +10,15 @@
 
 **Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
 
-Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**.
+Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**. **Turing Completeness** mengacu pada kemampuan suatu bahasa pemrograman untuk memecahkan permasalahan komputasi mulai dari program yang sederhana hingga program yang kompleks.
 
-Turing Complete artinya kita dapat membuat program yang rumit dalam protokol ethereum, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (Complexity-Security Problem).Karena sifat turing complete yang secara natural memiliki kekurangan - program tidak bisa diprediksikan kalau tidak dieksekusi dulu, (termination&infinity loop problem).
+Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethereum** akhir tahun 2013. Sebuah protokol yang didesain **open source**, **public blockchain**, **general purpose** dan dukungan pembuatan **smart contract** melalui bahasa pemrograman yang sudah mendukung **Turing Complete**.
 
-Maka digagaslah konsep gas dalam ethereum, setiap intruksi dibebankan biaya sehingga smart contract memiliki batasan. 
+**Turing Complete** artinya kita dapat membuat program yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
+
+Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
+
+Sebuah solusi yang jenius. Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh Gavin Wood pada tahun 2014. Selanjutnya pengembangan Project Solidity dipimpin oleh Christian Reitwiessner 
 
 # Smart Contract
 
