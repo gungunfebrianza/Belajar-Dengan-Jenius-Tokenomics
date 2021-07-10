@@ -39,9 +39,21 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 
 ## Ethereum Architecture
 
-Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**.
+Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**. 
 
 <img src="../assets/Ethereum-Network.png" style="zoom:100%;" />
+
+### P2P Network
+
+Dalam jaringan P2P terdapat dua atau lebih komputer yang terhubung untuk berbagi resources tanpa harus mengandalkan sistem yang tersentral.
+
+### Node
+
+
+
+### Full Node
+
+### Lightweight Node
 
 **---Brain-Dump**
 
