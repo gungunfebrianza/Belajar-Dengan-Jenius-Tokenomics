@@ -22,9 +22,7 @@ Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Sc
 
 Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
 
-**Gas** adalah sebuah solusi yang jenius, gas adalah konsep **metering mechanism** yang dapat digunakan untuk membatasi komputasi **Smart Contract** dan transaksi.
-
-<img src="../assets/Ethereum-Turing-Complete.png" style="zoom:100%;" />
+**Gas** adalah sebuah solusi yang jenius, gas adalah konsep **metering mechanism** yang dapat digunakan untuk membatasi komputasi **Smart Contract**.
 
 Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat menimbulkan **infinite loops** pada **program smart contract** untuk menulis **malicious program (Malware)** atau bisa juga terjadi karena **Human-error** yang dilakukan secara tidak sengaja.
 
@@ -32,17 +30,17 @@ Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat m
 
 Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
 
-Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang yang tertanam dalam **Ethereum Blockchain**.
-
-**Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
-
-**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, mengeksekusinya, dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
-
 ## Smart Contract
 
 Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
 
 <img src="../assets/Ethereum-Smart-Contract.png" style="zoom:100%;" /> 
+
+Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang yang tertanam dalam **Ethereum Blockchain**.
+
+**Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
+
+**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, mengeksekusinya, dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
 ## General Purpose
 
@@ -142,7 +140,11 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 ### EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes** yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
+
+<img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
+
+Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
 
 <img src="../assets/Smart-Contract-Language.png" style="zoom:100%;" />
 
@@ -163,6 +165,10 @@ Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei*
 **ERC** artinya **Ethereum Request for Comment** dan angka 20 adalah identitas nomor yang diberikan. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. Ada banyak standard lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
 ## Gas
+
+Sebelumnya kita telah memahami bahwa gas digunakan sebagai **metering mechanism** agar dapat membangun program **smart contract** yang aman dengan dukungan **turing complete**. **Gas** juga digunakan sebagai biaya dalam setiap transaksi untuk skema insentif untuk para **miners**.
+
+<img src="../assets/Ethereum-Turing-Complete.png" style="zoom:100%;" />
 
 
 
