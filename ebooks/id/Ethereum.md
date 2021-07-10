@@ -170,6 +170,12 @@ Sebelumnya kita telah memahami bahwa gas digunakan sebagai **metering mechanism*
 
 <img src="../assets/Ethereum-Turing-Complete.png" style="zoom:100%;" />
 
+Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya dengan jumlah 8 juta **Gas**. 
+
+<img src="../assets/Ethereum-Gas.png" style="zoom:100%;" />
+
+Saat kita melakukan transaksi pada protokol ethereum, kita harus menentukan gas price dan gas limit. Ethereum akan merekomendasikan seberapa besar gas fee yang diperlukan untuk melakukan transaksi.
+
 
 
 **---Brain-Dump**
