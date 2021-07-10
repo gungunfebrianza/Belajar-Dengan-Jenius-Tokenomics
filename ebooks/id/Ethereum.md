@@ -38,8 +38,6 @@ Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat me
 
 **Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, mengeksekusinya, dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
-
-
 ## Smart Contract
 
 Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
@@ -144,13 +142,23 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 ### EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi **Smart Contract**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
 
 <img src="../assets/Smart-Contract-Language.png" style="zoom:100%;" />
 
 Pengembangan **LLL**, **Serpent** dan **Bamboo** sudah mulai jarang, pengembangan **Solidity** dan **Vyper** masih aktif dan intens saat buku ini ditulis.
 
-Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
+## Ether
+
+Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **Ether** bersifat **fungible** yang dapat dibagi kedalam **unit** terkecil dengan maksimum 18 digit, 1 **Ether** (**ETH**) dapat direcah kedalam unit terkecil yang di sebut dengan **wei**. 1 **Ether** merepresentasikan 1 **Quintillion Wei** (1,000,000,000,000,000,000).
+
+<img src="../assets/Ethereum-Currency.png" style="zoom:100%;" />
+
+Secara internal value ether direpresentasikan dalam unsigned integer wei. Setiap transaksi yang dilakukan dalam protokol Ethereum memerlukan sebuah biaya berupa gas yang harus dibeli menggunakan Ether. Biaya tersebut selanjutnya akan menjadi insentif untuk para miners.
+
+## Token
+
+
 
 **---Brain-Dump**
 
