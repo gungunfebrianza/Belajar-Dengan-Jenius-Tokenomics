@@ -174,7 +174,9 @@ Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya deng
 
 <img src="../assets/Ethereum-Gas.png" style="zoom:100%;" />
 
-Saat kita melakukan transaksi pada protokol ethereum, kita harus menentukan gas price dan gas limit. Ethereum akan merekomendasikan seberapa besar gas fee yang diperlukan untuk melakukan transaksi.
+Saat kita melakukan transaksi pada protokol **Ethereum**, kita harus menentukan Gas Price dan Gas Limit. Ethereum akan merekomendasikan seberapa besar gas fee yang diperlukan untuk melakukan transaksi.
+
+<img src="../assets/Ethereum-Gas1.png" style="zoom:100%;" />
 
 
 
