@@ -198,7 +198,7 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 ## Accounts
 
-Terdapat dua **Accounts** yang dapat dibuat dalam Protokol **Ethereum** :
+**Bitcoin** menggunakan terminologi **Address** sementara **Ethereum** menggunakan terminologi **Account**. Setiap **Ethereum** **Accounts** dapat memiliki sekumpulan **Addresses**. Selain itu dalam protokol **Ethereum** terdapat dua **Accounts** yang dapat dibuat dalam Protokol **Ethereum** :
 
 <img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
 
