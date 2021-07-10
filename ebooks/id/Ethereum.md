@@ -28,6 +28,8 @@ Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya m
 
 Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali.
 
+**Mainframe Computing** masih menjadi champion dalam dunia transaksi keuangan, Mainframe Computer **IBM z13** memiliki kapabilitas untuk memproses **2.5 billion transaction/day** dan **IBM z15** memiliki kapabilitas untuk memproses **1 trillion web transaction/day.**
+
 **Ethereum** masih berjalan seperti **single-threaded computer**, memproses satu transaksi dalam satu waktu.
 
 
