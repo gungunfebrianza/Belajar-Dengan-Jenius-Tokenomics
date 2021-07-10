@@ -102,7 +102,11 @@ Waktu saat **blockchain** diproduksi dan disimpan ke dalam **Ethereum Blockchain
 
 #### Transaction Root 
 
+Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure** yang ada di dalam setiap transaksi.
+
 #### State Root
+
+Sebuah **Keccak 256-bit hash** dari **root node** dalam **state tree** setelah seluruh transaksi dieksekusi.
 
 Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**. **Block** terbaru akan diproduksi dengan interval waktu rata-rata 15 detik.
 
