@@ -76,9 +76,27 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 ### Blocks
 
-**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat block header dan sekumpulan transaksi. Block yang pertama kali dibuat disebut dengan genesis block.
+**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat **block header** dan sekumpulan transaksi. **Block** yang pertama kali dibuat disebut dengan genesis **block**. 
 
 <img src="../assets/Ethereum-Block.png" style="zoom:100%;" />
+
+Setiap **block header** menyimpan **metadata** berupa informasi terkait data **block** sebelumnya. Ada banyak sekali **properties** dalam **block header** namun kita cukup memahami beberapa **properties** yang relevan saja untuk memahami proses **block generation** :
+
+<img src="../assets/Ethereum-Block2.png" style="zoom:100%;" />
+
+#### Parent Hash 
+
+Informasi **hash** terkait **block** sebelumnya disebut dengan **parent block**, setiap **block header** akan menyimpan parent hash sampai **block** yang tidak memiliki nilai **parent hash** di paling ujung yaitu **genesis block**.
+
+#### Nonce 
+
+#### Receipt Roots 
+
+#### Timestamp 
+
+#### Transaction Root 
+
+#### State Root
 
 Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**. **Block** terbaru akan diproduksi dengan interval waktu rata-rata 15 detik.
 
