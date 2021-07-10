@@ -90,6 +90,8 @@ Informasi **hash** terkait **block** sebelumnya disebut dengan **parent block**,
 
 #### Nonce 
 
+Sebuah **number** yang ditemukan oleh **miners** untuk memecahkan **cryptographic puzzle**.
+
 #### Receipt Roots 
 
 #### Timestamp 
