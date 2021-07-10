@@ -76,7 +76,13 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 ### Blocks
 
-**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat sekumpulan transaksi. Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**.
+**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat block header dan sekumpulan transaksi. Block yang pertama kali dibuat disebut dengan genesis block.
+
+<img src="../assets/Ethereum-Block.png" style="zoom:100%;" />
+
+Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**. **Block** terbaru akan diproduksi dengan interval waktu rata-rata 15 detik.
+
+<img src="../assets/Ethereum-Block1.png" style="zoom:100%;" />
 
 ### EVM (Ethereum Virtual Machine)
 
