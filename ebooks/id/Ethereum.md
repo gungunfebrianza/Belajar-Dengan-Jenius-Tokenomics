@@ -76,7 +76,7 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 ### Blocks
 
-Blockchain adalah serangkaian block dan setiap block baru yang dibuat saling terhubung dengan block sebelumnya, di dalam setiap block terdapat sekumpulan transaksi.
+**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat sekumpulan transaksi. Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**.
 
 ### EVM (Ethereum Virtual Machine)
 
