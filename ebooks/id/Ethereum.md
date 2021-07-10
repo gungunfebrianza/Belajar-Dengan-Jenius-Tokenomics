@@ -26,6 +26,10 @@ Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yai
 
 <img src="../assets/Ethereum-Turing-Complete.png" style="zoom:100%;" />
 
+Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat menimbulkan **infinite loops** pada **program smart contract** untuk menulis **malicious program (Malware)** atau bisa juga terjadi karena **Human-error** yang dilakukan secara tidak sengaja.
+
+<img src="../assets/Ethereum-Turing-Complete1.png" style="zoom:100%;" />
+
 Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
 
 Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang yang tertanam dalam **Ethereum Blockchain**.
