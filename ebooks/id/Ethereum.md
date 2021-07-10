@@ -196,6 +196,12 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 <img src="../assets/Ethereum-Gas1.png" style="zoom:100%;" />
 
+## Accounts
+
+Terdapat dua **Accounts** yang dapat dibuat dalam Protokol **Ethereum** :
+
+<img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
+
 
 
 **---Brain-Dump**
