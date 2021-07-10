@@ -28,7 +28,7 @@ Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya m
 
 ## Current Problem State
 
-Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali.
+Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
 
 **Mainframe Computing** masih menjadi **champion** dalam dunia transaksi keuangan, **Mainframe Computer** seperti **IBM z13** memiliki kapabilitas untuk memproses **2.5 billion transaction/day** dan **IBM z15** memiliki kapabilitas untuk memproses **1 trillion web transaction/day.**
 
@@ -69,10 +69,16 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 ### Miners
 
-**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
+**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
 
 1. **Block Reward** dan 
-2. Transaction Fees dari setiap transaksi
+2. **Transaction Fees** dari setiap transaksi
+
+### Blocks
+
+Blockchain adalah serangkaian block dan setiap block baru yang dibuat saling terhubung dengan block sebelumnya, di dalam setiap block terdapat sekumpulan transaksi.
+
+### EVM (Ethereum Virtual Machine)
 
 
 
