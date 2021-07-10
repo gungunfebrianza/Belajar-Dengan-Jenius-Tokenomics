@@ -14,19 +14,27 @@ Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoi
 
 Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethereum** akhir tahun 2013. Sebuah protokol yang didesain **open source**, **public blockchain**, **general purpose** dan dukungan pembuatan **smart contract** melalui bahasa pemrograman yang sudah mendukung **Turing Complete**.
 
+<img src="../assets/Ethereum.png" style="zoom:100%;" />
+
 **Turing Complete** artinya kita dapat membuat program yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
 
 Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
 
-Sebuah solusi yang jenius. Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh Gavin Wood pada tahun 2014. Selanjutnya pengembangan Project Solidity dipimpin oleh Christian Reitwiessner 
+Sebuah solusi yang jenius. Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
+
+Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
+
+<img src="../assets/Ethereum-Smart-Contract.png" style="zoom:100%;" /> 
+
+Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali.
+
+**Ethereum** masih berjalan seperti **single-threaded computer**, memproses satu transaksi dalam satu waktu.
+
+
 
 # Smart Contract
 
- Selain itu, transaksi dalam bitcoin rata-rata diproses sekitar 10 menit sekali.
-
-**Ethereum** sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). Transaksi dalam ethereum diproses lebih cepat jika dibandingkan dengan bitcoin.
-
-Pada ethereum jika ingin membuat smart contract, kita dapat menulisnya menggunakan bahasa pemrograman solidity. Smart Contract yang telah ditulis harus dikompilasi kedalam bahasa intermediate level yang disebut dengan EVM bytecode agar dapat berjalan dalam Ethereum Virtual Machine (EVM) 
+Sebagai bahasa High-Level Language yang human readable. 
 
 Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggunakan transaksi contract creation. Transaksi dikirimkan menuju Contract Creation Address yang diawali 0x0. Setiap contract  dikenali melalui ethereum address yang berasal dari transaksi contract creation.
 
@@ -34,7 +42,7 @@ Smart Contract dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereu
 
 # Solidity 
 
-Solidity adalah bahasa pemrograman dengan karakteristik statically typed language. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
+**Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language**. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
 
 # Solidity Anatomy
 
