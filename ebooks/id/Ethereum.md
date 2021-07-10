@@ -202,6 +202,14 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 <img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
 
+Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
+
+<img src="../assets/Ethereum-Account2.png" style="zoom:100%;" />
+
+
+
+0x39a641896C95e463B77b3C3cc92A55Cc5cF93882
+
 
 
 **---Brain-Dump**
