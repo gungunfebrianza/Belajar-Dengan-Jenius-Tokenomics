@@ -45,18 +45,20 @@ Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**,
 
 ### P2P Network
 
-Dalam jaringan P2P terdapat dua atau lebih komputer yang terhubung untuk berbagi resources tanpa harus mengandalkan sistem yang tersentral.
+Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
 
 ### Node
 
-Node adalah setiap perangkat komputer yang terhubung ke dalam jaringan Ethereum. Setiap Node memiliki salinan terbaru dari Ethereum Blockchain secara aktual selama terhubung ke internet. Setiap Node dapat melakukan transaksi secara independen. 
+**Node** adalah setiap perangkat komputer yang terhubung ke dalam jaringan **Ethereum**. Setiap **Node** memiliki salinan terbaru dari **Ethereum Blockchain** secara aktual selama terhubung ke internet. Setiap **Node** dapat melakukan transaksi secara independen. 
 
-Terdapat dua tipe Node :
+Terdapat dua tipe **Node** :
 
-- Full Node
-- Lightweight Node
+- **Full Node**
+- **Lightweight Node**
 
 ### Full Node
+
+**Full Node** akan menyalin seluruh data **Ethereum Blockchain** terbaru dan berpartisipasi dalam kegiatan memverifikasi setiap **block** dan transaksi sesuai dengan **Consensus Mechanism** yang digunakan.
 
 ### Lightweight Node
 
