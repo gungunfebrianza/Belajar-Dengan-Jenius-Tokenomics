@@ -51,10 +51,11 @@ Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk ber
 
 **Node** adalah setiap perangkat komputer yang terhubung ke dalam jaringan **Ethereum**. Setiap **Node** memiliki salinan terbaru dari **Ethereum Blockchain** secara aktual selama terhubung ke internet. Setiap **Node** dapat melakukan transaksi secara independen. 
 
-Terdapat dua tipe **Node** :
+Terdapat tiga tipe **Node** :
 
 - **Full Node**
 - **Lightweight Node**
+- **Miners**
 
 ### Full Node
 
@@ -65,6 +66,13 @@ Terdapat dua tipe **Node** :
 **Lightweight Node** adalah **node** yang tidak menyimpan seluruh salinan data **Ethereum Blockchain**. **Lightweight Node** hanya digunakan untuk memverifikasi transaksi menggunakan metode **Simple Payment Verification (SPV)**. Metode ini digunakan untuk memverifikasi apakah suatu transaksi sudah tertanam dalam ethereum blockchain atau belum.
 
 Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan tanpa perlu menyalin seluruh data **Ethereum Blockchain**, **lightweight node** hanya menyimpan seluruh data **header information** dalam suatu **blocks** sebagai solusi untuk mengurangi penyimpanan data **blockchain** yang ukurannya sangat besar.
+
+### Miners
+
+**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
+
+1. **Block Reward** dan 
+2. Transaction Fees dari setiap transaksi
 
 
 
