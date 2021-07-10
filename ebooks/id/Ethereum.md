@@ -43,6 +43,8 @@ Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**,
 
 <img src="../assets/Ethereum-Network.png" style="zoom:100%;" />
 
+Salah satu **Ethereum Client** yang saat ini aktif dikembangkan adalah **Geth**.
+
 ### P2P Network
 
 Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
@@ -114,7 +116,13 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 ### EVM (Ethereum Virtual Machine)
 
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi **Smart Contract**. Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
 
+<img src="../assets/Smart-Contract-Language.png" style="zoom:100%;" />
+
+Pengembangan LLL, Serpent dan Bamboo sudah mulai jarang, pengembangan solidity dan vyper masih aktif dan intens saat buku ini ditulis.
+
+Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
 
 **---Brain-Dump**
 
