@@ -176,13 +176,19 @@ Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya deng
 
 Saat kita melakukan transaksi pada protokol **Ethereum**, kita dapat menentukan **Gas Price** dan **Gas Limit** setelah mendapatkan bantuan rekomentasi dari protokol **Ethereum**. 
 
+### Gas Limit
+
+Gas Limit adalah prediksi maksimum jumlah gas yang diperlukan untuk melakukan transaksi, jika pada akhirnya jumlah gas yang dikonsumsi lebih sedikit maka sisanya akan dikembalikan lagi pada pemiliknya. Jika jumlah gas yang diperlukan tidak mencukupi maka transaksi akan gagal, lengkap dengan kerugian kehilangan gas.
+
+
+
 Pada kasus di bawah ini jika kita memiliki **0.1 ETH** maka, maksimum **ETH** yang dapat dikirimkan sebesar **0,09995 ETH** dikarenakan terdapat **Gas Fee** yang diperlukan untuk mengirimkan **0,09995 ETH** . Saat buku ini ditulis **Ethereum** merekomendasikan **Gas Limit** sebesar **31.582** dan **Gas Price** sebesar **1,5986**. 
 
 Jika **Gas Limit** dan Gas Price dikalikan jumlahnya adalah **50.486,9852 Gwei**, selanjutnya jika **50.486,9852 Gwei** dikonversikan kedalam **Ether** maka totalnya adalah **0,00005 ETH**. Inilah alasan kenapa saat itu penulis hanya dapat mengirimkan **ETH** maksimum sebesar **0,09995 ETH**, karena **0,00005 ETH** harus digunakan sebagai **Gas Fee**.
 
 <img src="../assets/Ethereum-Gas2.png" style="zoom:100%;" />
 
-s
+Jumlah Gas telah ditetapkan secara Fixed untuk setiap operasi Bytecode dalam Smart Contract yang dieksekusi di dalam Ethereum Virtual Machine (EVM) 
 
 <img src="../assets/Ethereum-Gas1.png" style="zoom:100%;" />
 
