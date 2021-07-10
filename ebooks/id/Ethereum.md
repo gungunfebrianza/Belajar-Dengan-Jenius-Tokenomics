@@ -8,11 +8,25 @@
 
 # Ethereum
 
-Bitcoin juga mendukung scripting language, namun terdapat batasan fungsionalitas dalam melakukan scripting bitcoin dan sulitnya membangun script yang kompleks dalam bitcoin scripting. Penyebabnya adalah bitcoin scripting tidak turing complete. Transaksi dalam bitcoin rata-rata diproses sekitar 10 menit sekali.
+**Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
 
-Ethereum sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). Transaksi dalam ethereum diproses lebih cepat jika dibandingkan dengan bitcoin.
+Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**.
+
+Turing Complete artinya kita dapat membuat program yang rumit dalam protokol ethereum, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (Complexity-Security Problem).Karena sifat turing complete yang secara natural memiliki kekurangan - program tidak bisa diprediksikan kalau tidak dieksekusi dulu, (termination&infinity loop problem).
+
+Maka digagaslah konsep gas dalam ethereum, setiap intruksi dibebankan biaya sehingga smart contract memiliki batasan. 
 
 # Smart Contract
+
+ Selain itu, transaksi dalam bitcoin rata-rata diproses sekitar 10 menit sekali.
+
+**Ethereum** sebaliknya sudah menyediakan dukungan turing complete untuk mempermudah penulisan smart contract, terdapat bahasa pemrograman solidity yang dapat digunakan untuk membuat smart contract dalam Ethereum Virtual Machine (EVM). Transaksi dalam ethereum diproses lebih cepat jika dibandingkan dengan bitcoin.
+
+Pada ethereum jika ingin membuat smart contract, kita dapat menulisnya menggunakan bahasa pemrograman solidity. Smart Contract yang telah ditulis harus dikompilasi kedalam bahasa intermediate level yang disebut dengan EVM bytecode agar dapat berjalan dalam Ethereum Virtual Machine (EVM) 
+
+Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggunakan transaksi contract creation. Transaksi dikirimkan menuju Contract Creation Address yang diawali 0x0. Setiap contract  dikenali melalui ethereum address yang berasal dari transaksi contract creation.
+
+Smart Contract dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereum adalah world computer yang mekanisme eksekusinya berbasis single-threaded.
 
 # Solidity 
 
