@@ -154,12 +154,6 @@ Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **
 
 Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei**. Setiap transaksi yang dilakukan dalam protokol **Ethereum** memerlukan sebuah biaya berupa **gas** yang harus dibeli menggunakan **Ether**. Biaya tersebut selanjutnya akan menjadi insentif untuk para **miners**.
 
-## Token
-
-**Ethereum** menyediakan fitur yang dapat kita gunakan untuk menerbitkan sebuah **Token**. Sebuah **Token** dapat diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
-
-**ERC** artinya **Ethereum Request for Comment** dan angka 20 adalah identitas nomor yang diberikan. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. Ada banyak standard lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
-
 ## Gas
 
 Sebelumnya kita telah memahami bahwa gas digunakan sebagai **metering mechanism** agar dapat membangun program **smart contract** yang aman dengan dukungan **turing complete**. **Gas** juga digunakan sebagai biaya dalam setiap transaksi untuk skema insentif untuk para **miners**.
@@ -347,11 +341,17 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 # ERC-20 Token Standard
 
+**Ethereum** menyediakan fitur yang dapat kita gunakan untuk menerbitkan sebuah **Token**. Sebuah **Token** dapat diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
+
 **Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (ERC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
 
- Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
+**ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. Ada banyak standard lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
-Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**.
+Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
+
+Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**. Di bawah ini adalah sekumpulan ERC Request yang kini telah menjadi Ethereum Improvement Proposal (EIP) :
+
+https://github.com/ethereum/EIPs/tree/master/EIPS
 
 # Web3.js
 
