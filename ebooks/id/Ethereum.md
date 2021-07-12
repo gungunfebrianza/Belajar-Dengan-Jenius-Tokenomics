@@ -236,13 +236,23 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 ## Metamask 
 
-## Truffle 
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
+
+## Truffle
+
+Pengembangan **Smart Contract** untuk protokol **Ethereum**.
 
 ## Ganache
 
 Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
 
 Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+
+## Solidity Compiler 
+
+## Remix
+
+
 
 
 
