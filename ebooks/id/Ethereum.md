@@ -347,9 +347,11 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 # ERC-20 Token Standard
 
-**Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (RFC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
+**Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (ERC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
 
- 
+ Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
+
+Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**.
 
 # Web3.js
 
