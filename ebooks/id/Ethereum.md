@@ -1,10 +1,6 @@
 # Belajar Dengan Jenius Tokenomics
 
-## Published 2021
-
-## Penulis : Gun Gun Febrianza
-
-
+## 
 
 # Ethereum
 
@@ -233,6 +229,28 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 # Solidity 
 
 **Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language**. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
+
+
+
+# Development Tools
+
+## Metamask 
+
+## Truffle 
+
+## Ganache
+
+
+
+# ERC-20 Token
+
+
+
+
+
+
+
+
 
 # Solidity Anatomy
 
