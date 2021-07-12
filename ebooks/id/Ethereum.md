@@ -281,6 +281,10 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 ## Mapping Types
 
+# ERC-20 Token Standard
+
+
+
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
