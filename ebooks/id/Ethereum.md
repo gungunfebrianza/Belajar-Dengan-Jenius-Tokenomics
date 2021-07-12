@@ -359,6 +359,9 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 ## Mapping Types
 
 
+# ERC-20 Token Standard
+
+
 
 # Web3.js
 
@@ -367,8 +370,6 @@ Web3.js adalah sekumpulan libraries yang dapat membantu kita untuk dapat berinte
 1. HTTP
 2. IPC
 3. WebSockets
-
-
 
 # DApps
 
