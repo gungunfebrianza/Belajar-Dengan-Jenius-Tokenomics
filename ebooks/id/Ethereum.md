@@ -240,6 +240,10 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 ## Ganache
 
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
+
+Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+
 
 
 # ERC-20 Token
