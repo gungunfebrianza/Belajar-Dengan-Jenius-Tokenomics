@@ -277,7 +277,25 @@ Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User
 
 ## Solidity Compiler 
 
+### Node.js
+
+**Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
+
+```
+npm install -g solc
+```
+
+
+
 ## Remix
+
+### Remixd
+
+**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
+
+```
+npm install -g @remix-project/remixd
+```
 
 
 
