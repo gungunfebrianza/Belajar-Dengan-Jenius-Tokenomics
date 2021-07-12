@@ -340,6 +340,18 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 ## Mapping Types
 
+
+
+# Web3.js
+
+Web3.js adalah sekumpulan libraries yang dapat membantu kita untuk dapat berinteraksi dengan node ethereum baik secara local atau remote melalui :
+
+1. HTTP
+2. IPC
+3. WebSockets
+
+
+
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
