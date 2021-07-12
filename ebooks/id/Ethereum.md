@@ -1,10 +1,6 @@
 # Belajar Dengan Jenius Tokenomics
 
-## Published 2021
-
-## Penulis : Gun Gun Febrianza
-
-
+## 
 
 # Ethereum
 
@@ -210,6 +206,33 @@ Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix*
 
 0x39a641896C95e463B77b3C3cc92A55Cc5cF93882
 
+## ETH Blockchain Explorer
+
+Untuk mengeksplorasi **blockchain explorer** pada protokol **Ethereum** anda bisa mengunjungi :
+
+etherscan.io
+
+Jika anda ingin memahami status **Ethereum Network** secara **realtime** dengan tampilan **user interfaces** yang menarik silahkan kembangkan **ETH Netstat**. **Download source code** disini 
+
+```
+git clone https://github.com/cubedro/eth-netstats
+```
+
+**Install dependencies** :
+
+```
+sudo npm install -g grunt-cli
+cd eth-netstats
+npm install
+```
+
+**Build Project** :
+
+```
+grunt
+npm start
+```
+
 
 
 **---Brain-Dump**
@@ -233,6 +256,42 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 # Solidity 
 
 **Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language**. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
+
+
+
+# Development Tools
+
+## Metamask 
+
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
+
+## Truffle
+
+Pengembangan **Smart Contract** untuk protokol **Ethereum**.
+
+## Ganache
+
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
+
+Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+
+## Solidity Compiler 
+
+## Remix
+
+
+
+
+
+# ERC-20 Token
+
+
+
+
+
+
+
+
 
 # Solidity Anatomy
 
@@ -281,9 +340,18 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 ## Mapping Types
 
+
 # ERC-20 Token Standard
 
 
+
+# Web3.js
+
+Web3.js adalah sekumpulan libraries yang dapat membantu kita untuk dapat berinteraksi dengan node ethereum baik secara local atau remote melalui :
+
+1. HTTP
+2. IPC
+3. WebSockets
 
 # DApps
 
