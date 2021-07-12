@@ -297,20 +297,6 @@ npm install -g solc
 npm install -g @remix-project/remixd
 ```
 
-
-
-
-
-# ERC-20 Token
-
-
-
-
-
-
-
-
-
 # Solidity Anatomy
 
 ## SPDX License Identifier
@@ -361,11 +347,13 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 # ERC-20 Token Standard
 
+**Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (RFC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
 
+ 
 
 # Web3.js
 
-Web3.js adalah sekumpulan libraries yang dapat membantu kita untuk dapat berinteraksi dengan node ethereum baik secara local atau remote melalui :
+**Web3.js** adalah sekumpulan **libraries** yang dapat membantu kita untuk dapat berinteraksi dengan **Ethereum Node** baik secara **local** atau **remote** melalui :
 
 1. HTTP
 2. IPC
