@@ -357,9 +357,11 @@ https://github.com/ethereum/EIPs/tree/master/EIPS
 
 ## Coin & Token
 
-Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocurrency** yang memiliki **Blockchain** secara independen, **blockchain** di desain secara khusus untuk **Coin** tersebut.
+Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocurrency** yang memiliki **Blockchain** secara independen, **blockchain** di desain secara khusus untuk **Coin** tersebut. 
 
-**Token** adalah sebuah **Digital Asset** yang dibuat dalam sebuah Protokol **Cryptocurrency** yang telah berjalan dan didesain khusus untuk **General Purpose**, karakteristik **Cryptocurrency** yang mendukung pembuatan **token** memiliki **blockchain** yang dapat menyimpan berbagai **token**.
+**Bitcoin** (**BTC**) di desain secara khusus untuk transaksi keuangan dan memiliki **blockchain** tersendiri. **Ethereum** (**ETH**) di desain secara untuk transaksi keuangan dan **General Purpose**, **ethereum** juga memiliki **blockchain** khusus untuk protokolnya sendiri.
+
+**Token** adalah sebuah **Digital Asset** pada sebuah Protokol **Cryptocurrency** yang telah berjalan dan didesain khusus untuk **General Purpose**, karakteristik **Cryptocurrency** yang mendukung pembuatan **token** melalui **smart contract** memiliki **blockchain** yang dapat menyimpan berbagai **token**.
 
 ## Balance State Variable
 
