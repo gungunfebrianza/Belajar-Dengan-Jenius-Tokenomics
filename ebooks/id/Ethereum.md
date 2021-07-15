@@ -365,3 +365,13 @@ https://github.com/ethereum/EIPs/tree/master/EIPS
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
+# Temp 
+
+## Balance State Variable
+
+
+
+## Total Supply Variable
+
+**totalSupply variable** memiliki tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah visibility dari **totalSupply variable** menjadi public maka otomatis fungsi getter akan dibuatkan saat compie time.
+
