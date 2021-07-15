@@ -341,11 +341,15 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 
 # ERC-20 Token Standard
 
-**Ethereum** menyediakan fitur yang dapat kita gunakan untuk menerbitkan sebuah **Token**. Sebuah **Token** dapat diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
+Pada Protokol **Ethereum** kita dapat membuat sebuah **token** yang dapat digunakan sebagai mata uang digital. **Ethereum** menyediakan fitur untuk menerbitkan sebuah **Token**. Pembuatan**Token** diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
 
 **Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (ERC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
 
-**ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. Ada banyak standard lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
+Sebelum diciptakannya **ERC Token Standard**, kegiatan **Initial Coin Offering (ICO)** dalam **industry cryptocurrency** menggunakan berbagai standar yang berbeda-beda. Penciptaan **Technical Standard** dalam pembuatan **token**, membuat **Tokenization** menjadi semakin **mature**.
+
+Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada sebuah **Smart Contract** dalam pembuatan **token** dan sekumpulan fungsi minimum yang wajib dimiliki oleh sebuah **Smart Contract**. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. 
+
+Ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
 ## ERC & EIP
 
@@ -362,6 +366,8 @@ Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocu
 **Bitcoin** (**BTC**) di desain secara khusus untuk transaksi keuangan dan memiliki **blockchain** tersendiri. **Ethereum** (**ETH**) di desain secara untuk transaksi keuangan dan **General Purpose**, **ethereum** juga memiliki **blockchain** khusus untuk protokolnya sendiri.
 
 **Token** adalah sebuah **Digital Asset** pada sebuah Protokol **Cryptocurrency** yang telah berjalan dan didesain khusus untuk **General Purpose**, karakteristik **Cryptocurrency** yang mendukung pembuatan **token** melalui **smart contract** memiliki **blockchain** yang dapat menyimpan berbagai **token**.
+
+
 
 ## Balance State Variable
 
