@@ -377,6 +377,16 @@ Terdapat **balances variable** dengan tipe data mapping yang digunakan untuk men
 
 Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah visibility dari **totalSupply variable** menjadi public maka otomatis fungsi getter akan dibuatkan saat compie time.
 
+## Function balanceOf()
+
+Fungsi ini digunakan untuk mendapatkan saldo state variable balances.
+
+```
+    function balanceOf(address account) public view returns (uint256) {
+      return balances[account];
+    }
+```
+
 
 
 # Web3.js
