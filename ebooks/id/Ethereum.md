@@ -371,14 +371,18 @@ Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocu
 
 ## Balance State Variable
 
-Terdapat **balances variable** dengan tipe data mapping yang digunakan untuk menyimpan **balance** saldo dari setiap **address**.
+Terdapat **balances variable** dengan tipe data **mapping** yang digunakan untuk menyimpan **balance** saldo dari setiap **address**.
+
+```
+    mapping(address => uint256) internal balances;
+```
 
 ## Total Supply Variable
 
 Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah **visibility** dari **totalSupply variable** menjadi **public** maka otomatis fungsi **getter** akan dibuatkan saat **compile time**.
 
 ```
-uint256 internal _totalSupply;
+	uint256 internal _totalSupply;
 ```
 
 ## Function balanceOf()
