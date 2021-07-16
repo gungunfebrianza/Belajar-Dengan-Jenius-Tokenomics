@@ -349,13 +349,13 @@ Sebelum diciptakannya **ERC Token Standard**, kegiatan **Initial Coin Offering (
 
 Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada sebuah **Smart Contract** dalam pembuatan **token** dan sekumpulan fungsi minimum yang wajib dimiliki oleh sebuah **Smart Contract**. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. 
 
-Ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
+Selain **ERC-20** ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
 ## ERC & EIP
 
 Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
 
-Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**. Di bawah ini adalah sekumpulan ERC Request yang kini telah menjadi Ethereum Improvement Proposal (EIP) :
+Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**. Di bawah ini adalah sekumpulan ERC Request yang kini telah menjadi **Ethereum Improvement Proposal (EIP)** :
 
 https://github.com/ethereum/EIPs/tree/master/EIPS
 
@@ -371,11 +371,11 @@ Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocu
 
 ## Balance State Variable
 
-
+Terdapat **balances variable** dengan tipe data mapping yang digunakan untuk menyimpan **balance** saldo dari setiap **address**.
 
 ## Total Supply Variable
 
-**totalSupply variable** memiliki tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah visibility dari **totalSupply variable** menjadi public maka otomatis fungsi getter akan dibuatkan saat compie time.
+Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah visibility dari **totalSupply variable** menjadi public maka otomatis fungsi getter akan dibuatkan saat compie time.
 
 
 
