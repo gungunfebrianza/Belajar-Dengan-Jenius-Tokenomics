@@ -375,7 +375,11 @@ Terdapat **balances variable** dengan tipe data mapping yang digunakan untuk men
 
 ## Total Supply Variable
 
-Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah visibility dari **totalSupply variable** menjadi public maka otomatis fungsi getter akan dibuatkan saat compie time.
+Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah **visibility** dari **totalSupply variable** menjadi **public** maka otomatis fungsi **getter** akan dibuatkan saat **compile time**.
+
+```
+uint256 internal _totalSupply;
+```
 
 ## Function balanceOf()
 
