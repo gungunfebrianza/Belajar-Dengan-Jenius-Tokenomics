@@ -360,7 +360,9 @@ Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [si
 pragma solidity ^0.8.6;
 ```
 
+**Statement** di atas menegaskan **compiler** untuk melakukan **compilation** menggunakan **compiler versi 0.8.6** atau dengan **compiler** yang lebih tinggi dalam **semantic versioning 0.8.x**, sangat disarankan versi **solidity compiler** dikunci tanpa menggunakan notasi ^ atau simbol **caret**.
 
+Hal itu dilakukan agar **Smart Contract** yang kita tulis tidak mengalami **output** yang tidak diharapkan (**unexpected behaviour**), karena setiap kali **compiler** terbaru dirilis terdapat bug dalam versi sebelumnya yang telah dibenahi sehingga dapat mempengaruhi **Smart Contract** yang telah kita tulis.
 
 ## State Variables
 
