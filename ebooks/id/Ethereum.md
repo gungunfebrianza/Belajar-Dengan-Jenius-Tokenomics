@@ -294,6 +294,14 @@ Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggu
 
 # Solidity 
 
+**Solidity** adalah bahasa pemrograman
+
+<img src="../assets/Solidity.png" style="zoom:100%;" />
+
+Di bawah ini adalah **Lifecyle** yang akan dilakukan seorang **Smart Contract Developer**, pertama dia akan menulis sebuah **Smart Contract**, melakukan **Testing Smart Contract**, melakukan proses **Deployment Smart Contract** pada **Test Net** atau **Main Net** dan mengeksekusi **Smart Contract**.
+
+<img src="../assets/Solidity-Lifecyle.png" style="zoom:100%;" />
+
 ## High-level Language
 
 **Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). Solidity adalah bahasa pemrograman high-level seperti bahasa high-level lainnya yaitu **Go**, **C++**, dan **Java**.
@@ -308,7 +316,7 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 ## Object-oriented Language
 
-**Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang.
+**Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang. Dukungan Object-oriented pada versi 8.6.0 masih terbatas.
 
 ## Statically-Typed Language
 
