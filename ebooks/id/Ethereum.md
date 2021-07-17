@@ -387,11 +387,25 @@ Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk 
 
 ## Function balanceOf()
 
-Fungsi ini digunakan untuk mendapatkan saldo state variable balances.
+Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**.
 
 ```
     function balanceOf(address account) public view returns (uint256) {
       return balances[account];
+    }
+```
+
+## Function transfer()
+
+Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** menuju **address** lainnya. Terdapat proses verifikasi target **address** harus valid dan **sender** memang memiliki jumlah **token** yang tersedia untuk melakukan transfer.
+
+```
+    function transfer (address to, uint256 value) public returns (bool success) {
+        require(to != address(0) && balances[msg.sender]> value);
+        balances[msg.sender] = balances[msg.sender] - value;
+        balances[to] = balances[to] + value;
+        emit Transfer(msg.sender, to, value);
+        return true;
     }
 ```
 
