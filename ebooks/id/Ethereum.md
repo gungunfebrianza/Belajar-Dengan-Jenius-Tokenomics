@@ -249,6 +249,8 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 # Solidity 
 
+**Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**).
+
 **Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language**. Artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
 
 
