@@ -237,6 +237,8 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 <img src="../assets/Ethereum-Gas1.png" style="zoom:100%;" />
 
+Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar 8 juta **gas** per **block**. Ini artinya total **gas** yang digunakan dalam setiap transaksi pada suatu **block** tidak dapat melebihi 8 juta **gas** per **block**.
+
 ## Accounts
 
 **Bitcoin** menggunakan terminologi **Address** sementara **Ethereum** menggunakan terminologi **Account**. Setiap **Ethereum** **Accounts** dapat memiliki sekumpulan **Addresses**. Selain itu dalam protokol **Ethereum** terdapat dua **Accounts** yang dapat dibuat dalam Protokol **Ethereum** :
@@ -282,21 +284,13 @@ npm start
 
 **---Brain-Dump**
 
-Sebagai bahasa High-Level Language yang human readable. 
-
 Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggunakan transaksi contract creation. Transaksi dikirimkan menuju Contract Creation Address yang diawali 0x0. Setiap contract  dikenali melalui ethereum address yang berasal dari transaksi contract creation.
-
-**Smart Contract** dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereum adalah world computer yang mekanisme eksekusinya berbasis single-threaded.
-
-Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar 8 juta **gas** per **block**. Ini artinya total **gas** yang digunakan dalam setiap transaksi pada suatu **block** tidak dapat melebihi 8 juta **gas** per **block**.
-
-
 
 **---Brain-Dump**
 
 # Smart Contract
 
-
+**Smart Contract** dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereum adalah world computer yang mekanisme eksekusinya berbasis single-threaded.
 
 # Solidity 
 
