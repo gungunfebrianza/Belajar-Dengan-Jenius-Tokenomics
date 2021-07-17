@@ -354,7 +354,7 @@ Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [si
 
 ## Pragma
 
-**Keyword pragma** digunakan untuk menentukan compiler yang akan digunakan dan menjalankan fitur-fitur tertentu dalam **compiler**. Di bawah ini adalah contoh **statement** penggunaan **pragma** :
+**Keyword pragma** adalah sebuah **directive** untuk menentukan **compiler** yang akan digunakan dan menjalankan fitur-fitur tertentu dalam **compiler** yang akan digunakan untuk mengkompilasi **file solidity** saat ini. Di bawah ini adalah contoh **statement** penggunaan **pragma** :
 
 ```
 pragma solidity ^0.8.6;
