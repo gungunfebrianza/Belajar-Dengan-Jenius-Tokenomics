@@ -385,9 +385,21 @@ Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk 
 	uint256 internal _totalSupply;
 ```
 
+Pada **case** kali ini kita akan menggunakan **visibility internal** dan membuat **function totalSupply()** sendiri.
+
+## Function totalSupply()
+
+Untuk menampilkan **totalSupply state variable** kita dapat membuat fungsi **totalSupply()**, di bawah ini adalah contoh kode fungsi tersebut :
+
+```
+    function totalSupply() public view returns (uint256) {
+       return _totalSupply;
+    }
+```
+
 ## Function balanceOf()
 
-Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**.
+Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**. Di bawah ini adalah contoh kode fungsi **balanceOf()** tersebut :
 
 ```
     function balanceOf(address account) public view returns (uint256) {
