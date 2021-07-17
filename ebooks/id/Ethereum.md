@@ -302,6 +302,10 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 Perbedaanya adalah hasil kompilasi pada **Solidity**, output kompilasi nerupa **Intermediate Representation** (**IR**) yang disebut dengan **EVM Bytecode**. Selanjutnya **EVM Bytecode** akan dieksekusi di dalam **Ethereum Virtual Machine** (**EVM**) pada sebuah **Node Environment**.
 
+Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **deploy** ke dalam **Ethereum Blockchain** akan tersimpan diseluruh **Full Node** membentuk sebuah **Global State Machine**.
+
+<img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
+
 ## Object-oriented Language
 
 **Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang.
