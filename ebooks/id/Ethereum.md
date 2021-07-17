@@ -385,7 +385,7 @@ Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Versio
 
 ## Import
 
-**Solidity** menyediakan **keyword import** agar bisa berinteraksi dengan **file solidity** lainnya. Tujuan dari **import** agar kode yang ditulis dengan **solidity** bisa lebih **modular**. Di bawah ini adalah contoh statement untuk melakukan import :
+**Solidity** menyediakan **keyword import** agar bisa berinteraksi dengan **file solidity** lainnya. Tujuan dari **import** agar kode yang ditulis dengan **solidity** bisa lebih **modular**. Di bawah ini adalah contoh **statement** untuk melakukan **import** sebuah file solidity yang lokasinya berada dalam **current local directory** :
 
 ```
 import “HelloWorld.sol”;
