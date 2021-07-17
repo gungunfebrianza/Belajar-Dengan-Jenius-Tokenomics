@@ -383,6 +383,16 @@ Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan y
 
 Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**. 
 
+## Import
+
+**Solidity** menyediakan **keyword import** agar bisa berinteraksi dengan **file solidity** lainnya. Tujuan dari **import** agar kode yang ditulis dengan **solidity** bisa lebih **modular**. Di bawah ini adalah contoh statement untuk melakukan import :
+
+```
+import “HelloWorld.sol”;
+```
+
+
+
 ## State Variables
 
 **State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage**.
