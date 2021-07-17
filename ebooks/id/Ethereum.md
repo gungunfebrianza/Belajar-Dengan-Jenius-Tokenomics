@@ -436,7 +436,24 @@ Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **o
   }
 ```
 
+## Function transferFrom()
 
+Fungsi ini digunakan untuk melakukan transfer sejumlah token dari **from address** menuju **spender address**. Terdapat proses pemeriksaan **spender address** harus valid, jumlah token harus lebih kecil atau setara dengan saldo dalam **from address** dan jumlah token harus lebih kecil atau setara dengan saldo dalam **allowed state variable**.
+
+```
+    function transferFrom(address from, address spender,uint256 value) public returns (bool) {
+        require(spender != address(0) && value <= balances[from] && value <= allowed[from][msg.sender]);
+        balances[from] = balances[from] - value;
+        balances[spender] = balances[spender] + value;
+        allowed[from][msg.sender] = allowed[from][msg.sender] - value;
+        emit Transfer(from, spender, value);
+        return true;
+    }
+```
+
+Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah token yang dikirim, jumlah saldo milik **spender address** akan ditambah sesuai dengan jumlah token yang dikirim. 
+
+Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
 
 # Web3.js
 
