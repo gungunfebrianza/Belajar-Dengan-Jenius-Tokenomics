@@ -411,6 +411,23 @@ Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** m
 
 Selanjutnya jika proses validasi selesai jumlah saldo milik **sender** harus dikurangi dengan jumlah yang dikirim, dan jumlah saldo penerima (**target address**) harus bertambah. Terakhir terdapat **event** yang harus di **trigger** saat melakukan kegiatan **Transfer**.
 
+## Function approve()
+
+Fungsi ini digunakan untuk memberikan izin pada suatu **address** yang selanjutnya kita sebut sebagai **spender**, untuk dapat melakukan **withdraw** dengan jumlah yang telah diizinkan. Terdapat proses pemeriksaan pada **address spender** untuk memastikan **address** memang valid.
+
+Selanjutnya terdapat **state variable allowed** dengan tipe data **mapping** yang akan digunakan untuk menyimpan jumlah yang diizinkan untuk di **withdraw** oleh **spender**. Terakhir terdapat **event Approval** yang harus di **trigger** saat melakukan **approve**.
+
+```
+  function approve(address spender, uint256 value) public returns (bool) {
+        require(spender != address(0));
+        allowed[msg.sender][spender] = value;
+        emit Approval(msg.sender, spender, value);
+        return true;
+   }
+```
+
+
+
 # Web3.js
 
 **Web3.js** adalah sekumpulan **libraries** yang dapat membantu kita untuk dapat berinteraksi dengan **Ethereum Node** baik secara **local** atau **remote** melalui :
