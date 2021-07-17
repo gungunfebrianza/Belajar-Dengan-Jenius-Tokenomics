@@ -385,10 +385,28 @@ Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Versio
 
 ## Import
 
-**Solidity** menyediakan **keyword import** agar bisa berinteraksi dengan **file solidity** lainnya. Tujuan dari **import** agar kode yang ditulis dengan **solidity** bisa lebih **modular**. Di bawah ini adalah contoh **statement** untuk melakukan **import** sebuah file solidity yang lokasinya berada dalam **current local directory** :
+**Solidity** menyediakan **keyword import** agar bisa berinteraksi dengan **file solidity** lainnya. Tujuan dari **import** agar kode yang ditulis dengan **solidity** bisa lebih **modular**. Di bawah ini adalah contoh **statement** untuk melakukan **import** sebuah **file solidity** yang lokasinya berada dalam **current local directory** :
 
 ```
 import “HelloWorld.sol”;
+```
+
+Kita dapat menggunakan seluruh **global symbol** dari **file** yang di **import** :
+
+```
+import * as MyContract from “BaseContract.sol”;
+```
+
+Atau menggunakan **alias** seperti pada contoh kode di bawah ini :
+
+```
+import “BaseContract.sol” as MyContract;
+```
+
+Jika kita tidak ingin menggunakan seluruh **global symbol** dari sebuah **file**, karena ingin menggunakan beberapa **symbol** saja anda dapat mempelajari contoh **statement** di bawah ini : 
+
+```
+import {symbol1 as alias, symbol2} from " BaseContract.sol";
 ```
 
 
