@@ -2,6 +2,51 @@
 
 ## 
 
+# Content Tables
+
+- Ethereum
+
+  - Turing Complete
+  - Smart Contract
+  - General Purpose
+  - Current Problem State
+
+  - Ethereum Architecture
+    - P2P Network
+    - Node
+    - Full Node
+    - Lighweight Node
+    - Miners
+    - Blocks
+    - EVM (Ethereum Virtual Machine)
+  - Ether
+  - Gas
+    - Gas Limit
+    - Gas Price
+    - Example
+  - Account
+  - ETH Blockchain Explorer
+
+- Smart Contract
+
+- Solidity
+
+- Development Tools
+
+  - Metamask
+  - Truffle
+  - Ganache
+  - Solidity Compiler
+    - Node.js
+  - Remix
+    - Remixd
+
+- Web3.js
+
+- DApps
+
+  
+
 # Ethereum
 
 **Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
@@ -136,7 +181,7 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 ### EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes** yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
@@ -249,9 +294,11 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 # Solidity 
 
-**Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). **Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language** artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
+**Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). **Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang.
 
-**Solidity** adalah bahasa pemrograman yang sudah **turing complete** yang dapat digunakan untuk menyelesaikan berbagai komputasi pemrograman mulai dari yang sederhana hingga kompleks.
+**Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language** artinya tipe data suatu variable harus didefinisikan terlebih dahulu dengan jelas. 
+
+**Solidity** adalah bahasa pemrograman yang sudah **turing complete** yang dapat digunakan untuk menyelesaikan berbagai komputasi pemrograman mulai dari yang sederhana hingga kompleks. Dalam **solidity** terdapat dukungan seperti **inheritance**, **libraries** dan **complex user-defined types**.
 
 Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **Javascript** dan **Python**.
 
