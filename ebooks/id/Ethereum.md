@@ -294,7 +294,7 @@ Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggu
 
 # Solidity 
 
-**Solidity** adalah bahasa pemrograman
+**Solidity** adalah bahasa pemrograman yang dikembangkan oleh **Gavin Wood**, **Christian Reitwiessner**, **Alex Beregszaszi** dan **Ethereum Contributor** lainnya. Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **Javascript** dan **Python**.
 
 <img src="../assets/Solidity.png" style="zoom:100%;" />
 
@@ -334,7 +334,7 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 
 **Solidity** adalah bahasa pemrograman yang sudah **turing complete** yang dapat digunakan untuk menyelesaikan berbagai komputasi pemrograman mulai dari yang sederhana hingga kompleks. Dalam **solidity** terdapat dukungan seperti **inheritance**, **libraries** dan **complex user-defined types**.
 
-Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **Javascript** dan **Python**.
+
 
 # Solidity Anatomy
 
@@ -342,19 +342,21 @@ Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **J
 
 **Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
 
-**Compiler** menegaskan penerapan **SPDX License Identifier**, (**Software Package Data Exchange**) setiap **file** harus diawali sebuah komentar yang mengindikasikan sebuah **license** :
+**Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **file solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi SPDX :
 
+```
 **// SPDX-License-Identifier : MIT**
+```
 
 **Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**.
 
 Jika anda tidak ingin memberikan spesifikasi license atau source code tidak bersifat open source maka gunakan special value **UNLICENSED**.
 
-Informasi lebih lengkap terkait SPDX License Identifier dapat ditemui di [sini](https://spdx.org/ids-how).
+Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
 ## Pragma
 
-Keyword pragma digunakan untuk check atau menjalankan fitur-fitur tertentu dalam compiler.
+**Keyword pragma** digunakan untuk menjalankan fitur-fitur tertentu dalam **compiler**.
 
 ## State Variables
 
