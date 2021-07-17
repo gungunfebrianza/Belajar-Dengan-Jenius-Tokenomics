@@ -348,15 +348,19 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 **// SPDX-License-Identifier : MIT**
 ```
 
-**Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**.
-
-Jika anda tidak ingin memberikan spesifikasi license atau source code tidak bersifat open source maka gunakan special value **UNLICENSED**.
+**Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**. Jika anda tidak ingin memberikan spesifikasi **license** atau **source code** karena  tidak bersifat **open source** maka gunakan **special value** **UNLICENSED**.
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
 ## Pragma
 
-**Keyword pragma** digunakan untuk menjalankan fitur-fitur tertentu dalam **compiler**.
+**Keyword pragma** digunakan untuk menentukan compiler yang akan digunakan dan menjalankan fitur-fitur tertentu dalam **compiler**. Di bawah ini adalah contoh **statement** penggunaan **pragma** :
+
+```
+pragma solidity ^0.8.6;
+```
+
+
 
 ## State Variables
 
