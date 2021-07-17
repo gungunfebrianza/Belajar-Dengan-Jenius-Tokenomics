@@ -397,7 +397,7 @@ Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**.
 
 ## Function transfer()
 
-Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** menuju **address** lainnya. Terdapat proses verifikasi target **address** harus valid dan **sender** memang memiliki jumlah **token** yang tersedia untuk melakukan transfer.
+Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** menuju **address** lainnya. Terdapat proses pemeriksaan target **address** harus valid dan **sender** memang memiliki jumlah **token** yang tersedia untuk melakukan transfer.
 
 ```
     function transfer (address to, uint256 value) public returns (bool success) {
@@ -409,7 +409,7 @@ Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** m
     }
 ```
 
-
+Selanjutnya jika proses validasi selesai jumlah saldo milik **sender** harus dikurangi dengan jumlah yang dikirim, dan jumlah saldo penerima (**target address**) harus bertambah. Terakhir terdapat **event** yang harus di **trigger** saat melakukan kegiatan **Transfer**.
 
 # Web3.js
 
