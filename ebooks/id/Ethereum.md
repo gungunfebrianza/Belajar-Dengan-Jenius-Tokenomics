@@ -54,6 +54,7 @@
   - Remix
     - Runtime Environment
     - Remixd
+  - Visual Studio Code (VSC)
 
 - Web3.js
 
@@ -455,7 +456,9 @@ npm install -g solc
 npm install -g @remix-project/remixd
 ```
 
-## 
+## Visual Studio Code (VSC)
+
+**Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
 
 # ERC-20 Token Standard
