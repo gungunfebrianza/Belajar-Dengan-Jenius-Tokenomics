@@ -37,6 +37,13 @@
   - Case-sensitive Language
   - Turing Complete Language
 
+- Solidity Anatomy
+
+  - SPDX License Identifier
+  - Pragma
+    - Semantic Versioning
+  - State Variables
+
 - Development Tools
 
   - Metamask
@@ -45,6 +52,7 @@
   - Solidity Compiler
     - Node.js
   - Remix
+    - Runtime Environment
     - Remixd
 
 - Web3.js
@@ -434,6 +442,10 @@ npm install -g solc
 ## Remix
 
 **Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
+
+### Runtime Environment
+
+<img src="../assets/Remix-Runtime-Enviroment.png" style="zoom:100%;" />
 
 ### Remixd
 
