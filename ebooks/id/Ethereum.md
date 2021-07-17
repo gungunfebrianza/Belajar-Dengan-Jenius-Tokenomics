@@ -426,6 +426,16 @@ Selanjutnya terdapat **state variable allowed** dengan tipe data **mapping** yan
    }
 ```
 
+## Function allowance()
+
+Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **owner** agar seorang **spender** dapat melakukan **withdraw**.
+
+```
+  function allowance(address owner,address spender) public view returns (uint256) {
+    return allowed[owner][spender];
+  }
+```
+
 
 
 # Web3.js
