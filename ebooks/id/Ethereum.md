@@ -31,6 +31,12 @@
 
 - Solidity
 
+  - High-level Language
+  - Object-oriented Language
+  - Statically Typed Language
+  - Case-sensitive Language
+  - Turing Complete Language
+
 - Development Tools
 
   - Metamask
@@ -328,48 +334,6 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 
 Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **Javascript** dan **Python**.
 
-
-
-
-
-# Development Tools
-
-## Metamask 
-
-**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
-
-## Truffle
-
-Pengembangan **Smart Contract** untuk protokol **Ethereum**.
-
-## Ganache
-
-Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
-
-Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
-
-## Solidity Compiler 
-
-### Node.js
-
-**Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
-
-```
-npm install -g solc
-```
-
-
-
-## Remix
-
-### Remixd
-
-**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
-
-```
-npm install -g @remix-project/remixd
-```
-
 # Solidity Anatomy
 
 ## SPDX License Identifier
@@ -416,6 +380,48 @@ struct Funder {
 Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
 
 ## Mapping Types
+
+
+
+# Development Tools
+
+## Metamask 
+
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
+
+## Truffle
+
+Pengembangan **Smart Contract** untuk protokol **Ethereum**.
+
+## Ganache
+
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
+
+Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+
+## Solidity Compiler 
+
+### Node.js
+
+**Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
+
+```
+npm install -g solc
+```
+
+
+
+## Remix
+
+### Remixd
+
+**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
+
+```
+npm install -g @remix-project/remixd
+```
+
+## 
 
 
 # ERC-20 Token Standard
