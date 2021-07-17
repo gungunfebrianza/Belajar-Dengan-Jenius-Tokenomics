@@ -368,9 +368,9 @@ Hal itu dilakukan agar **Smart Contract** yang kita tulis tidak mengalami **outp
 
 Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan yaitu :
 
-1. Major Version, 
-2. Minor Version dan 
-3. Patch 
+1. **Major Version,** 
+2. **Minor Version dan** 
+3. **Patch** 
 
 Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**. 
 
@@ -432,6 +432,8 @@ npm install -g solc
 
 
 ## Remix
+
+**Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**.
 
 ### Remixd
 
