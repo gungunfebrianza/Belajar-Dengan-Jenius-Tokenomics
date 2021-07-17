@@ -294,7 +294,13 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 # Solidity 
 
-**Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). 
+## High-level Language
+
+**Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). Solidity adalah bahasa pemrograman high-level seperti bahasa high-level lainnya yaitu **Go**, **C++**, dan **Java**.
+
+<img src="../assets/Solidity-High-level-language.png" style="zoom:100%;" />
+
+Perbedaanya adalah hasil kompilasi pada **Solidity**, output kompilasi nerupa **Intermediate Representation** (**IR**) yang disebut dengan **EVM Bytecode**. Selanjutnya **EVM Bytecode** akan dieksekusi di dalam **Ethereum Virtual Machine** (**EVM**) pada sebuah **Node Environment**.
 
 ## Object-oriented Language
 
@@ -306,7 +312,7 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 <img src="../assets/Solidity-Statically-typed.png" style="zoom:100%;" />
 
-## Case Sensitive
+## Case Sensitive Language
 
 Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penulisan pemrograman dalam pembuatan sebuah **identifier**.
 
