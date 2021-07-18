@@ -353,7 +353,7 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 
 # Solidity Anatomy
 
-
+Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persatu :
 
 <img src="../assets/Solidity-Anatomy.png" style="zoom:100%;" />
 
@@ -361,7 +361,7 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 
 **Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
 
-**Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **file solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi SPDX :
+**Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **file solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi **SPDX** :
 
 ```
 **// SPDX-License-Identifier : MIT**
@@ -423,7 +423,17 @@ Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Bl
 
 ## State Variables
 
-**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage**.
+**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
+
+<img src="../assets/String-Data-Type.png" style="zoom:100%;" />
+
+Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
+
+```
+    string public hello = "Hello Maudy";
+```
+
+
 
 # Types
 
