@@ -447,15 +447,34 @@ Pada **State Variable** dengan **Visibility Public** akan memberikan karakterist
 
 ## Function
 
-**Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karatkteristik **High Cohesion** dan **Low Coupling**.  
+**Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karakteristik **High Cohesion** dan **Low Coupling**.  
 
 Sebuah **Function** dapat memiliki **parameter** sebagai **input data** untuk diproses dan sebuah **Function** dapat memproduksi sebuah **Return** atau tidak sama sekali, proses pemanggilan **function** disebut dengan **Invoking**.  Di bawah ini adalah contoh diagram deklarasi sebuah **Function** :
 
 <img src="../assets/Solidity-Function.png" style="zoom:100%;" />
 
+Di bawah ini adalah contoh **function deposite** dalam **Solidity** :
+
+```
+    uint256 myfund;
+    function deposite(uint256 amount) public {
+        myfund = amount;
+    }
+```
+
 Di bawah ini adalah contoh diagram **function** yang menggunakan **state mutability** dan **return** : 
 
 <img src="../assets/Solidity-Function-Mutability.png" style="zoom:100%;" />
+
+Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
+
+```
+    function withdraw() public view returns (uint256){
+        return myfund;
+    }
+```
+
+
 
 # Types
 
