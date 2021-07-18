@@ -130,9 +130,15 @@ Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat me
 
 <img src="../assets/Ethereum-Global-State-Machine.png" style="zoom:100%;" />
 
+Setiap **Smart Contract**, memiliki **Contract Address** dan untuk menjalankan sebuah **Smart Contract** diseluruh **Node** kita harus melakukan sebuah **Transaction**. Sebuah **Transaction** dapat digunakan untuk memanggil fungsi tertentu dalam **Smart Contract**, atau memberikan input data pada **Smart Contract** untuk mengubah **State** di dalamnya.
+
+<img src="../assets/Ethereum-Transaction.png" style="zoom:100%;" />
+
+State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika telah disetujui oleh **miner** akan menimbulkan perubahan pada **Global State Machine**, ketika perubahan **state** berhasil dilakukan maka seseorang yang melakukan **transaction** telah melakukan **Global State Transation**.
+
 **Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
 
-**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, untuk dieksekusi dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
+**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, untuk dieksekusi dan menyimpan hasil **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
 ## General Purpose
 
