@@ -673,6 +673,10 @@ Kenapa bisa tipe data **uint8** dapat menyimpan nilai dengan jarak antara **mini
 
 Berdasarkan karakteristik ukuran memori yang dimiliki **uint8** kita mengetahui bahwa ukuranya adalah 1 **byte**, pada pembahasan sebelumnya tentang kita sudah mengetahui bahwa **byte** adalah representasi dari **8-bit**. Berarti jarak nilai yang mampu dijangkaunya sebesar **2^8** yaitu **256** dan hanya bisa diisi dengan nilai **non negative**.
 
+Kenapa nilai maksimum **integer** yang dapat disimpan adalah **255** tidak **256**?
+
+Menjadi 255 karena perhitungan (**numeration**) dalam komputer dimulai dari angka nol tidak dari angka 1, sehingga nilai maksimumnya menjadi 255. Dengan begitu **equation** untuk menghitung maksimum nilai **integer** yang dapat disimpan adalah **2^8-1 = 255**.
+
 ## Value Types
 
 ### Booleans
