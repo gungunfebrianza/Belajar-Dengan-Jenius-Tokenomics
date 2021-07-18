@@ -42,7 +42,13 @@
   - SPDX License Identifier
   - Pragma
     - Semantic Versioning
+  - Import
   - State Variables
+  - Constructor
+  - Function
+  - Modifier
+  - Event
+  - Collections
 
 - Development Tools
 
@@ -347,6 +353,10 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 
 # Solidity Anatomy
 
+
+
+<img src="../assets/Solidity-Anatomy.png" style="zoom:100%;" />
+
 ## SPDX License Identifier
 
 **Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
@@ -409,7 +419,7 @@ Jika kita tidak ingin menggunakan seluruh **global symbol** dari sebuah **file**
 import {symbol1 as alias, symbol2} from " BaseContract.sol";
 ```
 
-
+Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
 
 ## State Variables
 
