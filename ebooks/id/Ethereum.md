@@ -793,6 +793,12 @@ Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 
 <img src="../assets/Solidity-Types.png" style="zoom:100%;" />
 
+### Default Value
+
+**Solidity** tidak mengenal konsep **Undefined** ataupun **Null** sehingga setiap **variable** yang dideklarasikan akan diberikan **Default Value** sesuai dengan tipe data yang diberikan. **Default Value** akan memberikan **literal value** dengan karakteristik **Zero State**, sebagai contoh jika tipe datanya adalah **bool** maka nilainya adalah **0** atau **false**.
+
+Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value** yang keduanya adalah 0 dan untuk tipe data **string** maka **literal value** yang diberikan adalah **empty string**.
+
 ## Value Types
 
 
