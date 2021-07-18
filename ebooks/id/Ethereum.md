@@ -544,7 +544,11 @@ contract C {
 }
 ```
 
-Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** dan kita telah menetapkan **literal value** untuk dua buah **State Variable** tersebut, sehingga dapat diproses saat **Compile-time**. Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada saat proses **deployment** melalui **Constructor**.
+Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** dan kita telah menetapkan **literal value** untuk dua buah **State Variable** tersebut, sehingga dapat diproses saat **Compile-time**. 
+
+Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada saat proses **deployment** melalui **Constructor**. Nilai yang diberikan tidak bersifat **fixed** seperti **constant**, **literal value** yang diberikan pada **immutable variable** bersifat **Arbitrary**.
+
+Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah. 
 
 ## Function
 
