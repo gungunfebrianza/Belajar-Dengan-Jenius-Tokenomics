@@ -685,6 +685,8 @@ Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 
 2. ukuran memorinya sebesar 1 **bytes**. 
 
+Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data **integer** positif saja, pada **Signed Integer** kita bisa menyimpan data **integer** positif dan **integer** negatif. 
+
 ### Range Value int8
 
 Maka pada tipe data **int8** kita bisa menampung **set of integer** dengan **range value** dari :
