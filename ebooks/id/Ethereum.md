@@ -526,6 +526,26 @@ contract mySecondContract {
 }
 ```
 
+### Derived Contract
+
+Di bawah ini adalah contoh **Derived Contract**, terdapat **Child Contract** dan **Parent Contract** :
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+contract Parent {
+
+}
+
+
+contract Child is Parent {
+
+}
+```
+
+
+
 ## State Variables
 
 **State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Terminologi **State** digunakan untuk menjelaskan sebuah **variable** yang akan menjadi **state** dari **Smart Contract** itu sendiri. 
