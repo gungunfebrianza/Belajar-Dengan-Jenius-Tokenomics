@@ -66,6 +66,15 @@ Belajar Dengan Jenius Tokenomics
   - Event
   - Collections
 
+- Types
+
+  - Data
+  - Data Types
+  - Value Types
+  - Reference Types
+    - Array
+    - Struct
+
 - Web3.js
 
 - DApps
@@ -598,6 +607,14 @@ Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehin
 
 **Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan. **Solidity** sebagai bahasa pemrograman yang memiliki karakteristik **Statically-typed Language**, **state variable** atau **local variable** harus memiliki tipe data yang jelas terlebih dahulu.
 
+Sebuah **types** menentukan :
+
+1. Data seperti apa saja yang dapat disimpan? 
+
+2. Seberapa besar memori yang dibutuhkan untuk menyimpan data?
+
+3. Operasi apa saja yang dilakukan pada data tersebut?
+
 ## Data
 
 **Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap *bit* dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi *Digital Data**. 
@@ -605,6 +622,26 @@ Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehin
 Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
 
 Serangkaian **byte** digunakan untuk membuat **Binary Files**, pada **Binary Files** terdapat serangkaian **bytes** yang dibuat untuk merepresentasikan lebih dari sekedar **character** atau **text**. Pada **level** yang lebih tinggi (**kilobyte**, **megabyte**, **gigabyte** & **terabyte**) kumpulan **bits** ini dapat digunakan untuk merepresentasikan teks, gambar, suara & video.
+
+## Data Types
+
+**Data Types** adalah sebuah **set** yang memiliki :
+
+**1.**  **Characteristic** 
+
+Karakteristik yang dimilikinya adalah nama **keyword** dan ukuran memori yang digunakannya untuk menyimpan data.
+
+*2.*  **Range** ***Value***
+
+**Range Value** adalah jangkauan variasi nilai (**value**) yang dapat disimpan.
+
+**3.**  **Type**
+
+Mengacu pada **numeric** atau **symbolic**.
+
+Seluruh **data types** dibuat dari sekumpulan **unit of memory** yang disebut dengan **byte**. Kita akan mengambil **case study** contoh **data types** dalam bahasa pemrograman **Solidity**, pada kasus ini yaitu **uint8** dan **int8** :
+
+
 
 ## Value Types
 
