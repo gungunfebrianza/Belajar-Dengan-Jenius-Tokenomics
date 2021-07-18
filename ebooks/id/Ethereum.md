@@ -104,7 +104,7 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 ## Public Blockchain
 
-
+**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. **Public Blockchain** juga memberikan makna bahwa setiap entitas dalam protokol **Ethereum** akan mendapatkan perlakuan yang sama dan setara.
 
 ## Turing Complete
 
@@ -126,7 +126,7 @@ Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya m
 
 <img src="../assets/Ethereum-Smart-Contract.png" style="zoom:100%;" /> 
 
-Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang yang tertanam dalam **Ethereum Blockchain**.
+Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
 
 <img src="../assets/Ethereum-Global-State-Machine.png" style="zoom:100%;" />
 
