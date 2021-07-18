@@ -677,6 +677,20 @@ Kenapa nilai maksimum **integer** yang dapat disimpan adalah **255** tidak **256
 
 Menjadi 255 karena perhitungan (**numeration**) dalam komputer dimulai dari angka nol tidak dari angka 1, sehingga nilai maksimumnya menjadi 255. Dengan begitu **equation** untuk menghitung maksimum nilai **integer** yang dapat disimpan adalah **2^8-1 = 255**.
 
+### Characteristic int8
+
+Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
+
+1. Bernama **int8** dan 
+
+2. ukuran memorinya sebesar 1 **bytes**. 
+
+### Range Value int8
+
+Maka pada tipe data **int8** kita bisa menampung **set of integer** dengan **range value** dari :
+
+
+
 ## Value Types
 
 ### Booleans
