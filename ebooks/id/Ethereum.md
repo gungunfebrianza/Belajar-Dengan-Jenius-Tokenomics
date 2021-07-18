@@ -1,4 +1,4 @@
-# Belajar Dengan Jenius Tokenomics
+Belajar Dengan Jenius Tokenomics
 
 ## 
 
@@ -437,9 +437,13 @@ Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State V
 
 <img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
 
-Setiap **Visibility Specifiers** memiliki karakteristik tersendiri :
+Setiap **Visibility Specifiers** memiliki karakteristik tersendiri, secara **default state variable** yang tidak diberi **visibility** akan otomatis memiliki **visibility internal**. **Variable** dapat digunakan dalam **Contract** saat ini dan **Contract** turunannya. :
 
 <img src="../assets/Visibility-Specifiers-Variable.png" style="zoom:100%;" />
+
+Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
+
+Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
 
 ## Function
 
@@ -447,7 +451,11 @@ Setiap **Visibility Specifiers** memiliki karakteristik tersendiri :
 
 Sebuah **Function** dapat memiliki **parameter** sebagai **input data** untuk diproses dan sebuah **Function** dapat memproduksi sebuah **Return** atau tidak sama sekali, proses pemanggilan **function** disebut dengan **Invoking**.  Di bawah ini adalah contoh diagram deklarasi sebuah **Function** :
 
+<img src="../assets/Solidity-Function.png" style="zoom:100%;" />
 
+Di bawah ini adalah contoh diagram **function** yang menggunakan **state mutability** dan **return** : 
+
+<img src="../assets/Solidity-Function-Mutability.png" style="zoom:100%;" />
 
 # Types
 
