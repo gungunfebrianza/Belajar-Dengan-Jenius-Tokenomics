@@ -815,7 +815,10 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 Terdapat dua tipe **Address** :
 
-1. **address**, digunakan untuk menyimpan **20-byte Ethereum Address**.
+1. **address**, digunakan untuk menyimpan **20-byte Ethereum Address**, baik itu **Externally Owned Account (EOA) Address** atau **Contract Account Address**. Setiap **Ethereum Address** selalu memiliki **prefix 0x** seperti **Externally Owned Account (EOA) Address** di bawah ini :
+
+   **0x5B38Da6a701c568545dCfcB03FcB875f56beddC4**
+
 2. **address payable**, digunakan untuk menyimpan **20-byte Ethereum Address** dengan tambahan **function** member yaitu **transfer()** dan **send()**.
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
