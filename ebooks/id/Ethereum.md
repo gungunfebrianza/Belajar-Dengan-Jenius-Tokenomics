@@ -514,7 +514,9 @@ contract mySecondContract {
 
 ## State Variables
 
-**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
+**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Terminologi **State** digunakan untuk menjelaskan sebuah **variable** yang akan menjadi **state** dari **Smart Contract** itu sendiri. 
+
+Ketika **Smart Contract** telah di **deploy** kedalam **Ethereum Blockchain**, **state** di dalamnya akan menjadi sebuah **Global State Machine**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
 
 <img src="../assets/String-Data-Type.png" style="zoom:100%;" />
 
@@ -569,7 +571,7 @@ Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variab
 
 ## Local Variable
 
-Sebelumnya kita telah mempelajari 
+Sebelumnya kita telah mempelajari **State Variable** yang secara permanent akan tersimpan dalam **Ethereum Blockchain**. **Local Variable** bekerja sebaliknya, bersifat **Volatile** karena lokasinya tersimpan dalam **Stack**. Sebuah **variable** yang di deklarasikan di dalam sebuah **Function** disebut sebagai **Local Variable**.
 
 ## Function
 
