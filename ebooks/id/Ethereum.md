@@ -56,7 +56,10 @@ Belajar Dengan Jenius Tokenomics
   - Pragma
     - Semantic Versioning
   - Import
-  - State Variables
+  - State Variable
+    - Visibility Specifier
+    - Constant & Immutable
+  - Local Variable
   - Function
   - Constructor
   - Modifier
@@ -509,6 +512,8 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
     string public hello = "Hello Maudy";
 ```
 
+### Visibility Specifier
+
 Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State Variable** :
 
 <img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
@@ -549,6 +554,10 @@ Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** d
 Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada saat proses **deployment** melalui **Constructor**. Nilai yang diberikan tidak bersifat **fixed** seperti **constant**, **literal value** yang diberikan pada **immutable variable** bersifat **Arbitrary**.
 
 Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah. 
+
+## Local Variable
+
+Sebelumnya kita telah mempelajari 
 
 ## Function
 
