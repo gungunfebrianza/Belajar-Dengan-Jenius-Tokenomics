@@ -820,6 +820,10 @@ Terdapat dua tipe **Address** :
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
 
+#### Type Conversion
+
+Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
+
 ### String
 
 ### Enum
