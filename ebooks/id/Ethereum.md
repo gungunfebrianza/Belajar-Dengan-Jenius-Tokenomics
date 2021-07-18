@@ -801,7 +801,9 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 ## Value Types
 
+**Value Types** artinya **variable** yang kita buat akan bersifat **Passed By Value**, artinya jika variable digunakan ke dalam sebuah **Function Argument** atau **Assignment Statement** maka **variable** tersebut akan di salin secara independen. Setiap perubahan pada **variable** tersebut akan mempengaruhi nilai **variable** original yang di salin.
 
+<img src="../assets/Solidity-Value-Types.png" style="zoom:100%;" />
 
 ### Booleans
 
