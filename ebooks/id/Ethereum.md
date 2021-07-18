@@ -68,6 +68,9 @@ Belajar Dengan Jenius Tokenomics
 
 - Types
 
+  - Strongly-typed
+  - Dynamically-typed
+  - Why Solidity Strongly-typed?
   - Data
   - Data Types
   - Value Types
@@ -619,7 +622,9 @@ Jika sebelumnya anda sudah mempelajari bahasa pemrograman seperti **Python** dan
 
 Sebuah bahasa dikatakan **Dynamically Typed** karena saat **runtime,** tipe data dapat diubah ke tipe data lainya agar program bisa berjalan sesuai instruksi. Pada **Dynamically Typed** terdapat **simplicity** dan **speed** untuk pengembangan **software**.
 
+## Why Solidity Strongly-typed?
 
+Dikarenakan kita akan membuat sebuah program **Smart Contract**, nilai **Safety** sangat penting sehingga paradigma bahasa pemrograman yang ideal untuk diterapkan untuk membuat **Smart Contract** adalah bahasa yang **Strongly-typed**. Itulah alasan kenapa bahasa pemrograman **Solidity** bersifat **Strongly-typed** :
 
 Sebuah **types** menentukan :
 
