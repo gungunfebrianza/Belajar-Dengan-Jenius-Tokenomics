@@ -521,6 +521,31 @@ Pada **State Variable** dengan **Visibility Private** akan memberikan karakteris
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
 
+### Constant & Immutable
+
+Sebuah **State Variable** juga dapat dideklarasikan sebagai sebuah **Constant** atau **Immutable**. Jika **Smart Contract** sudah di tanam ke dalam **Ethereum Blockchain** maka **State Variable** bersifat permanen tidak dapat diubah. Terdapat dua terminologi yang harus difahami yaitu :
+
+<img src="../assets/Solidity-Constant.png" style="zoom:100%;" />
+
+**Literal Value** dari **Constant** harus ditentukan saat **Compile-time**, sementara **Immutable** ditetapkan pada **Construction Time**. Untuk memahami konsep tersebut perhatikan contoh kode **Solidity** di bawah ini :
+
+```
+contract C {
+    string constant MAUDY = "Maudy Ayunda";
+    bytes32 constant MY_HASH = keccak256("Perahu Kertas");
+    uint immutable decimals;
+    uint immutable maxBalance;
+    address immutable owner = msg.sender;
+
+    constructor(uint _decimals, address _reference) {
+        decimals = _decimals;
+        maxBalance = _reference.balance;
+    }
+}
+```
+
+Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** dan kita telah menetapkan **literal value** untuk dua buah **State Variable** tersebut, sehingga dapat diproses saat **Compile-time**. Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada saat proses **deployment** melalui **Constructor**.
+
 ## Function
 
 **Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karakteristik **High Cohesion** dan **Low Coupling**.  
