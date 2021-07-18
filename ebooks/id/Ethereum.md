@@ -88,17 +88,25 @@ Belajar Dengan Jenius Tokenomics
 
   
 
-# [Ethereum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
+# Ethereum
 
 **Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
 
 Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**. **Turing Completeness** mengacu pada kemampuan suatu bahasa pemrograman untuk memecahkan permasalahan komputasi mulai dari program yang sederhana hingga program yang kompleks.
 
-Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethereum** akhir tahun 2013 dan **production** pertama di rilis tahun 2015. Sebuah protokol yang didesain **open source**, **public blockchain**, **general purpose** dan dukungan pembuatan **smart contract** melalui bahasa pemrograman yang sudah mendukung **Turing Complete**.
+Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethereum** akhir tahun 2013 dan **production** pertama di rilis tahun 2015. Sebuah protokol yang didesain **Open Source**, **Public Blockchain**, **General Purpose** dan dukungan pembuatan **Smart Contract** melalui bahasa pemrograman yang sudah mendukung **Turing Complete**.
 
 <img src="../assets/Ethereum.png" style="zoom:100%;" />
 
-## [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
+## Open Source
+
+**Open Source** artinya **Source Code Ethereum** bersifat terbuka, siapapun bisa ikut terjun untuk mengembangkannya bersama komunitas. Setiap pengembangan yang dilakukan para kontributor akan di **review** oleh komunitas jika mayoritas suara merasa inovasi yang dikembangkan memiliki **Value Proposition** yang bagus.
+
+## Public Blockchain
+
+
+
+## Turing Complete
 
 Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
 
@@ -112,7 +120,7 @@ Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat m
 
 Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
 
-## [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
+## Smart Contract
 
 Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
 
@@ -120,11 +128,13 @@ Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya m
 
 Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang yang tertanam dalam **Ethereum Blockchain**.
 
+<img src="../assets/Ethereum-Global-State-Machine.png" style="zoom:100%;" />
+
 **Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
 
-**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, mengeksekusinya, dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
+**Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, untuk dieksekusi dan menyimpan hasilnya berupa **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
-## [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
+## General Purpose
 
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
 
@@ -132,7 +142,7 @@ Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat me
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
 
-## [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
+## Current Problem State
 
 Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
 
@@ -143,7 +153,7 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga sharding pada **blockchain** dapat membantu meningkatkan performance seperti **Multithreaded Computer**.
 2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
 
-## [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
+# Ethereum Architecture
 
 Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**. 
 
@@ -151,11 +161,11 @@ Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**,
 
 Salah satu **Ethereum Client** yang saat ini aktif dikembangkan adalah **Geth**.
 
-### [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
+## P2P Network
 
 Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
 
-### Node
+## Node
 
 **Node** adalah setiap perangkat komputer yang terhubung ke dalam jaringan **Ethereum**. Setiap **Node** memiliki salinan terbaru dari **Ethereum Blockchain** secara aktual selama terhubung ke internet. Setiap **Node** dapat melakukan transaksi secara independen. 
 
@@ -165,24 +175,24 @@ Terdapat tiga tipe **Node** :
 - **Lightweight Node**
 - **Miners**
 
-### Full Node
+## Full Node
 
 **Full Node** akan menyalin seluruh data **Ethereum Blockchain** terbaru dan berpartisipasi dalam kegiatan memverifikasi setiap **block** dan transaksi sesuai dengan **Consensus Mechanism** yang digunakan.
 
-### Lightweight Node
+## Lightweight Node
 
 **Lightweight Node** adalah **node** yang tidak menyimpan seluruh salinan data **Ethereum Blockchain**. **Lightweight Node** hanya digunakan untuk memverifikasi transaksi menggunakan metode **Simple Payment Verification (SPV)**. Metode ini digunakan untuk memverifikasi apakah suatu transaksi sudah tertanam dalam ethereum blockchain atau belum.
 
 Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan tanpa perlu menyalin seluruh data **Ethereum Blockchain**, **lightweight node** hanya menyimpan seluruh data **header information** dalam suatu **blocks** sebagai solusi untuk mengurangi penyimpanan data **blockchain** yang ukurannya sangat besar.
 
-### Miners
+## Miners
 
 **Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
 
 1. **Block Reward** dan 
 2. **Transaction Fees** dari setiap transaksi
 
-### Blocks
+## Blocks
 
 **Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat **block header** dan sekumpulan transaksi. **Block** yang pertama kali dibuat disebut dengan genesis **block**. 
 
@@ -192,27 +202,27 @@ Setiap **block header** menyimpan **metadata** berupa informasi terkait data **b
 
 <img src="../assets/Ethereum-Block2.png" style="zoom:100%;" />
 
-#### Parent Hash 
+### Parent Hash 
 
 Informasi **hash** terkait **block** sebelumnya disebut dengan **parent block**, setiap **block header** akan menyimpan parent hash sampai **block** yang tidak memiliki nilai **parent hash** di paling ujung yaitu **genesis block**.
 
-#### Nonce 
+### Nonce 
 
 Sebuah **number** yang ditemukan oleh **miners** untuk memecahkan **cryptographic puzzle**.
 
-#### Receipt Roots 
+### Receipt Roots 
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure**.
 
-#### Timestamp 
+### Timestamp 
 
 Waktu saat **blockchain** diproduksi dan disimpan ke dalam **Ethereum Blockchain**.
 
-#### Transaction Root 
+### Transaction Root 
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure** yang ada di dalam setiap transaksi.
 
-#### State Root
+### State Root
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **state tree** setelah seluruh transaksi dieksekusi.
 
@@ -220,7 +230,7 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 <img src="../assets/Ethereum-Block1.png" style="zoom:100%;" />
 
-### EVM (Ethereum Virtual Machine)
+## EVM (Ethereum Virtual Machine)
 
 **Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
 
