@@ -29,6 +29,18 @@ Belajar Dengan Jenius Tokenomics
 
 - Smart Contract
 
+- Development Tools
+
+  - Metamask
+  - Truffle
+  - Ganache
+  - Solidity Compiler
+    - Node.js
+  - Remix
+    - Runtime Environment
+    - Remixd
+  - Visual Studio Code (VSC)
+
 - Solidity
 
   - High-level Language
@@ -45,23 +57,11 @@ Belajar Dengan Jenius Tokenomics
     - Semantic Versioning
   - Import
   - State Variables
-  - Constructor
   - Function
+  - Constructor
   - Modifier
   - Event
   - Collections
-
-- Development Tools
-
-  - Metamask
-  - Truffle
-  - Ganache
-  - Solidity Compiler
-    - Node.js
-  - Remix
-    - Runtime Environment
-    - Remixd
-  - Visual Studio Code (VSC)
 
 - Web3.js
 
@@ -306,7 +306,57 @@ Setelah dikompilasi smart contract harus di deploy pada ethereum platform menggu
 
 # Smart Contract
 
-**Smart Contract** dalam jaringan ethereum tidak dieksekusi secara parallel. Ethereum adalah world computer yang mekanisme eksekusinya berbasis single-threaded.
+**Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
+
+
+
+# Development Tools
+
+## Metamask 
+
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
+
+## Truffle
+
+Pengembangan **Smart Contract** untuk protokol **Ethereum**.
+
+## Ganache
+
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
+
+Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+
+## Solidity Compiler 
+
+### Node.js
+
+**Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
+
+```
+npm install -g solc
+```
+
+
+
+## Remix
+
+**Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
+
+### Runtime Environment
+
+<img src="../assets/Remix-Runtime-Enviroment.png" style="zoom:100%;" />
+
+### Remixd
+
+**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
+
+```
+npm install -g @remix-project/remixd
+```
+
+## Visual Studio Code (VSC)
+
+**Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
 # Solidity 
 
@@ -445,8 +495,6 @@ contract mySecondContract {
 }
 ```
 
-## 
-
 ## State Variables
 
 **State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
@@ -500,7 +548,7 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
     }
 ```
 
-
+## Constructor
 
 # Types
 
@@ -526,54 +574,6 @@ Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fiel
 ## Mapping Types
 
 
-
-# Development Tools
-
-## Metamask 
-
-**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
-
-## Truffle
-
-Pengembangan **Smart Contract** untuk protokol **Ethereum**.
-
-## Ganache
-
-Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
-
-Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
-
-## Solidity Compiler 
-
-### Node.js
-
-**Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
-
-```
-npm install -g solc
-```
-
-
-
-## Remix
-
-**Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
-
-### Runtime Environment
-
-<img src="../assets/Remix-Runtime-Enviroment.png" style="zoom:100%;" />
-
-### Remixd
-
-**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
-
-```
-npm install -g @remix-project/remixd
-```
-
-## Visual Studio Code (VSC)
-
-**Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
 
 # ERC-20 Token Standard
