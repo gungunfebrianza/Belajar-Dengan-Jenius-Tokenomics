@@ -596,6 +596,14 @@ Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehin
 
 # Types
 
+Sebagai bahasa pemrograman yang memiliki karakteristik **Statically-typed Language**, **state variable** atau **local variable** harus memiliki tipe data yang jelas terlebih dahulu.
+
+## Data
+
+**Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap *bit* dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi *Digital Data**. 
+
+Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. 
+
 ## Value Types
 
 ## Reference Types 
