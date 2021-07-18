@@ -602,7 +602,7 @@ Sebagai bahasa pemrograman yang memiliki karakteristik **Statically-typed Langua
 
 **Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap *bit* dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi *Digital Data**. 
 
-Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. 
+Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
 
 ## Value Types
 
