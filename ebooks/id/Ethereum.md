@@ -691,7 +691,23 @@ Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data
 
 Maka pada tipe data **int8** kita bisa menampung **set of integer** dengan **range value** dari :
 
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
 
+contract LearnSolidity {
+    int8 public maxValue = 127;
+    int8 public minValue = -128;
+    int8 public error1 = 128;
+    int8 public error2 = -129;
+}
+```
+
+Kenapa bisa tipe data **int8** dapat menyimpan nilai dengan jarak antara **minimum -128** (negatif) dan **maximum 127** (positif)?
+
+Di karenakan **int8** mendukung nilai negatif dan positif maka **1 bit** digunakan sebagai penanda negatif atau positif pada suatu **integer**. 
+
+Sehingga dari **8 bit** tersisa **7 bit**, artinya **pattern** data biner yang dapat diciptakan adalah **2^7** yaitu **128**. Inilah yang menjadi faktor kenapa minimum **range value** dari **int8** adalah **-128** dan nilai maksimum yang dapat dicapai adalah **127** dikarenakan **0** juga dihitung dalam **numeration**.
 
 ## Value Types
 
