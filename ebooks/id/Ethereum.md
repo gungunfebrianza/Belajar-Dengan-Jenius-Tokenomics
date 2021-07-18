@@ -813,7 +813,12 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 ### Address
 
-**20-byte Ethereum Address**, **object address** memiliki sekumpulan **functions** yang telah disediakan salah satunya adalah **balance function** untuk mendapatkan jumlah saldo dan **function** transfer untuk mengirimkan sebuah **ether** pada suatu **address**.
+Terdapat dua tipe **Address** :
+
+1. **address**, digunakan untuk menyimpan **20-byte Ethereum Address**.
+2. **address payable**, digunakan untuk menyimpan **20-byte Ethereum Address** dengan tambahan **function** member yaitu **transfer()** dan **send()**.
+
+Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
 
 ### String
 
