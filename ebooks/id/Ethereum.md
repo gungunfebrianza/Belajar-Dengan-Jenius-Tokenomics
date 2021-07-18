@@ -641,7 +641,21 @@ Mengacu pada **numeric** atau **symbolic**.
 
 Seluruh **data types** dibuat dari sekumpulan **unit of memory** yang disebut dengan **byte**. Kita akan mengambil **case study** contoh **data types** dalam bahasa pemrograman **Solidity**, pada kasus ini yaitu **uint8** dan **int8** :
 
+<img src="../assets/Types-Signed-Unsigned-Integer.png" style="zoom:100%;" />
 
+### Characteristic uint8
+
+Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
+
+1. Bernama **uint8** (*uint* = *unsigned integer*) 
+
+2. Ukuran memorinya sebesar 1 **byte** atau 8 **bits**.
+
+Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integer** positif saja, kita tidak bisa menyimpan data **integer** negatif. 
+
+### Range Value uint8
+
+Maka pada tipe data **uint8** kita bisa menampung **set of integer** dengan **range value** dari :
 
 ## Value Types
 
