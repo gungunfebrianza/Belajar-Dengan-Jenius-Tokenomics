@@ -40,6 +40,7 @@ Belajar Dengan Jenius Tokenomics
 - Solidity Anatomy
 
   - SPDX License Identifier
+  - Contract
   - Pragma
     - Semantic Versioning
   - Import
@@ -370,6 +371,10 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 **Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**. Jika anda tidak ingin memberikan spesifikasi **license** atau **source code** karena  tidak bersifat **open source** maka gunakan **special value** **UNLICENSED**.
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
+
+## Contract
+
+**Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**.
 
 ## Pragma
 
