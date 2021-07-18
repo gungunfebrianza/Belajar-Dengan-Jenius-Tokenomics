@@ -333,7 +333,7 @@ npm start
 
 
 
-# [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
+# Development Tools
 
 Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaatkan **Javascript API** dalam **Web3.js**, terdapat sebuah **function** yang memfasilitasi untuk membuat sebuah **Smart Contract**. Nama dari **function** tersebut adalah [web3.eth.Contract](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#new-contract).
 
@@ -383,7 +383,7 @@ npm install -g @remix-project/remixd
 
 **Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
-# [Solidity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity) 
+# Solidity
 
 **Solidity** adalah bahasa pemrograman yang dikembangkan oleh **Gavin Wood**, **Christian Reitwiessner**, **Alex Beregszaszi** dan **Ethereum Contributor** lainnya. Bahasa pemrograman **solidity** dipengaruhi oleh bahasa pemrograman **C++**, **Javascript** dan **Python**.
 
@@ -393,7 +393,7 @@ Di bawah ini adalah **Lifecyle** yang akan dilakukan seorang **Smart Contract De
 
 <img src="../assets/Solidity-Lifecyle.png" style="zoom:100%;" />
 
-## [High-level Language](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#high-level-language)
+## High-level Language
 
 **Solidity** adalah bahasa pemrograman tingkat tinggi (**High-level Language**) yang artinya bahasa pemrograman bersifat mudah difahami (**human-readable**). Solidity adalah bahasa pemrograman high-level seperti bahasa high-level lainnya yaitu **Go**, **C++**, dan **Java**.
 
