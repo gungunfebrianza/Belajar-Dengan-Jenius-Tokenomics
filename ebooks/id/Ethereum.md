@@ -728,6 +728,27 @@ Di karenakan **int8** mendukung nilai negatif dan positif maka **1 bit** digunak
 
 Sehingga dari **8 bit** tersisa **7 bit**, artinya **pattern** data biner yang dapat diciptakan adalah **2^7** yaitu **128**. Inilah yang menjadi faktor kenapa minimum **range value** dari **int8** adalah **-128** dan nilai maksimum yang dapat dicapai adalah **127** dikarenakan **0** juga dihitung dalam **numeration**.
 
+### Example 1 : Integer Max & Min 
+
+Contoh kode di bawah ini dapat digunakan untuk mendapatkan nilai **maximum** dan **minimum** dari suatu **Integer**.
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+contract LearnSolidity {
+    uint32 public a;
+    uint32 public b;
+    
+    function myTest() external {
+        a = type(uint32).min;
+        b = type(uint32).max;
+    }
+}
+```
+
+
+
 ## Value Types
 
 ### Booleans
