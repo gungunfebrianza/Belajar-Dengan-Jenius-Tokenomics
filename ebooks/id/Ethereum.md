@@ -835,21 +835,21 @@ contract LearnSolidity {
 }
 ```
 
-Pada **State Variable ownser** nilai yang di dapatkan adalah **address** dari **Contract Owner** :
+Pada **State Variable owner** kita dapat menetapkan nilai **EOA address** dari **Contract Owner** :
 
-0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+​	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4   **<--- Just an example**
 
-Pada **State Variable sender** nilai yang di dapatkan adalah pengirim yang melakukan tranction :
+Pada **State Variable sender** nilai yang di dapatkan adalah **address** pengirim yang melakukan **tranction** :
 
-0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+​	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4   **<--- Just an example**
 
 Pada **State Variable emptyAddress** nilai yang di dapatkan adalah :
 
-0x0000000000000000000000000000000000000000
+​	0x0000000000000000000000000000000000000000
 
 Pada **State Variable current** nilai yang di dapatkan adalah **Contract Address** :
 
-0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf
+​	0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf    **<--- Just an example** 
 
 #### Type Conversion
 
