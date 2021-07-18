@@ -657,7 +657,19 @@ Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integ
 
 Maka pada tipe data **uint8** kita bisa menampung **set of integer** dengan **range value** dari :
 
+
+
 ## Value Types
+
+### Booleans
+
+### Integers
+
+### Address
+
+### String
+
+### Enum
 
 ## Reference Types 
 
