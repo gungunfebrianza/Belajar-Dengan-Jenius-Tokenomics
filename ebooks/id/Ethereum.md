@@ -80,10 +80,12 @@ Belajar Dengan Jenius Tokenomics
   - [Why Solidity Strongly-typed?](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#why-solidity-strongly-typed)
   - [Data](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#data)
   - [Data Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#data-types)
+  - Solidity Types
   - [Value Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#value-types)
   - [Reference Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reference-types)
     - Array
     - Struct
+  - Mapping Types
 
 - Web3.js
 
@@ -785,9 +787,15 @@ contract LearnSolidity {
 }
 ```
 
+## Solidity Types
 
+Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
+
+<img src="../assets/Solidity-Types.png" style="zoom:100%;" />
 
 ## Value Types
+
+
 
 ### Booleans
 
