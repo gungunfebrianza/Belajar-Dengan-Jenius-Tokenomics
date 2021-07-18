@@ -372,25 +372,6 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
-## Contract
-
-**Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**. Di bawah ini adalah contoh dua buah Contract dalam satu **file Solidity** :
-
-```
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
-
-contract myFirstContract {
-    
-}
-
-contract mySecondContract {
-    
-}
-```
-
-
-
 ## Pragma
 
 **Keyword pragma** adalah sebuah **directive** untuk menentukan **compiler** yang akan digunakan dan menjalankan fitur-fitur tertentu dalam **compiler** yang akan digunakan untuk mengkompilasi **file solidity** saat ini. Di bawah ini adalah contoh **statement** penggunaan **pragma** :
@@ -440,6 +421,31 @@ import {symbol1 as alias, symbol2} from " BaseContract.sol";
 ```
 
 Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
+
+## Contract
+
+**Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**. Sebuah **Contract** memiliki pengenal (**identifier**).
+
+Di bawah ini adalah contoh diagram sebuah **Contract** dalam **Solidity** :
+
+<img src="../assets/Solidity-Contract.png" style="zoom:100%;" />
+
+Di bawah ini adalah contoh kode dua buah **Contract** dalam satu **file Solidity** :
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+contract myFirstContract {
+    
+}
+
+contract mySecondContract {
+    
+}
+```
+
+## 
 
 ## State Variables
 
