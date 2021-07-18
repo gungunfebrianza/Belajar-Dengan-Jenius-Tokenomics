@@ -657,7 +657,20 @@ Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integ
 
 Maka pada tipe data **uint8** kita bisa menampung **set of integer** dengan **range value** dari :
 
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
 
+contract LearnSolidity {
+    uint8 public maxValue = 255;
+    uint8 public error1 = 256; <--- ERROR
+    uint8 public error2 = -1; <---- ERROR
+}
+```
+
+Kenapa bisa tipe data **uint8** dapat menyimpan nilai dengan jarak antara **minimum 0** dan **maximum 255** ?
+
+Berdasarkan karakteristik ukuran memori yang dimiliki **uint8** kita mengetahui bahwa ukuranya adalah 1 **byte**, pada pembahasan sebelumnya tentang kita sudah mengetahui bahwa **byte** adalah representasi dari **8-bit**. Berarti jarak nilai yang mampu dijangkaunya sebesar **2^8** yaitu **256** dan hanya bisa diisi dengan nilai **non negative**.
 
 ## Value Types
 
