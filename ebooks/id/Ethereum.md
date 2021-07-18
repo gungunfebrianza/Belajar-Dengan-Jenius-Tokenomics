@@ -823,6 +823,34 @@ Terdapat dua tipe **Address** :
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
 
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+contract LearnSolidity {
+    address public owner = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
+    address public sender = msg.sender; 
+    address public emptyAddress = address(0);
+    address public current = address(this);
+}
+```
+
+Pada **State Variable ownser** nilai yang di dapatkan adalah **address** dari **Contract Owner** :
+
+0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+
+Pada **State Variable sender** nilai yang di dapatkan adalah pengirim yang melakukan tranction :
+
+0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+
+Pada **State Variable emptyAddress** nilai yang di dapatkan adalah :
+
+0x0000000000000000000000000000000000000000
+
+Pada **State Variable current** nilai yang di dapatkan adalah **Contract Address** :
+
+0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf
+
 #### Type Conversion
 
 Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
