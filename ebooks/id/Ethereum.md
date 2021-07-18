@@ -374,7 +374,22 @@ Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [si
 
 ## Contract
 
-**Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**.
+**Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**. Di bawah ini adalah contoh dua buah Contract dalam satu **file Solidity** :
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+contract myFirstContract {
+    
+}
+
+contract mySecondContract {
+    
+}
+```
+
+
 
 ## Pragma
 
