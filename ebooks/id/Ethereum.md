@@ -433,7 +433,13 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
     string public hello = "Hello Maudy";
 ```
 
+Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State Variable** :
 
+<img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
+
+Setiap **Visibility Specifiers** memiliki karakteristik tersendiri :
+
+<img src="../assets/Visibility-Specifiers-Variable.png" style="zoom:100%;" />
 
 # Types
 
