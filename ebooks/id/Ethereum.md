@@ -605,7 +605,21 @@ Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehin
 
 # Types
 
-**Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan. **Solidity** sebagai bahasa pemrograman yang memiliki karakteristik **Statically-typed Language**, **state variable** atau **local variable** harus memiliki tipe data yang jelas terlebih dahulu.
+**Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan. 
+
+## Strongly-typed
+
+Sebuah bahasa pemograman dikatakan **Strongly Typed** jika sebuah **Compiler** memproduksi **error** jika sebuah **type** digunakan dengan cara yang salah. **Solidity** sebagai bahasa pemrograman yang memiliki karakteristik **Statically-typed Language**, **state variable** atau **local variable** harus memiliki tipe data yang jelas terlebih dahulu.
+
+Pada **Strongly Typed** terdapat nilai **correctness** dan **safety**, nilai **correctness** memberikan keunggulan dari segi **performance** dan nilai **safety** memberikan manajemen integritas data yang baik, pendeteksian **bug** dan kemungkinan **error** saat **runtime** yang lebih baik.
+
+## Dynamically-typed
+
+Jika sebelumnya anda sudah mempelajari bahasa pemrograman seperti **Python** dan **Javascript**, maka anda akan memahami **Loosely Typed Language** atau **Dynamic Typing**. Anda dapat membuat variabel tanpa harus menetapkan tipe data terlebih dahulu, baik itu berupa **literal number**, **string** ataupun **boolean logic**.
+
+Sebuah bahasa dikatakan **Dynamically Typed** karena saat **runtime,** tipe data dapat diubah ke tipe data lainya agar program bisa berjalan sesuai instruksi. Pada **Dynamically Typed** terdapat **simplicity** dan **speed** untuk pengembangan **software**.
+
+
 
 Sebuah **types** menentukan :
 
