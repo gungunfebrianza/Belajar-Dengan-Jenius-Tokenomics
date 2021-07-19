@@ -373,9 +373,9 @@ Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bere
 
 <img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
 
-asd
+Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** seperti **cron-job**, sebuah **Externally Owned Account (EOA)** diperlukan untuk melakukan **initiate transaction** agar **trigger** dalam **Smart Contract** dapat dilakukan. Otomasi dilakukan di level **Externally Owned Account (EOA)** dengan menjamin **gas** yang dibutuhkan selalu tersedia.
 
-![]()
+<img src="../assets/Ethereum-Smart-Contract4.png" style="zoom:100%;" />
 
 
 
