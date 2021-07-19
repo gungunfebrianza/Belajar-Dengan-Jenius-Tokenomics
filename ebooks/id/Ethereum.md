@@ -369,6 +369,8 @@ Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bere
 
 <img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
 
+Transaksi dapat dilakukan dengan memanfaatkan **Hyper Text Transfer Protocol (HTTP)**, **Inter Process Communication (IPC)** atau **Remote Procedure Call (RPC)**.
+
 **Externally Owned Account** memiliki **private-key** untuk menandatangani sebuah transaksi sebagai proses **authentication** sebelum dikirim menuju **Ethereum Network** . Transaksi dapat ditujukan untuk sebuah **Contract Account** atau sesama  **Externally Owned Account**. 
 
 <img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
