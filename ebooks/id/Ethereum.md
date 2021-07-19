@@ -423,6 +423,8 @@ Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-sta
 
 Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki V8 Engine yang mendukung **Javascript** dan **WebAssembly**.
 
+Ada catatan menarik yang sempat penulis amati, **Gavin Wood** sebagai **Former** pengembang **Etherem Virtual Machine (EVM)** melihat masa depan pengembangan **Smart Contract** ada pada **WebAssembly**. Saat membicarakan **project**-nya tentang polkadot, **Gavin** menilai **EVM** adalah sebuah **Legacy Protocol**.
+
 ## Metamask 
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
