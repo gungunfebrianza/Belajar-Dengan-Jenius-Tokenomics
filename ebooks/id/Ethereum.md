@@ -365,6 +365,14 @@ Reserved.
 
 # Smart Contract
 
+Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
+
+1. **Crowdsales**
+2. **Voting**
+3. **Auction**
+
+Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
+
 **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
 
 Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, sebuah **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
