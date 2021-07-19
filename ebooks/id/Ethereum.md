@@ -359,9 +359,15 @@ npm start
 
 # Ethereum Virtual Machine (EVM)
 
+Reserved.
+
 # Smart Contract
 
 **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
+
+Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, sebuah **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
+
+<img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
 
 
 
