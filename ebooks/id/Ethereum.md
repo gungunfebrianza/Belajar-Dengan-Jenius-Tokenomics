@@ -332,9 +332,11 @@ Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk me
 
 ## ETH Blockchain Explorer
 
-Untuk mengeksplorasi **blockchain explorer** pada protokol **Ethereum** anda bisa mengunjungi :
+Untuk mengeksplorasi **Ethereum Blockchain** terdapat **Blockchain Explorer** yang menyediakan **Friendly User Interface (UI)**, anda bisa mengunjungi :
 
 etherscan.io
+
+Kita dapat mengetahui nilai **height** dari **block** terakhir, memonitor **pending transaction**, memeriksa **Network Difficulty**, melihat **Final Gas Fee** yang digunakan dalam suatu **transaction**, melihat **source code** atau **ABI** dari **Smart Contract** yang telah di **deploy** ke dalam **Ethereum Network**.
 
 Jika anda ingin memahami status **Ethereum Network** secara **realtime** dengan tampilan **user interfaces** yang menarik silahkan kembangkan **ETH Netstat**. **Download source code** disini 
 
