@@ -42,6 +42,7 @@ Belajar Dengan Jenius Tokenomics
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
   - Computer Hardwares
+  - Javascript Runtime Engine
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -440,6 +441,10 @@ Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi *
 Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
 
 ## Solidity Compiler 
+
+**Solidity** adalah bahasa pemrograman yang memerlukan **Compiler**.
+
+Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **javascript developer**.
 
 ### Node.js
 
