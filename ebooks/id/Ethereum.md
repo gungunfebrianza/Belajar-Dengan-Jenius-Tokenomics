@@ -413,6 +413,8 @@ Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaa
 
 Untuk memulai pengembangan kita memerlukan koneksi internet dan **hard drive** dengan ukuran yang sangat besar. Untuk menyalin seluruh data **Ethereum Blockchain** diperlukan koneksi internet yang sangat cepat dan stabil, sehingga proses **syncing** salinan **blockchain** terbaru dapat dilakukan secara kontinyu.
 
+Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk proses **syncing** salinan **blockchain** terbaru dan interaksi lainnya dengan **Ethereum Network**.
+
 ## Metamask 
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
