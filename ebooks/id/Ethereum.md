@@ -43,6 +43,8 @@ Belajar Dengan Jenius Tokenomics
 
   - Computer Hardwares
   - Javascript Runtime Engine
+  - Ethereum Client
+    - Geth
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -422,9 +424,15 @@ Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-sta
 
 ## Javascript Runtime Engine 
 
-Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki V8 Engine yang mendukung **Javascript** dan **WebAssembly**.
+Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki **V8 Engine** yang mendukung **Javascript** dan **WebAssembly**.
 
 Ada catatan menarik yang sempat penulis amati, **Gavin Wood** sebagai **Former** pengembang **Etherem Virtual Machine (EVM)** melihat masa depan pengembangan **Smart Contract** ada pada **WebAssembly**. Saat membicarakan **project**-nya tentang polkadot, **Gavin** menilai **EVM** adalah sebuah **Legacy Protocol**.
+
+Silahkan Install **Node.js** dalam sistem operasi anda.
+
+## Ethereum Client
+
+### Geth
 
 ## Metamask 
 
