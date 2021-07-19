@@ -32,17 +32,17 @@ Belajar Dengan Jenius Tokenomics
     - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
 
-- Ethereum Virtual Machine (EVM)
+- [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
-- Smart Contract
+- [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
 
-  - Initial Coin Offering (ICO)
-  - Micropayment
+  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
+  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
-  - Computer Hardwares
-  - Javascript Runtime Engine
+  - [Computer Hardwares](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#computer-hardwares)
+  - [Javascript Runtime Engine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-runtime-engine)
   - Ethereum Client
     - Geth
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
@@ -433,6 +433,14 @@ Silahkan Install **Node.js** dalam sistem operasi anda.
 ## Ethereum Client
 
 ### Geth
+
+**Geth** adalah implementasi resmi **Ethereum Client** yang ditulis dalam bahasa pemrograman **Go** untuk **Ethereum Protocol**. Saat ini dalam opini penulis **Geth** menjadi salah satu **Ethereum Client** paling **up-to-date**. Untuk informasi lebih lanjut terkait instalasi silahkan kunjungi laman resminya:
+
+https://geth.ethereum.org/
+
+
+
+
 
 ## Metamask 
 
