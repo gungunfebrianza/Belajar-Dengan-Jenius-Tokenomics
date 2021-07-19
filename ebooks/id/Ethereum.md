@@ -369,7 +369,9 @@ Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bere
 
 <img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
 
+**Externally Owned Account** memiliki **private-key** untuk menandatangani sebuah transaksi sebagai proses **authentication** sebelum dikirim menuju **Ethereum Network** . Transaksi dapat ditujukan untuk sebuah **Contract Account** atau sesama  **Externally Owned Account**. 
 
+<img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
 
 
 
