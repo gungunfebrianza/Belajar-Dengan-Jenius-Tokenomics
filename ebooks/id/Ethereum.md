@@ -373,6 +373,10 @@ Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bere
 
 <img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
 
+asd
+
+![]()
+
 
 
 
