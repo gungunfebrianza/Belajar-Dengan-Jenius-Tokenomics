@@ -413,7 +413,11 @@ Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaa
 
 Untuk memulai pengembangan kita memerlukan koneksi internet dan **hard drive** dengan ukuran yang sangat besar. Untuk menyalin seluruh data **Ethereum Blockchain** diperlukan koneksi internet yang sangat cepat dan stabil, sehingga proses **syncing** salinan **blockchain** terbaru dapat dilakukan secara kontinyu.
 
-Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk proses **syncing** salinan **blockchain** terbaru dan interaksi lainnya dengan **Ethereum Network**.
+Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk proses **syncing** salinan **blockchain** terbaru dan interaksi lainnya dengan **Ethereum Network**. Saat penulis membuat tulisan ini, ukuran **Ethereum Blockchain** sudah mencapai **350 GB** lebih, full node akan menyalin seluruh **Ethereum Blockchain** tersebut.
+
+<img src="../assets/Ethereum-Blockchain.PNG" style="zoom:100%;" />
+
+Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-state Drive (SSD)**, sebab jika disimpan kedalam sebuah **Hard-disk Drive (HDD)** proses **fetching** data **blockchain** akan sangat lamban.
 
 ## Metamask 
 
