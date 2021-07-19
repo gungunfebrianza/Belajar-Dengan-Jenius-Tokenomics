@@ -326,7 +326,9 @@ Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** 
 
 **Contract** seringkali juga disebut sebagai **Semiautonomous Entities** dalam **blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**.
 
+Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Acounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
 
+<img src="../assets/Ethereum-Account4.png" style="zoom:100%;" />
 
 ## ETH Blockchain Explorer
 
