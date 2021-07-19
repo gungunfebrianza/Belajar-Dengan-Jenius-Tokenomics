@@ -36,8 +36,12 @@ Belajar Dengan Jenius Tokenomics
 
 - Smart Contract
 
+  - Initial Coin Offering (ICO)
+  - Micropayment
+
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
+  - Computer Hardwares
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -404,6 +408,10 @@ Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai ca
 # Development Tools
 
 Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaatkan **Javascript API** dalam **Web3.js**, terdapat sebuah **function** yang memfasilitasi untuk membuat sebuah **Smart Contract**. Nama dari **function** tersebut adalah [web3.eth.Contract](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#new-contract).
+
+## Computer Hardwares
+
+Untuk memulai pengembangan kita memerlukan koneksi internet dan **hard drive** dengan ukuran yang sangat besar. Untuk menyalin seluruh data **Ethereum Blockchain** diperlukan koneksi internet yang sangat cepat dan stabil, sehingga proses **syncing** salinan **blockchain** terbaru dapat dilakukan secara kontinyu.
 
 ## Metamask 
 
