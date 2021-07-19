@@ -6,8 +6,8 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
 
-  - Open Source
-  - Public Blockchain
+  - [Open Source](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#open-source)
+  - [Public Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#public-blockchain)
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
@@ -307,7 +307,9 @@ Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix*
 
 
 
-0x39a641896C95e463B77b3C3cc92A55Cc5cF93882
+Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
+
+
 
 ## ETH Blockchain Explorer
 
