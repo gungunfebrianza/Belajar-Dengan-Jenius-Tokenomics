@@ -419,6 +419,10 @@ Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk pr
 
 Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-state Drive (SSD)**, sebab jika disimpan kedalam sebuah **Hard-disk Drive (HDD)** proses **fetching** data **blockchain** akan sangat lamban.
 
+## Javascript Runtime Engine 
+
+Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki V8 Engine yang mendukung **Javascript** dan **WebAssembly**.
+
 ## Metamask 
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
