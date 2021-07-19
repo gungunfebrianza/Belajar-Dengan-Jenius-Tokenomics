@@ -438,6 +438,8 @@ Silahkan Install **Node.js** dalam sistem operasi anda.
 
 https://geth.ethereum.org/
 
+**Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
+
 
 
 
