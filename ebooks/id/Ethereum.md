@@ -27,8 +27,9 @@ Belajar Dengan Jenius Tokenomics
     - [Gas Limit](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-limit)
     - [Gas Price](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-price)
     - [Example](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#example)
-
   - [Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#accounts)
+    - Externally Owned Account (EOA)
+    - Contract Account
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
 
 - Ethereum Virtual Machine (EVM)
@@ -301,13 +302,29 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 <img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
 
-Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
+Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. 
+
+Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. 
+
+Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
+
+### Externally Owned Accounts
+
+Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 <img src="../assets/Ethereum-Account2.png" style="zoom:100%;" />
 
 
 
+### Contract Account
+
 Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
+
+<img src="../assets/Ethereum-Account3.png" style="zoom:100%;" />
+
+
+
+**Contract** seringkali juga disebut sebagai **Semiautonomous Entities** dalam **blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**.
 
 
 
