@@ -620,7 +620,7 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 https://infura.io
 
-
+Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
 
 ### Switch Network
 
@@ -645,6 +645,8 @@ Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirim
 <img src="../assets/Metamask-Transaction.png" style="zoom:100%;" />
 
 ### Token Management
+
+Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan informasi **Token Contract Address** ke dalam **Metamask**.
 
 ## Remix
 
