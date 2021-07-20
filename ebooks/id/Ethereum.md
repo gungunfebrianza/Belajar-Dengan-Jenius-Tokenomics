@@ -43,12 +43,12 @@ Belajar Dengan Jenius Tokenomics
 
   - [Computer Hardwares](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#computer-hardwares)
   - [Javascript Runtime Engine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-runtime-engine)
-  - Ethereum Client
-    - Geth
-    - Geth Commands
-    - Geth Javascript Console
-    - HTTP-RPC Server
-    - Synchronization Mode
+  - [Ethereum Client](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-client)
+    - [Geth](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth)
+    - [Geth Commands](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-command)
+    - [Geth Javascript Console](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-javascript-console)
+    - [HTTP-RPC Server](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#http---rpc-server)
+    - [Synchronization Mode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#synchronization-mode)
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -552,13 +552,21 @@ Pada **Geth** terdapat **3 Synchronization Mode** :
 
 #### Full Node Mode (Fast)
 
-Jika kita menjalankan **Geth** tanpa **Command Flag --syncmode** maka kita mengeksekusi **Geth** dengan mode **Fast Synchronization** (**--syncmode fast**). **Full Node** artinya kita akan menyalin seluruh data **Ethereum Blockchain**.
+Jika kita menjalankan **Geth** tanpa **Command Flag --syncmode** maka kita mengeksekusi **Geth** dengan mode **Fast Synchronization** (**--syncmode fast**). **Full Node** artinya kita akan menyalin seluruh data **Ethereum Blockchain**, pada mode **full node** hal pertama yang akan dilakukan adalah menyalin seluruh data **block headers** terlebih dahulu.
+
+Selanjutnya informasi dari **block body** akan dipenuhi, ketika **Fast Synchronization** telah mencapai **block** terakhir pada **Ethereum Network** selanjutnya **Node** akan melakukan **Switching** dari **Fast Synchronization** ke dalam **Full Synchronization**. 
 
 #### Full Node Mode
 
-
+Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block** dan memverifikasi seluruh **blocks**. Mode **Full Node** lebih lamban dari **Fast Synchronization Mode**.
 
 #### Lightweight Node
+
+**Lightweight Node** hanya menyalin data **Header Chain**, untuk memasuki **Lightweight Node** eksekusi **Command Flag** di bawah ini :
+
+```
+--syncmode light
+```
 
 
 
