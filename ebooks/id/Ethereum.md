@@ -450,6 +450,24 @@ https://geth.ethereum.org/
 
 ### Geth Command
 
+#### --testnet flag
+
+Untuk bergabung dengan **Ethereum Network** dalam jaringan **Ropsten Test Net Network**, kita dapat menggunakan **Command Flag** berikut :
+
+```
+geth --testnet --datadir ~/.ethereum-testnet
+```
+
+#### --rinkeby flag
+
+Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby Test Net Network**, kita dapat menggunakan **Command Flag** berikut :
+
+```
+geth --rinkeby --datadir ~/.ethereum-testnet
+```
+
+
+
 #### --datadir flag
 
 Untuk tempat penyimpanan data **Ethereum Blockchain** dapat menggunakan **Command Flag** **--datadir** berikut :
