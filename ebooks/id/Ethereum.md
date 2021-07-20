@@ -371,6 +371,10 @@ npm start
 
 # Ethereum Networks
 
+**Ethereum Protocol** memiliki beberapa jaringan komputer mulai dari **Main Net** dan **Test Net** yang dapat digunakan para **developer** untuk menguji inovasi yang mereka buat. Pada **Ethereum Protocol** terdapat **4 Test Net** mulai dari **Ropsten**, **Kovan**, **Rinkeby** dan **Goerly Test Network**.
+
+<img src="../assets/Ethereum-Networks.png" style="zoom:100%;" />
+
 
 
 # Ethereum Virtual Machine (EVM)
