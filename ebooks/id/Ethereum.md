@@ -658,6 +658,14 @@ Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan inf
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
+### Compiler Smart Contract
+
+### Deploy Smart Contract
+
+Di bawah ini adalah diagram proses Deployment Smart Contract dengan memanfaatkan Remix dan Metamask :
+
+
+
 ### Remixd
 
 **Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
