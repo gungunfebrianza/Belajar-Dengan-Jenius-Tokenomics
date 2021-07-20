@@ -375,7 +375,7 @@ npm start
 
 <img src="../assets/Ethereum-Networks.png" style="zoom:100%;" />
 
-
+Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya. 
 
 # Ethereum Virtual Machine (EVM)
 
