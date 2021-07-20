@@ -640,6 +640,10 @@ Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Acco
 
 ### Perform Transaction
 
+Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirimkan sebuah **Ethers** atau sebuah **Token**. Juga terdapat fitur untuk melakukan **Swap**, terdapat banyak pilihan seperti **UniSwap**, **Chainlink**, **Bancor** dan sebagainya.
+
+<img src="../assets/Metamask-Transaction.png" style="zoom:100%;" />
+
 ### Token Management
 
 ## Remix
