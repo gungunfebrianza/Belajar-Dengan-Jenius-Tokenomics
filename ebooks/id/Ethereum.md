@@ -514,13 +514,23 @@ Untuk menggunakan **Geth Javascsipt Console** eksekusi perintah di bawah ini :
 geth --testnet --datadir ~/.ethereum-testnet console 2>console.log
 ```
 
-Selanjutnya eksekusi perintah di bawah ini :
+Selanjutnya eksekusi perintah di bawah ini untuk membuat sebuah **Account** :
 
 ```
 personal.newAccount()
 Passphrase: <password>
 Repeat passphrase: <password>
 ```
+
+### Geth List Account
+
+Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi perintah di bawah ini :
+
+```
+eth.getBalance(eth.accounts[0])
+```
+
+Saldo yang akan ditampilkan dalam satuan Wei.
 
 ### HTTP - RPC Server
 
