@@ -484,7 +484,9 @@ geth --rinkeby --datadir ~/.ethereum-testnet
 
 #### --datadir flag
 
-Untuk tempat penyimpanan data **Ethereum Blockchain** dapat menggunakan **Command Flag** **--datadir** berikut :
+<img src="../assets/Ethereum-Client-Geth.png" style="zoom:100%;" />
+
+Diagram di atas adalah tempat penyimpanan data **Ethereum Blockchain** secara **default** pada berbagai sistem operasi. Untuk tempat penyimpanan secara **custom** data **Ethereum Blockchain** dapat menggunakan **Command Flag** **--datadir** berikut :
 
 ```
 geth --datadir <path to data directory>
@@ -606,8 +608,6 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 ```
 --syncmode light
 ```
-
-
 
 ## Metamask 
 
