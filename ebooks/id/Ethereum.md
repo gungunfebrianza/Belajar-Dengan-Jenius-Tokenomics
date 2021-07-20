@@ -46,6 +46,8 @@ Belajar Dengan Jenius Tokenomics
   - Ethereum Client
     - Geth
     - Geth Commands
+    - Geth Javascript Console
+    - HTTP-RPC Server
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -520,6 +522,16 @@ Repeat passphrase: <password>
 ```
 
 Perintah di atas digunakan untuk membuat akun dari **node** yang kita gunakan saat ini.
+
+### HTTP - RPC Server
+
+Jika ingin berinteraksi dengan **Geth** selain menggunakan **Geth Javascript Console**, kita dapat membuat **HTTP - RPC Server** dengan cara mengeksekusi perintah di bawah ini :
+
+```
+geth --testnet --datadir ~/.ethereum-testnet --rpc --rpcport 8545
+```
+
+**Command Flag --rpc** digunakan untuk menjalankan **HTTP - RPC Server**, dan **Command Flag --rpcport 8545** digunakan agar **HTTP - RPC Server** dapat melakukan **listening** pada **port** tersebut jika terdapat **request** dari **client** untuk berinteraksi.
 
 ## Metamask 
 
