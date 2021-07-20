@@ -47,15 +47,16 @@ Belajar Dengan Jenius Tokenomics
     - [Geth](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth)
     - [Geth Commands](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-command)
     - [Geth Javascript Console](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-javascript-console)
-    - Geth List Account
-    - Geth Balance Account
+    - [Geth List Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-list-account)
+    - [Geth Balance Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-balance-account)
+    - [Geth Transfer Ether](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-transfer-ether)
     - [HTTP-RPC Server](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#http---rpc-server)
     - [Synchronization Mode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#synchronization-mode)
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
-    - Switch Network
-    - Create & Import Account
-    - Perform Transaction
-    - Token Management
+    - [Switch Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#switch-network)
+    - [Create & Import Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#create--import-account)
+    - [Perform Transaction](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#perform-transaction)
+    - [Token Management](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#token-management)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
@@ -615,7 +616,11 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 ## Metamask 
 
-**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Secara internal **Metamask** terhubung ke dalam sebuah **Node** yang dibangun dengan **INFURA**, untuk informasi lebih lanjut mengenai **INFURA** silahkan kunjungi laman di bawah ini :
+
+https://infura.io
+
+
 
 ### Switch Network
 
@@ -631,9 +636,29 @@ Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Acco
 
 <img src="../assets/Metamask-Account.png" style="zoom:100%;" />
 
+**Ethereum Protocol** juga memanfaatkan mekanisme **12-word secret phrase** yang diterapkan dalam **BIP39 (Bitcoin Improvement Proposal) seed phrase**, sebagai sebuah **backup management** jika dikemudian hari ternyata kita lupa **password** dari **Account** kita.
+
 ### Perform Transaction
 
 ### Token Management
+
+## Remix
+
+**Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
+
+### Runtime Environment
+
+<img src="../assets/Remix-Runtime-Enviroment.png" style="zoom:100%;" />
+
+Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
+
+### Remixd
+
+**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
+
+```
+npm install -g @remix-project/remixd
+```
 
 ## Truffle
 
@@ -657,24 +682,6 @@ Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan p
 
 ```
 npm install -g solc
-```
-
-
-
-## Remix
-
-**Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
-
-### Runtime Environment
-
-<img src="../assets/Remix-Runtime-Enviroment.png" style="zoom:100%;" />
-
-### Remixd
-
-**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
-
-```
-npm install -g @remix-project/remixd
 ```
 
 ## Visual Studio Code (VSC)
