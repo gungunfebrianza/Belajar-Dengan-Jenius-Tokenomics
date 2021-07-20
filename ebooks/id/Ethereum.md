@@ -47,6 +47,8 @@ Belajar Dengan Jenius Tokenomics
     - [Geth](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth)
     - [Geth Commands](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-command)
     - [Geth Javascript Console](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#geth-javascript-console)
+    - Geth List Account
+    - Geth Balance Account
     - [HTTP-RPC Server](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#http---rpc-server)
     - [Synchronization Mode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#synchronization-mode)
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
@@ -530,7 +532,32 @@ Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi pe
 eth.getBalance(eth.accounts[0])
 ```
 
-Saldo yang akan ditampilkan dalam satuan Wei.
+### Geth Balance Account
+
+Saldo yang akan ditampilkan dalam satuan **Wei**, jika kita ingin melihat dalam satuan **Ethers** eksekusi perintah di bawah ini :
+
+```
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+```
+
+### Geth Transfer Ether
+
+Untuk melakukan transaksi pengiriman **Ethers** menuju **Ethereum Address** lainnya diluar **Node** kita, pertama kita harus mengeksekusi perintah **Unlock Account** terlebih dahulu dengan mengeksekusi perintah di bawah ini :
+
+```
+personal.unlockAccount(eth.accounts[0])
+```
+
+Setelah itu untuk transfer eksekusi perintah di bawah ini :
+
+```
+eth.sendTransaction({from: eth.accounts[0], to: "0xd03f236c32BBF0D5b76AaaF9bc66B5640B2a50b9", value:
+web3.toWei(5,"ether")})
+```
+
+Perintah di atas adalah melakukan pengiriman **Ethers** menuju **Ethereum Address** di bawah ini :
+
+0xd03f236c32BBF0D5b76AaaF9bc66B5640B2a50b9
 
 ### HTTP - RPC Server
 
