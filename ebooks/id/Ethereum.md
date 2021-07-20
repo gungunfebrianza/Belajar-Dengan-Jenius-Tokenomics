@@ -521,8 +521,6 @@ Passphrase: <password>
 Repeat passphrase: <password>
 ```
 
-Perintah di atas digunakan untuk membuat akun dari **node** yang kita gunakan saat ini.
-
 ### HTTP - RPC Server
 
 Jika ingin berinteraksi dengan **Geth** selain menggunakan **Geth Javascript Console**, kita dapat membuat **HTTP - RPC Server** dengan cara mengeksekusi perintah di bawah ini :
@@ -532,6 +530,22 @@ geth --testnet --datadir ~/.ethereum-testnet --rpc --rpcport 8545
 ```
 
 **Command Flag --rpc** digunakan untuk menjalankan **HTTP - RPC Server**, dan **Command Flag --rpcport 8545** digunakan agar **HTTP - RPC Server** dapat melakukan **listening** pada **port** tersebut jika terdapat **request** dari **client** untuk berinteraksi.
+
+Perintah di atas digunakan untuk membuat akun dari **node** yang kita gunakan saat ini. Jika ingin terhubung dengan **Geth** menggunakan **terminal windows** yang lain eksekusi perintah di bawah ini :
+
+```
+geth attach http://127.0.0.1:8545
+
+Welcome to the Geth JavaScript console!
+```
+
+Untuk keluar dari Geth Javascript Console eksekusi perintah di bawah ini :
+
+```
+exit
+```
+
+
 
 ## Metamask 
 
