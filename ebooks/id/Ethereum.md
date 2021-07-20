@@ -615,9 +615,11 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 ### Switch Network
 
-Dengan Metamask kita dapat terhubung ke dalam berbagai Ethereum Networks, baik Main Net atau Test Net. Juga terdapat dukungan untuk dapat terhubung pada Localhost sebuah jaringan Ethereum Network Virtual yang kita buat sendiri dalam komputer kita.
+Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**, baik **Main Net** atau **Test Net**. Juga terdapat dukungan untuk dapat terhubung pada **Localhost** sebuah jaringan **Ethereum Network Virtual** yang kita buat sendiri dalam komputer kita.
 
 <img src="../assets/Metamask-Switch-Network.png" style="zoom:100%;" />
+
+Juga kita dapat terhubung ke dalam **Ethereum Network** lainnya melalui **Custom RPC**.
 
 
 
