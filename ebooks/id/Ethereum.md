@@ -52,6 +52,10 @@ Belajar Dengan Jenius Tokenomics
     - [HTTP-RPC Server](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#http---rpc-server)
     - [Synchronization Mode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#synchronization-mode)
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
+    - Switch Network
+    - Create & Import Account
+    - Perform Transaction
+    - Token Management
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
@@ -621,9 +625,11 @@ Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**
 
 Juga kita dapat terhubung ke dalam **Ethereum Network** lainnya melalui **Custom RPC**.
 
-
-
 ### Create & Import Account
+
+Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Account** khusus untuk sebuah **Ethereum Network**. Kita juga dapat melakukan upaya **Import Account**, jika terdapat **Account** yang berasal dari **Software Wallet** lainnya.
+
+<img src="../assets/Metamask-Account.png" style="zoom:100%;" />
 
 ### Perform Transaction
 
