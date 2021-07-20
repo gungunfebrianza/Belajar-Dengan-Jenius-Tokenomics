@@ -428,7 +428,9 @@ Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapa
 
 Ada catatan menarik yang sempat penulis amati, **Gavin Wood** sebagai **Former** pengembang **Etherem Virtual Machine (EVM)** melihat masa depan pengembangan **Smart Contract** ada pada **WebAssembly**. Saat membicarakan **project**-nya tentang polkadot, **Gavin** menilai **EVM** adalah sebuah **Legacy Protocol**.
 
-Silahkan Install **Node.js** dalam sistem operasi anda.
+Silahkan Install **Node.js** dalam sistem operasi anda, anda bisa mendapatkannya disini :
+
+https://nodejs.org/en/download/current/
 
 ## Ethereum Client
 
