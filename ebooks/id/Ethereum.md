@@ -48,6 +48,7 @@ Belajar Dengan Jenius Tokenomics
     - Geth Commands
     - Geth Javascript Console
     - HTTP-RPC Server
+    - Synchronization Mode
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -539,11 +540,25 @@ geth attach http://127.0.0.1:8545
 Welcome to the Geth JavaScript console!
 ```
 
-Untuk keluar dari Geth Javascript Console eksekusi perintah di bawah ini :
+Untuk keluar dari **Geth Javascript Console** eksekusi perintah di bawah ini :
 
 ```
 exit
 ```
+
+### Synchronization Mode
+
+Pada **Geth** terdapat **3 Synchronization Mode** :
+
+#### Full Node Mode (Fast)
+
+Jika kita menjalankan **Geth** tanpa **Command Flag --syncmode** maka kita mengeksekusi **Geth** dengan mode **Fast Synchronization** (**--syncmode fast**). **Full Node** artinya kita akan menyalin seluruh data **Ethereum Blockchain**.
+
+#### Full Node Mode
+
+
+
+#### Lightweight Node
 
 
 
