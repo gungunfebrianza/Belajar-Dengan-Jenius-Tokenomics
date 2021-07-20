@@ -466,8 +466,6 @@ Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby T
 geth --rinkeby --datadir ~/.ethereum-testnet
 ```
 
-
-
 #### --datadir flag
 
 Untuk tempat penyimpanan data **Ethereum Blockchain** dapat menggunakan **Command Flag** **--datadir** berikut :
@@ -1178,6 +1176,10 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
+
+# ETH Validator 2.0
+
+Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Miner** yang bertanggung jawab mengeksekusi **Consensus Mechanism Proof-of-Stake (PoS)** pada **Beacon Chain**.
 
 # Temp 
 
