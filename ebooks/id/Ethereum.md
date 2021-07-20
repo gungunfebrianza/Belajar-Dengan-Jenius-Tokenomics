@@ -851,6 +851,16 @@ Pada **State Variable current** nilai yang di dapatkan adalah **Contract Address
 
 ​	0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf    **<--- Just an example** 
 
+#### Get Caller Balance
+
+Seperti yang telah kita pelajari sebelumnya address type memiliki **balance property**. Di bawah ini adalah contoh kode untuk mendapatkan **balance** dari **sender** yang melakukan **transaction** untuk menjalankan **Smart Contract**, **output balance** akan direpresentasikan dalam satuan **wei** dengan tipe data **uint256** :
+
+```
+    uint256 public balanceInWei = msg.sender.balance;
+```
+
+
+
 #### Type Conversion
 
 Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
