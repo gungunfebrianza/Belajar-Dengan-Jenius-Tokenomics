@@ -496,7 +496,9 @@ Selanjutnya pada **target directory** pasti terdapat 3 **sub-directories** berik
 
 - **keystore**
 
-  Tempat **Ethereum Account**.
+  Tempat **Ethereum Account**, di dalamnya terdapat **file UTC** yang menyimpan informasi **Private-Key** yang telah di **encrypt** menggunakan **password** yang kita buat saat membuat **Account**. Dalam **File UTC** tidak terdapat informasi **Public Key**, namun kita bisa memproduksinya melalui **Private-key.**
+
+  Juga terdapat informasi **Account**, **Ethereum Address** yang diambil dari **20 bytes** terakhir **Public-Key**.
 
 - **nodes**
 
