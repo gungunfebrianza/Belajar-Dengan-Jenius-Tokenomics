@@ -434,7 +434,9 @@ Silahkan Install **Node.js** dalam sistem operasi anda.
 
 Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethereum Blockchain** dan bergabung dengan **Ethereum Protocol** kita harus menggunakan **Software Ethereum Client**. Di bawah ini adalah beberapa fitur yang dapat kita gunakan jika memasang sebuah **Ethereum Client** :
 
+<img src="../assets/Ethereum-Client.png" style="zoom:100%;" />
 
+Salah satu **software** dalam opini penulis untuk bergabung dengan **Ethereum Protocol** adalah **Geth**.
 
 ### Geth
 
