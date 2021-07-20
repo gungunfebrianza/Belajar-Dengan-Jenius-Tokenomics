@@ -432,6 +432,8 @@ Silahkan Install **Node.js** dalam sistem operasi anda.
 
 ## Ethereum Client
 
+Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethereum Blockchain** dan bergabung dengan **Ethereum Protocol** kita harus menggunakan **Software Ethereum Client**. 
+
 ### Geth
 
 **Geth** adalah implementasi resmi **Ethereum Client** yang ditulis dalam bahasa pemrograman **Go** untuk **Ethereum Protocol**. Saat ini dalam opini penulis **Geth** menjadi salah satu **Ethereum Client** paling **up-to-date**. Untuk informasi lebih lanjut terkait instalasi silahkan kunjungi laman resminya:
