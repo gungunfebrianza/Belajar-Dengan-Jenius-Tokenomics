@@ -57,13 +57,22 @@ Belajar Dengan Jenius Tokenomics
     - [Create & Import Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#create--import-account)
     - [Perform Transaction](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#perform-transaction)
     - [Token Management](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#token-management)
+  - [Remix](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remix)
+    - [Runtime Environment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#runtime-environment)
+    - Compile Smart Contract
+    - Debug Smart Contract
+    - Deploy Smart Contract
+    - Solidity Unit Testing
+    - Solidity Static Analysis
+    - Solidity Linter
+    - Documentation Generator
+    - Solidity to UML
+    - Remixd
+    - Restore Backup
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
     - Node.js
-  - [Remix](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remix)
-    - [Runtime Environment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#runtime-environment)
-    - Remixd
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
 
 - [Solidity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity)
@@ -658,13 +667,13 @@ Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan inf
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
-### Compiler Smart Contract
+### Compile Smart Contract
 
 ### Deploy Smart Contract
 
-Di bawah ini adalah diagram proses Deployment Smart Contract dengan memanfaatkan Remix dan Metamask :
+Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaatkan **Remix** dan **Metamask** :
 
-
+<img src="../assets/Remix-Deploy-Smart-Contract.png" style="zoom:100%;" />
 
 ### Remixd
 
