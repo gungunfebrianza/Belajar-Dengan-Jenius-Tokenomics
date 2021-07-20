@@ -448,7 +448,29 @@ https://geth.ethereum.org/
 
 **Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
 
+### Geth Command
 
+#### --datadir flag
+
+Untuk tempat penyimpanan data **Ethereum Blockchain** dapat menggunakan **Command Flag** **--datadir** berikut :
+
+```
+geth --datadir <path to data directory>
+```
+
+Selanjutnya pada **target directory** pasti terdapat 3 **sub-directories** berikut :
+
+- **chaindata**
+- **keystore**
+- **nodes**
+
+**Catatan :**
+
+Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (IPC) unix socket** dalam **data directory** (**geth.ipc**). Jadi untuk **FAT32 filesystem** yang tidak memerlukan pembuatan unix socket, jadi kita perlu menonaktifkan **Inter-process Communication (IPC) ** dengan menambahkan **flag** berikut :
+
+```
+--ipcdisable
+```
 
 
 
