@@ -45,6 +45,7 @@ Belajar Dengan Jenius Tokenomics
   - [Javascript Runtime Engine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-runtime-engine)
   - Ethereum Client
     - Geth
+    - Geth Commands
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -98,6 +99,8 @@ Belajar Dengan Jenius Tokenomics
 - Web3.js
 
 - DApps
+
+- ETH Validator 2.0
 
   
 
@@ -365,6 +368,10 @@ npm install
 grunt
 npm start
 ```
+
+# Ethereum Networks
+
+
 
 # Ethereum Virtual Machine (EVM)
 
@@ -1169,9 +1176,9 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 
 **Web3.js** adalah sekumpulan **libraries** yang dapat membantu kita untuk dapat berinteraksi dengan **Ethereum Node** baik secara **local** atau **remote** melalui :
 
-1. HTTP
-2. IPC
-3. WebSockets
+1. **HTTP**
+2. **IPC**
+3. **WebSockets**
 
 # DApps
 
@@ -1180,6 +1187,8 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 # ETH Validator 2.0
 
 Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Miner** yang bertanggung jawab mengeksekusi **Consensus Mechanism Proof-of-Stake (PoS)** pada **Beacon Chain**.
+
+Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
 # Temp 
 
