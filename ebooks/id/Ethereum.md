@@ -6,8 +6,8 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
 
-  - Open Source
-  - Public Blockchain
+  - [Open Source](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#open-source)
+  - [Public Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#public-blockchain)
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
@@ -27,16 +27,24 @@ Belajar Dengan Jenius Tokenomics
     - [Gas Limit](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-limit)
     - [Gas Price](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-price)
     - [Example](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#example)
-
   - [Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#accounts)
+    - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
+    - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
 
-- Ethereum Virtual Machine (EVM)
+- [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
-- Smart Contract
+- [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
+
+  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
+  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
+  - [Computer Hardwares](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#computer-hardwares)
+  - [Javascript Runtime Engine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-runtime-engine)
+  - Ethereum Client
+    - Geth
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -301,19 +309,41 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 <img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
 
-Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
+Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. 
+
+Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. 
+
+Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
+
+### Externally Owned Accounts
+
+Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 <img src="../assets/Ethereum-Account2.png" style="zoom:100%;" />
 
 
 
-0x39a641896C95e463B77b3C3cc92A55Cc5cF93882
+### Contract Account
+
+Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
+
+<img src="../assets/Ethereum-Account3.png" style="zoom:100%;" />
+
+
+
+**Contract** seringkali juga disebut sebagai **Semiautonomous Entities** dalam **blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**.
+
+Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Acounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
+
+<img src="../assets/Ethereum-Account4.png" style="zoom:100%;" />
 
 ## ETH Blockchain Explorer
 
-Untuk mengeksplorasi **blockchain explorer** pada protokol **Ethereum** anda bisa mengunjungi :
+Untuk mengeksplorasi **Ethereum Blockchain** terdapat **Blockchain Explorer** yang menyediakan **Friendly User Interface (UI)**, anda bisa mengunjungi :
 
 etherscan.io
+
+Kita dapat mengetahui nilai **height** dari **block** terakhir, memonitor **pending transaction**, memeriksa **Network Difficulty**, melihat **Final Gas Fee** yang digunakan dalam suatu **transaction**, melihat **source code** atau **ABI** dari **Smart Contract** yang telah di **deploy** ke dalam **Ethereum Network**.
 
 Jika anda ingin memahami status **Ethereum Network** secara **realtime** dengan tampilan **user interfaces** yang menarik silahkan kembangkan **ETH Netstat**. **Download source code** disini 
 
@@ -338,15 +368,81 @@ npm start
 
 # Ethereum Virtual Machine (EVM)
 
+Reserved.
+
 # Smart Contract
 
 **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
+
+Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, sebuah **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
+
+<img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
+
+Transaksi dapat dilakukan dengan memanfaatkan **Hyper Text Transfer Protocol (HTTP)**, **Inter Process Communication (IPC)** atau **Remote Procedure Call (RPC)**. **Web3.js** yang akan kita pelajari berinteraksi dengan **Ethereum Node** melalui **Remote Procedure Call (RPC)**.
+
+**Externally Owned Account** memiliki **private-key** untuk menandatangani sebuah transaksi sebagai proses **authentication** sebelum dikirim menuju **Ethereum Network** . Transaksi dapat ditujukan untuk sebuah **Contract Account** atau sesama  **Externally Owned Account**. 
+
+<img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
+
+Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** seperti **cron-job**, sebuah **Externally Owned Account (EOA)** diperlukan untuk melakukan **initiate transaction** agar **trigger** dalam **Smart Contract** dapat dilakukan. Otomasi dilakukan di level **Externally Owned Account (EOA)** dengan menjamin **gas** yang dibutuhkan selalu tersedia.
+
+<img src="../assets/Ethereum-Smart-Contract4.png" style="zoom:100%;" />
+
+Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
+
+1. **Crowdsales**
+2. **Voting**
+3. **Auction**
+
+
+
+## Initial Coin Offering (ICO)
+
+Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
+
+## Micropayment
+
+Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
+
+Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
 
 
 
 # Development Tools
 
 Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaatkan **Javascript API** dalam **Web3.js**, terdapat sebuah **function** yang memfasilitasi untuk membuat sebuah **Smart Contract**. Nama dari **function** tersebut adalah [web3.eth.Contract](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#new-contract).
+
+## Computer Hardwares
+
+Untuk memulai pengembangan kita memerlukan koneksi internet dan **hard drive** dengan ukuran yang sangat besar. Untuk menyalin seluruh data **Ethereum Blockchain** diperlukan koneksi internet yang sangat cepat dan stabil, sehingga proses **syncing** salinan **blockchain** terbaru dapat dilakukan secara kontinyu.
+
+Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk proses **syncing** salinan **blockchain** terbaru dan interaksi lainnya dengan **Ethereum Network**. Saat penulis membuat tulisan ini, ukuran **Ethereum Blockchain** sudah mencapai **350 GB** lebih, full node akan menyalin seluruh **Ethereum Blockchain** tersebut.
+
+<img src="../assets/Ethereum-Blockchain.PNG" style="zoom:100%;" />
+
+Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-state Drive (SSD)**, sebab jika disimpan kedalam sebuah **Hard-disk Drive (HDD)** proses **fetching** data **blockchain** akan sangat lamban.
+
+## Javascript Runtime Engine 
+
+Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki **V8 Engine** yang mendukung **Javascript** dan **WebAssembly**.
+
+Ada catatan menarik yang sempat penulis amati, **Gavin Wood** sebagai **Former** pengembang **Etherem Virtual Machine (EVM)** melihat masa depan pengembangan **Smart Contract** ada pada **WebAssembly**. Saat membicarakan **project**-nya tentang polkadot, **Gavin** menilai **EVM** adalah sebuah **Legacy Protocol**.
+
+Silahkan Install **Node.js** dalam sistem operasi anda.
+
+## Ethereum Client
+
+### Geth
+
+**Geth** adalah implementasi resmi **Ethereum Client** yang ditulis dalam bahasa pemrograman **Go** untuk **Ethereum Protocol**. Saat ini dalam opini penulis **Geth** menjadi salah satu **Ethereum Client** paling **up-to-date**. Untuk informasi lebih lanjut terkait instalasi silahkan kunjungi laman resminya:
+
+https://geth.ethereum.org/
+
+**Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
+
+
+
+
 
 ## Metamask 
 
@@ -363,6 +459,10 @@ Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi *
 Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
 
 ## Solidity Compiler 
+
+**Solidity** adalah bahasa pemrograman yang memerlukan **Compiler**.
+
+Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **javascript developer**.
 
 ### Node.js
 
