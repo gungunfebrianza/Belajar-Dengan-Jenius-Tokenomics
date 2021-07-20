@@ -488,7 +488,11 @@ geth --datadir <path to data directory>
 Selanjutnya pada **target directory** pasti terdapat 3 **sub-directories** berikut :
 
 - **chaindata**
+
 - **keystore**
+
+  Tempat **Ethereum Account**.
+
 - **nodes**
 
 **Catatan :**
@@ -499,7 +503,23 @@ Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (I
 --ipcdisable
 ```
 
+### Geth Javascript Console
 
+Untuk menggunakan **Geth Javascsipt Console** eksekusi perintah di bawah ini :
+
+```
+geth --testnet --datadir ~/.ethereum-testnet console 2>console.log
+```
+
+Selanjutnya eksekusi perintah di bawah ini :
+
+```
+personal.newAccount()
+Passphrase: <password>
+Repeat passphrase: <password>
+```
+
+Perintah di atas digunakan untuk membuat akun dari **node** yang kita gunakan saat ini.
 
 ## Metamask 
 
