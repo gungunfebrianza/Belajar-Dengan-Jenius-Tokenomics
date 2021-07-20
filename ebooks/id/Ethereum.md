@@ -613,6 +613,16 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**.
 
+### Switch Network
+
+
+
+### Create & Import Account
+
+### Perform Transaction
+
+### Token Management
+
 ## Truffle
 
 Pengembangan **Smart Contract** untuk protokol **Ethereum**.
