@@ -31,7 +31,7 @@ Belajar Dengan Jenius Tokenomics
     - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
     - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
-  - Ethereum Networks
+  - [Ethereum Networks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-networks)
 
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
@@ -65,13 +65,13 @@ Belajar Dengan Jenius Tokenomics
     - [Web3 Provider](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3-provider)
     - [Compile Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#compile-smart-contract)
     - Debug Smart Contract
-    - ABI & Bytecode
+    - [ABI & Bytecode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#abi--bytecode)
     - [Deploy Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deploy-smart-contract)
     - Solidity Unit Testing
     - Solidity Static Analysis
     - Solidity Linter
     - Documentation Generator
-    - Solidity to UML
+    - [Solidity to UML](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-to-uml)
     - [Remixd](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remixd)
     - Restore Backup
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
@@ -708,6 +708,11 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 ### Solidity Unit Testing
 
 ### Solidity Static Analysis
+
+**Solidity** yang kita tulis akan di **scan**, manfaat dari **Static Analysis** adalah kita dapat mengetahui informasi **Solidity Code** yang kita tulis. Terdapat informasi tambahan seperti :
+
+1. Tingkat **Security** dari **Solidity** yang kita tulis.
+2. Informasi Gas, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
 
 ### Solidity Linter
 
