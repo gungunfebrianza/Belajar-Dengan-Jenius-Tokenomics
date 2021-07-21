@@ -60,18 +60,19 @@ Belajar Dengan Jenius Tokenomics
     - [Token Management](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#token-management)
   - [Remix](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remix)
     - [Runtime Environment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#runtime-environment)
-    - Javascript Virtual Machine
-    - Injected Web3
-    - Web3 Provider
-    - Compile Smart Contract
+    - [Javascript Virtual Machine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-virtual-machine-vm)
+    - [Injected Web3](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#injected-web3)
+    - [Web3 Provider](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3-provider)
+    - [Compile Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#compile-smart-contract)
     - Debug Smart Contract
-    - Deploy Smart Contract
+    - ABI & Bytecode
+    - [Deploy Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deploy-smart-contract)
     - Solidity Unit Testing
     - Solidity Static Analysis
     - Solidity Linter
     - Documentation Generator
     - Solidity to UML
-    - Remixd
+    - [Remixd](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remixd)
     - Restore Backup
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
@@ -690,6 +691,8 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 <img src="../assets/Remix-Compiler.png" style="zoom:100%;" />
 
 ### Debug Smart Contract
+
+### ABI & Bytecode
 
 ### Deploy Smart Contract
 
