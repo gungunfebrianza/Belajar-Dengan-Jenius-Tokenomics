@@ -76,12 +76,12 @@ Belajar Dengan Jenius Tokenomics
     - [Restore Backup](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#restore--backup)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
-    - Install Ganache
-    - ganache-cli
-    - Start ganache-cli
-    - Ganache User Interface
+    - [Install Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#install-ganache)
+    - [ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-cli)
+    - [Start ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#start-ganache-cli)
+    - [Ganache User Interface](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-user-interface)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
-    - Node.js
+    - solc-.js
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
 
 - [Solidity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity)
@@ -147,7 +147,7 @@ Belajar Dengan Jenius Tokenomics
 - [Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3js)
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
-  - Promise Events
+  - [Promise Events](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#promise-events)
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
@@ -1017,9 +1017,11 @@ Informasi **HD Wallet**, **Gas Price**, **Gas Limit** dan **Call Gas Limit** jug
 
 ### Ganache User Interface
 
-Di bawah ini adalah tampilan utama dari **Ganache** :
+Jika kita tidak ingin menggunakan versi **console** kita dapat menggunakan versi **Graphic User Interface (GUI)**. Di bawah ini adalah tampilan utama dari **Ganache** :
 
 <img src="../assets/Ganache-GUI.png" style="zoom:100%;" />
+
+Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan diminta membuat sebuah **Workspace**.
 
 
 
@@ -1029,6 +1031,8 @@ Di bawah ini adalah tampilan utama dari **Ganache** :
 
 Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **Javascript Developer**.
 
+
+
 ### Node.js
 
 **Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
@@ -1037,9 +1041,13 @@ Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan p
 npm install -g solc
 ```
 
+
+
 ## Visual Studio Code (VSC)
 
 **Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
+
+
 
 # Solidity
 
@@ -1050,6 +1058,8 @@ npm install -g solc
 Di bawah ini adalah **Lifecyle** yang akan dilakukan seorang **Smart Contract Developer**, pertama dia akan menulis sebuah **Smart Contract**, melakukan **Testing Smart Contract**, melakukan proses **Deployment Smart Contract** pada **Test Net** atau **Main Net** dan mengeksekusi **Smart Contract**.
 
 <img src="../assets/Solidity-Lifecyle.png" style="zoom:100%;" />
+
+
 
 ## High-level Language
 
@@ -1063,9 +1073,13 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
+
+
 ## Object-oriented Language
 
 **Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang. Dukungan Object-oriented pada versi 8.6.0 masih terbatas.
+
+
 
 ## Statically-Typed Language
 
@@ -1073,11 +1087,15 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 <img src="../assets/Solidity-Statically-typed.png" style="zoom:100%;" />
 
+
+
 ## Case Sensitive Language
 
 Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penulisan pemrograman dalam pembuatan sebuah **identifier**.
 
 <img src="../assets/Solidity-Case-Sensitive.png" style="zoom:100%;" />
+
+
 
 ## Turing Complete Language
 
@@ -1090,6 +1108,8 @@ Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penu
 Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persatu :
 
 <img src="../assets/Solidity-Anatomy.png" style="zoom:100%;" />
+
+
 
 ## SPDX License Identifier
 
@@ -1105,6 +1125,8 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
+
+
 ## Pragma
 
 **Keyword pragma** adalah sebuah **directive** untuk menentukan **compiler** yang akan digunakan dan menjalankan fitur-fitur tertentu dalam **compiler** yang akan digunakan untuk mengkompilasi **file solidity** saat ini. Di bawah ini adalah contoh **statement** penggunaan **pragma** :
@@ -1117,6 +1139,8 @@ pragma solidity ^0.8.6;
 
 Hal itu dilakukan agar **Smart Contract** yang kita tulis tidak mengalami **output** yang tidak diharapkan (**unexpected behaviour**), karena setiap kali **compiler** terbaru dirilis terdapat bug dalam versi sebelumnya yang telah dibenahi sehingga dapat mempengaruhi **Smart Contract** yang telah kita tulis.
 
+
+
 ### Semantic Versioning
 
 Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan yaitu :
@@ -1126,6 +1150,8 @@ Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan y
 3. **Patch** 
 
 Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**. 
+
+
 
 ## Import
 
@@ -1155,6 +1181,8 @@ import {symbol1 as alias, symbol2} from " BaseContract.sol";
 
 Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
 
+
+
 ## Contract
 
 **Contract** dalam **Solidity** mirip dengan konsep **Class** dalam **Object-oriented language**, seperti yang telah anda lihat pada diagram sebelumnya terdapat banyak sekali komponen yang dapat disisipkan pada sebuah **Contract**. Sebuah **Contract** memiliki pengenal (**identifier**).
@@ -1177,6 +1205,8 @@ contract mySecondContract {
     
 }
 ```
+
+
 
 ### Derived Contract
 
@@ -1211,6 +1241,8 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
     string public hello = "Hello Maudy";
 ```
 
+
+
 ### Visibility Specifier
 
 Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State Variable**, penerapan **Visibility Specifiers** akan memberikan karakteristik tersendiri pada **State Variable** :
@@ -1224,6 +1256,8 @@ Setiap **Visibility Specifiers** memiliki karakteristik tersendiri, secara **def
 Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
+
+
 
 ### Constant & Immutable
 
@@ -1254,9 +1288,13 @@ Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada 
 
 Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah. 
 
+
+
 ## Local Variable
 
 Sebelumnya kita telah mempelajari **State Variable** yang secara permanent akan tersimpan dalam **Ethereum Blockchain**. **Local Variable** bekerja sebaliknya, bersifat **Volatile** karena lokasinya tersimpan dalam **Stack**. Sebuah **variable** yang di deklarasikan di dalam sebuah **Function** disebut sebagai **Local Variable**.
+
+
 
 ## Function
 
@@ -1287,15 +1325,21 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
     }
 ```
 
+
+
 ## Constructor
 
 Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehingga **Constructor** bersifat **Optional**. Namun sebuah **Contract** hanya dapat memiliki satu **Constructor** saja dan bersifat **one-time execution**. Jika **Constructor** sudah dieksekusi dalam **Ethereum Blockchain** maka hasilnya akan tercatat secara permanen.
 
 **Constructor** menentukan karakteristik **Smart Contract** saat pertama kali ditanam dalam **Ethereum Blockchain** jadi para **Smart Contract Developer** harus mempertimbangkannya dengan matang.
 
+
+
 # Types
 
 **Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan. 
+
+
 
 ## Strongly-typed
 
@@ -1303,11 +1347,15 @@ Sebuah bahasa pemograman dikatakan **Strongly Typed** jika sebuah **Compiler** m
 
 Pada **Strongly Typed** terdapat nilai **correctness** dan **safety**, nilai **correctness** memberikan keunggulan dari segi **performance** dan nilai **safety** memberikan manajemen integritas data yang baik, pendeteksian **bug** dan kemungkinan **error** saat **runtime** yang lebih baik.
 
+
+
 ## Dynamically-typed
 
 Jika sebelumnya anda sudah mempelajari bahasa pemrograman seperti **Python** dan **Javascript**, maka anda akan memahami **Loosely Typed Language** atau **Dynamic Typing**. Anda dapat membuat variabel tanpa harus menetapkan tipe data terlebih dahulu, baik itu berupa **literal number**, **string** ataupun **boolean logic**.
 
 Sebuah bahasa dikatakan **Dynamically Typed** karena saat **runtime,** tipe data dapat diubah ke tipe data lainya agar program bisa berjalan sesuai instruksi. Pada **Dynamically Typed** terdapat **simplicity** dan **speed** untuk pengembangan **software**.
+
+
 
 ## Why Solidity Strongly-typed?
 
@@ -1321,6 +1369,8 @@ Sebuah **types** menentukan :
 
 3. Operasi apa saja yang dilakukan pada data tersebut?
 
+
+
 ## Data
 
 **Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap *bit* dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi *Digital Data**. 
@@ -1328,6 +1378,8 @@ Sebuah **types** menentukan :
 Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
 
 Serangkaian **byte** digunakan untuk membuat **Binary Files**, pada **Binary Files** terdapat serangkaian **bytes** yang dibuat untuk merepresentasikan lebih dari sekedar **character** atau **text**. Pada **level** yang lebih tinggi (**kilobyte**, **megabyte**, **gigabyte** & **terabyte**) kumpulan **bits** ini dapat digunakan untuk merepresentasikan teks, gambar, suara & video.
+
+
 
 ## Data Types
 
@@ -1349,6 +1401,8 @@ Seluruh **data types** dibuat dari sekumpulan **unit of memory** yang disebut de
 
 <img src="../assets/Types-Signed-Unsigned-Integer.png" style="zoom:100%;" />
 
+
+
 ### Characteristic uint8
 
 Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
@@ -1358,6 +1412,8 @@ Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 2. Ukuran memorinya sebesar 1 **byte** atau 8 **bits**.
 
 Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integer** positif saja, kita tidak bisa menyimpan data **integer** negatif. 
+
+
 
 ### Range Value uint8
 
@@ -1383,6 +1439,8 @@ Kenapa nilai maksimum **integer** yang dapat disimpan adalah **255** tidak **256
 
 Menjadi 255 karena perhitungan (**numeration**) dalam komputer dimulai dari angka nol tidak dari angka 1, sehingga nilai maksimumnya menjadi 255. Dengan begitu **equation** untuk menghitung maksimum nilai **integer** yang dapat disimpan adalah **2^8-1 = 255**.
 
+
+
 ### Characteristic int8
 
 Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
@@ -1392,6 +1450,8 @@ Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 2. ukuran memorinya sebesar 1 **bytes**. 
 
 Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data **integer** positif saja, pada **Signed Integer** kita bisa menyimpan data **integer** positif dan **integer** negatif. 
+
+
 
 ### Range Value int8
 
@@ -1415,6 +1475,8 @@ Di karenakan **int8** mendukung nilai negatif dan positif maka **1 bit** digunak
 
 Sehingga dari **8 bit** tersisa **7 bit**, artinya **pattern** data biner yang dapat diciptakan adalah **2^7** yaitu **128**. Inilah yang menjadi faktor kenapa minimum **range value** dari **int8** adalah **-128** dan nilai maksimum yang dapat dicapai adalah **127** dikarenakan **0** juga dihitung dalam **numeration**.
 
+
+
 ### Example 1 : Integer Max & Min 
 
 Contoh kode di bawah ini dapat digunakan untuk mendapatkan nilai **maximum** dan **minimum** dari suatu **Integer**.
@@ -1434,6 +1496,8 @@ contract LearnSolidity {
 }
 ```
 
+
+
 ## Solidity Types
 
 Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
@@ -1446,6 +1510,8 @@ Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 
 Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value** yang keduanya adalah 0 dan untuk tipe data **string** maka **literal value** yang diberikan adalah **empty string**.
 
+
+
 ## Value Types
 
 **Value Types** artinya **variable** yang kita buat akan bersifat **Passed By Value**, artinya jika variable digunakan ke dalam sebuah **Function Argument** atau **Assignment Statement** maka **variable** tersebut akan di salin secara independen. Setiap perubahan pada **variable** tersebut akan mempengaruhi nilai **variable** original yang di salin.
@@ -1453,6 +1519,8 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 <img src="../assets/Solidity-Value-Types.png" style="zoom:100%;" />
 
 ### Booleans
+
+
 
 ### Integers
 
@@ -1512,17 +1580,27 @@ Seperti yang telah kita pelajari sebelumnya address type memiliki **balance prop
 
 Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
 
+
+
 ### String
+
+
 
 ### Enum
 
+
+
 ## Reference Types 
+
+
 
 ### Arrays
 
+
+
 ### Structs
 
-Solidity menyediakan cara untuk membuat sebuah types baru menggunakan structs. Di bawah ini contoh structs :
+**Solidity** menyediakan cara untuk membuat sebuah **types** baru menggunakan **structs**. Di bawah ini contoh kode **structs** :
 
 ```
 struct Funder {
@@ -1531,7 +1609,9 @@ struct Funder {
 }
 ```
 
-Struct di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
+**Struct** di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
+
+
 
 ## Mapping Types
 
@@ -1550,6 +1630,8 @@ Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada s
 
 Selain **ERC-20** ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
+
+
 ## ERC & EIP
 
 Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
@@ -1557,6 +1639,8 @@ Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft vers
 Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**. Di bawah ini adalah sekumpulan ERC Request yang kini telah menjadi **Ethereum Improvement Proposal (EIP)** :
 
 https://github.com/ethereum/EIPs/tree/master/EIPS
+
+
 
 ## Coin & Token
 
@@ -1576,6 +1660,8 @@ Terdapat **balances variable** dengan tipe data **mapping** yang digunakan untuk
     mapping(address => uint256) internal balances;
 ```
 
+
+
 ## Total Supply Variable
 
 Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk menyimpan jumlah **token** yang akan diciptakan. Variable ini dapat digunakan untuk membaca total token dalam sirkulasi. Jika kita mengubah **visibility** dari **totalSupply variable** menjadi **public** maka otomatis fungsi **getter** akan dibuatkan saat **compile time**.
@@ -1585,6 +1671,8 @@ Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk 
 ```
 
 Pada **case** kali ini kita akan menggunakan **visibility internal** dan membuat **function totalSupply()** sendiri.
+
+
 
 ## Function totalSupply()
 
@@ -1596,6 +1684,8 @@ Untuk menampilkan **totalSupply state variable** kita dapat membuat fungsi **tot
     }
 ```
 
+
+
 ## Function balanceOf()
 
 Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**. Di bawah ini adalah contoh kode fungsi **balanceOf()** tersebut :
@@ -1605,6 +1695,8 @@ Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**. Di baw
       return balances[account];
     }
 ```
+
+
 
 ## Function transfer()
 
@@ -1622,6 +1714,8 @@ Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** m
 
 Selanjutnya jika proses validasi selesai jumlah saldo milik **sender** harus dikurangi dengan jumlah yang dikirim, dan jumlah saldo penerima (**target address**) harus bertambah. Terakhir terdapat **event** yang harus di **trigger** saat melakukan kegiatan **Transfer**.
 
+
+
 ## Function approve()
 
 Fungsi ini digunakan untuk memberikan izin pada suatu **address** yang selanjutnya kita sebut sebagai **spender**, untuk dapat melakukan **withdraw** dengan jumlah yang telah diizinkan. Terdapat proses pemeriksaan pada **address spender** untuk memastikan **address** memang valid.
@@ -1637,6 +1731,8 @@ Selanjutnya terdapat **state variable allowed** dengan tipe data **mapping** yan
    }
 ```
 
+
+
 ## Function allowance()
 
 Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **owner** agar seorang **spender** dapat melakukan **withdraw**.
@@ -1646,6 +1742,8 @@ Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **o
     return allowed[owner][spender];
   }
 ```
+
+
 
 ## Function transferFrom()
 
@@ -1666,6 +1764,8 @@ Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah tok
 
 Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
 
+
+
 # Web3.js
 
 **Web3.js** adalah sekumpulan **libraries** yang dapat membantu kita untuk dapat berinteraksi dengan **Ethereum Node** baik secara **local** atau **remote** melalui :
@@ -1681,6 +1781,8 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 **Check EIP-1193** untuk memahami **Javascript Ethereum Provider API** :
 
 https://eips.ethereum.org/EIPS/eip-1193
+
+
 
 ## Installing Web3.js
 
@@ -1710,6 +1812,8 @@ Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
 
 Selanjutnya kita harus membuat **Web3 Object** dan menentukan **provider** yang akan kita gunakan.
 
+
+
 ## Promise Events
 
 Untuk memahami cara kerja **Web3 Object** kita harus memahami cara kerja **Promise** dan konsep **Event Emitter** dalam **Node.js**, terdapat konsep **promiEvent** sebuah **Promise** yang digabungkan dengan sebuah **Event Emitter** yang dapat bersinergi dengan berbagai **stage of action** dalam **blockchain**.
@@ -1733,11 +1837,15 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
+
+
 # ETH Validator 2.0
 
 Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Miner** yang bertanggung jawab mengeksekusi **Consensus Mechanism Proof-of-Stake (PoS)** pada **Beacon Chain**.
 
 Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
+
+
 
 # Temp 
 
