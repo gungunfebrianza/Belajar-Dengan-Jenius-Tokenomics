@@ -776,9 +776,19 @@ Pengembangan **Smart Contract** untuk protokol **Ethereum**.
 
 Dengan **Geth** kita dapat membangun **Private Ethereum Network** untuk **testing**, terdapat cara yang lebih **effortless** lagi yaitu menggunakan **Ganache**. Dengan **Ganache** kita bisa lebih berfokus untuk melakukan pengembangan **Smart Contract** daripada berfokus di level infrastruktur dan **control nodes** lainnya.
 
-Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **Development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **Development** dalam **Ethereum Protocol**.
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **Development**, kita juga dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **Development** dalam **Ethereum Protocol**.
 
-Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya.
+Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya. Untuk mendapatkan versi **Graphic User Interface (GUI)** kunjungi laman di bawah ini :
+
+https://www.trufflesuite.com/ganache
+
+Untuk instalasi **ganache-cli** eksekusi perintah di bawah ini :
+
+```
+npm install -g ganache-cli
+```
+
+
 
 ## Solidity Compiler 
 
