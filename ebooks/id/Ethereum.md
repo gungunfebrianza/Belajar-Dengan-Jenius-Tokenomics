@@ -681,6 +681,8 @@ Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan in
 
 ### Web3 Provider
 
+Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract** mengacu pada **Account** dalam **Node** tersebut, diperlukan sebuah **Software Ethereum Client** seperti **Geth**.
+
 ### Compile Smart Contract
 
 ### Debug Smart Contract
