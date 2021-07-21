@@ -1406,7 +1406,9 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 2. **IPC**
 3. **WebSockets**
 
-Untuk para **Front-end Developer**, **Web3.js AP**I dapat digunakan untuk berinteraksi dengan **Smart Contract**.
+Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berinteraksi dengan **Smart Contract**. **Web3.js libraries** menyediakan sekumpulan **modules** yang dapat digunakan untuk berinteraksi dengan **Ethereum Protocol**.
+
+<img src="../assets/Web3js.png" style="zoom:100%;" />
 
 ## Installing Web3.js
 
