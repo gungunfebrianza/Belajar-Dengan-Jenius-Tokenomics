@@ -743,6 +743,8 @@ npm install -g @remix-project/remixd
 
 ### Restore & Backup
 
+Kita dapat memuat kembali seluruh **File** dan **Solidity Code** yang kita tulis menggunakan **Remix**.
+
 ## Truffle
 
 Pengembangan **Smart Contract** untuk protokol **Ethereum**.
