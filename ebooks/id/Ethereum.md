@@ -1095,6 +1095,10 @@ Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan *
 
 ### Integrate With Remix
 
+Pada **Tab Deploy & Run Transactions**, pilih **Web3 Provider** :
+
+<img src="../assets/Remix-Ganache-Environment.PNG" style="zoom:100%;" />
+
 Pada **Dialog External node request**, perhatikan kolom paling bawah terdapat informasi **Web3 Provider Endpoint**. Isi data tersebut sesuai dengan **Ganache Configuration** yang telah kita buat. Pada kasus kali ini penulis menggunakan **port 7545** : 
 
 <img src="../assets/Remix-Ganache.PNG" style="zoom:100%;" />
@@ -1110,6 +1114,8 @@ Jika kita melakukan **deployment** sebuah **Smart Contract** maka selanjutnya da
 Jika kita lihat **detail information** pada **block** tersebut maka kita melihat terdapat sebuah **Contract Creation** :
 
 <img src="../assets/Ganache-Blocks3.PNG" style="zoom:100%;" />
+
+
 
 
 
