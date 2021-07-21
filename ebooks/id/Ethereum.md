@@ -721,6 +721,8 @@ Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Con
 
 ### Solidity Linter
 
+Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan **Standard** penulisan **Solidity Code** yang benar atau direkomendasikan oleh komunitas. **Linter** juga meningkatkan keamanan dari **Solidity Cod**e yang kita tulis.
+
 ### Documentation Generator
 
 ### Solidity to UML
