@@ -692,6 +692,8 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 
 ### Debug Smart Contract
 
+Kita dapat melakukan **Debugging** pada **Transactions** yang kita buat dengan **Remix**. Kita akan membahas kajian ini pada sesi khusus untuk **Debug** sebuah **Smart Contract**.
+
 ### ABI & Bytecode
 
 Jika sebuah **Contract** telah berhasil diuji, selanjutnya adalah mengujinya di dalam **Ethereum Network** yang asli. Terdapat dua informasi penting saat sebuah **Contract** telah dikompilasi :
@@ -707,12 +709,15 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 
 ### Solidity Unit Testing
 
+
+
 ### Solidity Static Analysis
 
 **Solidity** yang kita tulis akan di **scan**, manfaat dari **Static Analysis** adalah kita dapat mengetahui informasi **Solidity Code** yang kita tulis. Terdapat informasi tambahan seperti :
 
 1. Tingkat **Security** dari **Solidity** yang kita tulis.
-2. Informasi Gas, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
+2. Informasi **Gas**, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
+3. **Standard Code** dalam **ERC20**.
 
 ### Solidity Linter
 
