@@ -143,6 +143,7 @@ Belajar Dengan Jenius Tokenomics
 - [Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3js)
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
+  - Promise Events
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
@@ -1463,6 +1464,23 @@ Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
    ```
 
 Selanjutnya kita harus membuat **Web3 Object** dan menentukan **provider** yang akan kita gunakan.
+
+## Promise Events
+
+Untuk memahami cara kerja **Web3 Object** kita harus memahami cara kerja **Promise** dan konsep **Event Emitter** dalam **Node.js**, terdapat konsep **promiEvent** sebuah **Promise** yang digabungkan dengan sebuah **Event Emitter** yang dapat bersinergi dengan berbagai **stage of action** dalam **blockchain**.
+
+```
+web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
+.once('sending', function(payload){ ... })
+.once('sent', function(payload){ ... })
+.once('transactionHash', function(hash){ ... })
+.once('receipt', function(receipt){ ... })
+.on('confirmation', function(confNumber, receipt, latestBlockHash){ ... })
+.on('error', function(error){ ... })
+.then(function(receipt){
+    // will be fired once the receipt is mined
+});
+```
 
 
 
