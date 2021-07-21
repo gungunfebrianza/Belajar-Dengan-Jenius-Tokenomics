@@ -1094,7 +1094,13 @@ Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan *
 
 ### Integrate With Web3 Provider
 
+Pada **Dialog External node request**, perhatikan kolom paling bawah terdapat informasi **Web3 Provider Endpoint**. Isi data tersebut sesuai dengan **Ganache Configuration** yang telah kita buat. Pada kasus kali ini penulis menggunakan **port 7545** : 
 
+<img src="../assets/Remix-Ganache.PNG" style="zoom:100%;" />
+
+s
+
+![]()
 
 
 
