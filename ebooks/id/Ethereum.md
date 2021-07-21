@@ -758,7 +758,7 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 
 ### Remixd
 
-**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
+**Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **Read & Write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
 
 ```
 npm install -g @remix-project/remixd
@@ -774,15 +774,17 @@ Pengembangan **Smart Contract** untuk protokol **Ethereum**.
 
 ## Ganache
 
-Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **development** dalam **Ethereum Protocol**.
+Dengan **Geth** kita dapat membangun **Private Ethereum Network** untuk **testing**, terdapat cara yang lebih **effortless** lagi yaitu menggunakan **Ganache**. Dengan **Ganache** kita bisa lebih berfokus untuk melakukan pengembangan **Smart Contract** daripada berfokus di level infrastruktur dan **control nodes** lainnya.
 
-Selain versi **command-line ganache** juga menyediakan versi GUI (**Graphic User Interface**) untuk mempermudah para pemula untuk mempelajarinya.
+Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **Development**, kita dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **Development** dalam **Ethereum Protocol**.
+
+Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya.
 
 ## Solidity Compiler 
 
 **Solidity** adalah bahasa pemrograman yang memerlukan **Compiler**.
 
-Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **javascript developer**.
+Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **Javascript Developer**.
 
 ### Node.js
 
