@@ -1025,6 +1025,14 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Truffle.png" style="zoom:100%;" />
 
+### View Private-key
+
+Untuk melihat **Private Key** dari setiap **Account Address** klik ikon gambar kunci, selanjutnya akan muncul **dialog** seperti pada gambar di bawah ini :
+
+<img src="../assets/Ganache-Private-Key.PNG" style="zoom:100%;" />
+
+
+
 
 
 ## Solidity Compiler 
