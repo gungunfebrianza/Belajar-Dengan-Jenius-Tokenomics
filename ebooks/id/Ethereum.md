@@ -64,16 +64,16 @@ Belajar Dengan Jenius Tokenomics
     - [Injected Web3](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#injected-web3)
     - [Web3 Provider](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3-provider)
     - [Compile Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#compile-smart-contract)
-    - Debug Smart Contract
+    - [Debug Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#debug-smart-contract)
     - [ABI & Bytecode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#abi--bytecode)
     - [Deploy Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deploy-smart-contract)
-    - Solidity Unit Testing
-    - Solidity Static Analysis
-    - Solidity Linter
-    - Documentation Generator
+    - [Solidity Unit Testing](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-unit-testing)
+    - [Solidity Static Analysis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-static-analysis)
+    - [Solidity Linter](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-linter)
+    - [Documentation Generator](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#documentation-generator)
     - [Solidity to UML](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-to-uml)
     - [Remixd](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remixd)
-    - Restore Backup
+    - [Restore Backup](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#restore--backup)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
@@ -724,6 +724,8 @@ Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Con
 Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan **Standard** penulisan **Solidity Code** yang benar atau direkomendasikan oleh komunitas. **Linter** juga meningkatkan keamanan dari **Solidity Cod**e yang kita tulis.
 
 ### Documentation Generator
+
+
 
 ### Solidity to UML
 
