@@ -31,6 +31,7 @@ Belajar Dengan Jenius Tokenomics
     - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
     - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
+  - Ethereum Networks
 
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
@@ -59,6 +60,9 @@ Belajar Dengan Jenius Tokenomics
     - [Token Management](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#token-management)
   - [Remix](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remix)
     - [Runtime Environment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#runtime-environment)
+    - Javascript Virtual Machine
+    - Injected Web3
+    - Web3 Provider
     - Compile Smart Contract
     - Debug Smart Contract
     - Deploy Smart Contract
@@ -388,7 +392,7 @@ grunt
 npm start
 ```
 
-# Ethereum Networks
+## Ethereum Networks
 
 **Ethereum Protocol** memiliki beberapa jaringan komputer mulai dari **Main Net** dan **Test Net** yang dapat digunakan para **developer** untuk menguji inovasi yang mereka buat. Pada **Ethereum Protocol** terdapat **4 Test Net** mulai dari **Ropsten**, **Kovan**, **Rinkeby** dan **Goerly Test Network**.
 
@@ -667,7 +671,15 @@ Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan inf
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
+### Javascript Virtual Machine (VM)
+
+### Injected Web3 
+
+### Web3 Provider
+
 ### Compile Smart Contract
+
+### Debug Smart Contract
 
 ### Deploy Smart Contract
 
