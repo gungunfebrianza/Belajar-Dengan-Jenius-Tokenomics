@@ -87,6 +87,7 @@ Belajar Dengan Jenius Tokenomics
     - [View Contracts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-contracts)
     - [View Events](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-events)
     - [Integrate With Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#integrate-with-metamask)
+    - Integrate With Remix
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
     - [solc-.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solc-js)
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
@@ -1092,15 +1093,17 @@ Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan *
 
 
 
-### Integrate With Web3 Provider
+### Integrate With Remix
 
 Pada **Dialog External node request**, perhatikan kolom paling bawah terdapat informasi **Web3 Provider Endpoint**. Isi data tersebut sesuai dengan **Ganache Configuration** yang telah kita buat. Pada kasus kali ini penulis menggunakan **port 7545** : 
 
 <img src="../assets/Remix-Ganache.PNG" style="zoom:100%;" />
 
-s
+Jika telah terhubung maka akan muncul informasi **Network ID 5777** sesuai dengan yang telah kita konfigurasi dalam **Ganache**, ini artinya kita telah berhasil terhubung ke dalam **Virtual Ethereum Network** yang kita bangun menggunakan **Ganache**.
 
-![]()
+<img src="../assets/Remix-Connected-Ganache.PNG" style="zoom:100%;" />
+
+Jika kita melakukan deployment sebuah Smart Contract maka selanjutnya dalam Ganache kita akan melihat terdapat block baru berhasil di buat :
 
 
 
