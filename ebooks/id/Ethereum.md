@@ -1052,7 +1052,15 @@ Untuk melihat **Private Key** dari setiap **Account Address** klik ikon gambar k
 
 ### View Blocks 
 
+Untuk melihat **list blocks** yang sudah di tambang (**mined**) kita dapat melihatnya pada **menu Blocks** seperti pada gambar di bawah ini :
 
+<img src="../assets/Ganache-Blocks.PNG" style="zoom:100%;" />
+
+Untuk melihat lebih detail di setiap **block**, klik **block** tersebut :
+
+<img src="../assets/Ganache-Blocks-Detail.PNG" style="zoom:100%;" />
+
+Pada gambar di atas adalah contoh detail data pada **block** ke 13, pada kasus gambar di atas terdapat aksi pembuatan sebuah **Contract**.
 
 
 
