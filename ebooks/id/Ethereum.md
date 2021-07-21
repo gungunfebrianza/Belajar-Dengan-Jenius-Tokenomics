@@ -1412,7 +1412,31 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 
 ## Installing Web3.js
 
-Untuk menggunakan **Web3.js** kita dapat menggunakan **package** yang tersedia dalam **Node Package Manager (NPM)**.
+Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
+
+1. **Install Web3 package** yang tersedia dalam **Node Package Manager (NPM)** menggunakan perintah di bawah ini :
+
+   ```
+   npm install web3
+   ```
+
+   
+
+2. **Install Web3 package** menggunakan **Yarn** :
+
+   ```
+   yarn add web3
+   ```
+
+   
+
+3. Untuk **Web-based Development** lakukan linking ke :
+
+   ```
+   dist/web3.min.js
+   ```
+
+Selanjutnya kita harus membuat **Web3 Object** dan menentukan **provider** yang akan kita gunakan.
 
 
 
