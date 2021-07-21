@@ -1066,7 +1066,11 @@ Pada gambar di atas adalah contoh detail data pada **block** ke 13, pada kasus g
 
 ### View Transactions
 
+Untuk melihat **List Transactions** pilih **Menu Transactions** seperti pada gambar di bawah ini :
 
+<img src="../assets/Ganache-Transactions.PNG" style="zoom:100%;" />
+
+Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan **Smart Contract (Contract Creation)** dan eksekusi **Smart Contract (Contract Call)**. Kita juga dapat melihat **Account Address** yang melakukan **Contract Creation** dan **Contract Call** melalui kolom **From Address**.
 
 
 
