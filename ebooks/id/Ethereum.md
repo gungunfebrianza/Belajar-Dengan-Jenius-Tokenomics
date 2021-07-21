@@ -685,7 +685,9 @@ Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract
 
 ### Compile Smart Contract
 
-Pada Remix terdapat berbagai versi compiler mulai dari yang jadul, stable hingga versi compiler yang
+Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Stable**, **Nightly Build** hingga versi **Compiler** yang terbaru, lengkap dengan **Compiler Configuration**. Juga terdapat dukungan bahasa lainnya selain **Solidity** yaitu **Yul**, dan dukungan versi **EVM** yang akan digunakan pada **Remix IDE**.
+
+<img src="../assets/Remix-Compiler.png" style="zoom:100%;" />
 
 ### Debug Smart Contract
 
