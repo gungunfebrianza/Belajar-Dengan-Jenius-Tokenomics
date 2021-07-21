@@ -1021,7 +1021,9 @@ Jika kita tidak ingin menggunakan versi **console** kita dapat menggunakan versi
 
 <img src="../assets/Ganache-GUI.png" style="zoom:100%;" />
 
-Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan diminta membuat sebuah **Workspace**.
+Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan diminta membuat sebuah **Workspace**. Setiap **Workspace** dapat terhubung **Truffle Projects** yang telah kita buat :
+
+<img src="../assets/Ganache-Truffle.png" style="zoom:100%;" />
 
 
 
