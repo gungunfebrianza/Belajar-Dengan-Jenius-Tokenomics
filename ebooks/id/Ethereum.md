@@ -694,6 +694,11 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 
 ### ABI & Bytecode
 
+Jika sebuah **Contract** telah berhasil diuji, selanjutnya adalah mengujinya di dalam **Ethereum Network** yang asli. Terdapat dua informasi penting saat sebuah **Contract** telah dikompilasi :
+
+- **Application Binary Interface (ABI)** - Sebuah **JSON String** yang menjelaskan karakteristik **Smart Contract** yang kita buat.
+- **Bytecode** - Sekumpulan **Opcodes**.
+
 ### Deploy Smart Contract
 
 Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaatkan **Remix** dan **Metamask** :
