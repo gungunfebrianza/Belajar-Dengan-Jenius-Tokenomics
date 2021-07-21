@@ -80,15 +80,15 @@ Belajar Dengan Jenius Tokenomics
     - [ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-cli)
     - [Start ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#start-ganache-cli)
     - [Ganache User Interface](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-user-interface)
-    - Ganache Configuration
-    - View Private Keys
-    - View Blocks
-    - View Transactions
-    - View Contracts
-    - View Events
-    - Integrate With Metamask
+    - [Ganache Configuration](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-configuration)
+    - [View Private Keys](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-private-key)
+    - [View Blocks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-blocks)
+    - [View Transactions](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-transactions)
+    - [View Contracts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-contracts)
+    - [View Events](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#view-events)
+    - [Integrate With Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#integrate-with-metamask)
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
-    - solc-.js
+    - [solc-.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solc-js)
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
 
 - [Solidity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity)
@@ -1035,6 +1035,10 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 
 ### Ganache Configuration
+
+**Ganache** juga menyediakan konfigurasi untuk **Hostname**, **Port Number** dan **Network ID**. Selain itu terdapat fitur **Automine** yang akan langsung memproses **transaction** dan mining sekaligus dan manajemen **Error** jika terdapat kegagalan dalam **transaction**. Untuk melakukan konfigurasi pilih **Tab Server** :
+
+<img src="../assets/Ganache-Configurations.PNG" style="zoom:100%;" />
 
 
 
