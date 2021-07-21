@@ -76,6 +76,10 @@ Belajar Dengan Jenius Tokenomics
     - [Restore Backup](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#restore--backup)
   - [Truffle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#truffle)
   - [Ganache](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache)
+    - Install Ganache
+    - ganache-cli
+    - Start ganache-cli
+    - Ganache User Interface
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
     - Node.js
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
@@ -161,13 +165,19 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 <img src="../assets/Ethereum.png" style="zoom:100%;" />
 
+
+
 ## Open Source
 
 **Open Source** artinya **Source Code Ethereum** bersifat terbuka, siapapun bisa ikut terjun untuk mengembangkannya bersama komunitas. Setiap pengembangan yang dilakukan para kontributor akan di **review** oleh komunitas jika mayoritas suara merasa inovasi yang dikembangkan memiliki **Value Proposition** yang bagus.
 
+
+
 ## Public Blockchain
 
 **Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. **Public Blockchain** juga memberikan makna bahwa setiap entitas dalam protokol **Ethereum** akan mendapatkan perlakuan yang sama dan setara.
+
+
 
 ## Turing Complete
 
@@ -182,6 +192,8 @@ Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat m
 <img src="../assets/Ethereum-Turing-Complete1.png" style="zoom:100%;" />
 
 Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
+
+
 
 ## Smart Contract
 
@@ -203,6 +215,8 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 
 **Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, untuk dieksekusi dan menyimpan hasil **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
+
+
 ## General Purpose
 
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
@@ -210,6 +224,8 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
+
+
 
 ## Current Problem State
 
@@ -222,6 +238,8 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga sharding pada **blockchain** dapat membantu meningkatkan performance seperti **Multithreaded Computer**.
 2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
 
+
+
 # Ethereum Architecture
 
 Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**. 
@@ -230,9 +248,13 @@ Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**,
 
 Salah satu **Ethereum Client** yang saat ini aktif dikembangkan adalah **Geth**.
 
+
+
 ## P2P Network
 
 Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
+
+
 
 ## Node
 
@@ -244,9 +266,13 @@ Terdapat tiga tipe **Node** :
 - **Lightweight Node**
 - **Miners**
 
+
+
 ## Full Node
 
 **Full Node** akan menyalin seluruh data **Ethereum Blockchain** terbaru dan berpartisipasi dalam kegiatan memverifikasi setiap **block** dan transaksi sesuai dengan **Consensus Mechanism** yang digunakan.
+
+
 
 ## Lightweight Node
 
@@ -254,12 +280,16 @@ Terdapat tiga tipe **Node** :
 
 Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan tanpa perlu menyalin seluruh data **Ethereum Blockchain**, **lightweight node** hanya menyimpan seluruh data **header information** dalam suatu **blocks** sebagai solusi untuk mengurangi penyimpanan data **blockchain** yang ukurannya sangat besar.
 
+
+
 ## Miners
 
 **Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
 
 1. **Block Reward** dan 
 2. **Transaction Fees** dari setiap transaksi
+
+
 
 ## Blocks
 
@@ -271,25 +301,37 @@ Setiap **block header** menyimpan **metadata** berupa informasi terkait data **b
 
 <img src="../assets/Ethereum-Block2.png" style="zoom:100%;" />
 
+
+
 ### Parent Hash 
 
 Informasi **hash** terkait **block** sebelumnya disebut dengan **parent block**, setiap **block header** akan menyimpan parent hash sampai **block** yang tidak memiliki nilai **parent hash** di paling ujung yaitu **genesis block**.
+
+
 
 ### Nonce 
 
 Sebuah **number** yang ditemukan oleh **miners** untuk memecahkan **cryptographic puzzle**.
 
+
+
 ### Receipt Roots 
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure**.
+
+
 
 ### Timestamp 
 
 Waktu saat **blockchain** diproduksi dan disimpan ke dalam **Ethereum Blockchain**.
 
+
+
 ### Transaction Root 
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure** yang ada di dalam setiap transaksi.
+
+
 
 ### State Root
 
@@ -298,6 +340,8 @@ Sebuah **Keccak 256-bit hash** dari **root node** dalam **state tree** setelah s
 Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorithm** yang diberi nama **Ethash**. **Block** terbaru akan diproduksi dengan interval waktu rata-rata 15 detik.
 
 <img src="../assets/Ethereum-Block1.png" style="zoom:100%;" />
+
+
 
 ## EVM (Ethereum Virtual Machine)
 
@@ -311,6 +355,8 @@ Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk m
 
 Pengembangan **LLL**, **Serpent** dan **Bamboo** sudah mulai jarang, pengembangan **Solidity** dan **Vyper** masih aktif dan intens saat buku ini ditulis.
 
+
+
 ## Ether
 
 Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **Ether** bersifat **fungible** yang dapat dibagi kedalam **unit** terkecil dengan maksimum 18 digit, 1 **Ether** (**ETH**) dapat direcah kedalam unit terkecil yang di sebut dengan **wei**. 1 **Ether** merepresentasikan 1 **Quintillion Wei** (1,000,000,000,000,000,000).
@@ -318,6 +364,8 @@ Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **
 <img src="../assets/Ethereum-Currency.png" style="zoom:100%;" />
 
 Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei**. Setiap transaksi yang dilakukan dalam protokol **Ethereum** memerlukan sebuah biaya berupa **gas** yang harus dibeli menggunakan **Ether**. Biaya tersebut selanjutnya akan menjadi insentif untuk para **miners**.
+
+
 
 ## Gas
 
@@ -331,13 +379,19 @@ Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya deng
 
 Saat kita melakukan transaksi pada protokol **Ethereum**, kita dapat menentukan **Gas Price** dan **Gas Limit** setelah mendapatkan bantuan rekomentasi dari protokol **Ethereum**. 
 
+
+
 ### Gas Limit
 
 **Gas Limit** adalah prediksi maksimum jumlah **Gas** yang diperlukan untuk melakukan transaksi, jika pada akhirnya jumlah **Gas** yang dikonsumsi lebih sedikit maka sisa **Gas** akan dikembalikan lagi pada pemiliknya. Jika jumlah **Gas** yang diperlukan tidak mencukupi maka transaksi akan gagal, lengkap dengan kerugian kehilangan **Gas**.
 
+
+
 ### Gas Price
 
 Gas Price adalah harga untuk setiap unit **Gas** yang harus dibayar agar transaksi dapat dilakukan. Jumlah **Gas Price** diukur dalam satuan **Gwei**, jika kita memberikan **Gas Price** yang tinggi maka transaksi akan lebih diprioritaskan untuk dieksekusi oleh **miners**. Jika **Gas Price** rendah maka transaksi akan kurang diprioritaskan.
+
+
 
 ### Example
 
@@ -353,6 +407,8 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar 8 juta **gas** per **block**. Ini artinya total **gas** yang digunakan dalam setiap transaksi pada suatu **block** tidak dapat melebihi 8 juta **gas** per **block**.
 
+
+
 ## Accounts
 
 **Bitcoin** menggunakan terminologi **Address** sementara **Ethereum** menggunakan terminologi **Account**. Setiap **Ethereum** **Accounts** dapat memiliki sekumpulan **Addresses**. Selain itu dalam protokol **Ethereum** terdapat dua **Accounts** yang dapat dibuat dalam Protokol **Ethereum** :
@@ -365,11 +421,15 @@ Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan
 
 Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
 
+
+
 ### Externally Owned Accounts
 
 Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 <img src="../assets/Ethereum-Account2.png" style="zoom:100%;" />
+
+
 
 
 
@@ -386,6 +446,8 @@ Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** 
 Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Acounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
 
 <img src="../assets/Ethereum-Account4.png" style="zoom:100%;" />
+
+
 
 ## ETH Blockchain Explorer
 
@@ -416,6 +478,8 @@ grunt
 npm start
 ```
 
+
+
 ## Ethereum Networks
 
 **Ethereum Protocol** memiliki beberapa jaringan komputer mulai dari **Main Net** dan **Test Net** yang dapat digunakan para **developer** untuk menguji inovasi yang mereka buat. Pada **Ethereum Protocol** terdapat **4 Test Net** mulai dari **Ropsten**, **Kovan**, **Rinkeby** dan **Goerly Test Network**.
@@ -424,9 +488,13 @@ npm start
 
 Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya. 
 
+
+
 # Ethereum Virtual Machine (EVM)
 
 Reserved.
+
+
 
 # Smart Contract
 
@@ -458,6 +526,8 @@ Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smar
 
 Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
 
+
+
 ## Micropayment
 
 Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
@@ -470,6 +540,8 @@ Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai ca
 
 Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaatkan **Javascript API** dalam **Web3.js**, terdapat sebuah **function** yang memfasilitasi untuk membuat sebuah **Smart Contract**. Nama dari **function** tersebut adalah [web3.eth.Contract](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#new-contract).
 
+
+
 ## Computer Hardwares
 
 Untuk memulai pengembangan kita memerlukan koneksi internet dan **hard drive** dengan ukuran yang sangat besar. Untuk menyalin seluruh data **Ethereum Blockchain** diperlukan koneksi internet yang sangat cepat dan stabil, sehingga proses **syncing** salinan **blockchain** terbaru dapat dilakukan secara kontinyu.
@@ -479,6 +551,8 @@ Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk pr
 <img src="../assets/Ethereum-Blockchain.PNG" style="zoom:100%;" />
 
 Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-state Drive (SSD)**, sebab jika disimpan kedalam sebuah **Hard-disk Drive (HDD)** proses **fetching** data **blockchain** akan sangat lamban.
+
+
 
 ## Javascript Runtime Engine 
 
@@ -490,6 +564,8 @@ Silahkan Install **Node.js** dalam sistem operasi anda, anda bisa mendapatkannya
 
 https://nodejs.org/en/download/current/
 
+
+
 ## Ethereum Client
 
 Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethereum Blockchain** dan bergabung dengan **Ethereum Protocol** kita harus menggunakan **Software Ethereum Client**. Di bawah ini adalah beberapa fitur yang dapat kita gunakan jika memasang sebuah **Ethereum Client** :
@@ -497,6 +573,8 @@ Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethe
 <img src="../assets/Ethereum-Client.png" style="zoom:100%;" />
 
 Salah satu **software** dalam opini penulis untuk bergabung dengan **Ethereum Protocol** adalah **Geth**.
+
+
 
 ### Geth
 
@@ -506,7 +584,11 @@ https://geth.ethereum.org/
 
 **Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
 
+
+
 ### Geth Command
+
+
 
 #### --testnet flag
 
@@ -516,6 +598,8 @@ Untuk bergabung dengan **Ethereum Network** dalam jaringan **Ropsten Test Net Ne
 geth --testnet --datadir ~/.ethereum-testnet
 ```
 
+
+
 #### --rinkeby flag
 
 Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby Test Net Network**, kita dapat menggunakan **Command Flag** berikut :
@@ -523,6 +607,8 @@ Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby T
 ```
 geth --rinkeby --datadir ~/.ethereum-testnet
 ```
+
+
 
 #### --datadir flag
 
@@ -554,6 +640,8 @@ Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (I
 --ipcdisable
 ```
 
+
+
 ### Geth Javascript Console
 
 Untuk menggunakan **Geth Javascsipt Console** eksekusi perintah di bawah ini :
@@ -570,6 +658,8 @@ Passphrase: <password>
 Repeat passphrase: <password>
 ```
 
+
+
 ### Geth List Account
 
 Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi perintah di bawah ini :
@@ -578,6 +668,8 @@ Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi pe
 eth.getBalance(eth.accounts[0])
 ```
 
+
+
 ### Geth Balance Account
 
 Saldo yang akan ditampilkan dalam satuan **Wei**, jika kita ingin melihat dalam satuan **Ethers** eksekusi perintah di bawah ini :
@@ -585,6 +677,8 @@ Saldo yang akan ditampilkan dalam satuan **Wei**, jika kita ingin melihat dalam 
 ```
 web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
 ```
+
+
 
 ### Geth Transfer Ether
 
@@ -604,6 +698,8 @@ web3.toWei(5,"ether")})
 Perintah di atas adalah melakukan pengiriman **Ethers** menuju **Ethereum Address** di bawah ini :
 
 0xd03f236c32BBF0D5b76AaaF9bc66B5640B2a50b9
+
+
 
 ### HTTP - RPC Server
 
@@ -629,9 +725,13 @@ Untuk keluar dari **Geth Javascript Console** eksekusi perintah di bawah ini :
 exit
 ```
 
+
+
 ### Synchronization Mode
 
 Pada **Geth** terdapat **3 Synchronization Mode** :
+
+
 
 #### Full Node Mode (Fast)
 
@@ -651,6 +751,8 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 --syncmode light
 ```
 
+
+
 ## Metamask 
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Secara internal **Metamask** terhubung ke dalam sebuah **Node** yang dibangun dengan **INFURA**, untuk informasi lebih lanjut mengenai **INFURA** silahkan kunjungi laman di bawah ini :
@@ -658,6 +760,8 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 https://infura.io
 
 Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
+
+
 
 ### Switch Network
 
@@ -667,6 +771,8 @@ Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**
 
 Juga kita dapat terhubung ke dalam **Ethereum Network** lainnya melalui **Custom RPC**.
 
+
+
 ### Create & Import Account
 
 Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Account** khusus untuk sebuah **Ethereum Network**. Kita juga dapat melakukan upaya **Import Account**, jika terdapat **Account** yang berasal dari **Software Wallet** lainnya.
@@ -675,19 +781,27 @@ Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Acco
 
 **Ethereum Protocol** juga memanfaatkan mekanisme **12-word secret phrase** yang diterapkan dalam **BIP39 (Bitcoin Improvement Proposal) seed phrase**, sebagai sebuah **backup management** jika dikemudian hari ternyata kita lupa **password** dari **Account** kita.
 
+
+
 ### Perform Transaction
 
 Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirimkan sebuah **Ethers** atau sebuah **Token**. Juga terdapat fitur untuk melakukan **Swap**, terdapat banyak pilihan seperti **UniSwap**, **Chainlink**, **Bancor** dan sebagainya.
 
 <img src="../assets/Metamask-Transaction.png" style="zoom:100%;" />
 
+
+
 ### Token Management
 
 Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan informasi **Token Contract Address** ke dalam **Metamask**.
 
+
+
 ## Remix
 
 **Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer**.
+
+
 
 ### Runtime Environment
 
@@ -695,17 +809,25 @@ Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan inf
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
+
+
 ### Javascript Virtual Machine (VM)
 
 Dengan **Javascript Virtual Machine (VM)** kita dapat mensimulasikan **Smart Contract** pada **Local Computer** hanya melalui **browser** saja. 
+
+
 
 ### Injected Web3 
 
 Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan injeksi **Web3 Object** agar **Smart Contract** dapat berinteraksi dengan **Account** dalam **Metamask**.
 
+
+
 ### Web3 Provider
 
 Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract** mengacu pada **Account** dalam **Node** tersebut, diperlukan sebuah **Software Ethereum Client** seperti **Geth**.
+
+
 
 ### Compile Smart Contract
 
@@ -713,9 +835,13 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 
 <img src="../assets/Remix-Compiler.png" style="zoom:100%;" />
 
+
+
 ### Debug Smart Contract
 
 Kita dapat melakukan **Debugging** pada **Transactions** yang kita buat dengan **Remix**. Kita akan membahas kajian ini pada sesi khusus untuk **Debug** sebuah **Smart Contract**.
+
+
 
 ### ABI & Bytecode
 
@@ -724,15 +850,21 @@ Jika sebuah **Contract** telah berhasil diuji, selanjutnya adalah mengujinya di 
 - **Application Binary Interface (ABI)** - Sebuah **JSON String** yang menjelaskan karakteristik **Smart Contract** yang kita buat.
 - **Bytecode** - Sekumpulan **Opcodes**.
 
+
+
 ### Deploy Smart Contract
 
 Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaatkan **Remix** dan **Metamask** :
 
 <img src="../assets/Remix-Deploy-Smart-Contract.png" style="zoom:100%;" />
 
+
+
 ### Solidity Unit Testing
 
 Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Contract** yang kita buat untuk memastikan bahwa **Solidity Code** yang kita tulis bebas dari **Bug** pada level **Unit Testing**.
+
+
 
 ### Solidity Static Analysis
 
@@ -742,9 +874,13 @@ Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Con
 2. Informasi **Gas**, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
 3. **Standard Code** dalam **ERC20**.
 
+
+
 ### Solidity Linter
 
 Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan **Standard** penulisan **Solidity Code** yang benar atau direkomendasikan oleh komunitas. **Linter** juga meningkatkan keamanan dari **Solidity Cod**e yang kita tulis.
+
+
 
 ### Documentation Generator
 
@@ -756,6 +892,8 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 
 <img src="../assets/Remix-UML.svg" style="zoom:100%;" />
 
+
+
 ### Remixd
 
 **Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **Read & Write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
@@ -764,13 +902,19 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 npm install -g @remix-project/remixd
 ```
 
+
+
 ### Restore & Backup
 
 Kita dapat memuat kembali seluruh **File** dan **Solidity Code** yang kita tulis menggunakan **Remix**.
 
+
+
 ## Truffle
 
 Pengembangan **Smart Contract** untuk protokol **Ethereum**.
+
+
 
 ## Ganache
 
@@ -778,15 +922,104 @@ Dengan **Geth** kita dapat membangun **Private Ethereum Network** untuk **testin
 
 Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **Development**, kita juga dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **Development** dalam **Ethereum Protocol**.
 
-Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya. Untuk mendapatkan versi **Graphic User Interface (GUI)** kunjungi laman di bawah ini :
+Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya. 
+
+
+
+### Install Ganache
+
+Untuk mendapatkan versi **Graphic User Interface (GUI)** kunjungi laman di bawah ini :
 
 https://www.trufflesuite.com/ganache
+
+
+
+### ganache-cli
 
 Untuk instalasi **ganache-cli** eksekusi perintah di bawah ini :
 
 ```
 npm install -g ganache-cli
 ```
+
+Untuk informasi lanjut mengenai **Commands Flag** yang dapat digunakan untuk konfigurasi kunjungi laman **github ganache-cli** :
+
+https://github.com/trufflesuite/ganache-cli
+
+
+
+### Start ganache-cli
+
+Untuk menjalankan **ganache-cli** dalam **terminal** eksekusi perintah di bawah ini :
+
+```
+ganache-cli
+```
+
+Selanjutnya **ganache-cli** akan menyediakan **10 Accounts** yang masing-masing sudah memiliki **100 Ethers**, lengkap dengan **Private Keys** untuk masing-masing **Accounts** seperti pada **output** di bawah ini :
+
+```
+Ganache CLI v6.12.2 (ganache-core: 2.13.2)
+
+Available Accounts
+==================
+(0) 0x98b3b8f2f09C4708E7eaaD869c85f939506f331a (100 ETH)
+(1) 0xD66897bDE8dC269BF2424702F34a3b6021384047 (100 ETH)
+(2) 0x225C674152B963Ad62F0371795A9761737188Ec1 (100 ETH)
+(3) 0xF33367e4F4926D51cf32Dc13e2357219205B7bcB (100 ETH)
+(4) 0xbAfC016562716480bf69D89b8dd126Eb0F171dFB (100 ETH)
+(5) 0x1960Aa9294Dc8C1241B0751bB0749913494d58B9 (100 ETH)
+(6) 0x77B31C932fbB469D925bd89c32BE8774EaCc058f (100 ETH)
+(7) 0x471C296954e4702947250399ED796541cf8811F7 (100 ETH)
+(8) 0xCA7d80D5fdC7235a99A5B73737e4b2F7e7D67CdC (100 ETH)
+(9) 0x8a7B12DF03bC33e62D1A74136a13d7F3195fB7F7 (100 ETH)
+
+Private Keys
+==================
+(0) 0x2a88c6036878ec719715334c06ceb93b08b2f431c0facac3e2a3388901c34274
+(1) 0xaf55f2cbe3de7a73bf8654152be2727600b28b14c71dbd29b374380fcb466b37
+(2) 0xa1b0bb5a0f16d05708fc7516df2b850dfd4ea4c6fda47788e3e6e9a0d6daeb3e
+(3) 0xaa039d4923ba410a5a6fc4726b9ebc1d2bfc2d2a27d2b0e190648232143297a2
+(4) 0x9e0632076b4982b4ddc342bcc8f756db32176bab1175682051d505a8214a8d23
+(5) 0x1295bb5bf755434bead2e8750222cba7b673cfa063a1d6ef6e041ab9c3f66e7d
+(6) 0x72efc1d681d9ab2d4b60fa6f7cfe2e3a48a6b9f11dc7646dd969216ba5d4b412
+(7) 0x88c32c25a560ae4b1250d7a5688f1d28bcbb99a0abf6e030acc77e1b2263a8de
+(8) 0x2de08ddf8b7274fd0d8b96d25a8dabb33aae4440ef7fd8e97be813c7f0959f96
+(9) 0xa0304346db23cb5d4cedbe8b163b59cea17cce9872ff49ed9ddeeec7927f9960
+
+HD Wallet
+==================
+Mnemonic:      vessel keen border punch excite city silver refuse check segment virus harbor
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
+```
+
+Informasi **HD Wallet**, **Gas Price**, **Gas Limit** dan **Call Gas Limit** juga disediakan secara **default**. Selain itu **ganache-cli** akan melakukan **listening** pada alamat berikut :
+
+```
+127.0.0.1:8545
+```
+
+
+
+### Ganache User Interface
+
+Di bawah ini adalah tampilan utama dari **Ganache** :
+
+<img src="../assets/Ganache-GUI.png" style="zoom:100%;" />
 
 
 
