@@ -1103,9 +1103,13 @@ Jika telah terhubung maka akan muncul informasi **Network ID 5777** sesuai denga
 
 <img src="../assets/Remix-Connected-Ganache.PNG" style="zoom:100%;" />
 
-Jika kita melakukan deployment sebuah Smart Contract maka selanjutnya dalam Ganache kita akan melihat terdapat block baru berhasil di buat :
+Jika kita melakukan **deployment** sebuah **Smart Contract** maka selanjutnya dalam **Ganache** kita akan melihat terdapat **block** baru berhasil di buat :
 
+<img src="../assets/Ganache-Blocks2.PNG" style="zoom:100%;" />
 
+Jika kita lihat **detail information** pada **block** tersebut maka kita melihat terdapat sebuah **Contract Creation** :
+
+<img src="../assets/Ganache-Blocks3.PNG" style="zoom:100%;" />
 
 
 
