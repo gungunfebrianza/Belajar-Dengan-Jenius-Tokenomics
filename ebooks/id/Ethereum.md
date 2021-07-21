@@ -1410,6 +1410,10 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 
 <img src="../assets/Web3js.png" style="zoom:100%;" />
 
+**Check EIP-1193** untuk memahami **Javascript Ethereum Provider API** :
+
+https://eips.ethereum.org/EIPS/eip-1193
+
 ## Installing Web3.js
 
 Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
