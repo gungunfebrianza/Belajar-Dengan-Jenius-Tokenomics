@@ -705,6 +705,20 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 
 <img src="../assets/Remix-Deploy-Smart-Contract.png" style="zoom:100%;" />
 
+### Solidity Unit Testing
+
+### Solidity Static Analysis
+
+### Solidity Linter
+
+### Documentation Generator
+
+### Solidity to UML
+
+**Remix** juga menyediakan fitur yang menarik, yaitu mengubah **Solidity Code** yang kita tulis menjadi sebuah **Diagram UML** seperti pada gambar di bawah ini :
+
+<img src="../assets/Remix-UML.svg" style="zoom:100%;" />
+
 ### Remixd
 
 **Remix** juga menyediakan **Node.js Package** yang dapat kita gunakan agar **Remix** dapat berinteraksi dengan **Filesystem** dalam sistem operasi kita untuk melakukan operasi **read & write**. Fitur ini membantu kita agar tidak perlu menyalin kode pada **Filesystem** ke dalam **Remix** secara manual.
@@ -712,6 +726,8 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 ```
 npm install -g @remix-project/remixd
 ```
+
+### Restore & Backup
 
 ## Truffle
 
