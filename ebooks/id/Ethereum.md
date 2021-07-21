@@ -673,7 +673,11 @@ Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solid
 
 ### Javascript Virtual Machine (VM)
 
+Dengan **Javascript Virtual Machine (VM)** kita dapat mensimulasikan **Smart Contract** pada **Local Computer** hanya melalui **browser** saja. 
+
 ### Injected Web3 
+
+Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan injeksi **Web3 Object** agar **Smart Contract** dapat berinteraksi dengan **Account** dalam **Metamask**.
 
 ### Web3 Provider
 
