@@ -1412,6 +1412,8 @@ Untuk para **Front-end Developer**, **Web3.js AP**I dapat digunakan untuk berint
 
 Untuk menggunakan **Web3.js** kita dapat menggunakan **package** yang tersedia dalam **Node Package Manager (NPM)**.
 
+
+
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
