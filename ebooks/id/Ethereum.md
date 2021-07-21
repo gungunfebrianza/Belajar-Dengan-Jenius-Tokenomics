@@ -709,7 +709,7 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 
 ### Solidity Unit Testing
 
-
+Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Contract** yang kita buat untuk memastikan bahwa **Solidity Code** yang kita tulis bebas dari **Bug** pada level **Unit Testing**.
 
 ### Solidity Static Analysis
 
