@@ -685,6 +685,8 @@ Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract
 
 ### Compile Smart Contract
 
+Pada Remix terdapat berbagai versi compiler mulai dari yang jadul, stable hingga versi compiler yang
+
 ### Debug Smart Contract
 
 ### Deploy Smart Contract
