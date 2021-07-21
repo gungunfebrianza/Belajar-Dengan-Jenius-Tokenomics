@@ -80,6 +80,13 @@ Belajar Dengan Jenius Tokenomics
     - [ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-cli)
     - [Start ganache-cli](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#start-ganache-cli)
     - [Ganache User Interface](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ganache-user-interface)
+    - Ganache Configuration
+    - View Private Keys
+    - View Blocks
+    - View Transactions
+    - View Contracts
+    - View Events
+    - Integrate With Metamask
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
     - solc-.js
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
@@ -1025,11 +1032,47 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Truffle.png" style="zoom:100%;" />
 
+
+
+### Ganache Configuration
+
+
+
 ### View Private-key
 
 Untuk melihat **Private Key** dari setiap **Account Address** klik ikon gambar kunci, selanjutnya akan muncul **dialog** seperti pada gambar di bawah ini :
 
 <img src="../assets/Ganache-Private-Key.PNG" style="zoom:100%;" />
+
+
+
+### View Blocks 
+
+
+
+
+
+### View Transactions
+
+
+
+
+
+### View Contracts 
+
+
+
+
+
+### View Events 
+
+
+
+
+
+### Integrate With Metamask
+
+
 
 
 
@@ -1043,7 +1086,7 @@ Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan p
 
 
 
-### Node.js
+### Solc-js
 
 **Node.js** menyediakan **binding** untuk **Solidity Compiler** melalui **package solc-js**, untuk instalasi eksekusi perintah di bawah ini :
 
