@@ -254,11 +254,19 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 3. **Stage Three : Metropolis**
 4. **Stage Four : Serenity**
 
+## Frontier
+
+## Homestead
+
+Stage kedua diluncurkan pada bulan Maret Tahun 2016.
+
+## Metropolis
+
 ## Serenity
 
 **Serenity** adalah **stage** yang menjadi tujuan akhir dari **Ethereum Protocol**. Terdapat migrasi secara komplit dari **Proof of Work (PoW)** ke dalam **Proof of Stake (PoS)**. Permasalahan seperti **High Fee**, **Low Transaction Throughput** dan **Settlement Speed** dianggap dapat diselesaikan dengan cara mengganti **Consensus Mechanism Proof of Work (PoW)**.
 
-Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi.
+Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
 
 
 
