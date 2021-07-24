@@ -306,11 +306,19 @@ Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Duni
 2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
 3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
 
-Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik sistem **Decentralization** dan **Secure** namun tidak **Scalable**.
+Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik **Decentralization** dan **Secure** namun tidak **Scalable**.
 
 Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat decentralization yang tidak murni.
 
+Pada **Multi-chain Ecosystem** berbagai aplikasi dapat berjalan di berbagai **chains** dan dapat berinteraksi dengan memanfaatkan **Cross-chain Communication Protocol**. Kondisi ini memberikan karakteristik **Decentralization** dan **Scalable**, namun tidak **secure**.
 
+Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memecahkan permasalahan **The Scalability Trilemma**, tehnik **sharding** yang di gagas **Vitalik** dalam **Ethereum Protocol** digunakan untuk mendapatkan 3 karakteristik sekaligus. 
+
+Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** dengan cara yang jenis membuat penulis beropini, **Vitalik** juga dapat memecahkan problema **The Scalability Trilemma**. Di bawah ini adalah manfaat yang akan di dapatkan **Ethereum Protocol** jika berhasil memanfaatkan tehnik **Sharding** :
+
+1. **Scalable** - **Ethereum Protocol** dapat memproses lebih banyak transaksi.
+2. **Decentralized**
+3. **Secure**
 
 # Current Problem State
 
