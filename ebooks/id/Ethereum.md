@@ -1939,6 +1939,18 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaringan komputer untuk uji coba atau biasa di sebut dengan **Test Network**. Sebelumnya kita telah belajar membangun **Virtual Ethereum Network** pada **local computer** menggunakan **Ganache**, kini kita akan menggunakan **Geth**. 
 
+Di bawah ini 3 buah **Nodes** yang telah memasang **Software Ethereum Client** **Geth** berkomitmen untuk membangun sebuah **Private Ethereum Networks** :
+
+<img src="../assets/Ethereum-Private-Network.png" style="zoom:100%;" />
+
+Saat pertama kali kita membangun **Private Ethereum Network** ada beberapa aktivitas yang akan kita lakukan :
+
+1. **Produce Block Genesis**
+2. **Mining**
+3. **Transfer Ether**
+
+
+
 # ETH Validator 2.0
 
 Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Miner** yang bertanggung jawab mengeksekusi **Consensus Mechanism Proof-of-Stake (PoS)** pada **Beacon Chain**.
