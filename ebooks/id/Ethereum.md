@@ -268,9 +268,11 @@ Stage kedua diluncurkan pada bulan Maret Tahun 2016.
 
 Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
 
-Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah Deposit Contract agar memiliki hak untuk memverifikasi suatu transaksi.
+Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi.
 
+Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
 
+  
 
 # Current Problem State
 
