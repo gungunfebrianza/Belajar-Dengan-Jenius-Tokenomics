@@ -1945,9 +1945,11 @@ Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaring
 
 Sebelum kita membangun **Private Ethereum Network** ada beberapa aktivitas yang akan kita lakukan :
 
-1. **Produce Block Genesis**
-2. **Mining**
-3. **Transfer Ether**
+1. **Choose Network ID**
+2. **Choose Consensus Algorithm**
+3. **Produce Block Genesis**
+4. **Mining**
+5. **Transfer Ether**
 
 
 
