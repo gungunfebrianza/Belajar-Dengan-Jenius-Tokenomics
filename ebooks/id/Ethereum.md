@@ -352,8 +352,8 @@ Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat berg
 
 Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
 
-1. **Statelessness** menggagas pembuatan 2 tipe nodes : terdapat dua node yang membutuhkan state data dan node yang tidak membutuhkan state data. Agar sebuah node tidak lagi memerlukan state untuk melakukan validasi block, witnesses harus bisa menyediakan potongan state data pada transaction tertentu menggunakan cryptographic proof untuk menguji kebenarannya.
-2. **State Expiry** berfungsi untuk mencabut **state** yang sudah lama tidak diakses dan membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
+1. **Statelessness** menggaggas pembuatan 2 tipe **nodes** : terdapat dua **node** yang membutuhkan **state data** dan **node** yang tidak membutuhkan **state data**. Agar sebuah **node** tidak lagi memerlukan **state** untuk melakukan validasi **block**, **witnesses** harus bisa menyediakan potongan **state data** pada **transaction** tertentu menggunakan **Cryptographic Proof** untuk menguji kebenarannya.
+2. **State Expiry** menggaggas konsep **active state** dan **old state**, berfungsi untuk mencabut **state** yang sudah lama tidak diakses. **State Expiry** juga membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunnya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
 
 
 
