@@ -283,7 +283,7 @@ Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanak
 
 ### Validator
 
-Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi.
+Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi. Bisa secara individual atau bersama-sama melalui sebuah **Staking Pool**.
 
 Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
 
@@ -350,9 +350,10 @@ Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat berg
 
 **Storage Size** juga mempengaruhi waktu yang diperlukan oleh sebuah **Full Node** untuk dapat online dan bergabung lagi dalam jaringan. Semakin cepat sebuah **Full Node** dapat bergabung ke dalam jaringan meningkatkan derajat keamanan suatu **Cryptocurrency Protocol**.
 
-Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namuan **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
+Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
 
-**State Expiry** berfungsi untuk mencabut **state** yang sudah lama tidak diakses dan membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
+1. **Statelessness** menggagas pembuatan 2 tipe nodes : terdapat dua node yang membutuhkan state data dan node yang tidak membutuhkan state data. Agar sebuah node tidak lagi memerlukan state untuk melakukan validasi block, witnesses harus bisa menyediakan potongan state data pada transaction tertentu menggunakan cryptographic proof untuk menguji kebenarannya.
+2. **State Expiry** berfungsi untuk mencabut **state** yang sudah lama tidak diakses dan membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
 
 
 
