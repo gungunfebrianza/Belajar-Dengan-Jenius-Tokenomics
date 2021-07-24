@@ -308,6 +308,8 @@ Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Duni
 
 Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik sistem **Decentralization** dan **Secure** namun tidak **Scalable**.
 
+Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat decentralization yang tidak murni.
+
 
 
 # Current Problem State
