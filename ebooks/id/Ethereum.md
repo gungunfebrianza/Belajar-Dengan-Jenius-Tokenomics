@@ -11,8 +11,15 @@ Belajar Dengan Jenius Tokenomics
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
-  - Ethereum Development Stage
-  - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
+
+- Ethereum Development Stage
+
+  - Frontier
+  - Homestead
+  - Metropolis
+  - Serenity
+
+- [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
 
@@ -238,7 +245,7 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 
 
 
-## Ethereum Development Stage
+# Ethereum Development Stage
 
 Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 
@@ -247,11 +254,17 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 3. **Stage Three : Metropolis**
 4. **Stage Four : Serenity**
 
+## Serenity
+
+**Serenity** adalah **stage** yang menjadi tujuan akhir dari **Ethereum Protocol**. Terdapat migrasi secara komplit dari **Proof of Work (PoW)** ke dalam **Proof of Stake (PoS)**. Permasalahan seperti **High Fee**, **Low Transaction Throughput** dan **Settlement Speed** dianggap dapat diselesaikan dengan cara mengganti **Consensus Mechanism Proof of Work (PoW)**.
+
+Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi.
 
 
 
 
-## Current Problem State
+
+# Current Problem State
 
 Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
 
