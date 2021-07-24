@@ -12,12 +12,12 @@ Belajar Dengan Jenius Tokenomics
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
 
-- Ethereum Development Stage
+- [Ethereum Development Stage](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-development-stage)
 
-  - Frontier
-  - Homestead
-  - Metropolis
-  - Serenity
+  - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
+  - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
+  - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
+  - [Serenity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#serenity)
 
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
@@ -167,7 +167,7 @@ Belajar Dengan Jenius Tokenomics
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
-- Private Ethereum Test Network
+- [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
 
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
 
@@ -268,7 +268,7 @@ Stage kedua diluncurkan pada bulan Maret Tahun 2016.
 
 Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
 
-
+Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah Deposit Contract agar memiliki hak untuk memverifikasi suatu transaksi.
 
 
 
