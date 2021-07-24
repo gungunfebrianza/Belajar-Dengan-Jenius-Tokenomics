@@ -18,13 +18,13 @@ Belajar Dengan Jenius Tokenomics
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
   - [Serenity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#serenity)
-    - Validator
-    - Sharding
+    - [Validator](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#validator)
+    - [Sharding](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#sharding)
 
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
-  - Scalability
-  - Bottleneck
+  - [Scalability](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#scalability)
+  - [Bottleneck](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#bottleneck)
 
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
 
@@ -347,6 +347,10 @@ Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat berg
 <img src="../assets/Ethereum-Scalability2.png" style="zoom:100%;" />
 
 **Computing Power** untuk menjalankan **Full Node** agar dapat melakukan **block verification**, **Bandwidth** mempengaruhi seberapa besar **block** dapat diterapkan, dan **Storage** menentukan seberapa besar salinan **blockchain** yang harus disimpan, juga seberapa cepat **hardware readability** yang diperlukan menentukan kelas **storage** yang akan digunakan baik itu **Solid State-drive (SSD)** atau **Hard Disk-drive (HDD)**.
+
+**Storage Size** juga mempengaruhi waktu yang diperlukan oleh sebuah **Full Node** untuk dapat online dan bergabung lagi dalam jaringan. Semakin cepat sebuah **Full Node** dapat bergabung ke dalam jaringan meningkatkan derajat keamanan suatu **Cryptocurrency Protocol**.
+
+Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namuan **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
 
 
 
