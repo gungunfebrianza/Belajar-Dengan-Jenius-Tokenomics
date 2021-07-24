@@ -11,6 +11,7 @@ Belajar Dengan Jenius Tokenomics
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
+  - Ethereum Development Stage
   - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
@@ -234,6 +235,19 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
+
+
+
+## Ethereum Development Stage
+
+Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
+
+1. **Stage One : Frontier**
+2. **Stage Two : Homestead**
+3. **Stage Three : Metropolis**
+4. **Stage Four : Serenity**
+
+
 
 
 
