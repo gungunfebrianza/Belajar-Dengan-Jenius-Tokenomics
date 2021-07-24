@@ -18,8 +18,12 @@ Belajar Dengan Jenius Tokenomics
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
   - [Serenity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#serenity)
+    - Validator
+    - Sharding
 
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
+
+  - Scalability
 
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
 
@@ -254,19 +258,29 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 3. **Stage Three : Metropolis**
 4. **Stage Four : Serenity**
 
+
+
 ## Frontier
+
+
 
 ## Homestead
 
 Stage kedua diluncurkan pada bulan Maret Tahun 2016.
 
+
+
 ## Metropolis
+
+
 
 ## Serenity
 
 **Serenity** adalah **stage** yang menjadi tujuan akhir dari **Ethereum Protocol**. Terdapat migrasi secara komplit dari **Proof of Work (PoW)** ke dalam **Proof of Stake (PoS)**. Permasalahan seperti **High Fee**, **Low Transaction Throughput** dan **Settlement Speed** dianggap dapat diselesaikan dengan cara mengganti **Consensus Mechanism Proof of Work (PoW)**.
 
 Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
+
+### Validator
 
 Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi.
 
@@ -276,7 +290,17 @@ Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** 
 
 Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan meningkatkan kecepatan transaksi, sementara **Proof of Work (PoW)** mengandalkan penggunaan energi besar-besaran untuk melakukan komputasi memecahkan **Cryptographic Puzzle**.
 
+### Sharding
+
+Selain itu terdapat Mekanisme **Scalability** baru yang akan diterapkan yaitu menggunakan konsep **Sharding**, pada kajian **Database Management System** konsep **sharding** digunakan untuk melakukan **optimization** dengan cara memecah **tables** berukuran besar ke dalam sekumpulan **table** kecil.
+
+**Table** baru yang dipisahkan dari **Original Table** di sebut dengan **Shard** dan **Sharding** adalah tehnik yang digunakan untuk membangun **Scalable Database Architecture**.
+
+
+
 # Current Problem State
+
+## Scalability
 
 Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
 
