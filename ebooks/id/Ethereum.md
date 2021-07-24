@@ -24,6 +24,7 @@ Belajar Dengan Jenius Tokenomics
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
   - Scalability
+  - Bottleneck
 
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
 
@@ -308,7 +309,7 @@ Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Duni
 
 Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik **Decentralization** dan **Secure** namun tidak **Scalable**.
 
-Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat decentralization yang tidak murni.
+Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat **decentralization** yang tidak murni.
 
 Pada **Multi-chain Ecosystem** berbagai aplikasi dapat berjalan di berbagai **chains** dan dapat berinteraksi dengan memanfaatkan **Cross-chain Communication Protocol**. Kondisi ini memberikan karakteristik **Decentralization** dan **Scalable**, namun tidak **secure**.
 
@@ -317,8 +318,12 @@ Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memec
 Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** dengan cara yang jenis membuat penulis beropini, **Vitalik** juga dapat memecahkan problema **The Scalability Trilemma**. Di bawah ini adalah manfaat yang akan di dapatkan **Ethereum Protocol** jika berhasil memanfaatkan tehnik **Sharding** :
 
 1. **Scalable** - **Ethereum Protocol** dapat memproses lebih banyak transaksi.
-2. **Decentralized**
-3. **Secure**
+2. **Decentralized** - **Ethereum Protocol** menjadi lebih **low barrier** untuk digunakan para **client**, **Vitalik** secara spesifik menjelaskan **sharding** dapat menghapus kebutuhan **supernodes**.
+3. **Secure** - **Ethereum Protocol** menjadi lebih aman karena para **attacker** tidak dapat menargetkan serangan pada bagian terkecil dari sistem dengan jumlah **resources** yang terbatas.
+
+Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Quadratic** **Sharding**.
+
+
 
 # Current Problem State
 
@@ -332,6 +337,12 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 
 1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga **Sharding** pada **blockchain** dapat membantu meningkatkan **performance** seperti **Multithreaded Computer**.
 2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
+
+
+
+## Bottleneck
+
+
 
 
 
