@@ -159,6 +159,8 @@ Belajar Dengan Jenius Tokenomics
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
+- Private Ethereum Test Network
+
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
 
   
@@ -1932,6 +1934,10 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
 
+
+# Private Ethereum Test Network
+
+Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaringan komputer untuk uji coba atau biasa di sebut dengan **Test Network**. Sebelumnya kita telah belajar membangun **Virtual Ethereum Network** pada **local computer** menggunakan **Ganache**, kini kita akan menggunakan **Geth**. 
 
 # ETH Validator 2.0
 
