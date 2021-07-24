@@ -294,7 +294,17 @@ Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan menin
 
 Selain itu terdapat Mekanisme **Scalability** baru yang akan diterapkan yaitu menggunakan konsep **Sharding**, pada kajian **Database Management System** konsep **sharding** digunakan untuk melakukan **optimization** dengan cara memecah **tables** berukuran besar ke dalam sekumpulan **table** kecil.
 
-**Table** baru yang dipisahkan dari **Original Table** di sebut dengan **Shard** dan **Sharding** adalah tehnik yang digunakan untuk membangun **Scalable Database Architecture**.
+**Table** baru yang dipisahkan dari **Original Table** di sebut dengan **Shard** dan **Sharding** adalah tehnik yang digunakan untuk membangun **Scalable Database Architecture**. Vitalik telah melihat pemanfaatan tehnik **sharding** untuk permasalahan **Scalability** dalam **Ethereum Protocol**.
+
+Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Dunia **Cryptocurrency** yaitu **The Scalability Trilemma** :
+
+<img src="../assets/Ethereum-Scalability.png" style="zoom:100%;" />
+
+**Trilemma** di atas menegaskan terdapat 3 **properties** dalam **blockchain** namun hanya 2 **properties** yang dapat kita miliki jika menggunakan inovasi teknologi **blockchain** saat ini :
+
+1. **Scalability** -  Kemampuan protokol untuk dapat memproses transaksi lebih banyak.
+2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
+3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
 
 
 
@@ -308,7 +318,7 @@ Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih
 
 Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ethereum** sebesar 1,4 juta transaksi/perhari dan pada protokol **Bitcoin** sekitar 300.000 transaksi/perhari. Beberapa solusi yang sedang dikembangkan saat ini adalah :
 
-1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga sharding pada **blockchain** dapat membantu meningkatkan performance seperti **Multithreaded Computer**.
+1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga **Sharding** pada **blockchain** dapat membantu meningkatkan **performance** seperti **Multithreaded Computer**.
 2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
 
 
