@@ -342,7 +342,11 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 
 ## Bottleneck
 
+Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat bergabung dalam C**ryptocurrency Protocol**, kita harus melihat limitasi dari komputer yang digunakan para **Client**. Di bawah ini adalah limitasi tersebut :
 
+<img src="../assets/Ethereum-Scalability2.png" style="zoom:100%;" />
+
+**Computing Power** untuk menjalankan **Full Node** agar dapat melakukan **block verification**, **Bandwidth** mempengaruhi seberapa besar **block** dapat diterapkan, dan **Storage** menentukan seberapa besar salinan **blockchain** yang harus disimpan, juga seberapa cepat **hardware readability** yang diperlukan menentukan kelas **storage** yang akan digunakan baik itu **Solid State-drive (SSD)** atau **Hard Disk-drive (HDD)**.
 
 
 
