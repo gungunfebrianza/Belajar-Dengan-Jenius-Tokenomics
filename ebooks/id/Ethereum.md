@@ -306,6 +306,8 @@ Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Duni
 2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
 3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
 
+Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik sistem **Decentralization** dan **Secure** namun tidak **Scalable**.
+
 
 
 # Current Problem State
