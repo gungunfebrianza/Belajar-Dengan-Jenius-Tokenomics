@@ -272,7 +272,9 @@ Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Valid
 
 Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
 
-Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**).
+Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**). 
+
+Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan meningkatkan kecepatan transaksi, sementara **Proof of Work (PoW)** mengandalkan penggunaan energi besar-besaran untuk melakukan komputasi memecahkan **Cryptographic Puzzle**.
 
 # Current Problem State
 
