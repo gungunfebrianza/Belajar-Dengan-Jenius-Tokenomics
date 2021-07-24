@@ -352,6 +352,8 @@ Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat berg
 
 Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namuan **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
 
+**State Expiry** berfungsi untuk mencabut **state** yang sudah lama tidak diakses dan membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
+
 
 
 # Ethereum Architecture
