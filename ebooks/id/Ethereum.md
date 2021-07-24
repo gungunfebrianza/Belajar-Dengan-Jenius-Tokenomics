@@ -2068,5 +2068,8 @@ Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
 
 
-# Temp 
+# Note
 
+1. Permasalahan Scalability Solved Via Sharding
+2. Permasalahan Bottleneck Solved Via Statelessness & State Expiry
+3. Migrasi dari Ethereum Virtual Machine (EVM) ke Etherreum WebAssembly
