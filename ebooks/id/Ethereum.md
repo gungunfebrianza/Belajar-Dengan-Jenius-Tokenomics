@@ -14,21 +14,21 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum Development Stage](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-development-stage)
 
-  - Pre-release : The Olympic
+  - [Pre-release : The Olympic](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#pre-release--the-olympic)
   - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
-    - DAO Incident
+    - [DAO Incident](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dao-incident)
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
-    - Byzantium Hard Fork
-    - Constantinople Hard Fork
-    - Istanbul Hard Fork
-    - Muir Glacier Hard Fork
+    - [Byzantium Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#byzantium-hard-fork)
+    - [Constantinople Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#constantinople-hard-fork)
+    - [Istanbul Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#istanbul-hard-fork)
+    - [Muir Glacier Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#muir-glacier-hard-fork)
   - [Serenity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#serenity)
     - [Validator](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#validator)
     - [Sharding](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#sharding)
-    - Berlin Hard Fork
-    - London Hard Fork
-    - Shanghai Hard Fork
+    - [Berlin Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#berlin-hard-fork)
+    - [London Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#london-hard-fork)
+    - [Shanghai Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#shanghai-hard-fork)
 
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
@@ -293,17 +293,31 @@ https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 **Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
 
+Posisi Block : 0
+
 
 
 ## Homestead
 
 **Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
 
-
+Posisi Block : 1,150,000
 
 
 
 ### DAO Incident
+
+Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**. 
+
+Bulan Juni terdapat serangan pada **DAO Contract**, celah keamanan di exploitasi oleh **hacker** yang menimbulkan kerugian sebesar **3.6 Juta Ethers**.
+
+Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya. 
+
+Serangan dianggap **valid activity** meskipun bersifat **unethical**. Di bawah ini adalah kode sumber **DAO Contract** :
+
+https://github.com/blockchainsllc/DAO
+
+Keputusan akhirpun dibuat terdapat **Hard Fork** yang tidak direncanakan namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
 
 
 
