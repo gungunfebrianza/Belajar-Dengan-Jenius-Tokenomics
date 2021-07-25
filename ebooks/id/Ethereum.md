@@ -59,6 +59,8 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
+- Ethereum Web Assembly (EWasm)
+
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
 
   - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
@@ -724,6 +726,8 @@ Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Qua
 
 
 
+
+
 ### Berlin Hard Fork
 
 **Berlin upgrade** terjadi pada 5 April 2021, terdapat penerapan 4 **Ethereum Improvement Proposals (EIPs)** terkait **Gas Price** dan pengenalan tipe **transactions** terbaru dalam **Ethereum Protocol**.
@@ -780,6 +784,12 @@ Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **
 
 
 # Ethereum Virtual Machine (EVM)
+
+Reserved.
+
+
+
+# Ethereum Web Assembly (EWasm)
 
 Reserved.
 
