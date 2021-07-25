@@ -632,6 +632,18 @@ Di bawah ini adalah beberapa **EIP** yang diterapkan pada **Byzantium Hard Fork*
 
 ### Constantinople Hard Fork 
 
+**Constantinople Hard Fork** terjadi pada bulan Februari Tahun 2019 terdapat 9 **EIP** yang diterapkan.
+
+Di bawah ini adalah beberapa EIP yang diterapkan pada **Constantinople Hard Fork** :
+
+1. [EIP 145 : Bitwise shifting instructions in EVM](https://eips.ethereum.org/EIPS/eip-145)
+2. [EIP 1014 : Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)
+3. [EIP 1052 : New Opcode EXTCODEHASH](https://eips.ethereum.org/EIPS/eip-1052)
+4. [EIP 1234 : Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
+5. [EIP 1283 : Net gas metering for SSTORE without dirty maps](https://eips.ethereum.org/EIPS/eip-1283)
+
+32 jam sebelum fork dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat bug dari EIP 1283 yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
+
 Posisi **Block** : 7,280,000
 
 
