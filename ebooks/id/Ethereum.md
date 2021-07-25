@@ -636,7 +636,7 @@ Di bawah ini adalah beberapa **EIP** yang diterapkan pada **Byzantium Hard Fork*
 
 ### Constantinople Hard Fork 
 
-**Constantinople Hard Fork** terjadi pada bulan Februari Tahun 2019 terdapat 9 **EIP** yang diterapkan.
+**Constantinople Hard Fork** terjadi pada bulan Februari Tahun 2019 terdapat 9 **EIP** yang diterapkan. Constantinople terdiri dari dua **sub-stages** yaitu **St.Pertersburg** dan **Istanbul**.
 
 Di bawah ini adalah beberapa EIP yang diterapkan pada **Constantinople Hard Fork** :
 
@@ -646,7 +646,15 @@ Di bawah ini adalah beberapa EIP yang diterapkan pada **Constantinople Hard Fork
 4. [EIP 1234 : Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
 5. [EIP 1283 : Net gas metering for SSTORE without dirty maps](https://eips.ethereum.org/EIPS/eip-1283)
 
-32 jam sebelum **fork** dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat **bug** dari **EIP 1283** yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
+EIP-1234 memberikan impak pada **Reward System Algorithm** untuk para **Miners**, karena **block rewards** direduksi lagi dari 3 ETH menjadi 2 ETH.
+
+32 jam sebelum **fork** dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat **bug** dari **EIP-1283** yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**. Delay dilakukan karena terdapat **report** secara independen dari perusahaan audit keamanan komputer, **ChainSecurity**.
+
+Laporan dari **ChainSecurity** menjelaskan bahwa **upgrade** dapat menimbulkan kerentanan, **hacker** dapat kembali mencuri asset seperti yang telah terjadi pada [DAO Incident](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dao-incident) sebelumnya. Belajar dari kesalahan di masa lalu, pada **Ethereum Developer** melakukan delay. Untuk laporan lengkapnya dapat di baca disini :
+
+[Constantinople Enables New Reentrancy Attack](https://medium.com/chainsecurity/constantinople-enables-new-reentrancy-attack-ace4088297d9)
+
+Pada akhirnya **EIP-1283** dicabut dari perencanaan untuk integrasi selanjutnya **hard fork** diberi nama **St.Petersburg**.
 
 Posisi **Block** : 7,280,000
 
