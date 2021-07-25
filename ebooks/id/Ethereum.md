@@ -12,6 +12,26 @@ Belajar Dengan Jenius Tokenomics
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
 
+- [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
+
+  - [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
+  - [Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#node)
+  - [Full Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#full-node)
+  - [Lighweight Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#lightweight-node)
+  - [Miners](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#miners)
+  - [Blocks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#blocks)
+  - [EVM (Ethereum Virtual Machine)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#evm-ethereum-virtual-machine)
+  - [Ether](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ether)
+  - [Gas](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas)
+    - [Gas Limit](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-limit)
+    - [Gas Price](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-price)
+    - [Example](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#example)
+  - [Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#accounts)
+    - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
+    - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
+  - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
+  - [Ethereum Networks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-networks)
+
 - [Ethereum Development Stage](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-development-stage)
 
   - [Pre-release : The Olympic](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#pre-release--the-olympic)
@@ -36,26 +56,6 @@ Belajar Dengan Jenius Tokenomics
 
   - [Scalability](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#scalability)
   - [Bottleneck](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#bottleneck)
-
-- [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
-
-  - [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
-  - [Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#node)
-  - [Full Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#full-node)
-  - [Lighweight Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#lightweight-node)
-  - [Miners](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#miners)
-  - [Blocks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#blocks)
-  - [EVM (Ethereum Virtual Machine)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#evm-ethereum-virtual-machine)
-  - [Ether](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ether)
-  - [Gas](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas)
-    - [Gas Limit](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-limit)
-    - [Gas Price](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#gas-price)
-    - [Example](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#example)
-  - [Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#accounts)
-    - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
-    - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
-  - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
-  - [Ethereum Networks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-networks)
 
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
@@ -258,228 +258,6 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
-
-
-
-# Ethereum Development Stage
-
-Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
-
-1. **Stage One : Frontier**
-2. **Stage Two : Homestead**
-3. **Stage Three : Metropolis**
-4. **Stage Four : Serenity**
-
-
-
-## Pre-release : The Olympic
-
-Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama **Olympic** diluncurkan oleh **Ethereum Foundation**. Tujuan dari **Olympic** adalah menguji seberapa jauh limitasi **Ethereum Protocol** selama periode pre-rilis, seperti melakukan **spamming** dan **flooding** jaringan komputer untuk menguji **Ethereum Protocol**.
-
-Terdapat hadiah sebesar **25.000 ethers** dalam kegiatan ini yang akan diselenggarakan selama 14 hari. Hadiah akan diberikan untuk pengujian di 4 kategori :
-
-1. **Transaction Activity**
-2. **Virtual Machine Usage**
-3. **Mining Prowess**
-4. **General Punishment**
-
-Untuk detail informasi setiap kategori dapat di baca disini :
-
-https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
-
-**Olympic** adalah fase terakhir dari pengembangan protokol **Ethereum**, sebelum memasuki **Stage Frontier**.
-
-
-
-## Frontier
-
-**Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
-
-Posisi **Block** : 0
-
-
-
-## Homestead
-
-**Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
-
-Terdapat penerapan **Opcode** baru pada [EIP 7](https://eips.ethereum.org/EIPS/eip-7) :
-
-```
-DELEGATECALL 
-```
-
-Posisi **Block** : 1,150,000
-
-
-
-### DAO Incident
-
-Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**. 
-
-Bulan Juni 2016 terjadi serangan pada **DAO Contract**, terdapat celah keamanan di **level Contract Design** yang di exploitasi oleh **hacker** dan menimbulkan kerugian sebesar **3.6 Juta Ethers**. Sang **hacker** berhasil mencuri  **3.6 Juta Ethers**
-
-Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya. 
-
-Serangan dianggap **valid activity** meskipun bersifat **unethical**. Di bawah ini adalah kode sumber **DAO Contract** :
-
-https://github.com/blockchainsllc/DAO
-
-Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak direncanakan didukung para **miners** namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
-
-Posisi **Block** : 1,920,000
-
-
-
-### Tangerine Whistle 
-
-**Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**. 
-
-Posisi **Block** : 2,463,000
-
-
-
-### Spurious Dragon
-
-**Spurious Dragon** juga menjadi bagian **Hard Fork** yang tidak direncanakan pada November 2016 yang menerapkan 4 proposal sekaligus :
-
-1. [EIP 155 : Simple Replay Attack Protection](https://eips.ethereum.org/EIPS/eip-155)
-2. [EIP 160 : EXP Cost Increase](https://eips.ethereum.org/EIPS/eip-160)
-3. [EIP 161 : State Trie Clearing](https://eips.ethereum.org/EIPS/eip-161)
-4. [EIP 170 : Contract Code Size Limit](https://eips.ethereum.org/EIPS/eip-170)
-
-Posisi **Block** : 2,675,000
-
-
-
-## Metropolis
-
-
-
-
-
-### Byzantium Hard Fork
-
-
-
-
-
-### Constantinople Hard Fork 
-
-
-
-
-
-### Istanbul Hard Fork
-
-
-
-
-
-### Muir Glacier Hard Fork
-
-
-
-
-
-## Serenity
-
-**Serenity** adalah **stage** yang menjadi tujuan akhir dari **Ethereum Protocol**. Terdapat migrasi secara komplit dari **Proof of Work (PoW)** ke dalam **Proof of Stake (PoS)**. Permasalahan seperti **High Fee**, **Low Transaction Throughput** dan **Settlement Speed** dianggap dapat diselesaikan dengan cara mengganti **Consensus Mechanism Proof of Work (PoW)**.
-
-Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
-
-### Validator
-
-Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi. Bisa secara individual atau bersama-sama melalui sebuah **Staking Pool**.
-
-Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
-
-Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**). 
-
-Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan meningkatkan kecepatan transaksi, sementara **Proof of Work (PoW)** mengandalkan penggunaan energi besar-besaran untuk melakukan komputasi memecahkan **Cryptographic Puzzle**.
-
-### Sharding
-
-Selain itu terdapat Mekanisme **Scalability** baru yang akan diterapkan yaitu menggunakan konsep **Sharding**, pada kajian **Database Management System** konsep **sharding** digunakan untuk melakukan **optimization** dengan cara memecah **tables** berukuran besar ke dalam sekumpulan **table** kecil.
-
-**Table** baru yang dipisahkan dari **Original Table** di sebut dengan **Shard** dan **Sharding** adalah tehnik yang digunakan untuk membangun **Scalable Database Architecture**. Vitalik telah melihat pemanfaatan tehnik **sharding** untuk permasalahan **Scalability** dalam **Ethereum Protocol**.
-
-Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Dunia **Cryptocurrency** yaitu **The Scalability Trilemma** :
-
-<img src="../assets/Ethereum-Scalability.png" style="zoom:100%;" />
-
-**Trilemma** di atas menegaskan terdapat 3 **properties** dalam **blockchain** namun hanya 2 **properties** yang dapat kita miliki jika menggunakan inovasi teknologi **blockchain** saat ini :
-
-1. **Scalability** -  Kemampuan protokol untuk dapat memproses transaksi lebih banyak.
-2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
-3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
-
-Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik **Decentralization** dan **Secure** namun tidak **Scalable**.
-
-Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat **decentralization** yang tidak murni.
-
-Pada **Multi-chain Ecosystem** berbagai aplikasi dapat berjalan di berbagai **chains** dan dapat berinteraksi dengan memanfaatkan **Cross-chain Communication Protocol**. Kondisi ini memberikan karakteristik **Decentralization** dan **Scalable**, namun tidak **secure**.
-
-Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memecahkan permasalahan **The Scalability Trilemma**, tehnik **sharding** yang di gagas **Vitalik** dalam **Ethereum Protocol** digunakan untuk mendapatkan 3 karakteristik sekaligus. 
-
-Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** dengan cara yang jenis membuat penulis beropini, **Vitalik** juga dapat memecahkan problema **The Scalability Trilemma**. Di bawah ini adalah manfaat yang akan di dapatkan **Ethereum Protocol** jika berhasil memanfaatkan tehnik **Sharding** :
-
-1. **Scalable** - **Ethereum Protocol** dapat memproses lebih banyak transaksi.
-2. **Decentralized** - **Ethereum Protocol** menjadi lebih **low barrier** untuk digunakan para **client**, **Vitalik** secara spesifik menjelaskan **sharding** dapat menghapus kebutuhan **supernodes**.
-3. **Secure** - **Ethereum Protocol** menjadi lebih aman karena para **attacker** tidak dapat menargetkan serangan pada bagian terkecil dari sistem dengan jumlah **resources** yang terbatas.
-
-Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Quadratic** **Sharding**.
-
-
-
-### Berlin Hard Fork
-
-
-
-
-
-### London Hard Fork
-
-
-
-
-
-### Shanghai Hard Fork
-
-
-
-# Current Problem State
-
-## Scalability
-
-Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
-
-**Mainframe Computing** masih menjadi **champion** dalam dunia transaksi keuangan, **Mainframe Computer** seperti **IBM z13** memiliki kapabilitas untuk memproses **2.5 billion transaction/day** dan **IBM z15** memiliki kapabilitas untuk memproses **1 trillion web transaction/day.**
-
-Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ethereum** sebesar 1,4 juta transaksi/perhari dan pada protokol **Bitcoin** sekitar 300.000 transaksi/perhari. Beberapa solusi yang sedang dikembangkan saat ini adalah :
-
-1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga **Sharding** pada **blockchain** dapat membantu meningkatkan **performance** seperti **Multithreaded Computer**.
-2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
-
-
-
-## Bottleneck
-
-Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat bergabung dalam C**ryptocurrency Protocol**, kita harus melihat limitasi dari komputer yang digunakan para **Client**. Di bawah ini adalah limitasi tersebut :
-
-<img src="../assets/Ethereum-Scalability2.png" style="zoom:100%;" />
-
-**Computing Power** untuk menjalankan **Full Node** agar dapat melakukan **block verification**, **Bandwidth** mempengaruhi seberapa besar **block** dapat diterapkan, dan **Storage** menentukan seberapa besar salinan **blockchain** yang harus disimpan, juga seberapa cepat **hardware readability** yang diperlukan menentukan kelas **storage** yang akan digunakan baik itu **Solid State-drive (SSD)** atau **Hard Disk-drive (HDD)**.
-
-**Storage Size** juga mempengaruhi waktu yang diperlukan oleh sebuah **Full Node** untuk dapat online dan bergabung lagi dalam jaringan. Semakin cepat sebuah **Full Node** dapat bergabung ke dalam jaringan meningkatkan derajat keamanan suatu **Cryptocurrency Protocol**.
-
-Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
-
-1. **Statelessness** menggaggas pembuatan 2 tipe **nodes** : terdapat dua **node** yang membutuhkan **state data** dan **node** yang tidak membutuhkan **state data**. Agar sebuah **node** tidak lagi memerlukan **state** untuk melakukan validasi **block**, **witnesses** harus bisa menyediakan potongan **state data** pada **transaction** tertentu menggunakan **Cryptographic Proof** untuk menguji kebenarannya.
-
-2. **State Expiry** menggaggas konsep **active state** dan **old state**, berfungsi untuk mencabut **state** yang sudah lama tidak diakses. **State Expiry** juga membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunnya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
-
-   Rekomendasi **Expiration Date** belum di atur karena masih banyak perdebatan dalam komunitas, **old state data** kemungkinan akan disimpan di dalam **node archiver**, **explorers** dan **Decentralized Project** lainnya seperti **The Graph**.
 
 
 
@@ -730,6 +508,234 @@ npm start
 <img src="../assets/Ethereum-Networks.png" style="zoom:100%;" />
 
 Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya. 
+
+
+
+# Ethereum Development Stage
+
+Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
+
+1. **Stage One : Frontier**
+2. **Stage Two : Homestead**
+3. **Stage Three : Metropolis**
+4. **Stage Four : Serenity**
+
+
+
+## Pre-release : The Olympic
+
+Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama **Olympic** diluncurkan oleh **Ethereum Foundation**. Tujuan dari **Olympic** adalah menguji seberapa jauh limitasi **Ethereum Protocol** selama periode pre-rilis, seperti melakukan **spamming** dan **flooding** jaringan komputer untuk menguji **Ethereum Protocol**.
+
+Terdapat hadiah sebesar **25.000 ethers** dalam kegiatan ini yang akan diselenggarakan selama 14 hari. Hadiah akan diberikan untuk pengujian di 4 kategori :
+
+1. **Transaction Activity**
+2. **Virtual Machine Usage**
+3. **Mining Prowess**
+4. **General Punishment**
+
+Untuk detail informasi setiap kategori dapat di baca disini :
+
+https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
+
+**Olympic** adalah fase terakhir dari pengembangan protokol **Ethereum**, sebelum memasuki **Stage Frontier**.
+
+
+
+## Frontier
+
+**Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
+
+Posisi **Block** : 0
+
+
+
+## Homestead
+
+**Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
+
+Terdapat penerapan **Opcode** baru pada [EIP 7](https://eips.ethereum.org/EIPS/eip-7) :
+
+```
+DELEGATECALL 
+```
+
+Posisi **Block** : 1,150,000
+
+
+
+### DAO Incident
+
+Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**. 
+
+Bulan Juni 2016 terjadi serangan pada **DAO Contract**, terdapat celah keamanan di **level Contract Design** yang di exploitasi oleh **hacker** dan menimbulkan kerugian sebesar **3.6 Juta Ethers**. Sang **hacker** berhasil mencuri  **3.6 Juta Ethers**
+
+Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya. 
+
+Serangan dianggap **valid activity** meskipun bersifat **unethical**. Di bawah ini adalah kode sumber **DAO Contract** :
+
+https://github.com/blockchainsllc/DAO
+
+Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak direncanakan didukung para **miners** namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
+
+Posisi **Block** : 1,920,000
+
+
+
+### Tangerine Whistle 
+
+**Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**. 
+
+Posisi **Block** : 2,463,000
+
+
+
+### Spurious Dragon
+
+**Spurious Dragon** juga menjadi bagian **Hard Fork** yang tidak direncanakan pada November 2016 yang menerapkan 4 proposal sekaligus :
+
+1. [EIP 155 : Simple Replay Attack Protection](https://eips.ethereum.org/EIPS/eip-155)
+2. [EIP 160 : EXP Cost Increase](https://eips.ethereum.org/EIPS/eip-160)
+3. [EIP 161 : State Trie Clearing](https://eips.ethereum.org/EIPS/eip-161)
+4. [EIP 170 : Contract Code Size Limit](https://eips.ethereum.org/EIPS/eip-170)
+
+Posisi **Block** : 2,675,000
+
+
+
+## Metropolis
+
+**Stage** ketiga pada **Ethereum Development** adalah **Metropolis**, tujuannya untuk persiapan melakukan migrasi konsensus dari Proof of Work (PoW) menuju **Proof of Stake (PoS)**.
+
+Pada **Proof of Stake (PoS)** terdapat **process** yang disebut dengan **Forging**, sebuah aktivitas pemilihan secara random pada **Validator** yang akan memiliki **Block** selanjutnya. Sehingga semakin besar jumlah **Stake** yang kita tanam sebagai **Validator** semakin besar peluang untuk terpilih.
+
+Posisi **Block** : 4,370,000
+
+
+
+### Byzantium Hard Fork
+
+
+
+
+
+### Constantinople Hard Fork 
+
+Posisi **Block** : 7,280,000
+
+
+
+### Istanbul Hard Fork
+
+
+
+
+
+### Muir Glacier Hard Fork
+
+
+
+
+
+## Serenity
+
+**Serenity** adalah **stage** yang menjadi tujuan akhir dari **Ethereum Protocol**. Terdapat migrasi secara komplit dari **Proof of Work (PoW)** ke dalam **Proof of Stake (PoS)**. Permasalahan seperti **High Fee**, **Low Transaction Throughput** dan **Settlement Speed** dianggap dapat diselesaikan dengan cara mengganti **Consensus Mechanism Proof of Work (PoW)**.
+
+Para **Ethereum Developer** memilih **Proof of Stake (PoS)** untuk menyederhanakan proses verifikasi transaksi. Daripada mengandalkan para **miner** untuk memproduksi **block** baru, **Proof of Stake (PoS)** memberikan kesempatan kepada para **Ethereum Hodler** untuk memproduksi **block** baru menggantikan para **miner**.
+
+### Validator
+
+Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Validator**, untuk menjadi **validator** syaratnya adalah melakukan **Staking** sebesar **32 ETH** dalam sebuah **Deposit Contract** agar memiliki hak untuk memverifikasi suatu transaksi. Bisa secara individual atau bersama-sama melalui sebuah **Staking Pool**.
+
+Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
+
+Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**). 
+
+Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan meningkatkan kecepatan transaksi, sementara **Proof of Work (PoW)** mengandalkan penggunaan energi besar-besaran untuk melakukan komputasi memecahkan **Cryptographic Puzzle**.
+
+### Sharding
+
+Selain itu terdapat Mekanisme **Scalability** baru yang akan diterapkan yaitu menggunakan konsep **Sharding**, pada kajian **Database Management System** konsep **sharding** digunakan untuk melakukan **optimization** dengan cara memecah **tables** berukuran besar ke dalam sekumpulan **table** kecil.
+
+**Table** baru yang dipisahkan dari **Original Table** di sebut dengan **Shard** dan **Sharding** adalah tehnik yang digunakan untuk membangun **Scalable Database Architecture**. Vitalik telah melihat pemanfaatan tehnik **sharding** untuk permasalahan **Scalability** dalam **Ethereum Protocol**.
+
+Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Dunia **Cryptocurrency** yaitu **The Scalability Trilemma** :
+
+<img src="../assets/Ethereum-Scalability.png" style="zoom:100%;" />
+
+**Trilemma** di atas menegaskan terdapat 3 **properties** dalam **blockchain** namun hanya 2 **properties** yang dapat kita miliki jika menggunakan inovasi teknologi **blockchain** saat ini :
+
+1. **Scalability** -  Kemampuan protokol untuk dapat memproses transaksi lebih banyak.
+2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
+3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
+
+Pada **Traditional Chains** seperti **Bitcoin**, **Litecoin**, **Ethereum** dan **Blockchain** lainnya sangat bergantung pada para partisipan untuk membangun **Full Node Client** yang dapat memverifikasi transaksi. Kondisi ini memberikan karakteristik **Decentralization** dan **Secure** namun tidak **Scalable**.
+
+Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of Stake)** mereka bergantung pada sekumpulan **nodes** dalam jumlah kecil, bisa 10-100 lebih **nodes** untuk memanajemen konsensus. Para partisipan dalam protokol tersebut harus mempercayai sekumpulan **nodes** tersebut. Kondisi ini memberikan karakteristik **Scalable** dan dianggap **Secure** namun memiliki derajat **decentralization** yang tidak murni.
+
+Pada **Multi-chain Ecosystem** berbagai aplikasi dapat berjalan di berbagai **chains** dan dapat berinteraksi dengan memanfaatkan **Cross-chain Communication Protocol**. Kondisi ini memberikan karakteristik **Decentralization** dan **Scalable**, namun tidak **secure**.
+
+Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memecahkan permasalahan **The Scalability Trilemma**, tehnik **sharding** yang di gagas **Vitalik** dalam **Ethereum Protocol** digunakan untuk mendapatkan 3 karakteristik sekaligus. 
+
+Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** dengan cara yang jenis membuat penulis beropini, **Vitalik** juga dapat memecahkan problema **The Scalability Trilemma**. Di bawah ini adalah manfaat yang akan di dapatkan **Ethereum Protocol** jika berhasil memanfaatkan tehnik **Sharding** :
+
+1. **Scalable** - **Ethereum Protocol** dapat memproses lebih banyak transaksi.
+2. **Decentralized** - **Ethereum Protocol** menjadi lebih **low barrier** untuk digunakan para **client**, **Vitalik** secara spesifik menjelaskan **sharding** dapat menghapus kebutuhan **supernodes**.
+3. **Secure** - **Ethereum Protocol** menjadi lebih aman karena para **attacker** tidak dapat menargetkan serangan pada bagian terkecil dari sistem dengan jumlah **resources** yang terbatas.
+
+Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Quadratic** **Sharding**.
+
+
+
+### Berlin Hard Fork
+
+
+
+
+
+### London Hard Fork
+
+
+
+
+
+### Shanghai Hard Fork
+
+
+
+# Current Problem State
+
+## Scalability
+
+Transaksi dalam **public blockchain** seperti **bitcoin** dan **ethereum** masih lamban, problema **high throughput transaction** masih belum bisa diselesaikan. Transaksi dalam protokol **Bitcoin** rata-rata diproses sekitar 10 menit sekali dan para protokol **Ethereum** rata-rata 15 detik.
+
+**Mainframe Computing** masih menjadi **champion** dalam dunia transaksi keuangan, **Mainframe Computer** seperti **IBM z13** memiliki kapabilitas untuk memproses **2.5 billion transaction/day** dan **IBM z15** memiliki kapabilitas untuk memproses **1 trillion web transaction/day.**
+
+Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ethereum** sebesar 1,4 juta transaksi/perhari dan pada protokol **Bitcoin** sekitar 300.000 transaksi/perhari. Beberapa solusi yang sedang dikembangkan saat ini adalah :
+
+1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga **Sharding** pada **blockchain** dapat membantu meningkatkan **performance** seperti **Multithreaded Computer**.
+2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
+
+
+
+## Bottleneck
+
+Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat bergabung dalam C**ryptocurrency Protocol**, kita harus melihat limitasi dari komputer yang digunakan para **Client**. Di bawah ini adalah limitasi tersebut :
+
+<img src="../assets/Ethereum-Scalability2.png" style="zoom:100%;" />
+
+**Computing Power** untuk menjalankan **Full Node** agar dapat melakukan **block verification**, **Bandwidth** mempengaruhi seberapa besar **block** dapat diterapkan, dan **Storage** menentukan seberapa besar salinan **blockchain** yang harus disimpan, juga seberapa cepat **hardware readability** yang diperlukan menentukan kelas **storage** yang akan digunakan baik itu **Solid State-drive (SSD)** atau **Hard Disk-drive (HDD)**.
+
+**Storage Size** juga mempengaruhi waktu yang diperlukan oleh sebuah **Full Node** untuk dapat online dan bergabung lagi dalam jaringan. Semakin cepat sebuah **Full Node** dapat bergabung ke dalam jaringan meningkatkan derajat keamanan suatu **Cryptocurrency Protocol**.
+
+Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
+
+1. **Statelessness** menggaggas pembuatan 2 tipe **nodes** : terdapat dua **node** yang membutuhkan **state data** dan **node** yang tidak membutuhkan **state data**. Agar sebuah **node** tidak lagi memerlukan **state** untuk melakukan validasi **block**, **witnesses** harus bisa menyediakan potongan **state data** pada **transaction** tertentu menggunakan **Cryptographic Proof** untuk menguji kebenarannya.
+
+2. **State Expiry** menggaggas konsep **active state** dan **old state**, berfungsi untuk mencabut **state** yang sudah lama tidak diakses. **State Expiry** juga membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunnya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
+
+   Rekomendasi **Expiration Date** belum di atur karena masih banyak perdebatan dalam komunitas, **old state data** kemungkinan akan disimpan di dalam **node archiver**, **explorers** dan **Decentralized Project** lainnya seperti **The Graph**.
+
+
 
 
 
@@ -2194,12 +2200,15 @@ Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
 
 
-# Note
+# Note 2021
 
-1. Permasalahan Scalability Solved Via Sharding
-2. Permasalahan Bottleneck Solved Via Statelessness & State Expiry
+1. Permasalahan Scalability pada Ethereum Protocol Solved Via Sharding
+2. Permasalahan Bottleneck Ethereum Protocol Solved Via Statelessness & State Expiry
 3. Migrasi dari Ethereum Virtual Machine (EVM) ke Etherreum WebAssembly (EWASM)
 4. Dukungan penulisan Smart Contract menggunakan bahasa Rust, C++, Python, Javascript & etc
-5. Innovation & Complexity Growth push developer to more competitive become specialist
+5. Innovation & Complexity Growth push developer to more competitive become specialist area
 6. Penerapan Note No 2 menimbulkan obselete for majority current DApps interacting with old state
+7. Taproot Upgrade pada Bitcoin Protocol menjadi penantang baru Smart Contract Ethereum Protocol 
+8. Migrasi penggunaan Elliptic Curve Digital Signature (ECDS) ke Schnorr Signatures (Space & Anonymity Issue)
+9. 
 
