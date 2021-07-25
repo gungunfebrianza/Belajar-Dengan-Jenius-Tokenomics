@@ -343,9 +343,9 @@ Posisi **Block** : 2,463,000
 
 **Spurious Dragon** juga menjadi bagian **Hard Fork** yang tidak direncanakan pada November 2016 yang menerapkan 4 proposal sekaligus :
 
-1. EIP 155 :
-2. EIP 160 :
-3. EIP 161 :
+1. [EIP 155 : Simple Replay Attack Protection](https://eips.ethereum.org/EIPS/eip-155)
+2. [EIP 160 : EXP Cost Increase](https://eips.ethereum.org/EIPS/eip-160)
+3. [EIP 161 : State Trie Clearing](https://eips.ethereum.org/EIPS/eip-161)
 4. [EIP 170 : Contract Code Size Limit](https://eips.ethereum.org/EIPS/eip-170)
 
 Posisi **Block** : 2,675,000
