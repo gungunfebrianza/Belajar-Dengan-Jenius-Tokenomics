@@ -618,12 +618,15 @@ Posisi **Block** : 4,370,000
 
 Di bawah ini adalah beberapa **EIP** yang diterapkan pada **Byzantium Hard Fork** :
 
-1. [EIP 140 : REVERT Instruction](https://eips.ethereum.org/EIPS/eip-140)
-2. [EIP 198 : Big Integer Modular Exponentiation](https://eips.ethereum.org/EIPS/eip-198)
-3. [EIP 211 : New Opcodes RETURNDATASIZE and RETURNDATACOPY](https://eips.ethereum.org/EIPS/eip-211)
-4. [EIP 214 : New Opcode STATICCALL](https://eips.ethereum.org/EIPS/eip-214)
-5. [EIP 649 : Metropolis Difficulty Bomb Delay & Block Reward Reduction](https://eips.ethereum.org/EIPS/eip-649)
-6. [EIP 658 : Embedding Transaction Status Code in Receipts](https://eips.ethereum.org/EIPS/eip-658)
+1. [EIP 100 : Change difficulty adjustment to target mean block time including uncles](https://eips.ethereum.org/EIPS/eip-100)
+2. [EIP 140 : REVERT Instruction](https://eips.ethereum.org/EIPS/eip-140)
+3. [EIP 196 : Precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128](https://eips.ethereum.org/EIPS/eip-196)
+4. [EIP 197 : Precompiled contracts for optimal ate pairing check on the elliptic curve alt_bn128](https://eips.ethereum.org/EIPS/eip-197)
+5. [EIP 198 : Big Integer Modular Exponentiation](https://eips.ethereum.org/EIPS/eip-198)
+6. [EIP 211 : New Opcodes RETURNDATASIZE and RETURNDATACOPY](https://eips.ethereum.org/EIPS/eip-211)
+7. [EIP 214 : New Opcode STATICCALL](https://eips.ethereum.org/EIPS/eip-214)
+8. [EIP 649 : Metropolis Difficulty Bomb Delay & Block Reward Reduction](https://eips.ethereum.org/EIPS/eip-649)
+9. [EIP 658 : Embedding Transaction Status Code in Receipts](https://eips.ethereum.org/EIPS/eip-658)
 
 
 
