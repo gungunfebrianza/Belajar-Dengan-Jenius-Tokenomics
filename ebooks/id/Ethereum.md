@@ -17,10 +17,18 @@ Belajar Dengan Jenius Tokenomics
   - Pre-release : The Olympic
   - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
+    - DAO Incident
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
+    - Byzantium Hard Fork
+    - Constantinople Hard Fork
+    - Istanbul Hard Fork
+    - Muir Glacier Hard Fork
   - [Serenity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#serenity)
     - [Validator](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#validator)
     - [Sharding](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#sharding)
+    - Berlin Hard Fork
+    - London Hard Fork
+    - Shanghai Hard Fork
 
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
@@ -283,17 +291,51 @@ https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 ## Frontier
 
-Stage Frontier menjadi tanda pertama kalinya Ethereum di rilis, dengan tema Ethereum 1.0. Dalam peluncuran ini terdapat Genesis Block yang menyimpan 8893 transactions yang dilakukan para crypto netizen saat membeli ethers saat presale. Terdapat pre-mined 72 juta ETH pada stage ini.
+**Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
 
 
 
 ## Homestead
 
-Stage kedua diluncurkan pada bulan Maret Tahun 2016.
+**Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
+
+
+
+
+
+### DAO Incident
+
+
 
 
 
 ## Metropolis
+
+
+
+
+
+### Byzantium Hard Fork
+
+
+
+
+
+### Constantinople Hard Fork 
+
+
+
+
+
+### Istanbul Hard Fork
+
+
+
+
+
+### Muir Glacier Hard Fork
+
+
 
 
 
@@ -344,6 +386,22 @@ Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** den
 3. **Secure** - **Ethereum Protocol** menjadi lebih aman karena para **attacker** tidak dapat menargetkan serangan pada bagian terkecil dari sistem dengan jumlah **resources** yang terbatas.
 
 Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Quadratic** **Sharding**.
+
+
+
+### Berlin Hard Fork
+
+
+
+
+
+### London Hard Fork
+
+
+
+
+
+### Shanghai Hard Fork
 
 
 
