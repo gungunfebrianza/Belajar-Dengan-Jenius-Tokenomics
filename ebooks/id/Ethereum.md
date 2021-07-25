@@ -279,7 +279,11 @@ https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 **Olympic** adalah fase terakhir dari pengembangan protokol **Ethereum**, sebelum memasuki **Stage Frontier**.
 
+
+
 ## Frontier
+
+Stage Frontier menjadi tanda pertama kalinya Ethereum di rilis, dengan tema Ethereum 1.0. Dalam peluncuran ini terdapat Genesis Block yang menyimpan 8893 transactions yang dilakukan para crypto netizen saat membeli ethers saat presale. Terdapat pre-mined 72 juta ETH pada stage ini.
 
 
 
