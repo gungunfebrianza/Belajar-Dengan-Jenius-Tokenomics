@@ -18,8 +18,8 @@ Belajar Dengan Jenius Tokenomics
   - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
     - [DAO Incident](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dao-incident)
-    - Tangerine Whistle
-    - Spurious Dragon
+    - [Tangerine Whistle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#tangerine-whistle)
+    - [Spurious Dragon](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#spurious-dragon)
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
     - [Byzantium Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#byzantium-hard-fork)
     - [Constantinople Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#constantinople-hard-fork)
@@ -295,7 +295,7 @@ https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 **Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
 
-Posisi Block : 0
+Posisi **Block** : 0
 
 
 
@@ -303,7 +303,13 @@ Posisi Block : 0
 
 **Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
 
-Posisi Block : 1,150,000
+Terdapat penerapan **Opcode** baru pada [EIP 7](https://eips.ethereum.org/EIPS/eip-7) :
+
+```
+DELEGATECALL 
+```
+
+Posisi **Block** : 1,150,000
 
 
 
@@ -321,7 +327,7 @@ https://github.com/blockchainsllc/DAO
 
 Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak direncanakan didukung para **miners** namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
 
-Posisi Block : 1,920,000
+Posisi **Block** : 1,920,000
 
 
 
@@ -329,13 +335,20 @@ Posisi Block : 1,920,000
 
 **Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**. 
 
-Posisi Block : 2,463,000
+Posisi **Block** : 2,463,000
 
 
 
 ### Spurious Dragon
 
+**Spurious Dragon** juga menjadi bagian **Hard Fork** yang tidak direncanakan pada November 2016 yang menerapkan 4 proposal sekaligus :
 
+1. EIP 155 :
+2. EIP 160 :
+3. EIP 161 :
+4. [EIP 170 : Contract Code Size Limit](https://eips.ethereum.org/EIPS/eip-170)
+
+Posisi **Block** : 2,675,000
 
 
 
