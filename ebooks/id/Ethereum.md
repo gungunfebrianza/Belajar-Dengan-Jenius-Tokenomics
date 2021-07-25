@@ -726,7 +726,9 @@ Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Qua
 
 ### Berlin Hard Fork
 
+**Berlin upgrade** terjadi pada 5 April 2021, terdapat penerapan 4 **Ethereum Improvement Proposals (EIPs)** terkait **Gas Price** dan pengenalan tipe **transactions** terbaru dalam **Ethereum Protocol**.
 
+Posisi **Block** : 12,244,000
 
 
 
