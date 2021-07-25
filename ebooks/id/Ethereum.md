@@ -309,7 +309,7 @@ Posisi Block : 1,150,000
 
 Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**. 
 
-Bulan Juni terdapat serangan pada **DAO Contract**, celah keamanan di exploitasi oleh **hacker** yang menimbulkan kerugian sebesar **3.6 Juta Ethers**.
+Bulan Juni 2016 terjadi serangan pada **DAO Contract**, terdapat celah keamanan di **level Contract Design** yang di exploitasi oleh **hacker** dan menimbulkan kerugian sebesar **3.6 Juta Ethers**. Sang **hacker** berhasil mencuri  **3.6 Juta Ethers**
 
 Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya. 
 
@@ -317,9 +317,9 @@ Serangan dianggap **valid activity** meskipun bersifat **unethical**. Di bawah i
 
 https://github.com/blockchainsllc/DAO
 
-Keputusan akhirpun dibuat terdapat **Hard Fork** yang tidak direncanakan namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
+Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak direncanakan didukung para **miners** namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
 
-
+Posisi Block : 1,920,000
 
 
 
