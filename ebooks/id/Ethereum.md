@@ -604,7 +604,7 @@ Posisi **Block** : 2,675,000
 
 ## Metropolis
 
-**Stage** ketiga pada **Ethereum Development** adalah **Metropolis**, tujuannya untuk persiapan melakukan migrasi konsensus dari Proof of Work (PoW) menuju **Proof of Stake (PoS)**.
+**Stage** ketiga pada **Ethereum Development** adalah **Metropolis**, tujuannya untuk persiapan melakukan migrasi konsensus dari **Proof of Work (PoW)** menuju **Proof of Stake (PoS)**.
 
 Pada **Proof of Stake (PoS)** terdapat **process** yang disebut dengan **Forging**, sebuah aktivitas pemilihan secara random pada **Validator** yang akan memiliki **Block** selanjutnya. Sehingga semakin besar jumlah **Stake** yang kita tanam sebagai **Validator** semakin besar peluang untuk terpilih.
 
@@ -614,7 +614,14 @@ Posisi **Block** : 4,370,000
 
 ### Byzantium Hard Fork
 
+**Byzantium Hard Fork** terjadi pada bulan Oktober Tahun 2017 terdapat 9 **EIP** yang diterapkan.
 
+1. [EIP 140 : REVERT Instruction](https://eips.ethereum.org/EIPS/eip-140)
+2. [EIP 198 : Big Integer Modular Exponentiation](https://eips.ethereum.org/EIPS/eip-198)
+3. [EIP 211 : New Opcodes RETURNDATASIZE and RETURNDATACOPY](https://eips.ethereum.org/EIPS/eip-211)
+4. [EIP 214 : New Opcode STATICCALL](https://eips.ethereum.org/EIPS/eip-214)
+5. [EIP 649 : Metropolis Difficulty Bomb Delay & Block Reward Reduction](https://eips.ethereum.org/EIPS/eip-649)
+6. [EIP 658 : Embedding Transaction Status Code in Receipts](https://eips.ethereum.org/EIPS/eip-658)
 
 
 
