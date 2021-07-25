@@ -614,7 +614,9 @@ Posisi **Block** : 4,370,000
 
 ### Byzantium Hard Fork
 
-**Byzantium Hard Fork** terjadi pada bulan Oktober Tahun 2017 terdapat 9 **EIP** yang diterapkan.
+**Byzantium Hard Fork** terjadi pada bulan Oktober Tahun 2017 terdapat 9 **EIP** yang diterapkan. Restrukturisasi **Reward System Algorithm** untuk para **Miners** mulai dilakukan, hadiah **Mining** saat memecahkan **block** baru dikurangi dari 5 ETH ke 3 ETH.
+
+Di bawah ini adalah beberapa **EIP** yang diterapkan pada **Byzantium Hard Fork** :
 
 1. [EIP 140 : REVERT Instruction](https://eips.ethereum.org/EIPS/eip-140)
 2. [EIP 198 : Big Integer Modular Exponentiation](https://eips.ethereum.org/EIPS/eip-198)
