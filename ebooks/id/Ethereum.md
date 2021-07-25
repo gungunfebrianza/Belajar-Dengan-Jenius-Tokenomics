@@ -14,6 +14,7 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum Development Stage](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-development-stage)
 
+  - Pre-release : The Olympic
   - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
@@ -261,7 +262,7 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 
 
 
-## Pre-release - Olympic
+## Pre-release : The Olympic
 
 Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama **Olympic** diluncurkan oleh **Ethereum Foundation**. Tujuan dari **Olympic** adalah menguji seberapa jauh limitasi **Ethereum Protocol** selama periode pre-rilis, seperti melakukan **spamming** dan **flooding** jaringan komputer untuk menguji **Ethereum Protocol**.
 
@@ -276,7 +277,7 @@ Untuk detail informasi setiap kategori dapat di baca disini :
 
 https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
-
+**Olympic** adalah fase terakhir dari pengembangan protokol **Ethereum**, sebelum memasuki **Stage Frontier**.
 
 ## Frontier
 
