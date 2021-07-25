@@ -263,9 +263,18 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 
 ## Pre-release - Olympic
 
-Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama Olympic diluncurkan oleh Ethereum Foundation. Tujuan dari Olympic adalah menguji seberapa jauh limitasi Ethereum Protocol selama periode pre-rilis, seperti melakukan spamming dan flooding jaringan komputer untuk menguji Ethereum Protocol.
+Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama **Olympic** diluncurkan oleh **Ethereum Foundation**. Tujuan dari **Olympic** adalah menguji seberapa jauh limitasi **Ethereum Protocol** selama periode pre-rilis, seperti melakukan **spamming** dan **flooding** jaringan komputer untuk menguji **Ethereum Protocol**.
 
-Terdapat hadiah sebesar 25.000 ethers dalam kegiatan ini yang akan diselenggarakan selama 14 hari.
+Terdapat hadiah sebesar **25.000 ethers** dalam kegiatan ini yang akan diselenggarakan selama 14 hari. Hadiah akan diberikan untuk pengujian di 4 kategori :
+
+1. **Transaction Activity**
+2. **Virtual Machine Usage**
+3. **Mining Prowess**
+4. **General Punishment**
+
+Untuk detail informasi setiap kategori dapat di baca disini :
+
+https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 
 
