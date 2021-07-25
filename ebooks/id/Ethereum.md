@@ -183,9 +183,9 @@ Belajar Dengan Jenius Tokenomics
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
-- Ethereum Security Deep Dive
+- [Ethereum Security Deep Dive](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-security-deep-dive)
 
-  - Reentrancy Attack
+  - [Reentrancy Attack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reentrancy-attack)
 
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
 
@@ -648,7 +648,7 @@ Di bawah ini adalah beberapa EIP yang diterapkan pada **Constantinople Hard Fork
 
 EIP-1234 memberikan impak pada **Reward System Algorithm** untuk para **Miners**, karena **block rewards** direduksi lagi dari 3 ETH menjadi 2 ETH.
 
-32 jam sebelum **fork** dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat **bug** dari **EIP-1283** yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**. Delay dilakukan karena terdapat **report** secara independen dari perusahaan audit keamanan komputer, **ChainSecurity**.
+32 jam sebelum **fork** dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat **bug** dari **EIP-1283** yang dapat menimbulkan **[Reentrancy Attack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reentrancy-attack)** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**. Delay dilakukan karena terdapat **report** secara independen dari perusahaan audit keamanan komputer, **ChainSecurity**.
 
 Laporan dari **ChainSecurity** menjelaskan bahwa **upgrade** dapat menimbulkan kerentanan, **hacker** dapat kembali mencuri asset seperti yang telah terjadi pada [DAO Incident](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dao-incident) sebelumnya. Belajar dari kesalahan di masa lalu, pada **Ethereum Developer** melakukan delay. Untuk laporan lengkapnya dapat di baca disini :
 
@@ -662,7 +662,7 @@ Posisi **Block** : 7,280,000
 
 ### Istanbul Hard Fork
 
-
+Pada **Istanbul Hard Fork** terdapat perubahan yang cukup signifikan terutama pada **Mining Protocol** dan **Code Execution**, terdapat algoritma **Proof of Work (PoW)** baru yang diperkenalkan yaitu **ProgPow** didesain untuk **ASIC Machine**.
 
 
 
@@ -2256,5 +2256,5 @@ Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 6. Penerapan Note No 2 menimbulkan obselete for majority current DApps interacting with old state
 7. Taproot Upgrade pada Bitcoin Protocol menjadi penantang baru Smart Contract Ethereum Protocol 
 8. Migrasi penggunaan Elliptic Curve Digital Signature (ECDS) ke Schnorr Signatures (Space & Anonymity Issue)
-9. 
+9. New Business Model Validator as a Service
 
