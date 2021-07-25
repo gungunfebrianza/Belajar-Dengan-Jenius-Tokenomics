@@ -18,6 +18,8 @@ Belajar Dengan Jenius Tokenomics
   - [Frontier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#frontier)
   - [Homestead](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#homestead)
     - [DAO Incident](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dao-incident)
+    - Tangerine Whistle
+    - Spurious Dragon
   - [Metropolis](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metropolis)
     - [Byzantium Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#byzantium-hard-fork)
     - [Constantinople Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#constantinople-hard-fork)
@@ -320,6 +322,20 @@ https://github.com/blockchainsllc/DAO
 Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak direncanakan didukung para **miners** namun karena tidak mengalami **Full Consensus**, banyak pengguna yang meneruskan **chain** lama yang kini disebut dengan **Ethereum Classic**.
 
 Posisi Block : 1,920,000
+
+
+
+### Tangerine Whistle 
+
+**Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**. 
+
+Posisi Block : 2,463,000
+
+
+
+### Spurious Dragon
+
+
 
 
 
