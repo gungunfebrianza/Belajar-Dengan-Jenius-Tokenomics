@@ -662,7 +662,9 @@ Posisi **Block** : 7,280,000
 
 ### Istanbul Hard Fork
 
-Pada **Istanbul Hard Fork** terdapat perubahan yang cukup signifikan terutama pada **Mining Protocol** dan **Code Execution**, terdapat algoritma **Proof of Work (PoW)** baru yang diperkenalkan yaitu **ProgPow** didesain untuk **ASIC Machine**.
+Pada **Istanbul Hard Fork** terdapat perubahan yang cukup signifikan terutama pada **Mining Protocol** dan **Code Execution**, terdapat algoritma **Proof of Work (PoW)** baru yang diperkenalkan yaitu **ProgPow** didesain untuk **Application Specific Integration Circuits (ASIC) Machine**.
+
+**Application Specific Integration Circuits (ASIC)** di desain agar dapat melakukan proses **mining** dengan efektif dan efisien. **Application Specific Integration Circuits (ASIC)** dianggap berpotensi memberikan resiko **Centralization Mining** jika sumber daya **Mining Pool** terbatas. 
 
 
 
