@@ -261,6 +261,14 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 
 
 
+## Pre-release - Olympic
+
+Pada bulan Mei tahun 2015, versi pre-rilis yang diberi nama Olympic diluncurkan oleh Ethereum Foundation. Tujuan dari Olympic adalah menguji seberapa jauh limitasi Ethereum Protocol selama periode pre-rilis, seperti melakukan spamming dan flooding jaringan komputer untuk menguji Ethereum Protocol.
+
+Terdapat hadiah sebesar 25.000 ethers dalam kegiatan ini yang akan diselenggarakan selama 14 hari.
+
+
+
 ## Frontier
 
 
@@ -356,9 +364,7 @@ Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **
 
 2. **State Expiry** menggaggas konsep **active state** dan **old state**, berfungsi untuk mencabut **state** yang sudah lama tidak diakses. **State Expiry** juga membutuhkan **witnesses** jika terdapat aktivitas **recovery** pada **state** yang sudah **expire**. **State Storage** yang menjadi **weakpoint** dari **Ethereum Economic** dapat diperbaiki dengan turunnya kebutuhan tempat penyimpanan data **approximately** sebesar **20-50 GB**.
 
-   Rekomendasi Expiration Date belum 
-
-3. sda
+   Rekomendasi **Expiration Date** belum di atur karena masih banyak perdebatan dalam komunitas, **old state data** kemungkinan akan disimpan di dalam **node archiver**, **explorers** dan **Decentralized Project** lainnya seperti **The Graph**.
 
 
 
@@ -2080,3 +2086,5 @@ Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 3. Migrasi dari Ethereum Virtual Machine (EVM) ke Etherreum WebAssembly (EWASM)
 4. Dukungan penulisan Smart Contract menggunakan bahasa Rust, C++, Python, Javascript & etc
 5. Innovation & Complexity Growth push developer to more competitive become specialist
+6. Penerapan Note No 2 menimbulkan obselete for majority current DApps interacting with old state
+
