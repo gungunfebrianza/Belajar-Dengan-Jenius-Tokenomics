@@ -183,6 +183,10 @@ Belajar Dengan Jenius Tokenomics
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
+- Ethereum Security Deep Dive
+
+  - Reentrancy Attack
+
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
 
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
@@ -642,7 +646,7 @@ Di bawah ini adalah beberapa EIP yang diterapkan pada **Constantinople Hard Fork
 4. [EIP 1234 : Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
 5. [EIP 1283 : Net gas metering for SSTORE without dirty maps](https://eips.ethereum.org/EIPS/eip-1283)
 
-32 jam sebelum fork dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat bug dari EIP 1283 yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
+32 jam sebelum **fork** dilakukan **Constantinople Hard Fork** harus ditunda karena terdapat **bug** dari **EIP 1283** yang dapat menimbulkan **Reentrancy Attack** pada banyak **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
 
 Posisi **Block** : 7,280,000
 
@@ -2195,6 +2199,16 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
+
+
+
+# Ethereum Security Deep Dive 
+
+
+
+
+
+## Reentrancy Attack
 
 
 
