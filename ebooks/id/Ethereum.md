@@ -225,6 +225,12 @@ Saat ini terdapat dua protokol *Cryptocurrency* yang terbukti proven dapat digun
 
 ## Turing Complete
 
+Karakteristik *turing complete* membuat para *Blockchain Developer* diseluruh dunia cenderung menggunakan *ethereum protocol* daripada *bitcoin protocol*, kompleksitas penulisan program pada *bitcoin protocol* cenderung rumit karena *bitcoin scripting* tidak memiliki karakteristik *turing complete*. 
+
+*Bitcoin scripting* tidak bersifat *turing complete* dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah *turing complete* bisa menimbulkan *infinite loops*. 
+
+Namun *ethereum protocol* ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan *turing complete*, yaitu dengan menerapkan *metering mechanism* menggunakan konsep *Gas*. Setiap program yang ditulis dibebankan biaya untuk mencegah *infinite loop*. 
+
 Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
 
 Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
