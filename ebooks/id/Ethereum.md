@@ -2010,6 +2010,15 @@ struct Funder {
 
 
 
+# Tokenization
+
+Dalam dunia keuangan terdapat istilah *fungible* dan *non-fungible assets.* 
+
+Sebuah *asset* dikatakan *fungible* ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit *asset* lainnya dengan mudah. Mata uang, *loyality tokens*, kupon makanan dan komoditas memiliki karakteristik *fungible* secara natural. 
+
+Sebuah *asset* dikatakan *non-fungible* ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat *irreplaceable*. Karya Seni, *items* dalam *computer games*, dan *real estate* memiliki karakteristik *non-fungible* secara natural.  
+
+
 
 # ERC-20 Token Standard
 
