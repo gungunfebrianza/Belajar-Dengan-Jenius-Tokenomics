@@ -2222,6 +2222,14 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
+**DApps** atau **Decentralized Applications** kini telah menjadi ikon teknologi **WWW (World Wide Web)** berikutnya. **DApps** membawa gagasan **Smart Contract** menjadi lebih luas lagi, **DApps** adalah **Smart Contract** dengan **Web Front-end**. 
+
+**DApps** memperlakukan **Smart Contract** sebagai **back-end** untuk menentukan **business logic.** Keunggulannya dibandingkan aplikasi tercentral adalah **DApps** tidak memiliki **downtime** selama **platform blockchain ethereum** masih berjalan. 
+
+**Web3.js** membuat **developer** dapat berinteraksi langsung dengan node ethereum seperti menandatangani pesan, melakukan transaksi dan memanajemen kunci. **Web3.js** juga digunakan untuk membangun client-side application yang lebih interaktif. 
+
+**DApps** membantu menyediakan **User Interface (UI)** yang lebih interaktif dan dinamis. 
+
 
 
 # Oracle
