@@ -267,6 +267,10 @@ Secara original, *Bitcoin Protocol* didesain oleh *Satoshi Nakamoto* dan komunit
 
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
 
+*Ethereum Protocol* sebagai *general purpose* dapat digunakan sebagai *Secure Progamming Environment* untuk menanam sebuah program ke dalam *blockchain* yang berjalan di jaringan komputer Ethereum.  
+
+Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi diseluruh *programming domain* yang memang memerlukan penerapan *blockchain*, semua itu dapat diwujudkan karena terdapat dukungan *Turing Complete* dalam *ethereum protocol*. 
+
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
