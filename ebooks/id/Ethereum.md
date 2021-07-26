@@ -263,6 +263,8 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 
 ## General Purpose
 
+Secara original, *Bitcoin Protocol* didesain oleh *Satoshi Nakamoto* dan komunitas sebagai alat pembayaran saja menggunakan *Cryptoasset bitcoins*. Sementara *Ethereum Protocol* bersifat *General Purpose* tidak hanya digunakan sebagai alat transaksi *cryptoasset*. 
+
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
 
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
