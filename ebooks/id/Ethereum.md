@@ -2315,6 +2315,22 @@ Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
 
 
+# Blockchain
+
+Blockchain adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya Double Spending. Pemanfaatan Blockchain mendukung terciptanya standar pasar yang lebih adil dan transparan. 
+
+Blockchain adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat. 
+
+Salah satu aspek Protokol Ethereum dipilih karena protokol tersebut mendukung pemanfaatan Consensus Mechanism berbasis Proof of Stake (PoS) yang lebih eco-friendly. 
+
+Protokol Ethereum dipilih karena berkomitmen meninggalkan Consensus Proof of Work (PoW) yang tidak ramah lingkungan, Consensus Proof of Stake (PoS) memberikan solusi skema insentif terbaru dari **Mining Reward menjadi Validator Reward.** 
+
+Pada Proof of Stake (PoS) tidak perlu lagi investasi pada perangkat keras khusus yang membutuhkan konsumsi energi tinggi seperti ASIC Machines dan GPU Chips. Dari tahun 2017 sampai tahun 2021 konsumsi energinya sudah di atas 100 TeraWatt/jam. 
+
+Pada Consensus Proof of Stake (PoS) siapapun yang ingin mendapatkan Validator Reward harus mempertaruhkan (staking) 32 ETH sebagai collateral asset. Juga tersedia alternative staking pool yang dapat digunakan para pemilik ETH untuk bisa melakukan Staking secara patungan berkelompok. 
+
+Hal ini lah yang membuat Consensus Mechanism Proof of Stake (PoS) lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data blockchain secara kontinyu. 
+
 # Note 2021
 
 1. Permasalahan Scalability pada Ethereum Protocol Solved Via Sharding
