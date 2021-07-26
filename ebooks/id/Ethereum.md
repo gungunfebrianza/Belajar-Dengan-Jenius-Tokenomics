@@ -215,27 +215,27 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 ## Public Blockchain
 
-Saat ini terdapat dua protokol *Cryptocurrency* yang terbukti proven dapat digunakan secara global, *Bitcoin* dan *Ethereum*. Kedua protokol ini memiliki karakteristik *Public Blockchain* artinya mekanisme penerapan *blockchain* yang digunakan memiliki derajat kepercayaan yang tinggi di dunia. 
+Saat ini terdapat dua protokol **Cryptocurrency** yang terbukti **proven** dapat digunakan secara global, **Bitcoin** dan **Ethereum**. Kedua protokol ini memiliki karakteristik **Public Blockchain** artinya mekanisme penerapan **blockchain** yang digunakan memiliki derajat kepercayaan yang tinggi di dunia. 
 
 **Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. 
 
-*Public Blockchain* juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi *client* atas sebuah *public blockchain* akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer. 
+**Public Blockchain** juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi **client** atas sebuah **public blockchain** akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer. 
 
 
 
 ## Turing Complete
 
-Karakteristik *turing complete* membuat para *Blockchain Developer* diseluruh dunia cenderung menggunakan *ethereum protocol* daripada *bitcoin protocol*, kompleksitas penulisan program pada *bitcoin protocol* cenderung rumit karena *bitcoin scripting* tidak memiliki karakteristik *turing complete*. 
+Karakteristik **Turing Complete** membuat para **Blockchain Developer** diseluruh dunia cenderung menggunakan **Ethereum Protocol** daripada **Bitcoin Protocol**, kompleksitas penulisan program pada **Bitcoin Protocol** cenderung rumit karena **Bitcoin Scripting** tidak memiliki karakteristik **Turing Complete**. 
 
-*Bitcoin scripting* tidak bersifat *turing complete* dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah *turing complete* bisa menimbulkan *infinite loops*. 
+**Bitcoin Scripting** tidak bersifat **Turing Complete** dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah **Turing Complete** bisa menimbulkan **Infinite Loops**. 
 
-Namun *ethereum protocol* ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan *turing complete*, yaitu dengan menerapkan *metering mechanism* menggunakan konsep *Gas*. Setiap program yang ditulis dibebankan biaya untuk mencegah *infinite loop*. 
+Namun **Ethereum Protocol** ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan **Turing Complete**, yaitu dengan menerapkan *metering mechanism* menggunakan konsep *Gas*. Setiap program yang ditulis dibebankan biaya untuk mencegah **Infinite Loops**. 
 
 Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
 
 Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
 
-**Gas** adalah sebuah solusi yang jenius, gas adalah konsep **metering mechanism** yang dapat digunakan untuk membatasi komputasi **Smart Contract**.
+**Gas** adalah sebuah solusi yang jenius, **gas** adalah konsep **metering mechanism** yang dapat digunakan untuk membatasi komputasi **Smart Contract**.
 
 Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat menimbulkan **infinite loops** pada **program smart contract** untuk menulis **malicious program (Malware)** atau bisa juga terjadi karena **Human-error** yang dilakukan secara tidak sengaja.
 
@@ -253,7 +253,15 @@ Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya m
 
 Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
 
+Setiap **nodes** dalam **Ethereum Protocol** membentuk skema **Global Computer** yang dapat diprogram oleh siapa saja untuk membuat sebuah **Global State** dan melakukan **Global State Transition**. **State** dapat digunakan untuk menyimpan data dengan berbagai **structure data** seperti **key & value pair** atau **single variable**. 
+
 <img src="../assets/Ethereum-Global-State-Machine.png" style="zoom:100%;" />
+
+Selain **state** terdapat **Embedded Permanent Algorithm** yang menentukan mekanisme perubahan **state** atau **state transition** menggunakan sebuah **function** tunggal atau sekumpulan **functions** yang di tanam ke dalam **smart contract**. 
+
+Seluruh komponen ini menjadi fondasi terciptanya **Global State Machine**. 
+
+Dengan memanfaatkan **Global State Machine**, kita dapat membuat sebuah program **Smart Contract** yang dapat menyelesaikan permasalahan dalam suatu domain. Pada industri keuangan **smart contract** dapat digunakan untuk membangun sebuah program untuk melakukan **Tokenization**. 
 
 Setiap **Smart Contract**, memiliki **Contract Address** dan untuk menjalankan sebuah **Smart Contract** diseluruh **Node** kita harus melakukan sebuah **Transaction**. Sebuah **Transaction** dapat digunakan untuk memanggil fungsi tertentu dalam **Smart Contract**, atau memberikan input data pada **Smart Contract** untuk mengubah **State** di dalamnya.
 
@@ -269,13 +277,13 @@ State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika te
 
 ## General Purpose
 
-Secara original, *Bitcoin Protocol* didesain oleh *Satoshi Nakamoto* dan komunitas sebagai alat pembayaran saja menggunakan *Cryptoasset bitcoins*. Sementara *Ethereum Protocol* bersifat *General Purpose* tidak hanya digunakan sebagai alat transaksi *cryptoasset*. 
+Secara original, **Bitcoin Protocol** didesain oleh **Satoshi Nakamoto** dan komunitas sebagai alat pembayaran saja menggunakan **Cryptoasset bitcoins**. Sementara **Ethereum Protocol** bersifat **General Purpose** tidak hanya digunakan sebagai alat transaksi **Cryptoasset**. 
 
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
 
-*Ethereum Protocol* sebagai *general purpose* dapat digunakan sebagai *Secure Progamming Environment* untuk menanam sebuah program ke dalam *blockchain* yang berjalan di jaringan komputer Ethereum.  
+**Ethereum Protocol** sebagai **general purpose** dapat digunakan sebagai **Secure Progamming Environment** untuk menanam sebuah program ke dalam **blockchain** yang berjalan di jaringan komputer **Ethereum**.  
 
-Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi diseluruh *programming domain* yang memang memerlukan penerapan *blockchain*, semua itu dapat diwujudkan karena terdapat dukungan *Turing Complete* dalam *ethereum protocol*. 
+Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi diseluruh **programming domain** yang memang memerlukan penerapan **blockchain**, semua itu dapat diwujudkan karena terdapat dukungan **Turing Complete** dalam **Ethereum Protocol**. 
 
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
