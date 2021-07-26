@@ -2313,10 +2313,6 @@ Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Mine
 
 Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
-
-
-# Blockchain
-
 Blockchain adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya Double Spending. Pemanfaatan Blockchain mendukung terciptanya standar pasar yang lebih adil dan transparan. 
 
 Blockchain adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat. 
