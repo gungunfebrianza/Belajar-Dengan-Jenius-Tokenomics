@@ -229,7 +229,7 @@ Karakteristik **Turing Complete** membuat para **Blockchain Developer** diseluru
 
 **Bitcoin Scripting** tidak bersifat **Turing Complete** dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah **Turing Complete** bisa menimbulkan **Infinite Loops**. 
 
-Namun **Ethereum Protocol** ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan **Turing Complete**, yaitu dengan menerapkan *metering mechanism* menggunakan konsep *Gas*. Setiap program yang ditulis dibebankan biaya untuk mencegah **Infinite Loops**. 
+Namun **Ethereum Protocol** ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan **Turing Complete**, yaitu dengan menerapkan **metering mechanism** menggunakan konsep **Gas**. Setiap program yang ditulis dibebankan biaya untuk mencegah **Infinite Loops**. 
 
 Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
 
@@ -2036,11 +2036,11 @@ struct Funder {
 
 # Tokenization
 
-Dalam dunia keuangan terdapat istilah *fungible* dan *non-fungible assets.* 
+Dalam dunia keuangan terdapat istilah **fungible** dan **non-fungible assets**. 
 
-Sebuah *asset* dikatakan *fungible* ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit *asset* lainnya dengan mudah. Mata uang, *loyality tokens*, kupon makanan dan komoditas memiliki karakteristik *fungible* secara natural. 
+Sebuah **asset** dikatakan **fungible** ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit **asset** lainnya dengan mudah. Mata uang, **loyality tokens**, kupon makanan dan komoditas memiliki karakteristik **fungible** secara natural. 
 
-Sebuah *asset* dikatakan *non-fungible* ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat *irreplaceable*. Karya Seni, *items* dalam *computer games*, dan *real estate* memiliki karakteristik *non-fungible* secara natural.  
+Sebuah **asset** dikatakan **non-fungible** ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat **irreplaceable**. Karya Seni, **items** dalam **computer games**, dan **real estate** memiliki karakteristik **non-fungible** secara natural.  
 
 
 
