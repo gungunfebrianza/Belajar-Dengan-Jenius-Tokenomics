@@ -59,7 +59,7 @@ Belajar Dengan Jenius Tokenomics
 
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 
-- Ethereum Web Assembly (EWasm)
+- [Ethereum Web Assembly (EWasm)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-web-assembly-ewasm)
 
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
 
@@ -2221,6 +2221,12 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 # DApps
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
+
+
+
+# Oracle
+
+**Oracle** memberikan kemampuan agar **Smart Contract** dapat berinteraksi dengan informasi ekstrinsik seperti informasi dunia nyata atau **off-chain**. Kapabilitas ini membuat inovasi dalam **Smart Contract** bisa lebih dinamis, fleksibel dan kompleks untuk memecahkan berbagai permasalahan dalam **domain blockchain**. 
 
 
 
