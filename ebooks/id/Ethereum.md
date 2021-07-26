@@ -797,6 +797,14 @@ Reserved.
 
 # Smart Contract
 
+**Ethereum** adalah **Public Blockchain** yang didesain secara spesial dengan kapabilitas tambahan **Smart Contract**. 
+
+**Smart Contract** adalah sebuah program komputer yang berjalan pada **Ethereum Virtual Machine (EVM)**, ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka program **computer** bersifat **immutable** dan hasil eksekusi bersifat deterministik. 
+
+Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pada setiap **Ethereum Virtual Machine (EVM)** di ribuan node yang tersebar ke berbagai belahan dunia. 
+
+Pada **Ethereum Smart Contract** terdapat dukungan **OpenZeppelin Contract** yang membantu membangun standar **Smart Contract** yang aman. **Ethereum Smart Contract**.
+
 **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
 
 Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, sebuah **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
