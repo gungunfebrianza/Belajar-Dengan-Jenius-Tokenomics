@@ -215,7 +215,11 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 ## Public Blockchain
 
-**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. **Public Blockchain** juga memberikan makna bahwa setiap entitas dalam protokol **Ethereum** akan mendapatkan perlakuan yang sama dan setara.
+Saat ini terdapat dua protokol *Cryptocurrency* yang terbukti proven dapat digunakan secara global, *Bitcoin* dan *Ethereum*. Kedua protokol ini memiliki karakteristik *Public Blockchain* artinya mekanisme penerapan *blockchain* yang digunakan memiliki derajat kepercayaan yang tinggi di dunia. 
+
+**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. 
+
+*Public Blockchain* juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi *client* atas sebuah *public blockchain* akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer. 
 
 
 
