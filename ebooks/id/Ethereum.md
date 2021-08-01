@@ -2014,7 +2014,7 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 **Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**.
 
-
+#### Overflows & Underflows
 
 ### Address
 
@@ -2073,6 +2073,8 @@ Konversi secara implisit dari **address payable** ke dalam **address** diizinkan
 
 
 ### String
+
+Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array**.
 
 
 
