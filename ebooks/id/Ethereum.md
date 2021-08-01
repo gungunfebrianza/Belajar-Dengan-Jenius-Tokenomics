@@ -1093,6 +1093,10 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untuk membuat sebuah **Password** yang akan digunakan untuk melindungi seluruh **Private Keys** anda dalam **Wallet Metamask**.
 
+### Backup-phrase
+
+Terakhir sebelum menggunakan **Metamask** anda akan diminta untuk mencatat **Seed Phrase**, wujudnya adalah 12 kata yang tidak boleh diketahui oleh siapapun kecuali diri anda sendiri. Gunanya adalah sebagai **Master Key** untuk mengakses kembali seluruh **Accounts** yang kita miliki jika anda kehilangan **Wallet** anda.
+
 ### Switch Network
 
 Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**, baik **Main Net** atau **Test Net**. Juga terdapat dukungan untuk dapat terhubung pada **Localhost** sebuah jaringan **Ethereum Network Virtual** yang kita buat sendiri dalam komputer kita.
