@@ -63,6 +63,10 @@ Belajar Dengan Jenius Tokenomics
 
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
 
+  - Transaction & Call
+  
+- Smart Contract Use Case
+
   - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
   - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 
@@ -850,6 +854,14 @@ Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** 
 
 <img src="../assets/Ethereum-Smart-Contract4.png" style="zoom:100%;" />
 
+
+
+## Transaction & Call
+
+
+
+# Smart Contract Use Case
+
 Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
 
 1. **Crowdsales**
@@ -869,6 +881,8 @@ Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Pro
 Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
 
 Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
+
+
 
 
 
