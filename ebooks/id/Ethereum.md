@@ -84,6 +84,7 @@ Belajar Dengan Jenius Tokenomics
     - [Create & Import Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#create--import-account)
     - [Perform Transaction](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#perform-transaction)
     - [Token Management](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#token-management)
+    - Infura
   - [Remix](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#remix)
     - [Runtime Environment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#runtime-environment)
     - [Javascript Virtual Machine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#javascript-virtual-machine-vm)
@@ -1086,11 +1087,7 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 ## Metamask 
 
-**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Secara internal **Metamask** terhubung ke dalam sebuah **Node** yang dibangun dengan **INFURA**, untuk informasi lebih lanjut mengenai **INFURA** silahkan kunjungi laman di bawah ini :
-
-https://infura.io
-
-Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
+**Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Jika anda telah memasang **Metamask** maka selanjutnya anda akan diminta untuk membuat sebuah **Wallet** atau melakukan **Import Wallet**.
 
 
 
@@ -1125,6 +1122,16 @@ Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirim
 ### Token Management
 
 Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan informasi **Token Contract Address** ke dalam **Metamask**.
+
+
+
+### Infura
+
+Secara internal **Metamask** terhubung ke dalam sebuah **Node** yang dibangun dengan **INFURA**, untuk informasi lebih lanjut mengenai **INFURA** silahkan kunjungi laman di bawah ini :
+
+https://infura.io
+
+Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
 
 
 
@@ -2189,6 +2196,16 @@ Fungsi ini digunakan untuk melakukan transfer sejumlah token dari **from address
 Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah token yang dikirim, jumlah saldo milik **spender address** akan ditambah sesuai dengan jumlah token yang dikirim. 
 
 Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
+
+
+
+# OpenZeppelin
+
+
+
+## Decimals
+
+
 
 
 
