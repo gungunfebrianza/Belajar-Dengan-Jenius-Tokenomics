@@ -1089,7 +1089,9 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Jika anda telah memasang **Metamask** maka selanjutnya anda akan diminta untuk membuat sebuah **Wallet** atau melakukan **Import Wallet**.
 
+### Setup Password
 
+Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untuk membuat sebuah **Password** yang akan digunakan untuk melindungi seluruh **Private Keys** anda dalam **Wallet Metamask**.
 
 ### Switch Network
 
