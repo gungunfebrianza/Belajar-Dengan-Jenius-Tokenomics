@@ -1177,7 +1177,9 @@ Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau 
 
 **Remix** adalah **Open-source IDE** untuk melakukan **Coding**, **Compiling**, **Testing** dan **Debugging** sebuah **Smart Contract** yang ditulis menggunakan **Solidity**. **Remix** adalah **browser-based development environment** yang memberikan fitur lengkap untuk para **Smart Contract Developer** agar dapat melakukan simulasi.
 
-Pastikan anda menggunakan protokol **http** bukan **https** saat menggunakan remix, dikarenakan **Remix** menyimpan data dalam **localstorage browser**. 
+Pastikan anda menggunakan protokol **http** bukan **https** saat menggunakan **Remix**, dikarenakan **Remix** menyimpan data dalam **localstorage browser**. Untuk menggunakan **Remix** kunjungi laman di bawah ini :
+
+http://remix.ethereum.org/
 
 
 
@@ -1579,7 +1581,7 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 **Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
 
-**Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **file solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi **SPDX** :
+**Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **File Solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi **SPDX** :
 
 ```
 **// SPDX-License-Identifier : MIT**
@@ -1988,7 +1990,9 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 ### Integers
 
+**Integer** adalah sebuah number tanpa **decimal**.
 
+**Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**.
 
 ### Address
 
