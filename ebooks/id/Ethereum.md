@@ -858,6 +858,8 @@ Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** 
 
 ## Transaction & Call
 
+**Transaction** digunakan jika terdapat **State** dalam **Global State** yang ingin kita ubah, **transaction** membutuhkan **Gas Fee** dan proses **mining** terlebih dahulu. **Calls** bersifat **free** dan **instant**.  
+
 
 
 # Smart Contract Use Case
@@ -1998,7 +2000,11 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 <img src="../assets/Solidity-Value-Types.png" style="zoom:100%;" />
 
+
+
 ### Booleans
+
+**Booleans** adalah tipe data dengan **literal true** atau **false**. 
 
 
 
@@ -2007,6 +2013,8 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 **Integer** adalah sebuah number tanpa **decimal**.
 
 **Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**.
+
+
 
 ### Address
 
