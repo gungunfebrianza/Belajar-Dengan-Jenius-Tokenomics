@@ -82,6 +82,8 @@ Belajar Dengan Jenius Tokenomics
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
     - Setup Password
     - Backup Phrase
+    - Faucet
+    - Track Fund
     - [Switch Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#switch-network)
     - [Create & Import Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#create--import-account)
     - [Perform Transaction](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#perform-transaction)
@@ -1091,19 +1093,41 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Jika anda telah memasang **Metamask** maka selanjutnya anda akan diminta untuk membuat sebuah **Wallet** atau melakukan **Import Wallet**.
 
+
+
 ### Setup Password
 
 Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untuk membuat sebuah **Password** yang akan digunakan untuk melindungi seluruh **Private Keys** anda dalam **Wallet Metamask**.
+
+
 
 ### Backup-phrase
 
 Terakhir sebelum menggunakan **Metamask** anda akan diminta untuk mencatat **Seed Phrase**, wujudnya adalah 12 kata yang tidak boleh diketahui oleh siapapun kecuali diri anda sendiri. Gunanya adalah sebagai **Master Key** untuk mengakses kembali seluruh **Accounts** yang kita miliki jika anda kehilangan **Wallet** anda.
 
+
+
 ### Faucet
 
-**Faucet** adalah tempat anda bisa mendapatkan **Ethers** gratis dalam **Test Network**, sehingga anda bisa menggunakannya sebagai tempat untuk melakukan pengembangan dan uji coba. Jika kita memilih menggunakan **Test Network**, penulis merekomendasikan **Ropsten Test Network** dan anda bisa mendapatkan **Ethers** secara gratis melalui **faucet** di bawah ini : 
+**Faucet** adalah tempat anda bisa mendapatkan **Ethers** gratis dalam **Test Network**, sehingga anda bisa menggunakannya sebagai tempat untuk melakukan pengembangan dan uji coba. 
+
+Jika kita memilih menggunakan **Test Network**, penulis merekomendasikan **Ropsten Test Network** dan anda bisa mendapatkan **Ethers** secara gratis melalui **faucet** di bawah ini : 
 
 https://faucet.dimensions.network/
+
+Untuk mendapatkannya pastikan anda telah melakukan **Switch Network** ke dalam **Ropsten Test Network**, selanjutnya salin **Account Address** anda ke dalam **Faucet** di atas. 
+
+
+
+### Track Fund
+
+Jika anda menggunakan **Ropsten Test Network** maka transaksi anda dapat dilacak menggunakan **Blockchain Explorer** di bawah ini :
+
+https://ropsten.etherscan.io/
+
+Jika anda telah mendapatkan faucet silahkan salin **Account Address** anda kedalam **Blockchain Explorer** di atas, anda dapat melihat seluruh detail transaksi.
+
+
 
 ### Switch Network
 
