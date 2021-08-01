@@ -80,6 +80,8 @@ Belajar Dengan Jenius Tokenomics
     - [HTTP-RPC Server](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#http---rpc-server)
     - [Synchronization Mode](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#synchronization-mode)
   - [Metamask](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#metamask)
+    - Setup Password
+    - Backup Phrase
     - [Switch Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#switch-network)
     - [Create & Import Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#create--import-account)
     - [Perform Transaction](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#perform-transaction)
@@ -1096,6 +1098,12 @@ Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untu
 ### Backup-phrase
 
 Terakhir sebelum menggunakan **Metamask** anda akan diminta untuk mencatat **Seed Phrase**, wujudnya adalah 12 kata yang tidak boleh diketahui oleh siapapun kecuali diri anda sendiri. Gunanya adalah sebagai **Master Key** untuk mengakses kembali seluruh **Accounts** yang kita miliki jika anda kehilangan **Wallet** anda.
+
+### Faucet
+
+**Faucet** adalah tempat anda bisa mendapatkan **Ethers** gratis dalam **Test Network**, sehingga anda bisa menggunakannya sebagai tempat untuk melakukan pengembangan dan uji coba. Jika kita memilih menggunakan **Test Network**, penulis merekomendasikan **Ropsten Test Network** dan anda bisa mendapatkan **Ethers** secara gratis melalui **faucet** di bawah ini : 
+
+https://faucet.dimensions.network/
 
 ### Switch Network
 
