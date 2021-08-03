@@ -2303,6 +2303,10 @@ https://eips.ethereum.org/EIPS/eip-1193
 
 **Module** ini digunakan melakukan interaksi dengan **Smart Contract** yang telah tertanam dalam **Ethereum Blockchain**.
 
+## eth.accounts
+
+**Module** ini digunakan melakukan membuat **account** dan melakukan **signing** sebuah **transaction** dalam **Ethereum Blockchain**.
+
 ## Installing Web3.js
 
 Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
