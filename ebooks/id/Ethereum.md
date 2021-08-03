@@ -409,6 +409,8 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
+Seluruh **Nodes** di dalam jaringan komputer **Ethereum Blockchain** dapat mengeksekusi sebuah **program Smart Contract** yang ditulis oleh seseorang. Hasil eksekusi dari **Smart Contract** tersebut tersimpan dalam **Ethereum Blockchain** yang terpasang di setiap **Nodes** yang terhubung ke dalam jaringan komputer **Ethereum**.
+
 Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk membuat sebuah **Smart Contract** :
 
 <img src="../assets/Smart-Contract-Language.png" style="zoom:100%;" />
