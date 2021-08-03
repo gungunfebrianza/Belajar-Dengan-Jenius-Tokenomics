@@ -191,6 +191,10 @@ Belajar Dengan Jenius Tokenomics
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
   - [Promise Events](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#promise-events)
+  - eth.subscribe
+  - eth.Contracts
+  - eth.accounts
+  - eth.personal
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
@@ -2295,17 +2299,7 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 
 https://eips.ethereum.org/EIPS/eip-1193
 
-## eth.subscribe
 
-**Module** ini digunakan untuk melakukan **subscribing** pada **events** tertentu dalam **Ethereum Blockchain**.
-
-## eth.Contract
-
-**Module** ini digunakan melakukan interaksi dengan **Smart Contract** yang telah tertanam dalam **Ethereum Blockchain**.
-
-## eth.accounts
-
-**Module** ini digunakan melakukan membuat **account** dan melakukan **signing** sebuah **transaction** dalam **Ethereum Blockchain**.
 
 ## Installing Web3.js
 
@@ -2353,6 +2347,24 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
     // will be fired once the receipt is mined
 });
 ```
+
+
+
+## eth.subscribe
+
+**Module** ini digunakan untuk melakukan **subscribing** pada **events** tertentu dalam **Ethereum Blockchain**.
+
+## eth.Contract
+
+**Module** ini digunakan melakukan interaksi dengan **Smart Contract** yang telah tertanam dalam **Ethereum Blockchain**.
+
+## eth.accounts
+
+**Module** ini digunakan melakukan membuat **account** dan melakukan **signing** sebuah **transaction** dalam **Ethereum Blockchain**.
+
+## eth.personal
+
+**Module** ini digunakan melakukan interaksi dengan **Ethereum Node Account**.
 
 
 
