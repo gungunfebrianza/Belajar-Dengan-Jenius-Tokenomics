@@ -191,10 +191,10 @@ Belajar Dengan Jenius Tokenomics
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
   - [Promise Events](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#promise-events)
-  - eth.subscribe
-  - eth.Contracts
-  - eth.accounts
-  - eth.personal
+  - [eth.subscribe](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethsubscribe)
+  - [eth.Contracts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethcontract)
+  - [eth.accounts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethaccounts)
+  - [eth.personal](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethpersonal)
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
@@ -2369,6 +2369,8 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 
 # DApps
+
+**DApps** adalah sebuah aplikasi yang berjalan dalam **blockchain**, pada **context** ini **blockhain** yang dimaksud adalah **Ethereum Blockchain**. 
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
