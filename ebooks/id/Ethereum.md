@@ -2299,6 +2299,10 @@ https://eips.ethereum.org/EIPS/eip-1193
 
 **Module** ini digunakan untuk melakukan **subscribing** pada **events** tertentu dalam **Ethereum Blockchain**.
 
+## eth.Contract
+
+**Module** ini digunakan melakukan interaksi dengan **Smart Contract** yang telah tertanam dalam **Ethereum Blockchain**.
+
 ## Installing Web3.js
 
 Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
