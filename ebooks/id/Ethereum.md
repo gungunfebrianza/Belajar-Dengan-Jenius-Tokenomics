@@ -2295,7 +2295,9 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 
 https://eips.ethereum.org/EIPS/eip-1193
 
+## eth.subscribe
 
+**Module** ini digunakan untuk melakukan **subscribing** pada **events** tertentu dalam **Ethereum Blockchain**.
 
 ## Installing Web3.js
 
