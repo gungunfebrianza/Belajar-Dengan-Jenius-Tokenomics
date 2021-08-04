@@ -1605,7 +1605,27 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 ## Hello World, Maudy!
 
-Di bawah ini adalah **Application Binary Interface (ABI)** dari program hello world di atas :
+Di bawah ini adalah contoh **program hello world** dalam Solidity :
+
+```
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.4;
+
+contract HelloWorld {
+    string textToPrint = "Hello World, Maudy!";
+    
+    function changeText(string memory _text) public {
+        textToPrint = _text;
+    }
+    
+    function printSomething() public view returns (string memory) {
+        return textToPrint;
+    }
+}
+```
+
+Di bawah ini adalah **Application Binary Interface (ABI)** dari **program hello world** di atas :
 
 ```
 [
