@@ -825,7 +825,7 @@ Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **
 
    Rekomendasi **Expiration Date** belum di atur karena masih banyak perdebatan dalam komunitas, **old state data** kemungkinan akan disimpan di dalam **node archiver**, **explorers** dan **Decentralized Project** lainnya seperti **The Graph**.
 
-
+---------------------------
 
 
 
@@ -928,6 +928,8 @@ Ada catatan menarik yang sempat penulis amati, **Gavin Wood** sebagai **Former**
 Silahkan Install **Node.js** dalam sistem operasi anda, anda bisa mendapatkannya disini :
 
 https://nodejs.org/en/download/current/
+
+------------------------------------
 
 
 
@@ -1089,6 +1091,8 @@ Untuk keluar dari **Geth Javascript Console** eksekusi perintah di bawah ini :
 ```
 exit
 ```
+
+---------------------------------------------
 
 
 
@@ -1791,6 +1795,8 @@ contract Child is Parent {
 }
 ```
 
+-----------------
+
 
 
 ## State Variables
@@ -1807,6 +1813,8 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
     string public hello = "Hello Maudy";
 ```
 
+-------------------------------------------
+
 
 
 ### Visibility Specifier
@@ -1822,6 +1830,8 @@ Setiap **Visibility Specifiers** memiliki karakteristik tersendiri, secara **def
 Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
+
+--------------------------------
 
 
 
@@ -1854,11 +1864,15 @@ Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada 
 
 Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah. 
 
+----------------------------------------------
+
 
 
 ## Local Variable
 
 Sebelumnya kita telah mempelajari **State Variable** yang secara permanent akan tersimpan dalam **Ethereum Blockchain**. **Local Variable** bekerja sebaliknya, bersifat **Volatile** karena lokasinya tersimpan dalam **Stack**. Sebuah **variable** yang di deklarasikan di dalam sebuah **Function** disebut sebagai **Local Variable**.
+
+------------------------------
 
 
 
@@ -1873,6 +1887,8 @@ This is a
 Multiline comment
 */
 ```
+
+----------------------------
 
 
 
@@ -1916,6 +1932,8 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
 Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehingga **Constructor** bersifat **Optional**. Namun sebuah **Contract** hanya dapat memiliki satu **Constructor** saja dan bersifat **one-time execution**. Jika **Constructor** sudah dieksekusi dalam **Ethereum Blockchain** maka hasilnya akan tercatat secara permanen.
 
 **Constructor** menentukan karakteristik **Smart Contract** saat pertama kali ditanam dalam **Ethereum Blockchain** jadi para **Smart Contract Developer** harus mempertimbangkannya dengan matang.
+
+------------------------
 
 
 
@@ -2201,13 +2219,19 @@ Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array*
 **Solidity** menyediakan cara untuk membuat sebuah **types** baru menggunakan **structs**. Di bawah ini contoh kode **structs** :
 
 ```
-struct Funder {
-    address addr;
-    uint amount;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.6;
+
+contract Money {
+    struct Funder {
+    	string name;
+        address addr;
+        uint amount;
+    }
 }
 ```
 
-**Struct** di atas mendefinisikan type funder yang didalamnya terdapat dua buah fields, struct yang di deklarasikan diluar contract dapat digunakan oleh contracts lainnya.
+**Struct** di atas mendefinisikan **type funder** yang di dalamnya terdapat tiga buah **fields**, sebagai catatan **struct** yang di deklarasikan diluar **contract** dapat digunakan oleh **contracts** lainnya.
 
 
 
