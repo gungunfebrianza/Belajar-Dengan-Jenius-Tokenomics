@@ -187,6 +187,8 @@ Belajar Dengan Jenius Tokenomics
   - [Function allowance()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-allowance)
   - [Function transferFrom()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-transferfrom)
 
+- ERC-721 Token Standard
+
 - [Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3js)
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
@@ -2271,11 +2273,15 @@ Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah tok
 
 Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
 
+# ERC-721 Token Standard
+
+
+
 
 
 # OpenZeppelin
 
-
+**OpenZeppelin** adalah **library** yang dapat membantu para **Smart Contract Developer** untuk membangun **battle-tested** **Smart Contract**.
 
 ## Decimals
 
