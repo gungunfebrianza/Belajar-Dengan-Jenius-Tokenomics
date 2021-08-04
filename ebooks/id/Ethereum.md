@@ -1926,13 +1926,19 @@ Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **
 
 ### Public Visibility
 
-**Public Visibility** secara **default** langsung diberikan pada sebuah **function**.
+**Public Visibility** secara **default** langsung diberikan pada sebuah **function**. Dapat dipanggil secara internal atau external.
 
 ### Private Visibility
 
+Hanya dapat diakses dalam lingkup **Contract** saat ini.
+
 ### Internal Visibility
 
+Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya.
+
 ### External Visibility
+
+Dapat dipanggil dari **Contract** lainnya menggunakan **transactions**. Jika digunakan dalam **internal** maka harus menggunakan **keyword this**.
 
 ### State Mutability View
 
