@@ -2204,6 +2204,12 @@ Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array*
 
 ### Enum
 
+**Enum** dapat digunakan untuk membuat sebuah **custom type** yang terdiri dari sekumpulan **constant**.
+
+-----------------------------
+
+
+
 
 
 ## Reference Types 
