@@ -1584,7 +1584,7 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 ## Case Sensitive Language
 
-Bahasa juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penulisan pemrograman dalam pembuatan sebuah **identifier**.
+Bahasa **Solidity** juga memiliki karakteristik **case-sensitive** sehingga mempengaruhi penulisan pemrograman dalam pembuatan sebuah **identifier**.
 
 <img src="../assets/Solidity-Case-Sensitive.png" style="zoom:100%;" />
 
@@ -1860,6 +1860,20 @@ Sebelumnya kita telah mempelajari **State Variable** yang secara permanent akan 
 
 
 
+## Comment 
+
+Di bawah ini adalah contoh **Comments** dalam **Solidity**, terdapat **single** dan **multi-line comment** :
+
+```
+//This is an one-line comment
+/*
+This is a
+Multiline comment
+*/
+```
+
+
+
 ## Function
 
 **Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karakteristik **High Cohesion** dan **Low Coupling**.  
@@ -1888,6 +1902,10 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
         return myfund;
     }
 ```
+
+-----------------
+
+
 
 
 
@@ -1937,7 +1955,7 @@ Sebuah **types** menentukan :
 
 ## Data
 
-**Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap *bit* dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi *Digital Data**. 
+**Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap **bit** dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi **Digital Data**. 
 
 Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
 
@@ -2097,6 +2115,10 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 **Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**.
 
 #### Overflows & Underflows
+
+----------------------
+
+
 
 ### Address
 
