@@ -1826,7 +1826,7 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
 
 
 
-### Visibility Specifier
+### Variable Visibility Specifier
 
 Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State Variable**, penerapan **Visibility Specifiers** akan memberikan karakteristik tersendiri pada **State Variable** :
 
@@ -1918,11 +1918,21 @@ Di bawah ini adalah contoh **function deposite** dalam **Solidity** :
     }
 ```
 
-### Visibility Specifier
+### Function Visibility Specifier
 
 Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **Solidity** :
 
 <img src="../assets/Ethereum-Function-Visibility.png" style="zoom:100%;" />
+
+### Public Visibility
+
+**Public Visibility** secara **default** langsung diberikan pada sebuah **function**.
+
+### Private Visibility
+
+### Internal Visibility
+
+### External Visibility
 
 ### State Mutability View
 
@@ -1942,7 +1952,24 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
 
 
 
+```
+// SPDX-License-Identifier: GPL-3.0
 
+pragma solidity 0.8.4;
+
+contract SendMoneyExample {
+
+    uint public maudyBalance;
+
+    function receiveMoney() public payable {
+        maudyBalance += msg.value;
+    }
+
+    function getBalance() public view returns(uint) {
+        return address(this).balance;
+    }
+}
+```
 
 ### State Mutability Pure
 
