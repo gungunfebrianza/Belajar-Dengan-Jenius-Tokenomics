@@ -200,6 +200,8 @@ Belajar Dengan Jenius Tokenomics
 
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
+  - IPFS
+
 - [Ethereum Security Deep Dive](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-security-deep-dive)
 
   - [Reentrancy Attack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reentrancy-attack)
@@ -2388,7 +2390,9 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **DApps** membantu menyediakan **User Interface (UI)** yang lebih interaktif dan dinamis. 
 
+## IPFS
 
+**InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**. 
 
 # Oracle
 
