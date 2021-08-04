@@ -1836,9 +1836,15 @@ Setiap **Visibility Specifiers** memiliki karakteristik tersendiri, secara **def
 
 <img src="../assets/Visibility-Specifiers-Variable.png" style="zoom:100%;" />
 
-Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
+### Variable Public Visibility
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
+
+### Variable Private Visibility
+
+Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
+
+
 
 --------------------------------
 
@@ -1924,19 +1930,19 @@ Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **
 
 <img src="../assets/Ethereum-Function-Visibility.png" style="zoom:100%;" />
 
-### Public Visibility
+### Function Public Visibility
 
 **Public Visibility** secara **default** langsung diberikan pada sebuah **function**. Dapat dipanggil secara internal atau external.
 
-### Private Visibility
+### Function Private Visibility
 
 Hanya dapat diakses dalam lingkup **Contract** saat ini.
 
-### Internal Visibility
+### Function Internal Visibility
 
 Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya.
 
-### External Visibility
+### Function External Visibility
 
 Dapat dipanggil dari **Contract** lainnya menggunakan **transactions**. Jika digunakan dalam **internal** maka harus menggunakan **keyword this**.
 
