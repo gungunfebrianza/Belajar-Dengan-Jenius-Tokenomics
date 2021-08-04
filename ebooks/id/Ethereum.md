@@ -137,7 +137,7 @@ Belajar Dengan Jenius Tokenomics
 
 - [Solidity Anatomy](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-anatomy)
 
-  - Hello World, Maudy!
+  - [Hello World, Maudy!](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#hello-world-maudy)
   - [SPDX License Identifier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#spdx-license-identifier)
   - [Pragma](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#pragma)
     - [Semantic Versioning](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#semantic-versioning)
@@ -188,7 +188,9 @@ Belajar Dengan Jenius Tokenomics
   - [Function allowance()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-allowance)
   - [Function transferFrom()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-transferfrom)
 
-- ERC-721 Token Standard
+- [ERC-721 Token Standard](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc-721-token-standard)
+
+- [OpenZeppelin](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#openzeppelin)
 
 - [Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3js)
 
@@ -1606,7 +1608,7 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 ## Hello World, Maudy!
 
-Di bawah ini adalah contoh **program hello world** dalam Solidity :
+Di bawah ini adalah contoh **program hello world** dalam **Solidity** :
 
 ```
 // SPDX-License-Identifier: GPL-3.0
