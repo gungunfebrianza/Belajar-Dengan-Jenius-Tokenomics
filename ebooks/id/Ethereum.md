@@ -1603,6 +1603,57 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 
 
+## Hello World, Maudy!
+
+Di bawah ini adalah **Application Binary Interface (ABI)** dari program hello world di atas :
+
+```
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_text",
+				"type": "string"
+			}
+		],
+		"name": "changeText",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "printSomething",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
+```
+
+Di bawah ini adalah Contoh dari **Bytecode** dari program **hello world** di atas :
+
+```
+{
+	"generatedSources": [
+		{
+			"ast": {
+				"nodeType": "YulBlock",
+				"src": "0:516:1",
+....
+	"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x40 MLOAD DUP1 PUSH1 0x40 ADD PUSH1 0x40 MSTORE DUP1 PUSH1 0xB DUP2 MSTORE PUSH1 0x20 ADD PUSH32 0x68656C6C6F20776F726C64000000000000000000000000000000000000000000 DUP2 MSTORE POP PUSH1 0x0 SWAP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 PUSH2 0x4F SWAP3 SWAP2 SWAP1 PUSH2 0x62 JUMP JUMPDEST POP CALLVALUE DUP1 ISZERO PUSH2 0x5C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x166 JUMP JUMPDEST DUP3 DUP1 SLOAD PUSH2 0x6E SWAP1 PUSH2 0x105 JUMP JUMPDEST SWAP1...
+}
+```
+
+
+
 ## SPDX License Identifier
 
 **Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
