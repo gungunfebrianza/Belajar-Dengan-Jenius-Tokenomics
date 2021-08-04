@@ -2222,7 +2222,7 @@ Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array*
 
 ### Structs
 
-**Solidity** menyediakan cara untuk membuat sebuah **types** baru menggunakan **structs**. Di bawah ini contoh kode **structs** :
+**Solidity** menyediakan cara untuk membuat sebuah **types** baru menggunakan **structs**. Berbagai **Data Types** dapat digunankan untuk menyusun sebuah **struct** seperti pada contoh kode di bawah ini ::
 
 ```
 // SPDX-License-Identifier: MIT
@@ -2238,6 +2238,8 @@ contract Money {
 ```
 
 **Struct** di atas mendefinisikan **type funder** yang di dalamnya terdapat tiga buah **fields**, sebagai catatan **struct** yang di deklarasikan diluar **contract** dapat digunakan oleh **contracts** lainnya.
+
+---------------
 
 
 
