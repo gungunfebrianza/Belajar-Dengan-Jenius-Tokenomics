@@ -1,6 +1,6 @@
-Belajar Dengan Jenius Tokenomics
+# Belajar Dengan Jenius Tokenomics
 
-## 
+# Author : Gun Gun Febrianza
 
 # Content Tables
 
@@ -149,6 +149,9 @@ Belajar Dengan Jenius Tokenomics
     - [Constant & Immutable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#constant--immutable)
   - [Local Variable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#local-variable)
   - [Function](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function)
+    - State Mutability View
+    - State Mutability Payable
+    - State Mutability Pure
   - [Constructor](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#constructor)
   - Modifier
   - Event
@@ -896,6 +899,12 @@ Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Pro
 Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
 
 Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
+
+
+
+
+
+# Blockchain
 
 
 
@@ -1909,7 +1918,15 @@ Di bawah ini adalah contoh **function deposite** dalam **Solidity** :
     }
 ```
 
-Di bawah ini adalah contoh diagram **function** yang menggunakan **state mutability** dan **return** : 
+### Visibility Specifier
+
+Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **Solidity** :
+
+<img src="../assets/Ethereum-Function-Visibility.png" style="zoom:100%;" />
+
+### State Mutability View
+
+Di bawah ini adalah contoh diagram **function** yang menggunakan **State Mutability** dan **Return** : 
 
 <img src="../assets/Solidity-Function-Mutability.png" style="zoom:100%;" />
 
@@ -1920,6 +1937,14 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
         return myfund;
     }
 ```
+
+### State Mutability Payable 
+
+
+
+
+
+### State Mutability Pure
 
 -----------------
 
@@ -2544,7 +2569,7 @@ Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaring
 
 **Ethereum Private Network** tidak terhubung sama sekali dengan **Ethereum Main Network**. Di bawah ini 3 buah **Nodes** yang telah memasang **Software Ethereum Client** **Geth** berkomitmen untuk membangun sebuah **Private Ethereum Networks** :
 
-<img src="../assets/Ethereum-Private-Network.png" style="zoom:100%;" />
+<img src="../assets/Ethereum-Private-Network.png" style="zoom:80%;" />
 
 Sebelum kita membangun **Private Ethereum Network** ada beberapa aktivitas yang akan kita lakukan :
 
