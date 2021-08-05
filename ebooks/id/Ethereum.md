@@ -2107,6 +2107,20 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
 
 
 
+### Order of Function
+
+### Tips Function Parameter
+
+Agar kode mudah dibaca pastikan panjang baris jumlahnya maksimum sampai 79 karakter, mengikuti standar dalam [PEP 8 Recommendation](https://www.python.org/dev/peps/pep-0008/#maximum-line-length). Contohnya seperti pada kode di bawah ini :
+
+```
+thisFunctionCallIsReallyLong(
+    longArgument1,
+    longArgument2,
+    longArgument3
+);
+```
+
 
 
 ## Constructor
@@ -2293,6 +2307,10 @@ Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 **Solidity** tidak mengenal konsep **Undefined** ataupun **Null** sehingga setiap **variable** yang dideklarasikan akan diberikan **Default Value** sesuai dengan tipe data yang diberikan. **Default Value** akan memberikan **literal value** dengan karakteristik **Zero State**, sebagai contoh jika tipe datanya adalah **bool** maka nilainya adalah **0** atau **false**.
 
 Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value** yang keduanya adalah 0 dan untuk tipe data **string** maka **literal value** yang diberikan adalah **empty string**.
+
+--------------
+
+
 
 
 
@@ -2561,6 +2579,8 @@ Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** m
 
 Selanjutnya jika proses validasi selesai jumlah saldo milik **sender** harus dikurangi dengan jumlah yang dikirim, dan jumlah saldo penerima (**target address**) harus bertambah. Terakhir terdapat **event** yang harus di **trigger** saat melakukan kegiatan **Transfer**.
 
+------------
+
 
 
 ## Function approve()
@@ -2611,6 +2631,10 @@ Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah tok
 
 Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
 
+-------------
+
+
+
 # ERC-721 Token Standard
 
 
@@ -2620,6 +2644,10 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 # OpenZeppelin
 
 **OpenZeppelin** adalah **library** yang dapat membantu para **Smart Contract Developer** untuk membangun **battle-tested** **Smart Contract**.
+
+-----------
+
+
 
 ## Decimals
 
