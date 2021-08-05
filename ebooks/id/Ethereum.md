@@ -2107,8 +2107,6 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
 
 
 
-### Order of Function
-
 ### Tips Function Parameter
 
 Agar kode mudah dibaca pastikan panjang baris jumlahnya maksimum sampai 79 karakter, mengikuti standar dalam [PEP 8 Recommendation](https://www.python.org/dev/peps/pep-0008/#maximum-line-length). Contohnya seperti pada kode di bawah ini :
@@ -2132,6 +2130,34 @@ Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehin
 ------------------------
 
 
+
+## Modifier
+
+Di bawah ini adalah susunan dari **modifier** yang benar :
+
+1. **Visibility**
+2. **Mutability**
+3. **Virtual**
+4. **Override**
+5. **Custom modifiers**
+
+Perhatikan contoh kode di bawah ini :
+
+```
+function balance(uint from) public view override returns (uint)  {
+    return balanceOf[from];
+}
+
+function increment(uint x) public pure onlyOwner returns (uint) {
+    return x + 1;
+}
+
+function spam() public virtual pure;
+
+function shutdown() public onlyOwner {
+    selfdestruct(owner);
+}
+```
 
 # Types
 
