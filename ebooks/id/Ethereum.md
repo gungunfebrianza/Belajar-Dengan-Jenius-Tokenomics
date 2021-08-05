@@ -2098,7 +2098,9 @@ Dapat dipanggil dari **Contract** lainnya menggunakan **transactions**. Jika dig
 
 ### State Mutability Payable 
 
+**State Mutability Payable** digunakan agar **function** tersebut dapat menerima **ethers**. 
 
+Di bawah ini adalah contoh penerapannya :
 
 ```
 // SPDX-License-Identifier: GPL-3.0
@@ -2122,6 +2124,8 @@ contract MaudyKasihCoin {
     }
 }
 ```
+
+-------
 
 
 
@@ -2148,6 +2152,38 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
         return myfund;
     }
 ```
+
+Jika menggunakan contoh kode **contract MaudyKasihCoin** :
+
+```
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.4;
+
+contract MaudyKasihCoin {
+
+    uint256 public maudyBalance;
+    
+    function deposite(uint256 amount) public {
+        maudyBalance = amount;
+    }
+
+    function receiveMoney() public payable {
+        maudyBalance += msg.value;
+    }
+
+    function getBalance() public view returns(uint) {
+        return address(this).balance;
+    }
+    
+    function withdrawMoney() public {
+        address payable to = payable(msg.sender);
+        to.transfer(getBalance());
+    }
+}
+```
+
+
 
 -------------
 
@@ -2177,6 +2213,8 @@ contract C {
     }
 }
 ```
+
+**Pure Functions** dapat menggunakan **revert()** dan **require() functions** untuk melakukan **revert state** jika terjadi **error**. Jika terdapat proses **revert** yang sedang terjadi dan mengubah **state**, maka tidak di anggap sebagai **state modification**.
 
 ----------
 
