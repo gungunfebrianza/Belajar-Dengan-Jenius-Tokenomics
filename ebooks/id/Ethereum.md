@@ -144,6 +144,7 @@
   - [Import](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#import)
   - [Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract)
     - [Derived Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#derived-contract)
+    - Abstract Contract
   - [State Variable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#state-variables)
     - [Visibility Specifier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visibility-specifier)
     - [Variable Internal Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#variable-internal-visibility)
@@ -1783,8 +1784,8 @@ Di bawah ini adalah contoh diagram sebuah **Contract** dalam **Solidity** :
 Di bawah ini adalah contoh kode dua buah **Contract** dalam satu **file Solidity** :
 
 ```
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.4;
 
 contract myFirstContract {
     
@@ -1802,8 +1803,8 @@ contract mySecondContract {
 Di bawah ini adalah contoh **Derived Contract**, terdapat **Child Contract** dan **Parent Contract** :
 
 ```
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.4;
 
 contract Parent {
 
@@ -1817,6 +1818,31 @@ contract Child is Parent {
 -----------------
 
 
+
+### Abstract Contract
+
+Di bawah ini adalah contoh penggunaan **Abstract Contract** :
+
+```
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.4;
+
+abstract contract A {
+    function deposite() public virtual pure;
+    function withdraw() public virtual pure;
+}
+
+
+contract B is A {
+    function deposite() public pure override {
+        // ...
+    }
+
+    function withdraw() public pure override {
+        // ...
+    }
+}
+```
 
 ## State Variables
 
@@ -1956,21 +1982,70 @@ Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **
 
 <img src="../assets/Ethereum-Function-Visibility.png" style="zoom:100%;" />
 
+--------------
+
+
+
 ### Function Public Visibility
 
 **Public Visibility** secara **default** langsung diberikan pada sebuah **function**. Dapat dipanggil secara internal atau external.
+
+-----------------------------
+
+
 
 ### Function Private Visibility
 
 Hanya dapat diakses dalam lingkup **Contract** saat ini.
 
+------------------------
+
+
+
 ### Function Internal Visibility
 
 Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya.
 
+---------------
+
+
+
 ### Function External Visibility
 
 Dapat dipanggil dari **Contract** lainnya menggunakan **transactions**. Jika digunakan dalam **internal** maka harus menggunakan **keyword this**.
+
+---------------------------
+
+
+
+### State Mutability Payable 
+
+
+
+```
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.4;
+
+contract MaudyKasihCoin {
+
+    uint256 public maudyBalance;
+    
+    function deposite(uint256 amount) public {
+        maudyBalance = amount;
+    }
+
+    function receiveMoney() public payable {
+        maudyBalance += msg.value;
+    }
+
+    function getBalance() public view returns(uint) {
+        return address(this).balance;
+    }
+}
+```
+
+
 
 ### State Mutability View
 
@@ -1986,28 +2061,7 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
     }
 ```
 
-### State Mutability Payable 
 
-
-
-```
-// SPDX-License-Identifier: GPL-3.0
-
-pragma solidity 0.8.4;
-
-contract SendMoneyExample {
-
-    uint public maudyBalance;
-
-    function receiveMoney() public payable {
-        maudyBalance += msg.value;
-    }
-
-    function getBalance() public view returns(uint) {
-        return address(this).balance;
-    }
-}
-```
 
 ### State Mutability Pure
 
@@ -2241,6 +2295,16 @@ Terdapat dua tipe **Address** :
 2. **address payable**, digunakan untuk menyimpan **20-byte Ethereum Address** dengan tambahan **function** member yaitu **transfer()** dan **send()**.
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
+
+#### Address Convertion
+
+**Type Address** juga dapat dikonversi secara **explicit** ke dalam **address payable** menggunakan **statement** di bawah ini :
+
+```
+payable(0xdCad3a6d3569DF655070DEd06cb7A1b2Ccd1D3AF)
+```
+
+Di bawah ini adalah contoh kode **Address** :
 
 ```
 // SPDX-License-Identifier: MIT
