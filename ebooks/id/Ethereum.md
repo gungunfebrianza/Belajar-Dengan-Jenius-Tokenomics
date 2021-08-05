@@ -1832,19 +1832,27 @@ Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State V
 
 <img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
 
-Setiap **Visibility Specifiers** memiliki karakteristik tersendiri, secara **default state variable** yang tidak diberi **visibility** akan otomatis memiliki **visibility internal**. **Variable** dapat digunakan dalam **Contract** saat ini dan **Contract** turunannya. :
+### Variable Internal Visibility
+
+Secara **default state variable** yang tidak diberi **visibility** akan otomatis memiliki **visibility internal**. **Variable** dapat digunakan dalam **Contract** saat ini dan **Contract** turunannya. :
 
 <img src="../assets/Visibility-Specifiers-Variable.png" style="zoom:100%;" />
+
+---------------------
+
+
 
 ### Variable Public Visibility
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
 
+---------------
+
+
+
 ### Variable Private Visibility
 
 Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
-
-
 
 --------------------------------
 
@@ -1918,10 +1926,18 @@ Sebuah **Function** dapat memiliki **parameter** sebagai **input data** untuk di
 Di bawah ini adalah contoh **function deposite** dalam **Solidity** :
 
 ```
-    uint256 myfund;
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.4;
+
+contract MaudyKasihCoin {
+
+    uint256 public maudyBalance;
+    
     function deposite(uint256 amount) public {
-        myfund = amount;
+        maudyBalance = amount;
     }
+}
 ```
 
 ### Function Visibility Specifier
