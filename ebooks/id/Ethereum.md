@@ -2149,11 +2149,36 @@ Di bawah ini adalah contoh **function withdraw** dalam **Solidity** :
     }
 ```
 
+-------------
+
 
 
 ### State Mutability Pure
 
 -----------------
+
+Sebuah **function** dengan **State Mutability Pure** artinya sebuah komitmen bahwa tidak terdapat **function** yang akan membaca **state** atau memodifikasi **state**. Di bawah ini adalah beberapa aksi yang termasuk dalam kegiatan mengubah **state** :
+
+1. Membaca **State Variables**.
+2. Akses **address(this).balance** atau address.balance.
+3. Akses member dari **block**, **tx**, **msg** kecuali **msg.sig** dan **msg.data**.
+4. Memanggil **function** yang tidak ditandai dengan **state mutability pure**.
+5. Menggunakan **inline assembly** yang memiliki **opcode** tertentu.
+
+Di bawah ini adalah contoh **function** dengan **State Mutability Pure** dalam **Solidity** :
+
+```
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.4;
+
+contract C {
+    function f(uint a, uint b) public pure returns (uint) {
+        return a * (b + 42);
+    }
+}
+```
+
+----------
 
 
 
