@@ -1242,17 +1242,23 @@ http://remix.ethereum.org/
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
+-----------
+
 
 
 ### Javascript Virtual Machine (VM)
 
 Dengan **Javascript Virtual Machine (VM)** kita dapat mensimulasikan **Smart Contract** pada **Local Computer** hanya melalui **browser** saja. 
 
+-------------
+
 
 
 ### Injected Web3 
 
 Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan injeksi **Web3 Object** agar **Smart Contract** dapat berinteraksi dengan **Account** dalam **Metamask**.
+
+---------------
 
 
 
@@ -1274,6 +1280,8 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 
 Kita dapat melakukan **Debugging** pada **Transactions** yang kita buat dengan **Remix**. Kita akan membahas kajian ini pada sesi khusus untuk **Debug** sebuah **Smart Contract**.
 
+-----------------
+
 
 
 ### ABI & Bytecode
@@ -1283,6 +1291,8 @@ Jika sebuah **Contract** telah berhasil diuji, selanjutnya adalah mengujinya di 
 - **Application Binary Interface (ABI)** - Sebuah **JSON String** yang menjelaskan karakteristik **Smart Contract** yang kita buat.
 - **Bytecode** - Sekumpulan **Opcodes**.
 
+------------------
+
 
 
 ### Deploy Smart Contract
@@ -1291,11 +1301,15 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 
 <img src="../assets/Remix-Deploy-Smart-Contract.png" style="zoom:100%;" />
 
+---------------
+
 
 
 ### Solidity Unit Testing
 
 Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Contract** yang kita buat untuk memastikan bahwa **Solidity Code** yang kita tulis bebas dari **Bug** pada level **Unit Testing**.
+
+---------------------
 
 
 
@@ -1307,11 +1321,15 @@ Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Con
 2. Informasi **Gas**, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
 3. **Standard Code** dalam **ERC20**.
 
+----------------------------
+
 
 
 ### Solidity Linter
 
 Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan **Standard** penulisan **Solidity Code** yang benar atau direkomendasikan oleh komunitas. **Linter** juga meningkatkan keamanan dari **Solidity Cod**e yang kita tulis.
+
+---------------
 
 
 
@@ -1324,6 +1342,8 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 **Remix** juga menyediakan fitur yang menarik, yaitu mengubah **Solidity Code** yang kita tulis menjadi sebuah **Diagram UML** seperti pada gambar di bawah ini :
 
 <img src="../assets/Remix-UML.svg" style="zoom:100%;" />
+
+----------------
 
 
 
@@ -1357,6 +1377,8 @@ Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi *
 
 Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya. 
 
+-------------------------
+
 
 
 ### Install Ganache
@@ -1378,6 +1400,8 @@ npm install -g ganache-cli
 Untuk informasi lanjut mengenai **Commands Flag** yang dapat digunakan untuk konfigurasi kunjungi laman **github ganache-cli** :
 
 https://github.com/trufflesuite/ganache-cli
+
+--------------------------------------
 
 
 
@@ -1446,6 +1470,8 @@ Informasi **HD Wallet**, **Gas Price**, **Gas Limit** dan **Call Gas Limit** jug
 127.0.0.1:8545
 ```
 
+--------------------
+
 
 
 ### Ganache User Interface
@@ -1458,6 +1484,8 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Truffle.png" style="zoom:100%;" />
 
+---------------------------
+
 
 
 ### Ganache Configuration
@@ -1466,6 +1494,8 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Configurations.PNG" style="zoom:100%;" />
 
+--------------------
+
 
 
 ### View Private-key
@@ -1473,6 +1503,8 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 Untuk melihat **Private Key** dari setiap **Account Address** klik ikon gambar kunci, selanjutnya akan muncul **dialog** seperti pada gambar di bawah ini :
 
 <img src="../assets/Ganache-Private-Key.PNG" style="zoom:100%;" />
+
+-----------------------------
 
 
 
@@ -1499,6 +1531,8 @@ Untuk melihat **List Transactions** pilih **Menu Transactions** seperti pada gam
 <img src="../assets/Ganache-Transactions.PNG" style="zoom:100%;" />
 
 Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan **Smart Contract (Contract Creation)** dan eksekusi **Smart Contract (Contract Call)**. Kita juga dapat melihat **Account Address** yang melakukan **Contract Creation** dan **Contract Call** melalui kolom **From Address**.
+
+--------------------------------
 
 
 
@@ -1565,6 +1599,8 @@ Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan p
 ```
 npm install -g solc
 ```
+
+-----------
 
 
 
@@ -1906,6 +1942,10 @@ Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State V
 
 <img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
 
+---------------
+
+
+
 ### Variable Internal Visibility
 
 Secara **default state variable** yang tidak diberi **visibility** akan otomatis memiliki **visibility internal**. **Variable** dapat digunakan dalam **Contract** saat ini dan **Contract** turunannya. :
@@ -2042,7 +2082,7 @@ Hanya dapat diakses dalam lingkup **Contract** saat ini.
 
 ### Function Internal Visibility
 
-Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya.
+Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya. Jika sebuah **function** dibuat diluar **Contract** maka akan secara otomatis memiliki internal **visibility**.
 
 ---------------
 
@@ -2171,6 +2211,8 @@ Sebuah bahasa pemograman dikatakan **Strongly Typed** jika sebuah **Compiler** m
 
 Pada **Strongly Typed** terdapat nilai **correctness** dan **safety**, nilai **correctness** memberikan keunggulan dari segi **performance** dan nilai **safety** memberikan manajemen integritas data yang baik, pendeteksian **bug** dan kemungkinan **error** saat **runtime** yang lebih baik.
 
+----------------
+
 
 
 ## Dynamically-typed
@@ -2178,6 +2220,8 @@ Pada **Strongly Typed** terdapat nilai **correctness** dan **safety**, nilai **c
 Jika sebelumnya anda sudah mempelajari bahasa pemrograman seperti **Python** dan **Javascript**, maka anda akan memahami **Loosely Typed Language** atau **Dynamic Typing**. Anda dapat membuat variabel tanpa harus menetapkan tipe data terlebih dahulu, baik itu berupa **literal number**, **string** ataupun **boolean logic**.
 
 Sebuah bahasa dikatakan **Dynamically Typed** karena saat **runtime,** tipe data dapat diubah ke tipe data lainya agar program bisa berjalan sesuai instruksi. Pada **Dynamically Typed** terdapat **simplicity** dan **speed** untuk pengembangan **software**.
+
+---------------
 
 
 
@@ -2193,6 +2237,8 @@ Sebuah **types** menentukan :
 
 3. Operasi apa saja yang dilakukan pada data tersebut?
 
+---------------
+
 
 
 ## Data
@@ -2202,6 +2248,8 @@ Sebuah **types** menentukan :
 Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
 
 Serangkaian **byte** digunakan untuk membuat **Binary Files**, pada **Binary Files** terdapat serangkaian **bytes** yang dibuat untuk merepresentasikan lebih dari sekedar **character** atau **text**. Pada **level** yang lebih tinggi (**kilobyte**, **megabyte**, **gigabyte** & **terabyte**) kumpulan **bits** ini dapat digunakan untuk merepresentasikan teks, gambar, suara & video.
+
+---------
 
 
 
@@ -2328,6 +2376,10 @@ Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 
 <img src="../assets/Solidity-Types.png" style="zoom:100%;" />
 
+----------
+
+
+
 ### Default Value
 
 **Solidity** tidak mengenal konsep **Undefined** ataupun **Null** sehingga setiap **variable** yang dideklarasikan akan diberikan **Default Value** sesuai dengan tipe data yang diberikan. **Default Value** akan memberikan **literal value** dengan karakteristik **Zero State**, sebagai contoh jika tipe datanya adalah **bool** maka nilainya adalah **0** atau **false**.
@@ -2345,6 +2397,8 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 **Value Types** artinya **variable** yang kita buat akan bersifat **Passed By Value**, artinya jika variable digunakan ke dalam sebuah **Function Argument** atau **Assignment Statement** maka **variable** tersebut akan di salin secara independen. Setiap perubahan pada **variable** tersebut akan mempengaruhi nilai **variable** original yang di salin.
 
 <img src="../assets/Solidity-Value-Types.png" style="zoom:100%;" />
+
+---------
 
 
 
@@ -2379,6 +2433,10 @@ Terdapat dua tipe **Address** :
 2. **address payable**, digunakan untuk menyimpan **20-byte Ethereum Address** dengan tambahan **function** member yaitu **transfer()** dan **send()**.
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
+
+----------
+
+
 
 #### Address Convertion
 
@@ -2418,6 +2476,10 @@ Pada **State Variable current** nilai yang di dapatkan adalah **Contract Address
 
 ​	0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf    **<--- Just an example** 
 
+------------
+
+
+
 #### Get Caller Balance
 
 Seperti yang telah kita pelajari sebelumnya address type memiliki **balance property**. Di bawah ini adalah contoh kode untuk mendapatkan **balance** dari **sender** yang melakukan **transaction** untuk menjalankan **Smart Contract**, **output balance** akan direpresentasikan dalam satuan **wei** dengan tipe data **uint256** :
@@ -2425,6 +2487,8 @@ Seperti yang telah kita pelajari sebelumnya address type memiliki **balance prop
 ```
     uint256 public balanceInWei = msg.sender.balance;
 ```
+
+-----------
 
 
 
@@ -2461,6 +2525,8 @@ Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array*
 
 
 ### Arrays
+
+--------
 
 
 
@@ -2517,6 +2583,8 @@ Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada s
 
 Selain **ERC-20** ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
+-----------
+
 
 
 ## ERC & EIP
@@ -2551,6 +2619,8 @@ Terdapat **balances variable** dengan tipe data **mapping** yang digunakan untuk
     mapping(address => uint256) internal balances;
 ```
 
+------------
+
 
 
 ## Total Supply Variable
@@ -2562,6 +2632,8 @@ Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk 
 ```
 
 Pada **case** kali ini kita akan menggunakan **visibility internal** dan membuat **function totalSupply()** sendiri.
+
+--------
 
 
 
@@ -2575,6 +2647,8 @@ Untuk menampilkan **totalSupply state variable** kita dapat membuat fungsi **tot
     }
 ```
 
+-----------
+
 
 
 ## Function balanceOf()
@@ -2586,6 +2660,8 @@ Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**. Di baw
       return balances[account];
     }
 ```
+
+-------------
 
 
 
@@ -2624,6 +2700,8 @@ Selanjutnya terdapat **state variable allowed** dengan tipe data **mapping** yan
    }
 ```
 
+-----------
+
 
 
 ## Function allowance()
@@ -2635,6 +2713,8 @@ Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **o
     return allowed[owner][spender];
   }
 ```
+
+-----------
 
 
 
@@ -2677,6 +2757,8 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 
 ## Decimals
 
+--------
+
 
 
 
@@ -2696,6 +2778,8 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 **Check EIP-1193** untuk memahami **Javascript Ethereum Provider API** :
 
 https://eips.ethereum.org/EIPS/eip-1193
+
+----------
 
 
 
@@ -2726,6 +2810,8 @@ Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
    ```
 
 Selanjutnya kita harus membuat **Web3 Object** dan menentukan **provider** yang akan kita gunakan.
+
+-----------
 
 
 
@@ -2811,6 +2897,8 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 
 ## Reentrancy Attack
+
+--------
 
 
 
