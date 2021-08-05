@@ -2127,6 +2127,16 @@ contract MaudyKasihCoin {
 
 ### State Mutability View
 
+Sebuah **function** dengan **State Mutability View** artinya sebuah komitmen bahwa tidak terdapat **function** yang akan memodifikasi **state**. Di bawah ini adalah beberapa aksi yang termasuk dalam kegiatan mengubah **state** :
+
+1. Memodifikasi **State Variables**.
+2. **Emitting** **Events**.
+3. Membuat sebuah **Contract** baru.
+4. Memanggil **selfdestruct**.
+5. Mengirim **ether via calls**.
+6. Memanggil **function** yang tidak ditandai dengan **state mutability view** dan **pure**.
+7. Menggunakan **inline assembly** yang memiliki **opcode** tertentu.
+
 Di bawah ini adalah contoh diagram **function** yang menggunakan **State Mutability** dan **Return** : 
 
 <img src="../assets/Solidity-Function-Mutability.png" style="zoom:100%;" />
