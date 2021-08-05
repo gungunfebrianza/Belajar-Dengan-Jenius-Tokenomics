@@ -144,7 +144,7 @@
   - [Import](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#import)
   - [Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract)
     - [Derived Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#derived-contract)
-    - Abstract Contract
+    - [Abstract Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#abstract-contract)
   - [State Variable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#state-variables)
     - [Visibility Specifier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visibility-specifier)
     - [Variable Internal Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#variable-internal-visibility)
@@ -1488,6 +1488,8 @@ Untuk melihat lebih detail di setiap **block**, klik **block** tersebut :
 
 Pada gambar di atas adalah contoh detail data pada **block** ke 13, pada kasus gambar di atas terdapat aksi pembuatan sebuah **Contract**.
 
+----------
+
 
 
 ### View Transactions
@@ -1540,6 +1542,8 @@ Jika kita lihat **detail information** pada **block** tersebut maka kita melihat
 
 <img src="../assets/Ganache-Blocks3.PNG" style="zoom:100%;" />
 
+---------------
+
 
 
 
@@ -1549,6 +1553,8 @@ Jika kita lihat **detail information** pada **block** tersebut maka kita melihat
 **Solidity** adalah bahasa pemrograman yang memerlukan **Compiler**.
 
 Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **Javascript Developer**.
+
+---------------
 
 
 
@@ -1566,6 +1572,8 @@ npm install -g solc
 
 **Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
+---------------
+
 
 
 # Solidity
@@ -1577,6 +1585,8 @@ npm install -g solc
 Di bawah ini adalah **Lifecyle** yang akan dilakukan seorang **Smart Contract Developer**, pertama dia akan menulis sebuah **Smart Contract**, melakukan **Testing Smart Contract**, melakukan proses **Deployment Smart Contract** pada **Test Net** atau **Main Net** dan mengeksekusi **Smart Contract**.
 
 <img src="../assets/Solidity-Lifecyle.png" style="zoom:100%;" />
+
+----------------------
 
 
 
@@ -1592,11 +1602,15 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
+---------------
+
 
 
 ## Object-oriented Language
 
-**Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang. Dukungan Object-oriented pada versi 8.6.0 masih terbatas.
+**Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang. Dukungan **Object-oriented** pada versi **8.6.0** masih terbatas.
+
+-----------------------------------
 
 
 
@@ -1606,6 +1620,8 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 <img src="../assets/Solidity-Statically-typed.png" style="zoom:100%;" />
 
+-------------------------
+
 
 
 ## Case Sensitive Language
@@ -1614,11 +1630,15 @@ Bahasa **Solidity** juga memiliki karakteristik **case-sensitive** sehingga memp
 
 <img src="../assets/Solidity-Case-Sensitive.png" style="zoom:100%;" />
 
+-------------
+
 
 
 ## Turing Complete Language
 
 **Solidity** adalah bahasa pemrograman yang sudah **turing complete** yang dapat digunakan untuk menyelesaikan berbagai komputasi pemrograman mulai dari yang sederhana hingga kompleks. Dalam **solidity** terdapat dukungan seperti **inheritance**, **libraries** dan **complex user-defined types**.
+
+-----------
 
 
 
@@ -1627,6 +1647,8 @@ Bahasa **Solidity** juga memiliki karakteristik **case-sensitive** sehingga memp
 Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persatu :
 
 <img src="../assets/Solidity-Anatomy.png" style="zoom:100%;" />
+
+-------------------------
 
 
 
@@ -1699,6 +1721,8 @@ Di bawah ini adalah Contoh dari **Bytecode** dari program **hello world** di ata
 }
 ```
 
+-----------------------
+
 
 
 ## SPDX License Identifier
@@ -1715,6 +1739,8 @@ Di bawah ini adalah Contoh dari **Bytecode** dari program **hello world** di ata
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
+------------------------
+
 
 
 ## Pragma
@@ -1729,6 +1755,8 @@ pragma solidity ^0.8.6;
 
 Hal itu dilakukan agar **Smart Contract** yang kita tulis tidak mengalami **output** yang tidak diharapkan (**unexpected behaviour**), karena setiap kali **compiler** terbaru dirilis terdapat bug dalam versi sebelumnya yang telah dibenahi sehingga dapat mempengaruhi **Smart Contract** yang telah kita tulis.
 
+---------------------------------------
+
 
 
 ### Semantic Versioning
@@ -1740,6 +1768,8 @@ Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan y
 3. **Patch** 
 
 Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**. 
+
+---------------------------
 
 
 
@@ -1771,6 +1801,8 @@ import {symbol1 as alias, symbol2} from " BaseContract.sol";
 
 Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
 
+----------------------------------
+
 
 
 ## Contract
@@ -1795,6 +1827,8 @@ contract mySecondContract {
     
 }
 ```
+
+----------------------
 
 
 
@@ -1843,6 +1877,10 @@ contract B is A {
     }
 }
 ```
+
+-----------
+
+
 
 ## State Variables
 
@@ -2270,6 +2308,8 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 **Booleans** adalah tipe data dengan **literal true** atau **false**. 
 
+------------------
+
 
 
 ### Integers
@@ -2348,11 +2388,15 @@ Seperti yang telah kita pelajari sebelumnya address type memiliki **balance prop
 
 Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
 
+-------------------
+
 
 
 ### String
 
 Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array**.
+
+--------------
 
 
 
@@ -2367,6 +2411,8 @@ Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array*
 
 
 ## Reference Types 
+
+-----------
 
 
 
@@ -2399,6 +2445,8 @@ contract Money {
 
 ## Mapping Types
 
+---------------
+
 
 
 # Tokenization
@@ -2408,6 +2456,8 @@ Dalam dunia keuangan terdapat istilah **fungible** dan **non-fungible assets**.
 Sebuah **asset** dikatakan **fungible** ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit **asset** lainnya dengan mudah. Mata uang, **loyality tokens**, kupon makanan dan komoditas memiliki karakteristik **fungible** secara natural. 
 
 Sebuah **asset** dikatakan **non-fungible** ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat **irreplaceable**. Karya Seni, **items** dalam **computer games**, dan **real estate** memiliki karakteristik **non-fungible** secara natural.  
+
+-----------------
 
 
 
@@ -2433,6 +2483,8 @@ Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improve
 
 https://github.com/ethereum/EIPs/tree/master/EIPS
 
+--------------
+
 
 
 ## Coin & Token
@@ -2442,6 +2494,8 @@ Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocu
 **Bitcoin** (**BTC**) di desain secara khusus untuk transaksi keuangan dan memiliki **blockchain** tersendiri. **Ethereum** (**ETH**) di desain secara untuk transaksi keuangan dan **General Purpose**, **ethereum** juga memiliki **blockchain** khusus untuk protokolnya sendiri.
 
 **Token** adalah sebuah **Digital Asset** pada sebuah Protokol **Cryptocurrency** yang telah berjalan dan didesain khusus untuk **General Purpose**, karakteristik **Cryptocurrency** yang mendukung pembuatan **token** melalui **smart contract** memiliki **blockchain** yang dapat menyimpan berbagai **token**.
+
+--------------
 
 
 
@@ -2638,6 +2692,8 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 });
 ```
 
+----------
+
 
 
 ## eth.subscribe
@@ -2656,6 +2712,8 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **Module** ini digunakan melakukan interaksi dengan **Ethereum Node Account**.
 
+----------
+
 
 
 # DApps
@@ -2672,13 +2730,23 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **DApps** membantu menyediakan **User Interface (UI)** yang lebih interaktif dan dinamis. 
 
+---------
+
+
+
 ## IPFS
 
 **InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**. 
 
+----------
+
+
+
 # Oracle
 
 **Oracle** memberikan kemampuan agar **Smart Contract** dapat berinteraksi dengan informasi ekstrinsik seperti informasi dunia nyata atau **off-chain**. Kapabilitas ini membuat inovasi dalam **Smart Contract** bisa lebih dinamis, fleksibel dan kompleks untuk memecahkan berbagai permasalahan dalam **domain blockchain**. 
+
+--------------
 
 
 
@@ -2708,6 +2776,8 @@ Sebelum kita membangun **Private Ethereum Network** ada beberapa aktivitas yang 
 4. **Mining**
 5. **Transfer Ether**
 
+--------------
+
 
 
 # ETH Validator 2.0
@@ -2716,19 +2786,23 @@ Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Mine
 
 Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
-Blockchain adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya Double Spending. Pemanfaatan Blockchain mendukung terciptanya standar pasar yang lebih adil dan transparan. 
+**Blockchain** adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya **Double Spending**. Pemanfaatan **Blockchain** mendukung terciptanya standar pasar yang lebih adil dan transparan. 
 
-Blockchain adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat. 
+**Blockchain** adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat. 
 
-Salah satu aspek Protokol Ethereum dipilih karena protokol tersebut mendukung pemanfaatan Consensus Mechanism berbasis Proof of Stake (PoS) yang lebih eco-friendly. 
+Salah satu aspek Protokol **Ethereum** dipilih karena protokol tersebut mendukung pemanfaatan **Consensus Mechanism** berbasis **Proof of Stake (PoS)** yang lebih **eco-friendly**. 
 
-Protokol Ethereum dipilih karena berkomitmen meninggalkan Consensus Proof of Work (PoW) yang tidak ramah lingkungan, Consensus Proof of Stake (PoS) memberikan solusi skema insentif terbaru dari **Mining Reward menjadi Validator Reward.** 
+Protokol **Ethereum** dipilih karena berkomitmen meninggalkan **Consensus Proof of Work (PoW)** yang tidak ramah lingkungan, **Consensus Proof of Stake (PoS)** memberikan solusi skema insentif terbaru dari **Mining Reward menjadi Validator Reward.** 
 
-Pada Proof of Stake (PoS) tidak perlu lagi investasi pada perangkat keras khusus yang membutuhkan konsumsi energi tinggi seperti ASIC Machines dan GPU Chips. Dari tahun 2017 sampai tahun 2021 konsumsi energinya sudah di atas 100 TeraWatt/jam. 
+Pada **Proof of Stake (PoS)** tidak perlu lagi investasi pada perangkat keras khusus yang membutuhkan konsumsi energi tinggi seperti **ASIC Machines** dan GPU Chips. Dari tahun 2017 sampai tahun 2021 konsumsi energinya sudah di atas 100 TeraWatt/jam. 
 
-Pada Consensus Proof of Stake (PoS) siapapun yang ingin mendapatkan Validator Reward harus mempertaruhkan (staking) 32 ETH sebagai collateral asset. Juga tersedia alternative staking pool yang dapat digunakan para pemilik ETH untuk bisa melakukan Staking secara patungan berkelompok. 
+Pada **Consensus Proof of Stake (PoS)** siapapun yang ingin mendapatkan Validator Reward harus mempertaruhkan (staking) 32 ETH sebagai **collateral asset**. Juga tersedia alternative staking pool yang dapat digunakan para pemilik ETH untuk bisa melakukan **Staking** secara patungan berkelompok. 
 
-Hal ini lah yang membuat Consensus Mechanism Proof of Stake (PoS) lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data blockchain secara kontinyu. 
+Hal ini lah yang membuat **Consensus Mechanism Proof of Stake (PoS)** lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data **blockchain** secara kontinyu. 
+
+-----------
+
+
 
 # Note 2021
 
