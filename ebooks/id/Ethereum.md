@@ -10,6 +10,10 @@
 
 **Introducing Ethereum**
 
+-----------------
+
+
+
 - [Ethereum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
   - [Open Source](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#open-source)
   - [Public Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#public-blockchain)
@@ -74,6 +78,10 @@
 
 **Fundamental Concept**
 
+--------------
+
+
+
 - [Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#blockchain)
 - [Cryptocurrency](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#cryptocurrency)
 - [Cryptography](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#cryptography)
@@ -83,6 +91,10 @@
 **Section 3 :**
 
 **Solidity Programming Language**
+
+-----------------------------
+
+
 
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
@@ -206,6 +218,10 @@
 
 **Ethereum Blockchain Development**
 
+----------------
+
+
+
 - [ERC-20 Token Standard](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc-20-token-standard)
 
   - [ERC & EIP](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc--eip)
@@ -239,6 +255,10 @@
 
 **Ethereum Secure Coding**
 
+-------------
+
+
+
 - [Ethereum Security Deep Dive](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-security-deep-dive)
 
   - [Reentrancy Attack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reentrancy-attack)
@@ -248,6 +268,10 @@
 **Section 6 :**
 
 **What Next?**
+
+---------------------
+
+
 
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
 
