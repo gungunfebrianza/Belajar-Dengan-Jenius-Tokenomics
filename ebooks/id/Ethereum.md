@@ -1355,11 +1355,25 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 npm install -g @remix-project/remixd
 ```
 
+Setelah melakukan instalasi eksekusi perintah di bawah ini :
+
+```
+remixd -s <path>
+```
+
+Selanjutnya buka **Remix**, pilih **Plugin Manager** lakukan **Activate** pada **plugin remixd**.
+
+
+
+-----------------
+
 
 
 ### Restore & Backup
 
 Kita dapat memuat kembali seluruh **File** dan **Solidity Code** yang kita tulis menggunakan **Remix**.
+
+-----------------------
 
 
 
@@ -1920,7 +1934,7 @@ contract B is A {
 
 ## State Variables
 
-**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam **Contract Storage **dalam **Ethereum Blockchain**. Terminologi **State** digunakan untuk menjelaskan sebuah **variable** yang akan menjadi **state** dari **Smart Contract** itu sendiri. 
+**State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam dalam **Ethereum Blockchain**. Terminologi **State** digunakan untuk menjelaskan sebuah **value** yang akan menjadi **state** dari **Smart Contract** itu sendiri. **State** dapat diubah di level **Contract Storage**, dan semua orang dapat memantaunya jika terdapat perubahan **value**.
 
 Ketika **Smart Contract** telah di **deploy** kedalam **Ethereum Blockchain**, **state** di dalamnya akan menjadi sebuah **Global State Machine**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
 
