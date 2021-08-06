@@ -70,6 +70,12 @@
   - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
   - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 
+- Blockchain
+
+- Cryptocurrency
+
+- Cryptography
+
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
   - [Computer Hardwares](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#computer-hardwares)
@@ -216,6 +222,8 @@
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
   - [IPFS](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ipfs)
+  - Whisper
+  - Filecoin
 
 - [Oracle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#oracle)
 
@@ -915,9 +923,21 @@ Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai ca
 
 
 
-# Blockchain
+# Blockchain 
+
+[See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#blockchain)
 
 
+
+# Cryptocurrency
+
+[See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#cryptocurrency)
+
+
+
+# Cryptography
+
+[See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#cryptography)
 
 
 
@@ -2971,7 +2991,25 @@ Untuk menggunakan **InterPLanetary File System (IPFS)** silahkan kunjungi :
 
 https://ipfs.io/
 
+----------------
+
+
+
+### Content Identifier (CID)
+
+----------------
+
+**Content Identifier (CID)** adalah tanda pengenal unik menggunakan **Cryptographic Hash** dari **file** yang akan kita simpan dalam **InterPLanetary File System (IPFS)**. 
+
+
+
 ----------
+
+
+
+## Whisper
+
+**Whisper** adalah **Messaging Protocol** yang didesain untuk **Ethereum**.
 
 
 
