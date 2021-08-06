@@ -2963,7 +2963,13 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 ## IPFS
 
-**InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**. 
+**InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran kecil, sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**. 
+
+Untuk menyimpan **blobs file** seperti **images**, **videos** dan sebagainya pada Protokol **Ethereum** masih belum **feasible** dan **expensive**, dan tidak didesain ke arah sini. DIsinilah peran **InterPLanetary File System (IPFS)**, biasanya data yang telah di **hash** akan disimpan dalam **Ethereum Blockchain** dan **blobs file** di distribusikan melalui **InterPLanetary File System (IPFS)**.
+
+Untuk menggunakan **InterPLanetary File System (IPFS)** silahkan kunjungi :
+
+https://ipfs.io/
 
 ----------
 
