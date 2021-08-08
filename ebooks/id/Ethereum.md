@@ -2683,11 +2683,31 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
    Secara **default** pada **arithmetic operation** selalu dilakukan dengan mode **checked**, jika hasil operasi melebihi dari range tipe yang digunakan maka **call** akan mengalami kegagalan dan **EVM** akan melakukan **state-reverting**.
 
+-------
+
+
+
 #### Division
+
+----------
+
+
+
+
 
 #### Modulo 
 
+---------
+
+
+
+
+
 #### Exponentiation
+
+----------
+
+
 
 #### Overflows & Underflows
 
@@ -2697,7 +2717,7 @@ Sebelum versi **0.8.0**, **Ethereum** memiliki mekanisme sendiri untuk mengatasi
 // SPDX-License-Identifier: MIT
 pragma solidity 0.7.0;
 
-contract RolloverExample {
+contract IntegerExample1 {
     uint8 public myUint8;
 
     function decrement() public {
@@ -2711,6 +2731,41 @@ contract RolloverExample {
 ```
 
 Hal ini dapat memberikan masalah jika **checking** tidak dilakukan.
+
+Pada versi 0.8.0 kode di bawah ini akan langsung mengalami **type error** saat **compilation process** :
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.0;
+
+contract IntegerExample2 {
+    uint8 public maxValue = 255;
+    uint8 public minValue = 0;
+    uint8 public error1 = 256; // <--- ERROR
+    uint8 public error2 = -1; // <---- ERROR
+}
+```
+
+Namun jika kita mengeksekusi kode di bawah ini, maka **runtime error** akan terjadi. Selanjutnya **state-reverting** akan dilakukan : 
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.0;
+
+contract RolloverExample2 {
+    uint8 public myUint8;
+
+    function decrement() public {
+        myUint8--;
+    }
+
+    function increment() public {
+        myUint8++;
+    }
+}
+```
+
+
 
 ----------------------
 
