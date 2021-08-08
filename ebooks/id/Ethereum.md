@@ -189,6 +189,11 @@
   - Modifier
   - Event
   - Collections
+  - Error Handling
+    - Assert
+    - Require
+    - Revert
+    - Exception
 - [Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#types)
 
   - [Strongly-typed](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#strongly-typed)
@@ -2355,6 +2360,28 @@ function shutdown() public onlyOwner {
     selfdestruct(owner);
 }
 ```
+
+
+
+----------
+
+
+
+## Error Handling
+
+**Solidity** memiliki **state-reverting exception** untuk mengatasi **error**, jika terjadi **exception** seluruh perubahan pada **state** akan dikembalikan ke **state** awal untuk pelaku yang melakukan **call** secara aktual dan seluruh **sub-call** di dalamnya.
+
+### Assert
+
+### Require
+
+### Revert
+
+### Exception
+
+--------------
+
+
 
 # Types
 
