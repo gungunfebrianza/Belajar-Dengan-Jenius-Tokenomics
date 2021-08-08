@@ -65,7 +65,9 @@
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 - [Ethereum Web Assembly (EWasm)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-web-assembly-ewasm)
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
-
+  - Immutable
+  - Deterministic
+  - Decentralized Virtual Machine
   - Transaction & Call
 - Smart Contract Use Case
 
