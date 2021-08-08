@@ -2691,7 +2691,7 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 #### Overflows & Underflows
 
-Sebelum versi 0.8.0  
+Sebelum versi **0.8.0**, **Ethereum** memiliki mekanisme sendiri untuk mengatasi **Overflows** dan **Underflows**. Terdapat mekanisme **roll-over** pada **Unsigned Integer** :
 
 ```
 // SPDX-License-Identifier: MIT
@@ -2710,7 +2710,7 @@ contract RolloverExample {
 }
 ```
 
-
+Hal ini dapat memberikan masalah jika **checking** tidak dilakukan.
 
 ----------------------
 
