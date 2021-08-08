@@ -920,17 +920,17 @@ Reserved.
 
 # Smart Contract
 
-**Ethereum** adalah **Public Blockchain** yang didesain secara spesial dengan kapabilitas tambahan **Smart Contract**. 
+**Ethereum** adalah **Public Blockchain** yang didesain secara spesial dengan kapabilitas tambahan **Smart Contract**, sehingga siapapun dapat membuat sebuah program komputer yang berjalan pada **Ethereum Virtual Machine (EVM)** di setiap **nodes** yang tersebar dalam jaringan **Ethereum Network**. 
 
-**Smart Contract** adalah sebuah program komputer yang berjalan pada **Ethereum Virtual Machine (EVM)**, ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka program **computer** bersifat **immutable** dan hasil eksekusi bersifat deterministik. 
+Di bawah ini adalah beberapa karakteristik dari **Smart Contract** :
 
-Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pada setiap **Ethereum Virtual Machine (EVM)** di ribuan node yang tersebar ke berbagai belahan dunia. 
+## Immutable
 
-Pada **Ethereum Smart Contract** terdapat dukungan **OpenZeppelin Contract** yang membantu membangun standar **Smart Contract** yang aman. **Ethereum Smart Contract**.
+ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka program **computer** bersifat **immutable** dan hasil eksekusi bersifat deterministik. 
 
-**Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
+Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pada setiap **Ethereum Virtual Machine (EVM)** di ribuan node yang tersebar ke berbagai belahan dunia. **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
 
-Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, sebuah **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
+Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
 
 <img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
 
@@ -2371,11 +2371,29 @@ function shutdown() public onlyOwner {
 
 **Solidity** memiliki **state-reverting exception** untuk mengatasi **error**, jika terjadi **exception** seluruh perubahan pada **state** akan dikembalikan ke **state** awal untuk pelaku yang melakukan **call** secara aktual dan seluruh **sub-call** di dalamnya.
 
+Jika **exception** terjadi pada **sub-call** maka **bubble up** akan terjadi secara otomatis kecuali jika terjadi di dalam **try/catch statement**. 
+
+-------
+
+
+
 ### Assert
+
+--------------
+
+
 
 ### Require
 
+----------
+
+
+
 ### Revert
+
+-----------
+
+
 
 ### Exception
 
@@ -2957,7 +2975,7 @@ Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** 
 
 # OpenZeppelin
 
-**OpenZeppelin** adalah **library** yang dapat membantu para **Smart Contract Developer** untuk membangun **battle-tested** **Smart Contract**.
+**OpenZeppelin** adalah **library** yang dapat membantu para **Smart Contract Developer** untuk membangun **battle-tested** **Smart Contract**, membantu membangun standar **Smart Contract** yang aman pada **Ethereum Smart Contract**.
 
 -----------
 
