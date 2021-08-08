@@ -205,6 +205,12 @@
   - [Value Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#value-types)
     - [Boolean](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#booleans)
     - [Integer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#integers)
+      - Addition
+      - Subtraction
+      - Multiplication
+      - Division
+      - Modulo
+      - Exponentiation
     - [Address](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#address)
     - [Enum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#enum)
   - [Reference Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reference-types)
@@ -2470,7 +2476,7 @@ Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 
 1. Bernama **int8** dan 
 
-2. ukuran memorinya sebesar 1 **bytes**. 
+2. Ukuran memorinya sebesar 1 **bytes**. 
 
 Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data **integer** positif saja, pada **Signed Integer** kita bisa menyimpan data **integer** positif dan **integer** negatif. 
 
@@ -2506,7 +2512,7 @@ Contoh kode di bawah ini dapat digunakan untuk mendapatkan nilai **maximum** dan
 
 ```
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+pragma solidity 0.8.4;
 
 contract LearnSolidity {
     uint32 public a;
@@ -2565,7 +2571,19 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 **Integer** adalah sebuah number tanpa **decimal**.
 
-**Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**.
+**Unsigned Integer** artinya **integer** tidak boleh menerima **literal Negative Integers**. Pada **Unsigned Integer** terdapat dua mode saat melakukan **Arithmetic Operation** yaitu :
+
+1. **Wrapping / Unchecked Mode**
+
+2. **Checked Mode**
+
+   Secara **default** pada **arithmetic operation** selalu dilakukan dengan mode **checked**, jika hasil operasi melebihi dari range tipe yang digunakan maka **call** akan mengalami kegagalan dan **EVM** akan melakukan **state-reverting**.
+
+#### Division
+
+#### Modulo 
+
+#### Exponentiation
 
 #### Overflows & Underflows
 
