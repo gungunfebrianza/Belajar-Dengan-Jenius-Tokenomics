@@ -926,9 +926,17 @@ Di bawah ini adalah beberapa karakteristik dari **Smart Contract** :
 
 ## Immutable
 
-ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka program **computer** bersifat **immutable** dan hasil eksekusi bersifat deterministik. 
+Ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka program **computer** bersifat **immutable**, **source code** tidak dapat dimodifikasi lagi. Satu-satunya cara adalah menulis ulang **Smart Contract** versi terbaru dan **deployment** dilakukan kembali.
+
+## Deterministic
+
+Hasil eksekusi bersifat deterministik, artinya hasil yang akan diterima oleh siapapun akan sama sesuai dengan **design algorithm** yang dibangun. 
+
+## Decentralized Virtual Machine
 
 Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pada setiap **Ethereum Virtual Machine (EVM)** di ribuan node yang tersebar ke berbagai belahan dunia. **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
+
+
 
 Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
 
