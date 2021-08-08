@@ -222,8 +222,10 @@
 
 
 
+- Tokenization
+  - Fungible Token
+  - Non-Fungible Token
 - [ERC-20 Token Standard](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc-20-token-standard)
-
   - [ERC & EIP](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc--eip)
   - [Coin & Token](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#coin--token)
   - [Function totalSupply()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-totalsupply)
@@ -2717,6 +2719,18 @@ Sebuah **asset** dikatakan **fungible** ketika setiap unit terkecilnya tidak mem
 Sebuah **asset** dikatakan **non-fungible** ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat **irreplaceable**. Karya Seni, **items** dalam **computer games**, dan **real estate** memiliki karakteristik **non-fungible** secara natural.  
 
 -----------------
+
+
+
+## Fungible Token
+
+------------
+
+
+
+## Non-Fungible Token
+
+-------------------------
 
 
 
