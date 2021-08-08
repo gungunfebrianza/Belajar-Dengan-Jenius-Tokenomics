@@ -37,6 +37,7 @@
   - [Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#accounts)
     - [Externally Owned Account (EOA)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#externally-owned-accounts)
     - [Contract Account](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#contract-account)
+  - Transactions
   - [ETH Blockchain Explorer](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-blockchain-explorer)
   - [Ethereum Networks](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-networks)
 - [Ethereum Development Stage](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-development-stage)
@@ -65,9 +66,9 @@
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 - [Ethereum Web Assembly (EWasm)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-web-assembly-ewasm)
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
-  - Immutable
-  - Deterministic
-  - Decentralized Virtual Machine
+  - [Immutable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#immutable)
+  - [Deterministic](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deterministic)
+  - [Decentralized Virtual Machine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#decentralized-virtual-machine)
   - Transaction & Call
 - Smart Contract Use Case
 
@@ -191,11 +192,11 @@
   - Modifier
   - Event
   - Collections
-  - Error Handling
-    - Assert
-    - Require
-    - Revert
-    - Exception
+  - [Error Handling](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#error-handling)
+    - [Assert](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#assert)
+    - [Require](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#require)
+    - [Revert](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#revert)
+    - [Exception](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#exception)
 - [Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#types)
 
   - [Strongly-typed](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#strongly-typed)
@@ -601,6 +602,48 @@ Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk me
 
 
 
+## Transactions
+
+------------
+
+Secara sederhana **Transactions** adalah sebuah pesan yang telah ditandatangani (**signed message**) yang berasal dari sebuah **Externally Owned Account**.  Pesan dikirim oleh sebuah **nodes** di dalam **Ethereum Network** dan tercatat di dalam **Ethereum Blockchain**.
+
+**Transactions** digunakan untuk mengubah **state** dengan cara membuat **contract execution** terjadi disetiap **Ethereum Virtual Machine (EVM)** dalam **Ethereum Network**.
+
+Secara teknis **transaction** adalah **serialized binary message** yang di transmisikan di dalam **Ethereum Network**. Setiap **client** yang mendapatkan **transaction** akan menyimpannya di dalam sebuah **memory** menggunakan data struktur internal yang telah disediakan. 
+
+Di bawah ini adalah struktur dari sebuah **transaction** :
+
+1. **Nonce**
+
+   Serangkaian angka yang diterbitkan oleh **Externally Owned Account (EOA)**.
+
+2. **Gas Price**
+
+   Harga gas dalam satuan **wei** yang digunakan pengirim.
+
+3. **Gas Limit**
+
+   Maksimum jumlah **gas** yang digunakan pengirim untuk melakukan **transaction**.
+
+4. **Recipient**
+
+   **Ethereum Address** dari penerima.
+
+5. **Value**
+
+   Jumlah **ether** yang dikirim.
+
+6. **Data**
+
+   **Payload** dari **transaction**.
+
+7. **v,r,s**
+
+   3 Komponen **ECDSA Digital Signature** dari **Externally Owned Account (EOA)**.
+
+
+
 ## ETH Blockchain Explorer
 
 Untuk mengeksplorasi **Ethereum Blockchain** terdapat **Blockchain Explorer** yang menyediakan **Friendly User Interface (UI)**, anda bisa mengunjungi :
@@ -630,6 +673,8 @@ grunt
 npm start
 ```
 
+-----------
+
 
 
 ## Ethereum Networks
@@ -639,6 +684,8 @@ npm start
 <img src="../assets/Ethereum-Networks.png" style="zoom:100%;" />
 
 Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya. 
+
+----------
 
 
 
@@ -940,7 +987,9 @@ Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pad
 
 
 
-Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**, **Smart Contract** tidak dapat melakukan **Initiate Transaction**. Hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
+Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain**, sebuah Smart Contract hanya dapat bereaksi ketika di panggil menggunakan sebuah **Transaction**. **Smart Contract** tidak dapat melakukan **Initiate Transaction**, hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
+
+Setiap contract memiliki memiliki ethereum address
 
 <img src="../assets/Ethereum-Smart-Contract2.png" style="zoom:100%;" />
 
@@ -2641,6 +2690,27 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 #### Exponentiation
 
 #### Overflows & Underflows
+
+Sebelum versi 0.8.0  
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity 0.7.0;
+
+contract RolloverExample {
+    uint8 public myUint8;
+
+    function decrement() public {
+        myUint8--;
+    }
+
+    function increment() public {
+        myUint8++;
+    }
+}
+```
+
+
 
 ----------------------
 
