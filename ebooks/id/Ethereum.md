@@ -400,7 +400,35 @@ Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi dise
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
 
-Seluruh kelebihan ini membuat **Ethereum** menjadi seperti sebuah platform yang bersifat **value-agnostic**.
+Seluruh kelebihan ini membuat **Ethereum** menjadi seperti sebuah **platform** yang bersifat **value-agnostic**.
+
+-------
+
+
+
+# Smart Contract Use Case
+
+Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
+
+1. **Crowdsales**
+2. **Voting**
+3. **Auction**
+
+
+
+## Initial Coin Offering (ICO)
+
+Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
+
+
+
+## Micropayment
+
+Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
+
+Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
+
+
 
 
 
@@ -444,6 +472,8 @@ Terdapat tiga tipe **Node** :
 
 Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan tanpa perlu menyalin seluruh data **Ethereum Blockchain**, **lightweight node** hanya menyimpan seluruh data **header information** dalam suatu **blocks** sebagai solusi untuk mengurangi penyimpanan data **blockchain** yang ukurannya sangat besar.
 
+--------------
+
 
 
 ## Miners
@@ -452,6 +482,8 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 1. **Block Reward** dan 
 2. **Transaction Fees** dari setiap transaksi
+
+--------
 
 
 
@@ -549,17 +581,23 @@ Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya deng
 
 Saat kita melakukan transaksi pada protokol **Ethereum**, kita dapat menentukan **Gas Price** dan **Gas Limit** setelah mendapatkan bantuan rekomentasi dari protokol **Ethereum**. 
 
+-----------
+
 
 
 ### Gas Limit
 
 **Gas Limit** adalah prediksi maksimum jumlah **Gas** yang diperlukan untuk melakukan transaksi, jika pada akhirnya jumlah **Gas** yang dikonsumsi lebih sedikit maka sisa **Gas** akan dikembalikan lagi pada pemiliknya. Jika jumlah **Gas** yang diperlukan tidak mencukupi maka transaksi akan gagal, lengkap dengan kerugian kehilangan **Gas**.
 
+---------
+
 
 
 ### Gas Price
 
 Gas Price adalah harga untuk setiap unit **Gas** yang harus dibayar agar transaksi dapat dilakukan. Jumlah **Gas Price** diukur dalam satuan **Gwei**, jika kita memberikan **Gas Price** yang tinggi maka transaksi akan lebih diprioritaskan untuk dieksekusi oleh **miners**. Jika **Gas Price** rendah maka transaksi akan kurang diprioritaskan.
+
+-------
 
 
 
@@ -577,6 +615,8 @@ Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode
 
 Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar 8 juta **gas** per **block**. Ini artinya total **gas** yang digunakan dalam setiap transaksi pada suatu **block** tidak dapat melebihi 8 juta **gas** per **block**.
 
+-----------
+
 
 
 ## Accounts
@@ -587,13 +627,17 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. 
 
-Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. 
+Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
 
-Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
+--------
 
 
 
-### Externally Owned Accounts
+
+
+### Externally Owned Accounts (EOA)
+
+**Externally Owned Accounts (EOAs)** dikendalikan oleh pengguna melalui **private-key** untuk menandatangai suatu **transaction**.  
 
 Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
@@ -601,11 +645,15 @@ Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 
 
+-------
+
 
 
 ### Contract Account
 
-Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
+**Contract Accounts** digunakan untuk mengeksekusi **internal code** dari program **Smart Contract** yang ada di dalamnya, sehingga proses **governance** yang ada di dalamnya tidak menggunakan manusia. Murni algoritma yang presisi, deterministik dan **free human-error** dieksekusi mesin komputer.
+
+Setiap **Smart Contract** yang berhasil di **deploy** ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
 
 <img src="../assets/Ethereum-Account3.png" style="zoom:100%;" />
 
@@ -613,15 +661,15 @@ Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** 
 
 **Contract** seringkali juga disebut sebagai **Semiautonomous Entities** dalam **blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**.
 
-Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Acounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
+Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Accounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
 
 <img src="../assets/Ethereum-Account4.png" style="zoom:100%;" />
+
+----------
 
 
 
 ## Transactions
-
-------------
 
 Secara sederhana **Transactions** adalah sebuah pesan yang telah ditandatangani (**signed message**) yang berasal dari sebuah **Externally Owned Account**.  Pesan dikirim oleh sebuah **nodes** di dalam **Ethereum Network** dan tercatat di dalam **Ethereum Blockchain**.
 
@@ -1025,32 +1073,6 @@ Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** 
 ## Transaction & Call
 
 **Transaction** digunakan jika terdapat **State** dalam **Global State** yang ingin kita ubah, **transaction** membutuhkan **Gas Fee** dan proses **mining** terlebih dahulu. **Calls** bersifat **free** dan **instant**.  
-
-
-
-# Smart Contract Use Case
-
-Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
-
-1. **Crowdsales**
-2. **Voting**
-3. **Auction**
-
-
-
-## Initial Coin Offering (ICO)
-
-Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
-
-
-
-## Micropayment
-
-Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
-
-Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
-
-
 
 
 
