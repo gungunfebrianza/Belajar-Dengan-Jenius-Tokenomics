@@ -21,7 +21,6 @@
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
-
   - [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
   - [Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#node)
   - [Full Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#full-node)
@@ -446,6 +445,8 @@ Salah satu **Ethereum Client** yang saat ini aktif dikembangkan adalah **Geth**.
 
 Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
 
+----------
+
 
 
 ## Node
@@ -457,6 +458,8 @@ Terdapat tiga tipe **Node** :
 - **Full Node**
 - **Lightweight Node**
 - **Miners**
+
+---------
 
 
 
@@ -478,10 +481,14 @@ Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan t
 
 ## Miners
 
-**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
+**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **Ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
 
 1. **Block Reward** dan 
 2. **Transaction Fees** dari setiap transaksi
+
+Sama seperti **Bitcoin**, saat ini **Ethereum** masih menggunakan **Consensus Mechanism Proof-of-Work (PoW)** untuk melakukan validasi sebuah **block** baru. 
+
+Hanya saja **Proof-of-Work (PoW)** dalam **Ethereum** bersifat **ASIC-resistant** karena untuk mempertahankan demokrasi dan menghindari aksi **centralization** yang dilakukan para entitas yang bisa mengendalikan produksi mesin (ASIC).
 
 --------
 
@@ -541,8 +548,6 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 
 
-
-
 ## EVM (Ethereum Virtual Machine)
 
 **Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, sehingga **Ethereum** adalah sebuah **Programmable Blockchain**.
@@ -557,6 +562,8 @@ Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk m
 
 Pengembangan **LLL**, **Serpent** dan **Bamboo** sudah mulai jarang, pengembangan **Solidity** dan **Vyper** masih aktif dan intens saat buku ini ditulis.
 
+----------
+
 
 
 ## Ether
@@ -566,6 +573,8 @@ Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **
 <img src="../assets/Ethereum-Currency.png" style="zoom:100%;" />
 
 Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei**. Setiap transaksi yang dilakukan dalam protokol **Ethereum** memerlukan sebuah biaya berupa **gas** yang harus dibeli menggunakan **Ether**. Biaya tersebut selanjutnya akan menjadi insentif untuk para **miners**.
+
+-----------
 
 
 
