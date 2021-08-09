@@ -292,14 +292,23 @@
 
 
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
-
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
 
-  
+-------------
+
+
+
+
+
+
+
+
 
 # Ethereum
 
-**Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
+**Bitcoin** dibangun dengan tujuan yang spesifik yaitu **Peer-to-Peer (P2P) Electronic Cash System**, **Ethereum** di bangun dengan tujuan lebih dari sekedar **Peer-to-peer (P2P) Electronic Cash System**. **Vitalik Buterin** sebagai inventor **Ethereum** melihat potensi untuk membangun sebuah program yang dapat berjalan di setiap **Ethereum Nodes** yang tersebar keseluruh dunia. 
+
+**Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk **scripting** pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
 
 Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**. **Turing Completeness** mengacu pada kemampuan suatu bahasa pemrograman untuk memecahkan permasalahan komputasi mulai dari program yang sederhana hingga program yang kompleks.
 
@@ -319,7 +328,7 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 Saat ini terdapat dua protokol **Cryptocurrency** yang terbukti **proven** dapat digunakan secara global, **Bitcoin** dan **Ethereum**. Kedua protokol ini memiliki karakteristik **Public Blockchain** artinya mekanisme penerapan **blockchain** yang digunakan memiliki derajat kepercayaan yang tinggi di dunia. 
 
-**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. 
+**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun bisa mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. 
 
 **Public Blockchain** juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi **client** atas sebuah **public blockchain** akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer. 
 
