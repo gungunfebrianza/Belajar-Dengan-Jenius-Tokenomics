@@ -1153,6 +1153,8 @@ Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethe
 
 Salah satu **software** dalam opini penulis untuk bergabung dengan **Ethereum Protocol** adalah **Geth**.
 
+-------------------
+
 
 
 ### Geth
@@ -1162,6 +1164,8 @@ Salah satu **software** dalam opini penulis untuk bergabung dengan **Ethereum Pr
 https://geth.ethereum.org/
 
 **Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
+
+-----------------
 
 
 
@@ -1218,6 +1222,16 @@ Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (I
 ```
 --ipcdisable
 ```
+
+--------------
+
+
+
+### Keyfiles
+
+------------------
+
+Setiap **account** memiliki 2 kunci yang disebut dengan **private-key** dan **public-key**, 
 
 
 
@@ -1320,9 +1334,17 @@ Jika kita menjalankan **Geth** tanpa **Command Flag --syncmode** maka kita menge
 
 Selanjutnya informasi dari **block body** akan dipenuhi, ketika **Fast Synchronization** telah mencapai **block** terakhir pada **Ethereum Network** selanjutnya **Node** akan melakukan **Switching** dari **Fast Synchronization** ke dalam **Full Synchronization**. 
 
+---------------
+
+
+
 #### Full Node Mode
 
 Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block** dan memverifikasi seluruh **blocks**. Mode **Full Node** lebih lamban dari **Fast Synchronization Mode**.
+
+----------------------
+
+
 
 #### Lightweight Node
 
@@ -1334,9 +1356,21 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 
 
+## Backup & Restore Account
+
+s
+
+```
+
+```
+
+
+
 ## Metamask 
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Jika anda telah memasang **Metamask** maka selanjutnya anda akan diminta untuk membuat sebuah **Wallet** atau melakukan **Import Wallet**.
+
+----------------
 
 
 
@@ -1344,11 +1378,15 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 
 Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untuk membuat sebuah **Password** yang akan digunakan untuk melindungi seluruh **Private Keys** anda dalam **Wallet Metamask**.
 
+---------------------
+
 
 
 ### Backup-phrase
 
 Terakhir sebelum menggunakan **Metamask** anda akan diminta untuk mencatat **Seed Phrase**, wujudnya adalah 12 kata yang tidak boleh diketahui oleh siapapun kecuali diri anda sendiri. Gunanya adalah sebagai **Master Key** untuk mengakses kembali seluruh **Accounts** yang kita miliki jika anda kehilangan **Wallet** anda.
+
+----------------------
 
 
 
@@ -1362,6 +1400,8 @@ https://faucet.dimensions.network/
 
 Untuk mendapatkannya pastikan anda telah melakukan **Switch Network** ke dalam **Ropsten Test Network**, selanjutnya salin **Account Address** anda ke dalam **Faucet** di atas. 
 
+-----------------------
+
 
 
 ### Track Fund
@@ -1371,6 +1411,8 @@ Jika anda menggunakan **Ropsten Test Network** maka transaksi anda dapat dilacak
 https://ropsten.etherscan.io/
 
 Jika anda telah mendapatkan faucet silahkan salin **Account Address** anda kedalam **Blockchain Explorer** di atas, anda dapat melihat seluruh detail transaksi.
+
+----------------------
 
 
 
@@ -1382,6 +1424,8 @@ Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**
 
 Juga kita dapat terhubung ke dalam **Ethereum Network** lainnya melalui **Custom RPC**.
 
+---------------------
+
 
 
 ### Create & Import Account
@@ -1392,6 +1436,8 @@ Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Acco
 
 **Ethereum Protocol** juga memanfaatkan mekanisme **12-word secret phrase** yang diterapkan dalam **BIP39 (Bitcoin Improvement Proposal) seed phrase**, sebagai sebuah **backup management** jika dikemudian hari ternyata kita lupa **password** dari **Account** kita.
 
+---------------------
+
 
 
 ### Perform Transaction
@@ -1400,11 +1446,15 @@ Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirim
 
 <img src="../assets/Metamask-Transaction.png" style="zoom:100%;" />
 
+----------------------
+
 
 
 ### Token Management
 
 Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan informasi **Token Contract Address** ke dalam **Metamask**.
+
+-------------
 
 
 
@@ -1416,6 +1466,8 @@ https://infura.io
 
 Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
 
+---------------------------------
+
 
 
 ## Remix
@@ -1425,6 +1477,8 @@ Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau 
 Pastikan anda menggunakan protokol **http** bukan **https** saat menggunakan **Remix**, dikarenakan **Remix** menyimpan data dalam **localstorage browser**. Untuk menggunakan **Remix** kunjungi laman di bawah ini :
 
 http://remix.ethereum.org/
+
+----------------------------
 
 
 
@@ -1458,6 +1512,8 @@ Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan in
 
 Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract** mengacu pada **Account** dalam **Node** tersebut, diperlukan sebuah **Software Ethereum Client** seperti **Geth**.
 
+---------------
+
 
 
 ### Compile Smart Contract
@@ -1465,6 +1521,8 @@ Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract
 Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Stable**, **Nightly Build** hingga versi **Compiler** yang terbaru, lengkap dengan **Compiler Configuration**. Juga terdapat dukungan bahasa lainnya selain **Solidity** yaitu **Yul**, dan dukungan versi **EVM** yang akan digunakan pada **Remix IDE**.
 
 <img src="../assets/Remix-Compiler.png" style="zoom:100%;" />
+
+-------------------
 
 
 
