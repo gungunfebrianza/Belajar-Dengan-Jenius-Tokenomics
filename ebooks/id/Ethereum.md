@@ -1235,6 +1235,8 @@ Setiap **account** memiliki 2 kunci yang disebut dengan **private-key** dan **pu
 
 
 
+
+
 ### Geth Javascript Console
 
 Untuk menggunakan **Geth Javascsipt Console** eksekusi perintah di bawah ini :
