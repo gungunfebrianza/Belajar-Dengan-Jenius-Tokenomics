@@ -20,6 +20,9 @@
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
+- Smart Contract Use Case
+  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
+  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
   - [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
   - [Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#node)
@@ -68,11 +71,8 @@
   - [Immutable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#immutable)
   - [Deterministic](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deterministic)
   - [Decentralized Virtual Machine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#decentralized-virtual-machine)
+  - Application Binary Interface (ABI)
   - Transaction & Call
-- Smart Contract Use Case
-
-  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
-  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
 
 
 
@@ -1076,6 +1076,16 @@ Transaksi dapat dilakukan dengan memanfaatkan **Hyper Text Transfer Protocol (HT
 Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** seperti **cron-job**, sebuah **Externally Owned Account (EOA)** diperlukan untuk melakukan **initiate transaction** agar **trigger** dalam **Smart Contract** dapat dilakukan. Otomasi dilakukan di level **Externally Owned Account (EOA)** dengan menjamin **gas** yang dibutuhkan selalu tersedia.
 
 <img src="../assets/Ethereum-Smart-Contract4.png" style="zoom:100%;" />
+
+
+
+
+
+## Application Binary Interface (ABI)
+
+**Application Binary Interface (ABI)** adalah sebuah skema **data encoding** yang digunakan protokol **Ethereum** untuk berinteraksi dengan **Smart Contract**.
+
+
 
 
 
