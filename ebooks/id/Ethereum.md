@@ -378,7 +378,7 @@ Setiap **Smart Contract**, memiliki **Contract Address** dan untuk menjalankan s
 
 <img src="../assets/Ethereum-Transaction.png" style="zoom:100%;" />
 
-State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika telah disetujui oleh **miner** akan menimbulkan perubahan pada **Global State Machine**, ketika perubahan **state** berhasil dilakukan maka seseorang yang melakukan **transaction** telah melakukan **Global State Transation**.
+**State** yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika telah disetujui oleh **miner** akan menimbulkan perubahan pada **Global State Machine**, ketika perubahan **state** berhasil dilakukan maka seseorang yang melakukan **transaction** telah melakukan **Global State Transation**.
 
 **Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
 
@@ -399,6 +399,8 @@ Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi dise
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
+
+Seluruh kelebihan ini membuat **Ethereum** menjadi seperti sebuah platform yang bersifat **value-agnostic**.
 
 
 
@@ -503,11 +505,15 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 <img src="../assets/Ethereum-Block1.png" style="zoom:100%;" />
 
+--------------
+
+
+
 
 
 ## EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, sehingga **Ethereum** adalah sebuah **Programmable Blockchain**.
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
