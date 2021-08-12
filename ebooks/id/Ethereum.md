@@ -292,6 +292,8 @@
 
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
+- Blockchain Challenges
+- The Future of Blockchain
 
 -------------
 
@@ -435,7 +437,7 @@ Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai ca
 
 Pada **Cybersecurity** pemanfaatan **blockchain** dapat digunakan untuk :
 
-1. Blockchain-based 2-FA
+1. **Blockchain-based 2-FA**
 2. 
 
 --------
@@ -3467,6 +3469,28 @@ Pada **Consensus Proof of Stake (PoS)** siapapun yang ingin mendapatkan Validato
 Hal ini lah yang membuat **Consensus Mechanism Proof of Stake (PoS)** lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data **blockchain** secara kontinyu. 
 
 -----------
+
+
+
+# Blockchain Challenges 
+
+Beberapa tantangan dalam **blockchain** adalah :
+
+1. **Storage**
+2. **Regulation Compliance**
+3. **Interoperability**
+4. **Energy Consumption**
+5. **Expertise**
+
+
+
+------------
+
+
+
+# The Future Blockchain
+
+//Todo
 
 
 
