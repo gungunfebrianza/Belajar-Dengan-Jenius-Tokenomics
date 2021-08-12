@@ -660,7 +660,7 @@ Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan
 
 ### Externally Owned Accounts (EOA)
 
-**Externally Owned Accounts (EOAs)** dikendalikan oleh pengguna melalui **private-key** untuk menandatangai suatu **transaction**.  
+**Externally Owned Accounts (EOAs)** dikendalikan oleh pengguna melalui **private-key** untuk menandatangani suatu **transaction**. Dapat digunakan untuk menyimpan, mengirim, dan menerima **Ethereum** dan **Token**. **Externally Owned Account (EOA)** juga digunakan untuk dapat berinteraksi dengan **Smart Contract** yang telah di deploy, interaksi dilakukan antara **Externally Owned Account (EOA)** dengan **Contract Account**.
 
 Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
