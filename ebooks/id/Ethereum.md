@@ -427,7 +427,18 @@ Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gamin
 
 Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
 
+-----
 
+
+
+## Cybersecurity
+
+Pada **Cybersecurity** pemanfaatan **blockchain** dapat digunakan untuk :
+
+1. Blockchain-based 2-FA
+2. 
+
+--------
 
 
 
@@ -1211,8 +1222,6 @@ Selanjutnya pada **target directory** pasti terdapat 3 **sub-directories** berik
 
   Tempat **Ethereum Account**, di dalamnya terdapat **file UTC** yang menyimpan informasi **Private-Key** yang telah di **encrypt** menggunakan **password** yang kita buat saat membuat **Account**. Dalam **File UTC** tidak terdapat informasi **Public Key**, namun kita bisa memproduksinya melalui **Private-key.**
 
-  Juga terdapat informasi **Account**, **Ethereum Address** yang diambil dari **20 bytes** terakhir **Public-Key**.
-
 - **nodes**
 
 **Catatan :**
@@ -1231,7 +1240,7 @@ Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (I
 
 ------------------
 
-Setiap **account** memiliki 2 kunci yang disebut dengan **private-key** dan **public-key**, 
+Setiap **account** memiliki 2 kunci yang disebut dengan **private-key** dan **public-key**. juga terdapat informasi **Account**, **Ethereum Address** yang diambil dari **20 bytes** terakhir **Public-Key**.
 
 
 
