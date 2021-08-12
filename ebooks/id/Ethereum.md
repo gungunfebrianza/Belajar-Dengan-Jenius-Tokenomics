@@ -668,11 +668,17 @@ Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 
 
+Untuk membuat **Externally Owned Accounts (EOAs)** tidak terdapat biaya, 
+
+
+
 -------
 
 
 
 ### Contract Account
+
+**Contract Account** adalah sebuah **Smart Contract** yang telah di deploy ke dalam **Ethereum Blockchain**. Untuk membuat **Contract Account** anda harus membayar biaya dalam bentuk **gas**, karena terdapat data yang harus disimpan dalam **Network Storage**.
 
 **Contract Accounts** digunakan untuk mengeksekusi **internal code** dari program **Smart Contract** yang ada di dalamnya, sehingga proses **governance** yang ada di dalamnya tidak menggunakan manusia. Murni algoritma yang presisi, deterministik dan **free human-error** dieksekusi mesin komputer.
 
