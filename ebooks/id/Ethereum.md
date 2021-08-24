@@ -4,15 +4,11 @@
 
 # Content Tables
 
-
-
 **Section 1 :**
 
 **Introducing Ethereum**
 
------------------
-
-
+---
 
 - [Ethereum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
   - [Open Source](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#open-source)
@@ -20,8 +16,11 @@
   - [Turing Complete](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#turing-complete)
   - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract)
   - [General Purpose](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum)
+- [Smart Contract Use Case](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-use-case)
+  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
+  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
+  - Cybersecurity
 - [Ethereum Architecture](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-architecture)
-
   - [P2P Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#p2p-network)
   - [Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#node)
   - [Full Node](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#full-node)
@@ -59,43 +58,36 @@
     - [Berlin Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#berlin-hard-fork)
     - [London Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#london-hard-fork)
     - [Shanghai Hard Fork](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#shanghai-hard-fork)
+
 - [Current Problem State](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#current-problem-state)
 
   - [Scalability](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#scalability)
   - [Bottleneck](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#bottleneck)
+
 - [Ethereum Virtual Machine (EVM)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-virtual-machine-evm)
 - [Ethereum Web Assembly (EWasm)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-web-assembly-ewasm)
 - [Smart Contract](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-1)
   - [Immutable](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#immutable)
   - [Deterministic](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#deterministic)
   - [Decentralized Virtual Machine](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#decentralized-virtual-machine)
-- [Smart Contract Use Case](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#smart-contract-use-case)
-  - [Initial Coin Offering (ICO)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#initial-coin-offering-ico)
-  - [Micropayment](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#micropayment)
-
-
+  - [Application Binary Interface (ABI)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#application-binary-interface-abi)
+  - Transaction & Call
 
 **Section 2 :**
 
 **Fundamental Concept**
 
---------------
-
-
+---
 
 - [Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#blockchain)
 - [Cryptocurrency](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#cryptocurrency)
 - [Cryptography](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#cryptography)
 
-
-
 **Section 3 :**
 
 **Solidity Programming Language**
 
------------------------------
-
-
+---
 
 - [Development Tools](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#development-tools)
 
@@ -153,6 +145,7 @@
   - [Solidity Compiler](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity-compiler)
     - [solc-.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solc-js)
   - [Visual Studio Code (VSC)](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#visual-studio-code-vsc)
+
 - [Solidity](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#solidity)
   - [High-level Language](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#high-level-language)
   - [Object-oriented Language](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#object-oriented-language)
@@ -179,7 +172,7 @@
   - [Function](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function)
     - [Function Visibility Specifier](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-visibility-specifier)
     - [Function Public Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-public-visibility)
-    - [Function Private Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-private-visibility) 
+    - [Function Private Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-private-visibility)
     - [Function Internal Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-internal-visibility)
     - [Function External Visibility](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-external-visibility)
     - [State Mutability View](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#state-mutability-view)
@@ -194,6 +187,7 @@
     - [Require](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#require)
     - [Revert](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#revert)
     - [Exception](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#exception)
+
 - [Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#types)
 
   - [Strongly-typed](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#strongly-typed)
@@ -216,7 +210,6 @@
       - [Division](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#division)
       - [Modulo](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#modulo)
       - [Exponentiation](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#exponentiation)
-      - [Overflow & Underflow](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#overflows--underflows)
     - [Address](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#address)
     - [Enum](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#enum)
   - [Reference Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reference-types)
@@ -224,19 +217,15 @@
     - [Struct](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#structs)
   - [Mapping Types](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#mapping-types)
 
-
-
 **Section 4 :**
 
 **Ethereum Blockchain Development**
 
-----------------
+---
 
-
-
-- Tokenization
-  - Fungible Token
-  - Non-Fungible Token
+- [Tokenization](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#tokenization)
+  - [Fungible Token](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#fungible-token)
+  - [Non-Fungible Token](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#non-fungible-token)
 - [ERC-20 Token Standard](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc-20-token-standard)
   - [ERC & EIP](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc--eip)
   - [Coin & Token](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#coin--token)
@@ -248,8 +237,8 @@
   - [Function transferFrom()](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#function-transferfrom)
 - [ERC-721 Token Standard](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#erc-721-token-standard)
 - [OpenZeppelin](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#openzeppelin)
-  - Utils
-    - Context
+  - [Utils](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#utils)
+    - [Context](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#context)
 - [Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#web3js)
 
   - [Installing Web3.js](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#installing-web3js)
@@ -258,46 +247,43 @@
   - [eth.Contracts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethcontract)
   - [eth.accounts](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethaccounts)
   - [eth.personal](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethpersonal)
+
 - [DApps](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#dapps)
 
   - [IPFS](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ipfs)
-  - Whisper
+  - [Whisper](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#whisper)
   - Filecoin
+
 - [Oracle](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#oracle)
-
-
 
 **Section 5 :**
 
 **Ethereum Secure Coding**
 
--------------
-
-
+---
 
 - [Ethereum Security Deep Dive](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#ethereum-security-deep-dive)
 
   - [Reentrancy Attack](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#reentrancy-attack)
 
-
-
 **Section 6 :**
 
 **What Next?**
 
----------------------
-
-
+---
 
 - [Private Ethereum Test Network](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#private-ethereum-test-network)
-
 - [ETH Validator 2.0](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#eth-validator-20)
+- [Blockchain Challenges](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#blockchain-challenges)
+- [The Future of Blockchain](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Tokenomics/blob/main/ebooks/id/Ethereum.md#the-future-blockchain)
 
-  
+---
 
 # Ethereum
 
-**Bitcoin** dibangun dengan tujuan yang spesifik yaitu **P2P electronic cash payment**. **Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk scripting pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**. 
+**Bitcoin** dibangun dengan tujuan yang spesifik yaitu **Peer-to-Peer (P2P) Electronic Cash System**, **Ethereum** di bangun dengan tujuan lebih dari sekedar **Peer-to-peer (P2P) Electronic Cash System**. **Vitalik Buterin** sebagai inventor **Ethereum** melihat potensi untuk membangun sebuah program yang dapat berjalan di setiap **Ethereum Nodes** yang tersebar keseluruh dunia.
+
+**Bitcoin** juga menyediakan **scripting language** dalam protokolnya, namun terdapat batasan fungsionalitas untuk **scripting** pada protokol **bitcoin**. Menulis **script** yang kompleks dalam **bitcoin scripting** sangat sulit karena **bitcoin scripting** tidak **Turing Complete**.
 
 Demi alasan keamanan (**security**) **scripting** yang disediakan dalam **bitcoin** tidak bersifat **Turing Complete**. **Turing Completeness** mengacu pada kemampuan suatu bahasa pemrograman untuk memecahkan permasalahan komputasi mulai dari program yang sederhana hingga program yang kompleks.
 
@@ -305,35 +291,29 @@ Berdasarkan permasalahan di atas **Vitalik Buterin** membangun protokol **Ethere
 
 <img src="../assets/Ethereum.png" style="zoom:100%;" />
 
-
-
 ## Open Source
 
 **Open Source** artinya **Source Code Ethereum** bersifat terbuka, siapapun bisa ikut terjun untuk mengembangkannya bersama komunitas. Setiap pengembangan yang dilakukan para kontributor akan di **review** oleh komunitas jika mayoritas suara merasa inovasi yang dikembangkan memiliki **Value Proposition** yang bagus.
 
-
-
 ## Public Blockchain
 
-Saat ini terdapat dua protokol **Cryptocurrency** yang terbukti **proven** dapat digunakan secara global, **Bitcoin** dan **Ethereum**. Kedua protokol ini memiliki karakteristik **Public Blockchain** artinya mekanisme penerapan **blockchain** yang digunakan memiliki derajat kepercayaan yang tinggi di dunia. 
+Saat ini terdapat dua protokol **Cryptocurrency** yang terbukti **proven** dapat digunakan secara global, **Bitcoin** dan **Ethereum**. Kedua protokol ini memiliki karakteristik **Public Blockchain** artinya mekanisme penerapan **blockchain** yang digunakan memiliki derajat kepercayaan yang tinggi di dunia.
 
-**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun dapat mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas. 
+**Blockchain** pada protokol **Ethereum** bersifat transparan secara penuh, siapapun bisa mendapatkan dan melihat isinya melalui **Blockchain Explorer** yang telah disediakan oleh komunitas.
 
-**Public Blockchain** juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi **client** atas sebuah **public blockchain** akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer. 
-
-
+**Public Blockchain** juga bermakna siapapun dapat bergabung ke dalam protokol **Ethereum**, setiap entitas yang menjadi **client** atas sebuah **public blockchain** akan mendapatkan perlakuan yang sama dan setara saat tergabung ke dalam jaringan komputer.
 
 ## Turing Complete
 
-Karakteristik **Turing Complete** membuat para **Blockchain Developer** diseluruh dunia cenderung menggunakan **Ethereum Protocol** daripada **Bitcoin Protocol**, kompleksitas penulisan program pada **Bitcoin Protocol** cenderung rumit karena **Bitcoin Scripting** tidak memiliki karakteristik **Turing Complete**. 
+Karakteristik **Turing Complete** membuat para **Blockchain Developer** diseluruh dunia cenderung menggunakan **Ethereum Protocol** daripada **Bitcoin Protocol**, kompleksitas penulisan program pada **Bitcoin Protocol** cenderung rumit karena **Bitcoin Scripting** tidak memiliki karakteristik **Turing Complete**.
 
-**Bitcoin Scripting** tidak bersifat **Turing Complete** dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah **Turing Complete** bisa menimbulkan **Infinite Loops**. 
+**Bitcoin Scripting** tidak bersifat **Turing Complete** dengan alasan yang kuat untuk menjamin keamanan setiap penggunannya, disebabkan program yang ditulis menggunakan bahasa pemograman yang sudah **Turing Complete** bisa menimbulkan **Infinite Loops**.
 
-Namun **Ethereum Protocol** ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan **Turing Complete**, yaitu dengan menerapkan **metering mechanism** menggunakan konsep **Gas**. Setiap program yang ditulis dibebankan biaya untuk mencegah **Infinite Loops**. 
+Namun **Ethereum Protocol** ternyata memiliki solusi yang jenius dan lebih inovatif agar bisa tetap mempertahankan **Turing Complete**, yaitu dengan menerapkan **metering mechanism** menggunakan konsep **Gas**. Setiap program yang ditulis dibebankan biaya untuk mencegah **Infinite Loops**.
 
-Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**). 
+Terminologi **Turing** diambil dari nama seorang figur dalam dunia **Computer Science**, yaitu **Alan Turing**. **Turing Complete** artinya kita dapat membuat **program** yang rumit dalam **Protokol Ethereum**, namun dengan catatan tingkat kompleksitas juga linear dengan resiko keamananya (**Complexity**-**Security Problem**).
 
-Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan. 
+Karena itu sifat **Turing Complete** yang secara natural memiliki kekurangan yaitu program tidak bisa diprediksikan kalau tidak dieksekusi dulu (**termination** & **infinity loop problem**). Maka digagaslah konsep **Gas** dalam **Ethereum** sebagai mekanisme keamanannya, setiap intruksi dibebankan biaya sehingga **Smart Contract** memiliki batasan.
 
 **Gas** adalah sebuah solusi yang jenius, **gas** adalah konsep **metering mechanism** yang dapat digunakan untuk membatasi komputasi **Smart Contract**.
 
@@ -341,75 +321,100 @@ Kaum antagonis dapat memanfaatkan karakteristik **Turing Complete** yang dapat m
 
 <img src="../assets/Ethereum-Turing-Complete1.png" style="zoom:100%;" />
 
-Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**. 
-
-
+Pembangunan bahasa pemrograman yang bersifat **Turing Complete** untuk **Ethereum Virtual Machine (EVM)** pada protokol **Ethereum** pertama kali di gagas oleh **Gavin Wood** pada tahun 2014. Selanjutnya pengembangan **Project Solidity** dipimpin oleh **Christian Reitwiessner**.
 
 ## Smart Contract
 
 Pada **Ethereum** jika ingin membuat **Smart Contract**, kita dapat menulisnya menggunakan bahasa pemrograman **Solidity**. **Smart Contract** yang telah ditulis harus dikompilasi kedalam bahasa **Intermediate Level** yang disebut dengan **EVM Bytecode** agar dapat berjalan dalam **Ethereum Virtual Machine (EVM)**.
 
-<img src="../assets/Ethereum-Smart-Contract.png" style="zoom:100%;" /> 
+<img src="../assets/Ethereum-Smart-Contract.png" style="zoom:100%;" />
 
 Dengan dukungan **Turing Complete**, **Ethereum Virtual Machine (EVM)** dapat melakukan komputasi seluruh algoritma dari setiap program **Smart Contract** yang tertanam dalam **Ethereum Blockchain**.
 
-Setiap **nodes** dalam **Ethereum Protocol** membentuk skema **Global Computer** yang dapat diprogram oleh siapa saja untuk membuat sebuah **Global State** dan melakukan **Global State Transition**. **State** dapat digunakan untuk menyimpan data dengan berbagai **structure data** seperti **key & value pair** atau **single variable**. 
+Setiap **nodes** dalam **Ethereum Protocol** membentuk skema **Global Computer** yang dapat diprogram oleh siapa saja untuk membuat sebuah **Global State** dan melakukan **Global State Transition**. **State** dapat digunakan untuk menyimpan data dengan berbagai **structure data** seperti **key & value pair** atau **single variable**.
 
 <img src="../assets/Ethereum-Global-State-Machine.png" style="zoom:100%;" />
 
-Selain **state** terdapat **Embedded Permanent Algorithm** yang menentukan mekanisme perubahan **state** atau **state transition** menggunakan sebuah **function** tunggal atau sekumpulan **functions** yang di tanam ke dalam **smart contract**. 
+Selain **state** terdapat **Embedded Permanent Algorithm** yang menentukan mekanisme perubahan **state** atau **state transition** menggunakan sebuah **function** tunggal atau sekumpulan **functions** yang di tanam ke dalam **smart contract**.
 
-Seluruh komponen ini menjadi fondasi terciptanya **Global State Machine**. 
+Seluruh komponen ini menjadi fondasi terciptanya **Global State Machine**.
 
-Dengan memanfaatkan **Global State Machine**, kita dapat membuat sebuah program **Smart Contract** yang dapat menyelesaikan permasalahan dalam suatu domain. Pada industri keuangan **smart contract** dapat digunakan untuk membangun sebuah program untuk melakukan **Tokenization**. 
+Dengan memanfaatkan **Global State Machine**, kita dapat membuat sebuah program **Smart Contract** yang dapat menyelesaikan permasalahan dalam suatu domain. Pada industri keuangan **smart contract** dapat digunakan untuk membangun sebuah program untuk melakukan **Tokenization**.
 
 Setiap **Smart Contract**, memiliki **Contract Address** dan untuk menjalankan sebuah **Smart Contract** diseluruh **Node** kita harus melakukan sebuah **Transaction**. Sebuah **Transaction** dapat digunakan untuk memanggil fungsi tertentu dalam **Smart Contract**, atau memberikan input data pada **Smart Contract** untuk mengubah **State** di dalamnya.
 
 <img src="../assets/Ethereum-Transaction.png" style="zoom:100%;" />
 
-State yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika telah disetujui oleh **miner** akan menimbulkan perubahan pada **Global State Machine**, ketika perubahan **state** berhasil dilakukan maka seseorang yang melakukan **transaction** telah melakukan **Global State Transation**.
+**State** yang diubah oleh **Smart Contract** pada **Ethereum Blockchain** ketika telah disetujui oleh **miner** akan menimbulkan perubahan pada **Global State Machine**, ketika perubahan **state** berhasil dilakukan maka seseorang yang melakukan **transaction** telah melakukan **Global State Transation**.
 
 **Ethereum** adalah sebuah **Distributed State Machine** yang tidak hanya melacak **state** setiap **currency ownersip** seperti dalam protokol **Bitcoin**. **Ethereum** juga melacak **arbitraty state transition** yang dapat digunakan untuk menyimpan berbagai data, kita dapat menyimpan sebuah data dengan struktur data **key-value**.
 
 **Ethereum** menyediakan sebuah **memory** untuk menyimpan sebuah program yang terdiri dari **code** dan **data**, **program** dapat dimuat ke dalam **State Machine**, untuk dieksekusi dan menyimpan hasil **State Changes** ke dalam **Ethereum Blockchain**. **State Transition** di setiap **nodes** di proses oleh **Ethereum Virtual Machine (EVM)**.
 
-
-
 ## General Purpose
 
-Secara original, **Bitcoin Protocol** didesain oleh **Satoshi Nakamoto** dan komunitas sebagai alat pembayaran saja menggunakan **Cryptoasset bitcoins**. Sementara **Ethereum Protocol** bersifat **General Purpose** tidak hanya digunakan sebagai alat transaksi **Cryptoasset**. 
+Secara original, **Bitcoin Protocol** didesain oleh **Satoshi Nakamoto** dan komunitas sebagai alat pembayaran saja menggunakan **Cryptoasset bitcoins**. Sementara **Ethereum Protocol** bersifat **General Purpose** tidak hanya digunakan sebagai alat transaksi **Cryptoasset**.
 
 **Ethereum** sebagai **General Purpose** artinya para **Founder Ethereum** berpikir bagaimana caranya sekumpulan aplikasi dapat diprogram untuk di tanam ke dalam **Blockchain**. Bagaimana aplikasi tersebut dapat dibuat tanpa perlu melakukan skema **Reinventing The Wheels**, tanpa perlu memahami kerumitan protokol sebuah **Cryptocurrency**.
 
-**Ethereum Protocol** sebagai **general purpose** dapat digunakan sebagai **Secure Progamming Environment** untuk menanam sebuah program ke dalam **blockchain** yang berjalan di jaringan komputer **Ethereum**.  
+**Ethereum Protocol** sebagai **general purpose** dapat digunakan sebagai **Secure Progamming Environment** untuk menanam sebuah program ke dalam **blockchain** yang berjalan di jaringan komputer **Ethereum**.
 
-Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi diseluruh **programming domain** yang memang memerlukan penerapan **blockchain**, semua itu dapat diwujudkan karena terdapat dukungan **Turing Complete** dalam **Ethereum Protocol**. 
+Program yang dibangun dapat digunakan untuk menyelesaikan masalah komputasi diseluruh **programming domain** yang memang memerlukan penerapan **blockchain**, semua itu dapat diwujudkan karena terdapat dukungan **Turing Complete** dalam **Ethereum Protocol**.
 
 <img src="../assets/Ethereum-General-Purpose.png" style="zoom:80%;" />
 
 **Ethereum Platform** harus bisa menyediakan sebuah lingkungan yang dapat digunakan untuk membangun aplikasi terdesentralisasi (**DApps**) dengan output **Deterministic**. Menyediakan sebuah lingkungan yang dapat digunakan membuat **DApps** dengan mudah tanpa perlu memahami kerumitan protokol **Cryptocurrency**.
 
+Seluruh kelebihan ini membuat **Ethereum** menjadi seperti sebuah **platform** yang bersifat **value-agnostic**.
 
+---
+
+# Smart Contract Use Case
+
+Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
+
+1. **Crowdsales**
+2. **Voting**
+3. **Auction**
+
+## Initial Coin Offering (ICO)
+
+Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
+
+## Micropayment
+
+Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
+
+Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
+
+---
+
+## Cybersecurity
+
+Pada **Cybersecurity** pemanfaatan **blockchain** dapat digunakan untuk :
+
+1. **Blockchain-based 2-FA**
+2.
+
+---
 
 # Ethereum Architecture
 
-Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**. 
+Terdapat berbagai entitas di dalam jaringan **Ethereum**, mulai dari **Miners**, **Full Nodes** hingga pengguna **Lightweight Nodes**. Setiap **Nodes** terhubung secara **P2P** (**Peer-to-Peer**) dan setiap **Nodes** selain **Lightweight Nodes** memiliki salinan secara penuh **Ethereum Blockchain**.
 
 <img src="../assets/Ethereum-Network.png" style="zoom:100%;" />
 
 Salah satu **Ethereum Client** yang saat ini aktif dikembangkan adalah **Geth**.
 
-
-
 ## P2P Network
 
 Dalam jaringan **P2P** terdapat dua atau lebih komputer yang terhubung untuk berbagi **resources** tanpa harus mengandalkan sistem yang tersentral.
 
-
+---
 
 ## Node
 
-**Node** adalah setiap perangkat komputer yang terhubung ke dalam jaringan **Ethereum**. Setiap **Node** memiliki salinan terbaru dari **Ethereum Blockchain** secara aktual selama terhubung ke internet. Setiap **Node** dapat melakukan transaksi secara independen. 
+**Node** adalah setiap perangkat komputer yang terhubung ke dalam jaringan **Ethereum**. Setiap **Node** memiliki salinan terbaru dari **Ethereum Blockchain** secara aktual selama terhubung ke internet. Setiap **Node** dapat melakukan transaksi secara independen.
 
 Terdapat tiga tipe **Node** :
 
@@ -417,13 +422,11 @@ Terdapat tiga tipe **Node** :
 - **Lightweight Node**
 - **Miners**
 
-
+---
 
 ## Full Node
 
 **Full Node** akan menyalin seluruh data **Ethereum Blockchain** terbaru dan berpartisipasi dalam kegiatan memverifikasi setiap **block** dan transaksi sesuai dengan **Consensus Mechanism** yang digunakan.
-
-
 
 ## Lightweight Node
 
@@ -431,20 +434,24 @@ Terdapat tiga tipe **Node** :
 
 Dengan metode **Simple Payment Verification (SPV)** verifikasi dapat dilakukan tanpa perlu menyalin seluruh data **Ethereum Blockchain**, **lightweight node** hanya menyimpan seluruh data **header information** dalam suatu **blocks** sebagai solusi untuk mengurangi penyimpanan data **blockchain** yang ukurannya sangat besar.
 
-
+---
 
 ## Miners
 
-**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
+**Miners** adalah **node** yang memberikan kontribusi **storage** dan **computation power** sebagai **resources** untuk mengeksekusi **consensus mechanism** untuk memverifikasi transaksi dalam protokol **Ethereum**. Sebagai gantinya terdapat insentif yang akan mereka dapatkan yaitu :
 
-1. **Block Reward** dan 
+1. **Block Reward** dan
 2. **Transaction Fees** dari setiap transaksi
 
+Sama seperti **Bitcoin**, saat ini **Ethereum** masih menggunakan **Consensus Mechanism Proof-of-Work (PoW)** untuk melakukan validasi sebuah **block** baru.
 
+Hanya saja **Proof-of-Work (PoW)** dalam **Ethereum** bersifat **ASIC-resistant** karena untuk mempertahankan demokrasi dan menghindari aksi **centralization** yang dilakukan para entitas yang bisa mengendalikan produksi mesin (ASIC).
+
+---
 
 ## Blocks
 
-**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat **block header** dan sekumpulan transaksi. **Block** yang pertama kali dibuat disebut dengan genesis **block**. 
+**Blockchain** adalah serangkaian **block** dan setiap **block** baru yang dibuat saling terhubung dengan **block** sebelumnya, di dalam setiap **block** terdapat **block header** dan sekumpulan transaksi. **Block** yang pertama kali dibuat disebut dengan genesis **block**.
 
 <img src="../assets/Ethereum-Block.png" style="zoom:100%;" />
 
@@ -452,37 +459,25 @@ Setiap **block header** menyimpan **metadata** berupa informasi terkait data **b
 
 <img src="../assets/Ethereum-Block2.png" style="zoom:100%;" />
 
-
-
-### Parent Hash 
+### Parent Hash
 
 Informasi **hash** terkait **block** sebelumnya disebut dengan **parent block**, setiap **block header** akan menyimpan parent hash sampai **block** yang tidak memiliki nilai **parent hash** di paling ujung yaitu **genesis block**.
 
-
-
-### Nonce 
+### Nonce
 
 Sebuah **number** yang ditemukan oleh **miners** untuk memecahkan **cryptographic puzzle**.
 
-
-
-### Receipt Roots 
+### Receipt Roots
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure**.
 
-
-
-### Timestamp 
+### Timestamp
 
 Waktu saat **blockchain** diproduksi dan disimpan ke dalam **Ethereum Blockchain**.
 
-
-
-### Transaction Root 
+### Transaction Root
 
 Sebuah **Keccak 256-bit hash** dari **root node** dalam **tree data structure** yang ada di dalam setiap transaksi.
-
-
 
 ### State Root
 
@@ -492,11 +487,11 @@ Pada protokol **Ethereum** setiap **block** diproduksi menggunakan **PoW Algorit
 
 <img src="../assets/Ethereum-Block1.png" style="zoom:100%;" />
 
-
+---
 
 ## EVM (Ethereum Virtual Machine)
 
-**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, yang disebut dengan **Opcode**. Selanjutnya **Opcode** harus di **deploy** pada **Ethereum Blockchain** agar dapat digunakan.
+**Ethereum Virtual Machine (EVM)** adalah sebuah **Runtime Engine** untuk mengeksekusi program **Smart Contract** yang telah dikompilasi kedalam **EVM Bytecodes**, sehingga **Ethereum** adalah sebuah **Programmable Blockchain**.
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
@@ -508,7 +503,7 @@ Terdapat beberapa bahasa pemrograman **high-level** yang dapat digunakan untuk m
 
 Pengembangan **LLL**, **Serpent** dan **Bamboo** sudah mulai jarang, pengembangan **Solidity** dan **Vyper** masih aktif dan intens saat buku ini ditulis.
 
-
+---
 
 ## Ether
 
@@ -518,7 +513,7 @@ Mata uang dalam **Ethereum** di sebut dengan **Ether** dengan simbol **ETH**. **
 
 Secara internal, **value ether** direpresentasikan dalam **unsigned integer wei**. Setiap transaksi yang dilakukan dalam protokol **Ethereum** memerlukan sebuah biaya berupa **gas** yang harus dibeli menggunakan **Ether**. Biaya tersebut selanjutnya akan menjadi insentif untuk para **miners**.
 
-
+---
 
 ## Gas
 
@@ -530,37 +525,37 @@ Setiap **Block** dalam **Ethereum** juga dibatasi untuk setiap transaksinya deng
 
 <img src="../assets/Ethereum-Gas.png" style="zoom:100%;" />
 
-Saat kita melakukan transaksi pada protokol **Ethereum**, kita dapat menentukan **Gas Price** dan **Gas Limit** setelah mendapatkan bantuan rekomentasi dari protokol **Ethereum**. 
+Saat kita melakukan transaksi pada protokol **Ethereum**, kita dapat menentukan **Gas Price** dan **Gas Limit** setelah mendapatkan bantuan rekomentasi dari protokol **Ethereum**.
 
-
+---
 
 ### Gas Limit
 
 **Gas Limit** adalah prediksi maksimum jumlah **Gas** yang diperlukan untuk melakukan transaksi, jika pada akhirnya jumlah **Gas** yang dikonsumsi lebih sedikit maka sisa **Gas** akan dikembalikan lagi pada pemiliknya. Jika jumlah **Gas** yang diperlukan tidak mencukupi maka transaksi akan gagal, lengkap dengan kerugian kehilangan **Gas**.
 
-
+---
 
 ### Gas Price
 
 Gas Price adalah harga untuk setiap unit **Gas** yang harus dibayar agar transaksi dapat dilakukan. Jumlah **Gas Price** diukur dalam satuan **Gwei**, jika kita memberikan **Gas Price** yang tinggi maka transaksi akan lebih diprioritaskan untuk dieksekusi oleh **miners**. Jika **Gas Price** rendah maka transaksi akan kurang diprioritaskan.
 
-
+---
 
 ### Example
 
-Pada kasus di bawah ini jika kita memiliki **0.1 ETH** maka, maksimum **ETH** yang dapat dikirimkan sebesar **0,09995 ETH** dikarenakan terdapat **Gas Fee** yang diperlukan untuk mengirimkan **0,09995 ETH** . Saat buku ini ditulis **Ethereum** merekomendasikan **Gas Limit** sebesar **31.582** dan **Gas Price** sebesar **1,5986** **Gwei**. 
+Pada kasus di bawah ini jika kita memiliki **0.1 ETH** maka, maksimum **ETH** yang dapat dikirimkan sebesar **0,09995 ETH** dikarenakan terdapat **Gas Fee** yang diperlukan untuk mengirimkan **0,09995 ETH** . Saat buku ini ditulis **Ethereum** merekomendasikan **Gas Limit** sebesar **31.582** dan **Gas Price** sebesar **1,5986** **Gwei**.
 
 Jika **Gas Limit** dan Gas Price dikalikan jumlahnya adalah **50.486,9852 Gwei**, selanjutnya jika **50.486,9852 Gwei** dikonversikan kedalam **Ether** maka totalnya adalah **0,00005 ETH**. Inilah alasan kenapa saat itu penulis hanya dapat mengirimkan **ETH** maksimum sebesar **0,09995 ETH**, karena **0,00005 ETH** harus digunakan sebagai **Gas Fee**.
 
 <img src="../assets/Ethereum-Gas2.png" style="zoom:100%;" />
 
-Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode** dalam **Smart Contract** yang dieksekusi di dalam **Ethereum Virtual Machine (EVM)** 
+Jumlah **Gas** telah ditetapkan secara **Fixed** untuk setiap operasi **Bytecode** dalam **Smart Contract** yang dieksekusi di dalam **Ethereum Virtual Machine (EVM)**
 
 <img src="../assets/Ethereum-Gas1.png" style="zoom:100%;" />
 
 Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar 8 juta **gas** per **block**. Ini artinya total **gas** yang digunakan dalam setiap transaksi pada suatu **block** tidak dapat melebihi 8 juta **gas** per **block**.
 
-
+---
 
 ## Accounts
 
@@ -568,49 +563,49 @@ Setiap **block** telah di **hardcode** menyediakan batasan **Gas Limit** sekitar
 
 <img src="../assets/Ethereum-Account1.png" style="zoom:100%;" />
 
-Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**. 
+Masing-masing **Account Address** dalam **format Hexadecimal**, dengan **prefix** awalan **0x**.
 
-Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. 
+Setiap **Account** memiliki **balance** dan **nonce**, nilai dari **nonce** akan terus meningkat setiap kali **transaction** selesai dilakukan untuk menghindari **duplicate transaction**. Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
 
-Selain **balance** dan **nonce**, **Contract** memiliki akses kedalam **Storage Space** untuk menyimpan data **state** sesuai dengan **contract code** yang diberikan.
+---
 
+### Externally Owned Accounts (EOA)
 
-
-### Externally Owned Accounts
+**Externally Owned Accounts (EOAs)** dikendalikan oleh pengguna melalui **private-key** untuk menandatangani suatu **transaction**. Dapat digunakan untuk menyimpan, mengirim, dan menerima **Ethereum** dan **Token**. **Externally Owned Account (EOA)** juga digunakan untuk dapat berinteraksi dengan **Smart Contract** yang telah di deploy, interaksi dilakukan antara **Externally Owned Account (EOA)** dengan **Contract Account**.
 
 Di bawah ini adalah contoh **EOA Account** **address** milik penulis :
 
 <img src="../assets/Ethereum-Account2.png" style="zoom:100%;" />
 
+Untuk membuat **Externally Owned Accounts (EOAs)** tidak terdapat biaya,
 
-
-
+---
 
 ### Contract Account
 
-Setiap **Smart Contract** yang berhasil di deploy ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
+**Contract Account** adalah sebuah **Smart Contract** yang telah di deploy ke dalam **Ethereum Blockchain**. Untuk membuat **Contract Account** anda harus membayar biaya dalam bentuk **gas**, karena terdapat data yang harus disimpan dalam **Network Storage**.
+
+**Contract Accounts** digunakan untuk mengeksekusi **internal code** dari program **Smart Contract** yang ada di dalamnya, sehingga proses **governance** yang ada di dalamnya tidak menggunakan manusia. Murni algoritma yang presisi, deterministik dan **free human-error** dieksekusi mesin komputer.
+
+Setiap **Smart Contract** yang berhasil di **deploy** ke dalam **Ethereum Network** akan memiliki sebuah **Contract Address**, yang menjadi identitas pengenal dari **Smart Contract** tersebut. **Address** tersebut digunakan oleh **User** atau **Contract** lainnya untuk berinteraksi dengan cara melakukan **Transaction**.
 
 <img src="../assets/Ethereum-Account3.png" style="zoom:100%;" />
 
-
-
 **Contract** seringkali juga disebut sebagai **Semiautonomous Entities** dalam **blockchain** yang akan bereaksi ketika di panggil menggunakan sebuah **Transaction**.
 
-Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Acounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
+Sebagai contoh pada **Metamask** terdapat fitur yang dapat kita gunakan untuk mengelola **Externally Owned Accounts (EOAs)** dan **Contract Accounts**. **Metamask** adalah sebuah **extension** dalam **browser**, sifatnya yang sangat **handy** jadi seringkali disebut sebagai **Browser Extension Wallet**.
 
 <img src="../assets/Ethereum-Account4.png" style="zoom:100%;" />
 
-
+---
 
 ## Transactions
 
-------------
-
-Secara sederhana **Transactions** adalah sebuah pesan yang telah ditandatangani (**signed message**) yang berasal dari sebuah **Externally Owned Account**.  Pesan dikirim oleh sebuah **nodes** di dalam **Ethereum Network** dan tercatat di dalam **Ethereum Blockchain**.
+Secara sederhana **Transactions** adalah sebuah pesan yang telah ditandatangani (**signed message**) yang berasal dari sebuah **Externally Owned Account**. Pesan dikirim oleh sebuah **nodes** di dalam **Ethereum Network** dan tercatat di dalam **Ethereum Blockchain**.
 
 **Transactions** digunakan untuk mengubah **state** dengan cara membuat **contract execution** terjadi disetiap **Ethereum Virtual Machine (EVM)** dalam **Ethereum Network**.
 
-Secara teknis **transaction** adalah **serialized binary message** yang di transmisikan di dalam **Ethereum Network**. Setiap **client** yang mendapatkan **transaction** akan menyimpannya di dalam sebuah **memory** menggunakan data struktur internal yang telah disediakan. 
+Secara teknis **transaction** adalah **serialized binary message** yang di transmisikan di dalam **Ethereum Network**. Setiap **client** yang mendapatkan **transaction** akan menyimpannya di dalam sebuah **memory** menggunakan data struktur internal yang telah disediakan.
 
 Di bawah ini adalah struktur dari sebuah **transaction** :
 
@@ -642,8 +637,6 @@ Di bawah ini adalah struktur dari sebuah **transaction** :
 
    3 Komponen **ECDSA Digital Signature** dari **Externally Owned Account (EOA)**.
 
-
-
 ## ETH Blockchain Explorer
 
 Untuk mengeksplorasi **Ethereum Blockchain** terdapat **Blockchain Explorer** yang menyediakan **Friendly User Interface (UI)**, anda bisa mengunjungi :
@@ -652,7 +645,7 @@ etherscan.io
 
 Kita dapat mengetahui nilai **height** dari **block** terakhir, memonitor **pending transaction**, memeriksa **Network Difficulty**, melihat **Final Gas Fee** yang digunakan dalam suatu **transaction**, melihat **source code** atau **ABI** dari **Smart Contract** yang telah di **deploy** ke dalam **Ethereum Network**.
 
-Jika anda ingin memahami status **Ethereum Network** secara **realtime** dengan tampilan **user interfaces** yang menarik silahkan kembangkan **ETH Netstat**. **Download source code** disini 
+Jika anda ingin memahami status **Ethereum Network** secara **realtime** dengan tampilan **user interfaces** yang menarik silahkan kembangkan **ETH Netstat**. **Download source code** disini
 
 ```
 git clone https://github.com/cubedro/eth-netstats
@@ -673,9 +666,7 @@ grunt
 npm start
 ```
 
------------
-
-
+---
 
 ## Ethereum Networks
 
@@ -683,11 +674,9 @@ npm start
 
 <img src="../assets/Ethereum-Networks.png" style="zoom:100%;" />
 
-Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya. 
+Setelah pengembangan dalam **Test Net** di anggap cukup **mature** dan **ready**, maka selanjutnya pada pengembang **blockchain** akan mengujinya dalam jaringan yang asli yaitu **Main Network**. **Main Net** adalah jaringan komputer asli termasuk kegiatan transaksi **Ethers** dan **Deployment Smart Contract** di dalamnya.
 
-----------
-
-
+---
 
 # Ethereum Development Stage
 
@@ -697,8 +686,6 @@ Terdapat 4 **Development Stage** untuk pengembangan **Ethereum Protocol** :
 2. **Stage Two : Homestead**
 3. **Stage Three : Metropolis**
 4. **Stage Four : Serenity**
-
-
 
 ## Pre-release : The Olympic
 
@@ -717,37 +704,31 @@ https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
 
 **Olympic** adalah fase terakhir dari pengembangan protokol **Ethereum**, sebelum memasuki **Stage Frontier**.
 
-
-
 ## Frontier
 
 **Stage Frontier** menjadi tanda pertama kalinya **Ethereum** di rilis, dengan tema **Ethereum 1.0**. Dalam peluncuran ini terdapat **Genesis Block** yang menyimpan **8,893 transactions** yang dilakukan para crypto netizen saat membeli **ethers** ketika masa **presale**. Terdapat **pre-mined** 72 juta ETH pada **stage** ini.
 
 Posisi **Block** : 0
 
-
-
 ## Homestead
 
-**Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat. 
+**Stage** kedua diluncurkan pada bulan Maret Tahun 2016, pada **stage** ini bahasa pemrograman **Solidity** diperkenalkan kepada masyarakat.
 
 Terdapat penerapan **Opcode** baru pada [EIP 7](https://eips.ethereum.org/EIPS/eip-7) :
 
 ```
-DELEGATECALL 
+DELEGATECALL
 ```
 
 Posisi **Block** : 1,150,000
 
-
-
 ### DAO Incident
 
-Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**. 
+Tahun 2016 juga diramaikan dengan kejadian **DAO Incident** saat sekumpulan **Ethereum Developer** mewujudkan gagasan **Decentralized Autonomous Organization (DAO)**.
 
-Bulan Juni 2016 terjadi serangan pada **DAO Contract**, terdapat celah keamanan di **level Contract Design** yang di exploitasi oleh **hacker** dan menimbulkan kerugian sebesar **3.6 Juta Ethers**. Sang **hacker** berhasil mencuri  **3.6 Juta Ethers**
+Bulan Juni 2016 terjadi serangan pada **DAO Contract**, terdapat celah keamanan di **level Contract Design** yang di exploitasi oleh **hacker** dan menimbulkan kerugian sebesar **3.6 Juta Ethers**. Sang **hacker** berhasil mencuri **3.6 Juta Ethers**
 
-Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya. 
+Perdebatanpun terjadi dikomunitas, apa yang harus dilakukan sebab terdapat **14%** dari seluruh **supply** **ETH** terdapat di dalamnya.
 
 Serangan dianggap **valid activity** meskipun bersifat **unethical**. Di bawah ini adalah kode sumber **DAO Contract** :
 
@@ -757,15 +738,11 @@ Keputusan akhirpun dibuat pada bulan Juli 2016 terdapat **Hard Fork** yang tidak
 
 Posisi **Block** : 1,920,000
 
+### Tangerine Whistle
 
-
-### Tangerine Whistle 
-
-**Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**. 
+**Tangerine Whistle** juga menjadi bagian **Hard Fork** yang tidak direncakan untuk menerapkan [EIP-150](https://eips.ethereum.org/EIPS/eip-150). Terdapat perubahan perhitungan **Gas** pada **Heavy I/O Operations** karena serangan yang memanfaatkan **low gas cost** pada **Ethereum Protocol**.
 
 Posisi **Block** : 2,463,000
-
-
 
 ### Spurious Dragon
 
@@ -778,8 +755,6 @@ Posisi **Block** : 2,463,000
 
 Posisi **Block** : 2,675,000
 
-
-
 ## Metropolis
 
 **Stage** ketiga pada **Ethereum Development** adalah **Metropolis**, tujuannya untuk persiapan melakukan migrasi konsensus dari **Proof of Work (PoW)** menuju **Proof of Stake (PoS)**.
@@ -787,8 +762,6 @@ Posisi **Block** : 2,675,000
 Pada **Proof of Stake (PoS)** terdapat **process** yang disebut dengan **Forging**, sebuah aktivitas pemilihan secara random pada **Validator** yang akan memiliki **Block** selanjutnya. Sehingga semakin besar jumlah **Stake** yang kita tanam sebagai **Validator** semakin besar peluang untuk terpilih.
 
 Posisi **Block** : 4,370,000
-
-
 
 ### Byzantium Hard Fork
 
@@ -806,9 +779,7 @@ Di bawah ini adalah beberapa **EIP** yang diterapkan pada **Byzantium Hard Fork*
 8. [EIP 649 : Metropolis Difficulty Bomb Delay & Block Reward Reduction](https://eips.ethereum.org/EIPS/eip-649)
 9. [EIP 658 : Embedding Transaction Status Code in Receipts](https://eips.ethereum.org/EIPS/eip-658)
 
-
-
-### Constantinople Hard Fork 
+### Constantinople Hard Fork
 
 **Constantinople Hard Fork** terjadi pada bulan Februari Tahun 2019 terdapat 9 **EIP** yang diterapkan. Constantinople terdiri dari dua **sub-stages** yaitu **St.Pertersburg** dan **Istanbul**.
 
@@ -832,21 +803,13 @@ Pada akhirnya **EIP-1283** dicabut dari perencanaan untuk integrasi selanjutnya 
 
 Posisi **Block** : 7,280,000
 
-
-
 ### Istanbul Hard Fork
 
 Pada **Istanbul Hard Fork** terdapat perubahan yang cukup signifikan terutama pada **Mining Protocol** dan **Code Execution**, terdapat algoritma **Proof of Work (PoW)** baru yang diperkenalkan yaitu **ProgPow** didesain untuk **Application Specific Integration Circuits (ASIC) Machine**.
 
-**Application Specific Integration Circuits (ASIC)** di desain agar dapat melakukan proses **mining** dengan efektif dan efisien. **Application Specific Integration Circuits (ASIC)** dianggap berpotensi memberikan resiko **Centralization Mining** jika sumber daya **Mining Pool** terbatas. 
-
-
+**Application Specific Integration Circuits (ASIC)** di desain agar dapat melakukan proses **mining** dengan efektif dan efisien. **Application Specific Integration Circuits (ASIC)** dianggap berpotensi memberikan resiko **Centralization Mining** jika sumber daya **Mining Pool** terbatas.
 
 ### Muir Glacier Hard Fork
-
-
-
-
 
 ## Serenity
 
@@ -860,7 +823,7 @@ Para **Ethereum Holder** yang menggantikan para **miner** disebut dengan **Valid
 
 Para **Validator** akan diberikan tanggung jawab secara **Random** untuk melakukan **Voting** terkait validitas suatu transaksi, yang selanjutnya validitas akan diuji oleh seluruh partisipan dalam jaringan. Jika **Vote** dinyatakan valid maka **validator** akan mendapatkan **Reward** sebagai hadiah kejujuran mereka.
 
-Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**). 
+Jika terdapat **Malicious Validator** yang akhirnya ketahuan melakukan **Vote** yang tidak valid maka **ETH** yang mereka **Stake** akan disita sebagai sebuah hukuman (**Penalty**).
 
 Penerapan **Proof of Stake (PoS)** mampu menghasilkan efisiensi energi dan meningkatkan kecepatan transaksi, sementara **Proof of Work (PoW)** mengandalkan penggunaan energi besar-besaran untuk melakukan komputasi memecahkan **Cryptographic Puzzle**.
 
@@ -876,7 +839,7 @@ Inti dari **Sharding** adalah memecahkan permasalahan problema klasik dalam Duni
 
 **Trilemma** di atas menegaskan terdapat 3 **properties** dalam **blockchain** namun hanya 2 **properties** yang dapat kita miliki jika menggunakan inovasi teknologi **blockchain** saat ini :
 
-1. **Scalability** -  Kemampuan protokol untuk dapat memproses transaksi lebih banyak.
+1. **Scalability** - Kemampuan protokol untuk dapat memproses transaksi lebih banyak.
 2. **Decentralized** - Kemampuan protokol untuk dapat berjalan tanpa mengandalkan sistem tersentral.
 3. **Secure** - Kemampuan protokol untuk dapat memecahkan permasalahan **Byzantine General Problem**.
 
@@ -886,7 +849,7 @@ Pada **High-Transaction per seconds Chains** seperti **DPoS (Delegated Proof of 
 
 Pada **Multi-chain Ecosystem** berbagai aplikasi dapat berjalan di berbagai **chains** dan dapat berinteraksi dengan memanfaatkan **Cross-chain Communication Protocol**. Kondisi ini memberikan karakteristik **Decentralization** dan **Scalable**, namun tidak **secure**.
 
-Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memecahkan permasalahan **The Scalability Trilemma**, tehnik **sharding** yang di gagas **Vitalik** dalam **Ethereum Protocol** digunakan untuk mendapatkan 3 karakteristik sekaligus. 
+Sekali lagi **Vitalik** melihat pemanfaatan tehnik **sharding** agar dapat memecahkan permasalahan **The Scalability Trilemma**, tehnik **sharding** yang di gagas **Vitalik** dalam **Ethereum Protocol** digunakan untuk mendapatkan 3 karakteristik sekaligus.
 
 Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** dengan cara yang jenis membuat penulis beropini, **Vitalik** juga dapat memecahkan problema **The Scalability Trilemma**. Di bawah ini adalah manfaat yang akan di dapatkan **Ethereum Protocol** jika berhasil memanfaatkan tehnik **Sharding** :
 
@@ -896,27 +859,15 @@ Melihat **track record** **Vitalik** memecahkan problema **Turing Complete** den
 
 Tehnik **Sharding** yang akan diterapkan pada **Ethereum Protocol** adalah **Quadratic** **Sharding**.
 
-
-
-
-
 ### Berlin Hard Fork
 
 **Berlin upgrade** terjadi pada 5 April 2021, terdapat penerapan 4 **Ethereum Improvement Proposals (EIPs)** terkait **Gas Price** dan pengenalan tipe **transactions** terbaru dalam **Ethereum Protocol**.
 
 Posisi **Block** : 12,244,000
 
-
-
 ### London Hard Fork
 
-
-
-
-
 ### Shanghai Hard Fork
-
-
 
 # Current Problem State
 
@@ -931,8 +882,6 @@ Saat ini kemampuan maksimum transaksi yang dapat dilakukan pada protokol **Ether
 1. **Ethereum** masih berjalan seperti **Single-threaded Computer**, memproses satu transaksi dalam satu waktu. Sehingga **Sharding** pada **blockchain** dapat membantu meningkatkan **performance** seperti **Multithreaded Computer**.
 2. Solusi **Layer 2**, seperti **Plasma** dan **State Channel** mendukung **Off-chain Transaction** dengan kecepatan transaksi mendekati **realtime**. Transaksi ini akan dikirim menuju **Main Chain** secara periodik. Pada protokol **Bitcoin** terdapat **Lightning Network** untuk mendukung **Off-chain Transaction**.
 
-
-
 ## Bottleneck
 
 Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat bergabung dalam C**ryptocurrency Protocol**, kita harus melihat limitasi dari komputer yang digunakan para **Client**. Di bawah ini adalah limitasi tersebut :
@@ -943,7 +892,7 @@ Jika kita berbicara seberapa banyak dan maksimal sebuah **Full Node** dapat berg
 
 **Storage Size** juga mempengaruhi waktu yang diperlukan oleh sebuah **Full Node** untuk dapat online dan bergabung lagi dalam jaringan. Semakin cepat sebuah **Full Node** dapat bergabung ke dalam jaringan meningkatkan derajat keamanan suatu **Cryptocurrency Protocol**.
 
-Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**,  namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
+Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **concern** utama para **Ethereum Developer**, namun **Vitalik** dan para **Ethereum Developer** lainnya sudah menemukan masalah dengan cara menerapkan inovasi **Statelessness** and **State Expiry**.
 
 1. **Statelessness** menggaggas pembuatan 2 tipe **nodes** : terdapat dua **node** yang membutuhkan **state data** dan **node** yang tidak membutuhkan **state data**. Agar sebuah **node** tidak lagi memerlukan **state** untuk melakukan validasi **block**, **witnesses** harus bisa menyediakan potongan **state data** pada **transaction** tertentu menggunakan **Cryptographic Proof** untuk menguji kebenarannya.
 
@@ -951,25 +900,19 @@ Saat ini dalam **Ethereum Protocol** permasalahan **Blockchain Size** menjadi **
 
    Rekomendasi **Expiration Date** belum di atur karena masih banyak perdebatan dalam komunitas, **old state data** kemungkinan akan disimpan di dalam **node archiver**, **explorers** dan **Decentralized Project** lainnya seperti **The Graph**.
 
----------------------------
-
-
+---
 
 # Ethereum Virtual Machine (EVM)
 
 Reserved.
 
-
-
 # Ethereum Web Assembly (EWasm)
 
 Reserved.
 
-
-
 # Smart Contract
 
-**Ethereum** adalah **Public Blockchain** yang didesain secara spesial dengan kapabilitas tambahan **Smart Contract**, sehingga siapapun dapat membuat sebuah program komputer yang berjalan pada **Ethereum Virtual Machine (EVM)** di setiap **nodes** yang tersebar dalam jaringan **Ethereum Network**. 
+**Ethereum** adalah **Public Blockchain** yang didesain secara spesial dengan kapabilitas tambahan **Smart Contract**, sehingga siapapun dapat membuat sebuah program komputer yang berjalan pada **Ethereum Virtual Machine (EVM)** di setiap **nodes** yang tersebar dalam jaringan **Ethereum Network**.
 
 Di bawah ini adalah beberapa karakteristik dari **Smart Contract** :
 
@@ -979,13 +922,11 @@ Ketika sebuah **Smart Contract** di **deploy** pada **Ethereum Blockchain** maka
 
 ## Deterministic
 
-Hasil eksekusi bersifat deterministik, artinya hasil yang akan diterima oleh siapapun akan sama sesuai dengan **design algorithm** yang dibangun. 
+Hasil eksekusi bersifat deterministik, artinya hasil yang akan diterima oleh siapapun akan sama sesuai dengan **design algorithm** yang dibangun.
 
 ## Decentralized Virtual Machine
 
 Ketika sebuah **Smart Contract** di eksekusi maka hal yang sama juga terjadi pada setiap **Ethereum Virtual Machine (EVM)** di ribuan node yang tersebar ke berbagai belahan dunia. **Smart Contract** dalam jaringan **Ethereum** tidak dieksekusi secara **parallel**. **Ethereum** adalah **world computer** yang mekanisme eksekusinya berbasis **Single-threaded**.
-
-
 
 Sebagai **Semiautonomous Entities** dalam **Ethereum Blockchain**, sebuah Smart Contract hanya dapat bereaksi ketika di panggil menggunakan sebuah **Transaction**. **Smart Contract** tidak dapat melakukan **Initiate Transaction**, hanya **Externally Owned Account** yang dapat melakukan **Initiate Transaction**.
 
@@ -995,7 +936,7 @@ Setiap contract memiliki memiliki ethereum address
 
 Transaksi dapat dilakukan dengan memanfaatkan **Hyper Text Transfer Protocol (HTTP)**, **Inter Process Communication (IPC)** atau **Remote Procedure Call (RPC)**. **Web3.js** yang akan kita pelajari berinteraksi dengan **Ethereum Node** melalui **Remote Procedure Call (RPC)**.
 
-**Externally Owned Account** memiliki **private-key** untuk menandatangani sebuah transaksi sebagai proses **authentication** sebelum dikirim menuju **Ethereum Network** . Transaksi dapat ditujukan untuk sebuah **Contract Account** atau sesama  **Externally Owned Account**. 
+**Externally Owned Account** memiliki **private-key** untuk menandatangani sebuah transaksi sebagai proses **authentication** sebelum dikirim menuju **Ethereum Network** . Transaksi dapat ditujukan untuk sebuah **Contract Account** atau sesama **Externally Owned Account**.
 
 <img src="../assets/Ethereum-Smart-Contract3.png" style="zoom:100%;" />
 
@@ -1003,63 +944,29 @@ Jika terdapat sebuah **Contract** yang harus dieksekusi secara **timely basis** 
 
 <img src="../assets/Ethereum-Smart-Contract4.png" style="zoom:100%;" />
 
+## Application Binary Interface (ABI)
 
+**Application Binary Interface (ABI)** adalah sebuah skema **data encoding** yang digunakan protokol **Ethereum** untuk berinteraksi dengan **Smart Contract**.
 
 ## Transaction & Call
 
-**Transaction** digunakan jika terdapat **State** dalam **Global State** yang ingin kita ubah, **transaction** membutuhkan **Gas Fee** dan proses **mining** terlebih dahulu. **Calls** bersifat **free** dan **instant**.  
+**Transaction** digunakan jika terdapat **State** dalam **Global State** yang ingin kita ubah, **transaction** membutuhkan **Gas Fee** dan proses **mining** terlebih dahulu. **Calls** bersifat **free** dan **instant**.
 
-
-
-# Smart Contract Use Case
-
-Terdapat beberapa **use-case** yang **proven** berhasil saat memanfaatkan **Smart Contract** :
-
-1. **Crowdsales**
-2. **Voting**
-3. **Auction**
-
-
-
-## Initial Coin Offering (ICO)
-
-Ada banyak sekali **token** yang telah dibuat dengan memanfaatkan **Ethereum Protocol**. **Crowdsales** juga biasa disebut dengan **Initial Coin Offering (ICO)**.
-
-
-
-## Micropayment
-
-Pada studi kasus **Micropayment**, salah satunya dapat dimanfaatkan oleh **Gaming Industry**. Hanya saja **blocks** membutuhkan waktu 15-30 detik untuk melakukan **Propagation** dalam **Ethereum Network**. Jadi terdapat moment **pending transaction**, sebelum akhirnya transaction tercatat ke dalam **block** yang telah ditambang (**Mined Block**).
-
-Transaksi bersifat transparan dapat dilihat dan diketahui siapa saja, sebagai catatan kecepatan **transaction** juga dipengaruhi oleh **gas price** yang diberikan. Semakin besar **gas price** maka secara algoritmik akan lebih diprioritaskan oleh para **miner**. Sehingga seseorang yang memiliki **ether** lebih banyak dapat mempengaruhi kecepatan proses **transaction**.
-
-
-
-
-
-# Blockchain 
+# Blockchain
 
 [See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#blockchain)
-
-
 
 # Cryptocurrency
 
 [See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#cryptocurrency)
 
-
-
 # Cryptography
 
 [See here.](https://github.com/gungunfebrianza/Blockchain-Cryptocurrency-Industry-4.0#cryptography)
 
-
-
 # Development Tools
 
 Kita dapat membuat **Smart Contract** pada Protokol **Ethereum** dengan memanfaatkan **Javascript API** dalam **Web3.js**, terdapat sebuah **function** yang memfasilitasi untuk membuat sebuah **Smart Contract**. Nama dari **function** tersebut adalah [web3.eth.Contract](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#new-contract).
-
-
 
 ## Computer Hardwares
 
@@ -1071,9 +978,7 @@ Koneksi internet dengan **1Mbps download** dan **512kbps upload** cukup untuk pr
 
 Sangat direkomendasikan untuk menyimpan **Ethereum Blockchain** pada **Solid-state Drive (SSD)**, sebab jika disimpan kedalam sebuah **Hard-disk Drive (HDD)** proses **fetching** data **blockchain** akan sangat lamban.
 
-
-
-## Javascript Runtime Engine 
+## Javascript Runtime Engine
 
 Kita juga memerlukan **Javascript Runtime Engine** seperti **Node.js** agar dapat menggunakan beberapa **packages** yang disediakan untuk pengembangan dalam **Ethereum Protocol** seperti : **Web3.js** dan **solc-js**. **Node.js** secara internal memiliki **V8 Engine** yang mendukung **Javascript** dan **WebAssembly**.
 
@@ -1083,9 +988,7 @@ Silahkan Install **Node.js** dalam sistem operasi anda, anda bisa mendapatkannya
 
 https://nodejs.org/en/download/current/
 
-------------------------------------
-
-
+---
 
 ## Ethereum Client
 
@@ -1095,7 +998,7 @@ Untuk dapat berinteraksi dengan **Ethereum Network**, mendapatkan salinan **Ethe
 
 Salah satu **software** dalam opini penulis untuk bergabung dengan **Ethereum Protocol** adalah **Geth**.
 
-
+---
 
 ### Geth
 
@@ -1105,11 +1008,9 @@ https://geth.ethereum.org/
 
 **Source Code Geth** juga tersedia secara **Open Source** dengan **License GNU LGPL v3**.
 
-
+---
 
 ### Geth Command
-
-
 
 #### --testnet flag
 
@@ -1119,8 +1020,6 @@ Untuk bergabung dengan **Ethereum Network** dalam jaringan **Ropsten Test Net Ne
 geth --testnet --datadir ~/.ethereum-testnet
 ```
 
-
-
 #### --rinkeby flag
 
 Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby Test Net Network**, kita dapat menggunakan **Command Flag** berikut :
@@ -1128,8 +1027,6 @@ Jika anda ingin bergabung dengan **Ethereum Network** dalam jaringan **Rinkeby T
 ```
 geth --rinkeby --datadir ~/.ethereum-testnet
 ```
-
-
 
 #### --datadir flag
 
@@ -1149,8 +1046,6 @@ Selanjutnya pada **target directory** pasti terdapat 3 **sub-directories** berik
 
   Tempat **Ethereum Account**, di dalamnya terdapat **file UTC** yang menyimpan informasi **Private-Key** yang telah di **encrypt** menggunakan **password** yang kita buat saat membuat **Account**. Dalam **File UTC** tidak terdapat informasi **Public Key**, namun kita bisa memproduksinya melalui **Private-key.**
 
-  Juga terdapat informasi **Account**, **Ethereum Address** yang diambil dari **20 bytes** terakhir **Public-Key**.
-
 - **nodes**
 
 **Catatan :**
@@ -1161,7 +1056,13 @@ Saat pertamakali berjalan **Geth** akan membuka **Inter-process Communication (I
 --ipcdisable
 ```
 
+---
 
+### Keyfiles
+
+---
+
+Setiap **account** memiliki 2 kunci yang disebut dengan **private-key** dan **public-key**. juga terdapat informasi **Account**, **Ethereum Address** yang diambil dari **20 bytes** terakhir **Public-Key**.
 
 ### Geth Javascript Console
 
@@ -1179,8 +1080,6 @@ Passphrase: <password>
 Repeat passphrase: <password>
 ```
 
-
-
 ### Geth List Account
 
 Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi perintah di bawah ini :
@@ -1189,8 +1088,6 @@ Untuk mengetahui list Accounts pada node yang kita gunakan saat ini, eksekusi pe
 eth.getBalance(eth.accounts[0])
 ```
 
-
-
 ### Geth Balance Account
 
 Saldo yang akan ditampilkan dalam satuan **Wei**, jika kita ingin melihat dalam satuan **Ethers** eksekusi perintah di bawah ini :
@@ -1198,8 +1095,6 @@ Saldo yang akan ditampilkan dalam satuan **Wei**, jika kita ingin melihat dalam 
 ```
 web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
 ```
-
-
 
 ### Geth Transfer Ether
 
@@ -1219,8 +1114,6 @@ web3.toWei(5,"ether")})
 Perintah di atas adalah melakukan pengiriman **Ethers** menuju **Ethereum Address** di bawah ini :
 
 0xd03f236c32BBF0D5b76AaaF9bc66B5640B2a50b9
-
-
 
 ### HTTP - RPC Server
 
@@ -1246,25 +1139,25 @@ Untuk keluar dari **Geth Javascript Console** eksekusi perintah di bawah ini :
 exit
 ```
 
----------------------------------------------
-
-
+---
 
 ### Synchronization Mode
 
 Pada **Geth** terdapat **3 Synchronization Mode** :
 
-
-
 #### Full Node Mode (Fast)
 
 Jika kita menjalankan **Geth** tanpa **Command Flag --syncmode** maka kita mengeksekusi **Geth** dengan mode **Fast Synchronization** (**--syncmode fast**). **Full Node** artinya kita akan menyalin seluruh data **Ethereum Blockchain**, pada mode **full node** hal pertama yang akan dilakukan adalah menyalin seluruh data **block headers** terlebih dahulu.
 
-Selanjutnya informasi dari **block body** akan dipenuhi, ketika **Fast Synchronization** telah mencapai **block** terakhir pada **Ethereum Network** selanjutnya **Node** akan melakukan **Switching** dari **Fast Synchronization** ke dalam **Full Synchronization**. 
+Selanjutnya informasi dari **block body** akan dipenuhi, ketika **Fast Synchronization** telah mencapai **block** terakhir pada **Ethereum Network** selanjutnya **Node** akan melakukan **Switching** dari **Fast Synchronization** ke dalam **Full Synchronization**.
+
+---
 
 #### Full Node Mode
 
 Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block** dan memverifikasi seluruh **blocks**. Mode **Full Node** lebih lamban dari **Fast Synchronization Mode**.
+
+---
 
 #### Lightweight Node
 
@@ -1274,37 +1167,43 @@ Pada **Full Node Mode**, proses **synchronization** dimulai dari **Genesis Block
 --syncmode light
 ```
 
+## Backup & Restore Account
 
+s
 
-## Metamask 
+```
+
+```
+
+## Metamask
 
 **Metamask** adalah sebuah **Ethereum Wallet** di dalam **browser**, kini sudah menyediakan dukungan untuk **browsers Firefox** dan **Chrome**. Jika anda telah memasang **Metamask** maka selanjutnya anda akan diminta untuk membuat sebuah **Wallet** atau melakukan **Import Wallet**.
 
-
+---
 
 ### Setup Password
 
 Jika anda baru membuat sebuah **Wallet** maka selanjutnya anda akan diminta untuk membuat sebuah **Password** yang akan digunakan untuk melindungi seluruh **Private Keys** anda dalam **Wallet Metamask**.
 
-
+---
 
 ### Backup-phrase
 
 Terakhir sebelum menggunakan **Metamask** anda akan diminta untuk mencatat **Seed Phrase**, wujudnya adalah 12 kata yang tidak boleh diketahui oleh siapapun kecuali diri anda sendiri. Gunanya adalah sebagai **Master Key** untuk mengakses kembali seluruh **Accounts** yang kita miliki jika anda kehilangan **Wallet** anda.
 
-
+---
 
 ### Faucet
 
-**Faucet** adalah tempat anda bisa mendapatkan **Ethers** gratis dalam **Test Network**, sehingga anda bisa menggunakannya sebagai tempat untuk melakukan pengembangan dan uji coba. 
+**Faucet** adalah tempat anda bisa mendapatkan **Ethers** gratis dalam **Test Network**, sehingga anda bisa menggunakannya sebagai tempat untuk melakukan pengembangan dan uji coba.
 
-Jika kita memilih menggunakan **Test Network**, penulis merekomendasikan **Ropsten Test Network** dan anda bisa mendapatkan **Ethers** secara gratis melalui **faucet** di bawah ini : 
+Jika kita memilih menggunakan **Test Network**, penulis merekomendasikan **Ropsten Test Network** dan anda bisa mendapatkan **Ethers** secara gratis melalui **faucet** di bawah ini :
 
 https://faucet.dimensions.network/
 
-Untuk mendapatkannya pastikan anda telah melakukan **Switch Network** ke dalam **Ropsten Test Network**, selanjutnya salin **Account Address** anda ke dalam **Faucet** di atas. 
+Untuk mendapatkannya pastikan anda telah melakukan **Switch Network** ke dalam **Ropsten Test Network**, selanjutnya salin **Account Address** anda ke dalam **Faucet** di atas.
 
-
+---
 
 ### Track Fund
 
@@ -1314,7 +1213,7 @@ https://ropsten.etherscan.io/
 
 Jika anda telah mendapatkan faucet silahkan salin **Account Address** anda kedalam **Blockchain Explorer** di atas, anda dapat melihat seluruh detail transaksi.
 
-
+---
 
 ### Switch Network
 
@@ -1324,7 +1223,7 @@ Dengan **Metamask** kita dapat terhubung ke dalam berbagai **Ethereum Networks**
 
 Juga kita dapat terhubung ke dalam **Ethereum Network** lainnya melalui **Custom RPC**.
 
-
+---
 
 ### Create & Import Account
 
@@ -1334,7 +1233,7 @@ Selain **Switch Network**, dengan metamask kita juga dapat membuat sebuah **Acco
 
 **Ethereum Protocol** juga memanfaatkan mekanisme **12-word secret phrase** yang diterapkan dalam **BIP39 (Bitcoin Improvement Proposal) seed phrase**, sebagai sebuah **backup management** jika dikemudian hari ternyata kita lupa **password** dari **Account** kita.
 
-
+---
 
 ### Perform Transaction
 
@@ -1342,13 +1241,13 @@ Dengan **Metamask** kita juga dapat melakukan **Transaction**, baik itu mengirim
 
 <img src="../assets/Metamask-Transaction.png" style="zoom:100%;" />
 
-
+---
 
 ### Token Management
 
 Dengan **Metamask** kita dapat menambahkan **Token**, dengan cara memberikan informasi **Token Contract Address** ke dalam **Metamask**.
 
-
+---
 
 ### Infura
 
@@ -1358,7 +1257,7 @@ https://infura.io
 
 Seluruh informasi transaksi baik itu pengiriman atau penerimaan **ethers** atau **token** akan tercatat dalam **Metamask** yang kita pasang dalam **browser**.
 
-
+---
 
 ## Remix
 
@@ -1368,7 +1267,7 @@ Pastikan anda menggunakan protokol **http** bukan **https** saat menggunakan **R
 
 http://remix.ethereum.org/
 
-
+---
 
 ### Runtime Environment
 
@@ -1376,31 +1275,25 @@ http://remix.ethereum.org/
 
 Dengan **Remix** kita dapat melakukan **Compilation** bahasa pemrograman **Solidity** ke dalam **EVM Bytecodes**, memproduksi **ABI** (**Application Binary Interface**) dan **deployment** sebuah **Smart Contract** ke berbagai **Ethereum Networks**.
 
------------
-
-
+---
 
 ### Javascript Virtual Machine (VM)
 
-Dengan **Javascript Virtual Machine (VM)** kita dapat mensimulasikan **Smart Contract** pada **Local Computer** hanya melalui **browser** saja. 
+Dengan **Javascript Virtual Machine (VM)** kita dapat mensimulasikan **Smart Contract** pada **Local Computer** hanya melalui **browser** saja.
 
--------------
+---
 
-
-
-### Injected Web3 
+### Injected Web3
 
 Menggunakan plugin seperti **Metamask** dalam **Web Browser** untuk melakukan injeksi **Web3 Object** agar **Smart Contract** dapat berinteraksi dengan **Account** dalam **Metamask**.
 
----------------
-
-
+---
 
 ### Web3 Provider
 
 Menghubungkan secara langsung dengan **Ethereum Node** sehingga **Smart Contract** mengacu pada **Account** dalam **Node** tersebut, diperlukan sebuah **Software Ethereum Client** seperti **Geth**.
 
-
+---
 
 ### Compile Smart Contract
 
@@ -1408,15 +1301,13 @@ Pada **Remix** terdapat berbagai versi **Compiler** mulai dari yang jadul, **Sta
 
 <img src="../assets/Remix-Compiler.png" style="zoom:100%;" />
 
-
+---
 
 ### Debug Smart Contract
 
 Kita dapat melakukan **Debugging** pada **Transactions** yang kita buat dengan **Remix**. Kita akan membahas kajian ini pada sesi khusus untuk **Debug** sebuah **Smart Contract**.
 
------------------
-
-
+---
 
 ### ABI & Bytecode
 
@@ -1425,9 +1316,7 @@ Jika sebuah **Contract** telah berhasil diuji, selanjutnya adalah mengujinya di 
 - **Application Binary Interface (ABI)** - Sebuah **JSON String** yang menjelaskan karakteristik **Smart Contract** yang kita buat.
 - **Bytecode** - Sekumpulan **Opcodes**.
 
-------------------
-
-
+---
 
 ### Deploy Smart Contract
 
@@ -1435,41 +1324,31 @@ Di bawah ini adalah diagram proses **Deployment Smart Contract** dengan memanfaa
 
 <img src="../assets/Remix-Deploy-Smart-Contract.png" style="zoom:100%;" />
 
----------------
-
-
+---
 
 ### Solidity Unit Testing
 
 Fitur ini disediakan agar kita dapat melakukan **Unit Testing** pada **Smart Contract** yang kita buat untuk memastikan bahwa **Solidity Code** yang kita tulis bebas dari **Bug** pada level **Unit Testing**.
 
----------------------
-
-
+---
 
 ### Solidity Static Analysis
 
 **Solidity** yang kita tulis akan di **scan**, manfaat dari **Static Analysis** adalah kita dapat mengetahui informasi **Solidity Code** yang kita tulis. Terdapat informasi tambahan seperti :
 
 1. Tingkat **Security** dari **Solidity** yang kita tulis.
-2. Informasi **Gas**, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis. 
+2. Informasi **Gas**, Potensi kebocoran **Gas Fee** dan pertimbangan **Gas** secara ekonomis.
 3. **Standard Code** dalam **ERC20**.
 
-----------------------------
-
-
+---
 
 ### Solidity Linter
 
 Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan **Standard** penulisan **Solidity Code** yang benar atau direkomendasikan oleh komunitas. **Linter** juga meningkatkan keamanan dari **Solidity Cod**e yang kita tulis.
 
----------------
-
-
+---
 
 ### Documentation Generator
-
-
 
 ### Solidity to UML
 
@@ -1477,9 +1356,7 @@ Fitur ini disediakan agar **Solidity Code** yang kita tulis sudah sesuai dengan 
 
 <img src="../assets/Remix-UML.svg" style="zoom:100%;" />
 
-----------------
-
-
+---
 
 ### Remixd
 
@@ -1497,25 +1374,17 @@ remixd -s <path>
 
 Selanjutnya buka **Remix**, pilih **Plugin Manager** lakukan **Activate** pada **plugin remixd**.
 
-
-
------------------
-
-
+---
 
 ### Restore & Backup
 
 Kita dapat memuat kembali seluruh **File** dan **Solidity Code** yang kita tulis menggunakan **Remix**.
 
------------------------
-
-
+---
 
 ## Truffle
 
 Pengembangan **Smart Contract** untuk protokol **Ethereum**.
-
-
 
 ## Ganache
 
@@ -1523,19 +1392,15 @@ Dengan **Geth** kita dapat membangun **Private Ethereum Network** untuk **testin
 
 Untuk membuat **Ethereum Network** sebagai lingkungan untuk melakukan simulasi **Development**, kita juga dapat menggunakan **ganache-cli**. Dengan **ganache-cli** kita dapat membangun **Personal Blockchain Network** untuk **Development** dalam **Ethereum Protocol**.
 
-Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya. 
+Selain versi **Command-line**, **Ganache** juga menyediakan versi **Graphic User Interface (GUI)**untuk mempermudah para pemula untuk mempelajarinya.
 
--------------------------
-
-
+---
 
 ### Install Ganache
 
 Untuk mendapatkan versi **Graphic User Interface (GUI)** kunjungi laman di bawah ini :
 
 https://www.trufflesuite.com/ganache
-
-
 
 ### ganache-cli
 
@@ -1549,9 +1414,7 @@ Untuk informasi lanjut mengenai **Commands Flag** yang dapat digunakan untuk kon
 
 https://github.com/trufflesuite/ganache-cli
 
---------------------------------------
-
-
+---
 
 ### Start ganache-cli
 
@@ -1618,9 +1481,7 @@ Informasi **HD Wallet**, **Gas Price**, **Gas Limit** dan **Call Gas Limit** jug
 127.0.0.1:8545
 ```
 
---------------------
-
-
+---
 
 ### Ganache User Interface
 
@@ -1632,9 +1493,7 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Truffle.png" style="zoom:100%;" />
 
----------------------------
-
-
+---
 
 ### Ganache Configuration
 
@@ -1642,9 +1501,7 @@ Setelah melakukan instalasi **Ganache** versi **GUI** selanjutnya anda akan dimi
 
 <img src="../assets/Ganache-Configurations.PNG" style="zoom:100%;" />
 
---------------------
-
-
+---
 
 ### View Private-key
 
@@ -1652,11 +1509,9 @@ Untuk melihat **Private Key** dari setiap **Account Address** klik ikon gambar k
 
 <img src="../assets/Ganache-Private-Key.PNG" style="zoom:100%;" />
 
------------------------------
+---
 
-
-
-### View Blocks 
+### View Blocks
 
 Untuk melihat **list blocks** yang sudah di tambang (**mined**) kita dapat melihatnya pada **menu Blocks** seperti pada gambar di bawah ini :
 
@@ -1668,9 +1523,7 @@ Untuk melihat lebih detail di setiap **block**, klik **block** tersebut :
 
 Pada gambar di atas adalah contoh detail data pada **block** ke 13, pada kasus gambar di atas terdapat aksi pembuatan sebuah **Contract**.
 
-----------
-
-
+---
 
 ### View Transactions
 
@@ -1680,27 +1533,13 @@ Untuk melihat **List Transactions** pilih **Menu Transactions** seperti pada gam
 
 Pada kasus gambar di atas terdapat dua **transaction** dengan tujuan pembuatan **Smart Contract (Contract Creation)** dan eksekusi **Smart Contract (Contract Call)**. Kita juga dapat melihat **Account Address** yang melakukan **Contract Creation** dan **Contract Call** melalui kolom **From Address**.
 
---------------------------------
+---
 
+### View Contracts
 
+### View Events
 
-### View Contracts 
-
-
-
-
-
-### View Events 
-
-
-
-
-
-### Integrate With Metamask 
-
-
-
-
+### Integrate With Metamask
 
 ### Integrate With Remix
 
@@ -1708,7 +1547,7 @@ Pada **Tab Deploy & Run Transactions**, pilih **Web3 Provider** :
 
 <img src="../assets/Remix-Ganache-Environment.PNG" style="zoom:100%;" />
 
-Pada **Dialog External node request**, perhatikan kolom paling bawah terdapat informasi **Web3 Provider Endpoint**. Isi data tersebut sesuai dengan **Ganache Configuration** yang telah kita buat. Pada kasus kali ini penulis menggunakan **port 7545** : 
+Pada **Dialog External node request**, perhatikan kolom paling bawah terdapat informasi **Web3 Provider Endpoint**. Isi data tersebut sesuai dengan **Ganache Configuration** yang telah kita buat. Pada kasus kali ini penulis menggunakan **port 7545** :
 
 <img src="../assets/Remix-Ganache.PNG" style="zoom:100%;" />
 
@@ -1724,21 +1563,15 @@ Jika kita lihat **detail information** pada **block** tersebut maka kita melihat
 
 <img src="../assets/Ganache-Blocks3.PNG" style="zoom:100%;" />
 
----------------
+---
 
-
-
-
-
-## Solidity Compiler 
+## Solidity Compiler
 
 **Solidity** adalah bahasa pemrograman yang memerlukan **Compiler**.
 
 Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan para **Javascript Developer**.
 
----------------
-
-
+---
 
 ### Solc-js
 
@@ -1748,17 +1581,13 @@ Pada ekosistem **Node.js** terdapat **Solidity Compiler** yang dapat digunakan p
 npm install -g solc
 ```
 
------------
-
-
+---
 
 ## Visual Studio Code (VSC)
 
 **Visual Studio Code (VSC)** juga mendukung pengembangan **Solidity** melalui **Extension** yang telah disediakan komunitas dalam **Visual Studio Marketplace**. **Extension Solidity** yang terbaik dalam opini penulis saat ini pada **VSC** di tulis oleh **Juan Blanco**.
 
----------------
-
-
+---
 
 # Solidity
 
@@ -1770,9 +1599,7 @@ Di bawah ini adalah **Lifecyle** yang akan dilakukan seorang **Smart Contract De
 
 <img src="../assets/Solidity-Lifecyle.png" style="zoom:100%;" />
 
-----------------------
-
-
+---
 
 ## High-level Language
 
@@ -1786,27 +1613,21 @@ Seperti yang telah kita pelajari sebelumnya **Smart Contract** yang telah di **d
 
 <img src="../assets/Ethereum-EVM.png" style="zoom:100%;" />
 
----------------
-
-
+---
 
 ## Object-oriented Language
 
 **Solidity** adalah bahasa pemrograman yang sudah mendukung paradigma **Object-oriented programming language** untuk meningkatkan produktivitas penulisan kode para pengembang. Dukungan **Object-oriented** pada versi **8.6.0** masih terbatas.
 
------------------------------------
-
-
+---
 
 ## Statically-Typed Language
 
-**Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language** artinya tipe data suatu **variable** harus didefinisikan terlebih dahulu dengan jelas. 
+**Solidity** adalah bahasa pemrograman dengan karakteristik **Statically Typed Language** artinya tipe data suatu **variable** harus didefinisikan terlebih dahulu dengan jelas.
 
 <img src="../assets/Solidity-Statically-typed.png" style="zoom:100%;" />
 
--------------------------
-
-
+---
 
 ## Case Sensitive Language
 
@@ -1814,17 +1635,13 @@ Bahasa **Solidity** juga memiliki karakteristik **case-sensitive** sehingga memp
 
 <img src="../assets/Solidity-Case-Sensitive.png" style="zoom:100%;" />
 
--------------
-
-
+---
 
 ## Turing Complete Language
 
 **Solidity** adalah bahasa pemrograman yang sudah **turing complete** yang dapat digunakan untuk menyelesaikan berbagai komputasi pemrograman mulai dari yang sederhana hingga kompleks. Dalam **solidity** terdapat dukungan seperti **inheritance**, **libraries** dan **complex user-defined types**.
 
------------
-
-
+---
 
 # Solidity Anatomy
 
@@ -1832,9 +1649,7 @@ Di bawah ini adalah contoh **Solidity Anatomy** kita akan mengupasnya satu persa
 
 <img src="../assets/Solidity-Anatomy.png" style="zoom:100%;" />
 
--------------------------
-
-
+---
 
 ## Hello World, Maudy!
 
@@ -1847,11 +1662,11 @@ pragma solidity 0.8.4;
 
 contract HelloWorld {
     string textToPrint = "Hello World, Maudy!";
-    
+
     function changeText(string memory _text) public {
         textToPrint = _text;
     }
-    
+
     function printSomething() public view returns (string memory) {
         return textToPrint;
     }
@@ -1905,13 +1720,11 @@ Di bawah ini adalah Contoh dari **Bytecode** dari program **hello world** di ata
 }
 ```
 
------------------------
-
-
+---
 
 ## SPDX License Identifier
 
-**Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**. 
+**Trust** ditandai dengan tersedianya **source code** yang terbuka, namun menyediakan **source code** yang terbuka artinya berhadapan dengan permasalahan legal terkait **copyright**.
 
 **Compiler** menegaskan penerapan **SPDX License Identifier**. **SPDX** (**Software Package Data Exchange**) harus diterapkan untuk setiap **file** dengan cara membuat komentar di baris awal **File Solidity** yang mengindikasikan sebuah **license**, di bawah ini adalah contoh pemberian informasi **SPDX** :
 
@@ -1919,13 +1732,11 @@ Di bawah ini adalah Contoh dari **Bytecode** dari program **hello world** di ata
 **// SPDX-License-Identifier : MIT**
 ```
 
-**Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**. Jika anda tidak ingin memberikan spesifikasi **license** atau **source code** karena  tidak bersifat **open source** maka gunakan **special value** **UNLICENSED**.
+**Compiler** tidak akan memvalidasi apakah **license** bagian dari yang [diizinkan](https://spdx.org/licenses/) dalam **SPDX** atau tidak, namun akan menyimpannya kedalam **Contract Metadata / bytecode metadata**. Jika anda tidak ingin memberikan spesifikasi **license** atau **source code** karena tidak bersifat **open source** maka gunakan **special value** **UNLICENSED**.
 
 Informasi lebih lengkap terkait **SPDX License Identifier** dapat ditemui di [sini](https://spdx.org/ids-how).
 
-------------------------
-
-
+---
 
 ## Pragma
 
@@ -1939,23 +1750,19 @@ pragma solidity ^0.8.6;
 
 Hal itu dilakukan agar **Smart Contract** yang kita tulis tidak mengalami **output** yang tidak diharapkan (**unexpected behaviour**), karena setiap kali **compiler** terbaru dirilis terdapat bug dalam versi sebelumnya yang telah dibenahi sehingga dapat mempengaruhi **Smart Contract** yang telah kita tulis.
 
----------------------------------------
-
-
+---
 
 ### Semantic Versioning
 
 Pemilihan **compiler** menggunakan model **semver** yang terdiri dari 3 urutan yaitu :
 
-1. **Major Version,** 
-2. **Minor Version dan** 
-3. **Patch** 
+1. **Major Version,**
+2. **Minor Version dan**
+3. **Patch**
 
-Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**. 
+Jika kita menggunakan **Compiler** versi **0.8.6**, maka 0 adalah **Major Version**, 8 adalah **Minor Version** dan 6 adalah **Patch**.
 
----------------------------
-
-
+---
 
 ## Import
 
@@ -1977,17 +1784,15 @@ Atau menggunakan **alias** seperti pada contoh kode di bawah ini :
 import “BaseContract.sol” as MyContract;
 ```
 
-Jika kita tidak ingin menggunakan seluruh **global symbol** dari sebuah **file**, karena ingin menggunakan beberapa **symbol** saja anda dapat mempelajari contoh **statement** di bawah ini : 
+Jika kita tidak ingin menggunakan seluruh **global symbol** dari sebuah **file**, karena ingin menggunakan beberapa **symbol** saja anda dapat mempelajari contoh **statement** di bawah ini :
 
 ```
 import {symbol1 as alias, symbol2} from " BaseContract.sol";
 ```
 
-Saat kita melakukan proses **Deployment Smart Contract**  ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
+Saat kita melakukan proses **Deployment Smart Contract** ke dalam **Ethereum Blockchain**, **Import Statement** harus diganti dengan seluruh **file solidity** yang akan di **import**. Jika kita menggunakan **Development Tools** seperti **Truffle** atau **Remix** maka seluruh **file** yang di **import** akan dikonversi menjadi sebuah **file** tunggal yang **ready** untuk di **deploy**.
 
-----------------------------------
-
-
+---
 
 ## Contract
 
@@ -2004,17 +1809,15 @@ Di bawah ini adalah contoh kode dua buah **Contract** dalam satu **file Solidity
 pragma solidity 0.8.4;
 
 contract myFirstContract {
-    
+
 }
 
 contract mySecondContract {
-    
+
 }
 ```
 
-----------------------
-
-
+---
 
 ### Derived Contract
 
@@ -2033,9 +1836,7 @@ contract Child is Parent {
 }
 ```
 
------------------
-
-
+---
 
 ### Abstract Contract
 
@@ -2062,15 +1863,13 @@ contract B is A {
 }
 ```
 
------------
-
-
+---
 
 ## State Variables
 
 **State Variables** adalah **variables** yang nilainya tersimpan secara **permanent** dalam dalam **Ethereum Blockchain**. Terminologi **State** digunakan untuk menjelaskan sebuah **value** yang akan menjadi **state** dari **Smart Contract** itu sendiri. **State** dapat diubah di level **Contract Storage**, dan semua orang dapat memantaunya jika terdapat perubahan **value**.
 
-Ketika **Smart Contract** telah di **deploy** kedalam **Ethereum Blockchain**, **state** di dalamnya akan menjadi sebuah **Global State Machine**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** : 
+Ketika **Smart Contract** telah di **deploy** kedalam **Ethereum Blockchain**, **state** di dalamnya akan menjadi sebuah **Global State Machine**. Di bawah ini adalah diagram deklarasi **state variable** dengan tipe data **string** menggunakan **Solidity** :
 
 <img src="../assets/String-Data-Type.png" style="zoom:100%;" />
 
@@ -2080,9 +1879,7 @@ Diagram di atas jika dikonversi ke dalam contoh kode **Solidity** :
     string public hello = "Hello Maudy";
 ```
 
--------------------------------------------
-
-
+---
 
 ### Variable Visibility Specifier
 
@@ -2090,9 +1887,7 @@ Terdapat 3 **Visibility Specifiers** yang dapat diterapkan pada sebuah **State V
 
 <img src="../assets/Visibility-Specifiers.png" style="zoom:100%;" />
 
----------------
-
-
+---
 
 ### Variable Internal Visibility
 
@@ -2100,25 +1895,19 @@ Secara **default state variable** yang tidak diberi **visibility** akan otomatis
 
 <img src="../assets/Visibility-Specifiers-Variable.png" style="zoom:100%;" />
 
----------------------
-
-
+---
 
 ### Variable Public Visibility
 
 Pada **State Variable** dengan **Visibility Public** akan memberikan karakteristik yang membuat **Variable** dapat diakses secara langsung dan **Compiler** akan secara otomatis membuat sebuah **Getter Method**.
 
----------------
-
-
+---
 
 ### Variable Private Visibility
 
 Pada **State Variable** dengan **Visibility Private** akan memberikan karakteristik yang membuat **Variable** hanya dapat digunakan pada lingkungan **Contract** saat ini dan tidak dapat diakses oleh **Contract** turunannya.
 
---------------------------------
-
-
+---
 
 ### Constant & Immutable
 
@@ -2143,25 +1932,21 @@ contract C {
 }
 ```
 
-Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** dan kita telah menetapkan **literal value** untuk dua buah **State Variable** tersebut, sehingga dapat diproses saat **Compile-time**. 
+Terdapat dua buah **State Variable** yang menjadi sebuah **Constant Variable** dan kita telah menetapkan **literal value** untuk dua buah **State Variable** tersebut, sehingga dapat diproses saat **Compile-time**.
 
 Pada **State Variable** dengan **immutable** kita akan memberikan nilainya pada saat proses **deployment** melalui **Constructor**. Nilai yang diberikan tidak bersifat **fixed** seperti **constant**, **literal value** yang diberikan pada **immutable variable** bersifat **Arbitrary**.
 
-Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah. 
+Note Gas : Sebagai catatan **Gas Cost** dari **Constant** dan **Immutable variable** biayanya lebih rendah.
 
-----------------------------------------------
-
-
+---
 
 ## Local Variable
 
 Sebelumnya kita telah mempelajari **State Variable** yang secara permanent akan tersimpan dalam **Ethereum Blockchain**. **Local Variable** bekerja sebaliknya, bersifat **Volatile** karena lokasinya tersimpan dalam **Stack**. Sebuah **variable** yang di deklarasikan di dalam sebuah **Function** disebut sebagai **Local Variable**.
 
-------------------------------
+---
 
-
-
-## Comment 
+## Comment
 
 Di bawah ini adalah contoh **Comments** dalam **Solidity**, terdapat **single** dan **multi-line comment** :
 
@@ -2173,15 +1958,13 @@ Multiline comment
 */
 ```
 
-----------------------------
-
-
+---
 
 ## Function
 
-**Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karakteristik **High Cohesion** dan **Low Coupling**.  
+**Function** adalah sebuah **subprogram** yang didesain untuk menyelesaikan tugas spesifik. Sebuah **Function** dapat digunakan untuk membungkus sekumpulan **statement**, **expression**, atau **function** itu sendiri menjadi sebuah **object** tunggal. Tujuannya adalah **abstraction** dan **modularity** dengan karakteristik **High Cohesion** dan **Low Coupling**.
 
-Sebuah **Function** dapat memiliki **parameter** sebagai **input data** untuk diproses dan sebuah **Function** dapat memproduksi sebuah **Return** atau tidak sama sekali, proses pemanggilan **function** disebut dengan **Invoking**.  Di bawah ini adalah contoh diagram deklarasi sebuah **Function** :
+Sebuah **Function** dapat memiliki **parameter** sebagai **input data** untuk diproses dan sebuah **Function** dapat memproduksi sebuah **Return** atau tidak sama sekali, proses pemanggilan **function** disebut dengan **Invoking**. Di bawah ini adalah contoh diagram deklarasi sebuah **Function** :
 
 <img src="../assets/Solidity-Function.png" style="zoom:100%;" />
 
@@ -2195,7 +1978,7 @@ pragma solidity 0.8.4;
 contract MaudyKasihCoin {
 
     uint256 public maudyBalance;
-    
+
     function deposite(uint256 amount) public {
         maudyBalance = amount;
     }
@@ -2208,45 +1991,35 @@ Terdapat beberapa **Visibility** yang dapat digunakan pada **Function** dalam **
 
 <img src="../assets/Ethereum-Function-Visibility.png" style="zoom:100%;" />
 
---------------
-
-
+---
 
 ### Function Public Visibility
 
 **Public Visibility** secara **default** langsung diberikan pada sebuah **function**. Dapat dipanggil secara internal atau external.
 
------------------------------
-
-
+---
 
 ### Function Private Visibility
 
 Hanya dapat diakses dalam lingkup **Contract** saat ini.
 
-------------------------
-
-
+---
 
 ### Function Internal Visibility
 
 Dapat diakses secara **internal** dalam lingkup **Contract** saat ini dan **Contract** turunannya. Jika sebuah **function** dibuat diluar **Contract** maka akan secara otomatis memiliki internal **visibility**.
 
----------------
-
-
+---
 
 ### Function External Visibility
 
 Dapat dipanggil dari **Contract** lainnya menggunakan **transactions**. Jika digunakan dalam **internal** maka harus menggunakan **keyword this**.
 
----------------------------
+---
 
+### State Mutability Payable
 
-
-### State Mutability Payable 
-
-**State Mutability Payable** digunakan agar **function** tersebut dapat menerima **ethers**. 
+**State Mutability Payable** digunakan agar **function** tersebut dapat menerima **ethers**.
 
 Di bawah ini adalah contoh penerapannya :
 
@@ -2258,7 +2031,7 @@ pragma solidity 0.8.4;
 contract MaudyKasihCoin {
 
     uint256 public maudyBalance;
-    
+
     function deposite(uint256 amount) public {
         maudyBalance = amount;
     }
@@ -2273,9 +2046,7 @@ contract MaudyKasihCoin {
 }
 ```
 
--------
-
-
+---
 
 ### State Mutability View
 
@@ -2289,7 +2060,7 @@ Sebuah **function** dengan **State Mutability View** artinya sebuah komitmen bah
 6. Memanggil **function** yang tidak ditandai dengan **state mutability view** dan **pure**.
 7. Menggunakan **inline assembly** yang memiliki **opcode** tertentu.
 
-Di bawah ini adalah contoh diagram **function** yang menggunakan **State Mutability** dan **Return** : 
+Di bawah ini adalah contoh diagram **function** yang menggunakan **State Mutability** dan **Return** :
 
 <img src="../assets/Solidity-Function-Mutability.png" style="zoom:100%;" />
 
@@ -2311,7 +2082,7 @@ pragma solidity 0.8.4;
 contract MaudyKasihCoin {
 
     uint256 public maudyBalance;
-    
+
     function deposite(uint256 amount) public {
         maudyBalance = amount;
     }
@@ -2323,7 +2094,7 @@ contract MaudyKasihCoin {
     function getBalance() public view returns(uint) {
         return address(this).balance;
     }
-    
+
     function withdrawMoney() public {
         address payable to = payable(msg.sender);
         to.transfer(getBalance());
@@ -2331,15 +2102,11 @@ contract MaudyKasihCoin {
 }
 ```
 
-
-
--------------
-
-
+---
 
 ### State Mutability Pure
 
------------------
+---
 
 Sebuah **function** dengan **State Mutability Pure** artinya sebuah komitmen bahwa tidak terdapat **function** yang akan membaca **state** atau memodifikasi **state**. Di bawah ini adalah beberapa aksi yang termasuk dalam kegiatan mengubah **state** :
 
@@ -2364,9 +2131,7 @@ contract C {
 
 **Pure Functions** dapat menggunakan **revert()** dan **require() functions** untuk melakukan **revert state** jika terjadi **error**. Jika terdapat proses **revert** yang sedang terjadi dan mengubah **state**, maka tidak di anggap sebagai **state modification**.
 
-----------
-
-
+---
 
 ### Tips Function Parameter
 
@@ -2380,17 +2145,13 @@ thisFunctionCallIsReallyLong(
 );
 ```
 
-
-
 ## Constructor
 
 Sebuah **Contract** dapat memiliki **Constructor** atau tidak sama sekali, sehingga **Constructor** bersifat **Optional**. Namun sebuah **Contract** hanya dapat memiliki satu **Constructor** saja dan bersifat **one-time execution**. Jika **Constructor** sudah dieksekusi dalam **Ethereum Blockchain** maka hasilnya akan tercatat secara permanen.
 
 **Constructor** menentukan karakteristik **Smart Contract** saat pertama kali ditanam dalam **Ethereum Blockchain** jadi para **Smart Contract Developer** harus mempertimbangkannya dengan matang.
 
-------------------------
-
-
+---
 
 ## Modifier
 
@@ -2420,51 +2181,35 @@ function shutdown() public onlyOwner {
 }
 ```
 
-
-
-----------
-
-
+---
 
 ## Error Handling
 
 **Solidity** memiliki **state-reverting exception** untuk mengatasi **error**, jika terjadi **exception** seluruh perubahan pada **state** akan dikembalikan ke **state** awal untuk pelaku yang melakukan **call** secara aktual dan seluruh **sub-call** di dalamnya.
 
-Jika **exception** terjadi pada **sub-call** maka **bubble up** akan terjadi secara otomatis kecuali jika terjadi di dalam **try/catch statement**. 
+Jika **exception** terjadi pada **sub-call** maka **bubble up** akan terjadi secara otomatis kecuali jika terjadi di dalam **try/catch statement**.
 
--------
-
-
+---
 
 ### Assert
 
---------------
-
-
+---
 
 ### Require
 
-----------
-
-
+---
 
 ### Revert
 
------------
-
-
+---
 
 ### Exception
 
---------------
-
-
+---
 
 # Types
 
-**Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan. 
-
-
+**Types** adalah sekumpulan nilai yang dikenali oleh **compiler** untuk mengatur bagaimana data harus digunakan.
 
 ## Strongly-typed
 
@@ -2472,9 +2217,7 @@ Sebuah bahasa pemograman dikatakan **Strongly Typed** jika sebuah **Compiler** m
 
 Pada **Strongly Typed** terdapat nilai **correctness** dan **safety**, nilai **correctness** memberikan keunggulan dari segi **performance** dan nilai **safety** memberikan manajemen integritas data yang baik, pendeteksian **bug** dan kemungkinan **error** saat **runtime** yang lebih baik.
 
-----------------
-
-
+---
 
 ## Dynamically-typed
 
@@ -2482,9 +2225,7 @@ Jika sebelumnya anda sudah mempelajari bahasa pemrograman seperti **Python** dan
 
 Sebuah bahasa dikatakan **Dynamically Typed** karena saat **runtime,** tipe data dapat diubah ke tipe data lainya agar program bisa berjalan sesuai instruksi. Pada **Dynamically Typed** terdapat **simplicity** dan **speed** untuk pengembangan **software**.
 
----------------
-
-
+---
 
 ## Why Solidity Strongly-typed?
 
@@ -2492,41 +2233,37 @@ Dikarenakan kita akan membuat sebuah program **Smart Contract**, nilai **Safety*
 
 Sebuah **types** menentukan :
 
-1. Data seperti apa saja yang dapat disimpan? 
+1. Data seperti apa saja yang dapat disimpan?
 
 2. Seberapa besar memori yang dibutuhkan untuk menyimpan data?
 
 3. Operasi apa saja yang dilakukan pada data tersebut?
 
----------------
-
-
+---
 
 ## Data
 
-**Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap **bit** dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi **Digital Data**. 
+**Data** dalam komputer secara **digital electronics** direpresentasikan dalam wujud **Binary Digits (bits)**, sebuah unit informasi (**unit of information**) terkecil dalam mesin komputer. Setiap **bit** dapat menyimpan satu nilai dari **binary number** yaitu **0 atau 1**, sekumpulan **bit** membentuk konstruksi **Digital Data**.
 
-Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**. 
+Jika terdapat **8 bits** yang dihimpun maka akan membentuk **Binary Term** atau **Byte**. Pada **level byte** sudah membentuk unit penyimpanan (**unit of storage**) yang dapat menyimpan **Single Character**. Satu **data byte** dapat menyimpan 1 **character** contoh : **'A'** atau **'x'** atau **'$'**.
 
 Serangkaian **byte** digunakan untuk membuat **Binary Files**, pada **Binary Files** terdapat serangkaian **bytes** yang dibuat untuk merepresentasikan lebih dari sekedar **character** atau **text**. Pada **level** yang lebih tinggi (**kilobyte**, **megabyte**, **gigabyte** & **terabyte**) kumpulan **bits** ini dapat digunakan untuk merepresentasikan teks, gambar, suara & video.
 
----------
-
-
+---
 
 ## Data Types
 
 **Data Types** adalah sebuah **set** yang memiliki :
 
-**1.**  **Characteristic** 
+**1.** **Characteristic**
 
 Karakteristik yang dimilikinya adalah nama **keyword** dan ukuran memori yang digunakannya untuk menyimpan data.
 
-*2.*  **Range** ***Value***
+_2._ **Range** **_Value_**
 
 **Range Value** adalah jangkauan variasi nilai (**value**) yang dapat disimpan.
 
-**3.**  **Type**
+**3.** **Type**
 
 Mengacu pada **numeric** atau **symbolic**.
 
@@ -2534,19 +2271,15 @@ Seluruh **data types** dibuat dari sekumpulan **unit of memory** yang disebut de
 
 <img src="../assets/Types-Signed-Unsigned-Integer.png" style="zoom:100%;" />
 
-
-
 ### Characteristic uint8
 
 Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 
-1. Bernama **uint8** (*uint* = *unsigned integer*) 
+1. Bernama **uint8** (_uint_ = _unsigned integer_)
 
 2. Ukuran memorinya sebesar 1 **byte** atau 8 **bits**.
 
-Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integer** positif saja, kita tidak bisa menyimpan data **integer** negatif. 
-
-
+Terminologi **Unsigned Integer** artinya kita hanya dapat menyimpan data **integer** positif saja, kita tidak bisa menyimpan data **integer** negatif.
 
 ### Range Value uint8
 
@@ -2572,19 +2305,15 @@ Kenapa nilai maksimum **integer** yang dapat disimpan adalah **255** tidak **256
 
 Menjadi 255 karena perhitungan (**numeration**) dalam komputer dimulai dari angka nol tidak dari angka 1, sehingga nilai maksimumnya menjadi 255. Dengan begitu **equation** untuk menghitung maksimum nilai **integer** yang dapat disimpan adalah **2^8-1 = 255**.
 
-
-
 ### Characteristic int8
 
 Sebagai contoh terdapat sebuah **data types** dengan karakteristik :
 
-1. Bernama **int8** dan 
+1. Bernama **int8** dan
 
-2. Ukuran memorinya sebesar 1 **bytes**. 
+2. Ukuran memorinya sebesar 1 **bytes**.
 
-Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data **integer** positif saja, pada **Signed Integer** kita bisa menyimpan data **integer** positif dan **integer** negatif. 
-
-
+Sebelumnya kita mengetahui bahwa **unsigned integer** hanya dapat menyimpan data **integer** positif saja, pada **Signed Integer** kita bisa menyimpan data **integer** positif dan **integer** negatif.
 
 ### Range Value int8
 
@@ -2604,13 +2333,11 @@ contract LearnSolidity {
 
 Kenapa bisa tipe data **int8** dapat menyimpan nilai dengan jarak antara **minimum -128** (negatif) dan **maximum 127** (positif)?
 
-Di karenakan **int8** mendukung nilai negatif dan positif maka **1 bit** digunakan sebagai penanda negatif atau positif pada suatu **integer**. 
+Di karenakan **int8** mendukung nilai negatif dan positif maka **1 bit** digunakan sebagai penanda negatif atau positif pada suatu **integer**.
 
 Sehingga dari **8 bit** tersisa **7 bit**, artinya **pattern** data biner yang dapat diciptakan adalah **2^7** yaitu **128**. Inilah yang menjadi faktor kenapa minimum **range value** dari **int8** adalah **-128** dan nilai maksimum yang dapat dicapai adalah **127** dikarenakan **0** juga dihitung dalam **numeration**.
 
-
-
-### Example 1 : Integer Max & Min 
+### Example 1 : Integer Max & Min
 
 Contoh kode di bawah ini dapat digunakan untuk mendapatkan nilai **maximum** dan **minimum** dari suatu **Integer**.
 
@@ -2621,7 +2348,7 @@ pragma solidity 0.8.4;
 contract LearnSolidity {
     uint32 public a;
     uint32 public b;
-    
+
     function myTest() external {
         a = type(uint32).min;
         b = type(uint32).max;
@@ -2629,17 +2356,13 @@ contract LearnSolidity {
 }
 ```
 
-
-
 ## Solidity Types
 
 Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 
 <img src="../assets/Solidity-Types.png" style="zoom:100%;" />
 
-----------
-
-
+---
 
 ### Default Value
 
@@ -2647,11 +2370,7 @@ Terdapat **3 Types** yang akan kita kaji dalam **Solidity** :
 
 Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value** yang keduanya adalah 0 dan untuk tipe data **string** maka **literal value** yang diberikan adalah **empty string**.
 
---------------
-
-
-
-
+---
 
 ## Value Types
 
@@ -2659,17 +2378,13 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
 <img src="../assets/Solidity-Value-Types.png" style="zoom:100%;" />
 
----------
-
-
+---
 
 ### Booleans
 
-**Booleans** adalah tipe data dengan **literal true** atau **false**. 
+**Booleans** adalah tipe data dengan **literal true** atau **false**.
 
-------------------
-
-
+---
 
 ### Integers
 
@@ -2683,31 +2398,19 @@ Jika tipe data yang diberikan adalah **uint** atau **int** maka **literal value*
 
    Secara **default** pada **arithmetic operation** selalu dilakukan dengan mode **checked**, jika hasil operasi melebihi dari range tipe yang digunakan maka **call** akan mengalami kegagalan dan **EVM** akan melakukan **state-reverting**.
 
--------
-
-
+---
 
 #### Division
 
-----------
+---
 
+#### Modulo
 
-
-
-
-#### Modulo 
-
----------
-
-
-
-
+---
 
 #### Exponentiation
 
-----------
-
-
+---
 
 #### Overflows & Underflows
 
@@ -2746,7 +2449,7 @@ contract IntegerExample2 {
 }
 ```
 
-Namun jika kita mengeksekusi kode di bawah ini, maka **runtime error** akan terjadi. Selanjutnya **state-reverting** akan dilakukan : 
+Namun jika kita mengeksekusi kode di bawah ini, maka **runtime error** akan terjadi. Selanjutnya **state-reverting** akan dilakukan :
 
 ```
 // SPDX-License-Identifier: MIT
@@ -2765,11 +2468,7 @@ contract RolloverExample2 {
 }
 ```
 
-
-
-----------------------
-
-
+---
 
 ### Address
 
@@ -2783,9 +2482,7 @@ Terdapat dua tipe **Address** :
 
 Perbedaan telaknya adalah pada **address payable**, **address** dapat digunakan untuk mengirimkan **ether** sementara **plain address** tidak dapat menerima **ether**.
 
-----------
-
-
+---
 
 #### Address Convertion
 
@@ -2803,7 +2500,7 @@ pragma solidity ^0.8.4;
 
 contract LearnSolidity {
     address public owner = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
-    address public sender = msg.sender; 
+    address public sender = msg.sender;
     address public emptyAddress = address(0);
     address public current = address(this);
 }
@@ -2811,23 +2508,21 @@ contract LearnSolidity {
 
 Pada **State Variable owner** kita dapat menetapkan nilai **EOA address** dari **Contract Owner** :
 
-​	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4   **<--- Just an example**
+​ 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 **<--- Just an example**
 
 Pada **State Variable sender** nilai yang di dapatkan adalah **address** pengirim yang melakukan **tranction** :
 
-​	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4   **<--- Just an example**
+​ 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 **<--- Just an example**
 
 Pada **State Variable emptyAddress** nilai yang di dapatkan adalah :
 
-​	0x0000000000000000000000000000000000000000
+​ 0x0000000000000000000000000000000000000000
 
 Pada **State Variable current** nilai yang di dapatkan adalah **Contract Address** :
 
-​	0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf    **<--- Just an example** 
+​ 0xEf9f1ACE83dfbB8f559Da621f4aEA72C6EB10eBf **<--- Just an example**
 
-------------
-
-
+---
 
 #### Get Caller Balance
 
@@ -2837,47 +2532,33 @@ Seperti yang telah kita pelajari sebelumnya address type memiliki **balance prop
     uint256 public balanceInWei = msg.sender.balance;
 ```
 
------------
-
-
+---
 
 #### Type Conversion
 
 Konversi secara implisit dari **address payable** ke dalam **address** diizinkan, namun konversi dari **address** ke dalam **address payable** harus dilakukan secara eksplisit melalui **function payable(parameter:address)**.
 
--------------------
-
-
+---
 
 ### String
 
 Dalam **Ethereum Virtual Machine (EVM)**, **String** adalah sebuah **byte-array**.
 
---------------
-
-
+---
 
 ### Enum
 
 **Enum** dapat digunakan untuk membuat sebuah **custom type** yang terdiri dari sekumpulan **constant**.
 
------------------------------
+---
 
+## Reference Types
 
-
-
-
-## Reference Types 
-
------------
-
-
+---
 
 ### Arrays
 
---------
-
-
+---
 
 ### Structs
 
@@ -2898,79 +2579,63 @@ contract Money {
 
 **Struct** di atas mendefinisikan **type funder** yang di dalamnya terdapat tiga buah **fields**, sebagai catatan **struct** yang di deklarasikan diluar **contract** dapat digunakan oleh **contracts** lainnya.
 
----------------
-
-
+---
 
 ## Mapping Types
 
----------------
-
-
+---
 
 # Tokenization
 
-Dalam dunia keuangan terdapat istilah **fungible** dan **non-fungible assets**. 
+Dalam dunia keuangan terdapat istilah **fungible** dan **non-fungible assets**.
 
-Sebuah **asset** dikatakan **fungible** ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit **asset** lainnya dengan mudah. Mata uang, **loyality tokens**, kupon makanan dan komoditas memiliki karakteristik **fungible** secara natural. 
+Sebuah **asset** dikatakan **fungible** ketika setiap unit terkecilnya tidak memiliki karakteristik nilai yang spesial dan dapat ditukar dengan unit **asset** lainnya dengan mudah. Mata uang, **loyality tokens**, kupon makanan dan komoditas memiliki karakteristik **fungible** secara natural.
 
-Sebuah **asset** dikatakan **non-fungible** ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat **irreplaceable**. Karya Seni, **items** dalam **computer games**, dan **real estate** memiliki karakteristik **non-fungible** secara natural.  
+Sebuah **asset** dikatakan **non-fungible** ketika memiliki karakteristik nilai yang spesial dan unik sehingga bersifat **irreplaceable**. Karya Seni, **items** dalam **computer games**, dan **real estate** memiliki karakteristik **non-fungible** secara natural.
 
------------------
-
-
+---
 
 ## Fungible Token
 
-------------
-
-
+---
 
 ## Non-Fungible Token
 
--------------------------
-
-
+---
 
 # ERC-20 Token Standard
 
-Pada Protokol **Ethereum** kita dapat membuat sebuah **token** yang dapat digunakan sebagai mata uang digital. **Ethereum** menyediakan fitur untuk menerbitkan sebuah **Token**. Pembuatan**Token** diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**. 
+Pada Protokol **Ethereum** kita dapat membuat sebuah **token** yang dapat digunakan sebagai mata uang digital. **Ethereum** menyediakan fitur untuk menerbitkan sebuah **Token**. Pembuatan**Token** diterbitkan dengan cara mengacu pada **Technical Standard** yang telah disediakan oleh komunitas, salah satunya adalah **ERC-20 Token**.
 
 **Technical Standard** pembuatan **Token** pada **Ethereum Protocol** pertama kali dibuat oleh **Fabian Vogelsteller**. Fabian membuat sebuah **issue Ethereum Request for Comment (ERC)** dengan urutan nomor 20. Selanjutnya **standard** yang diperkenalkan menjadi popular sehingga ditandai dengan nama **ERC-20**.
 
 Sebelum diciptakannya **ERC Token Standard**, kegiatan **Initial Coin Offering (ICO)** dalam **industry cryptocurrency** menggunakan berbagai standar yang berbeda-beda. Penciptaan **Technical Standard** dalam pembuatan **token**, membuat **Tokenization** menjadi semakin **mature**.
 
-Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada sebuah **Smart Contract** dalam pembuatan **token** dan sekumpulan fungsi minimum yang wajib dimiliki oleh sebuah **Smart Contract**. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**. 
+Manfaat dari standar ini adalah mengurangi resiko kegagalan dan **error** pada sebuah **Smart Contract** dalam pembuatan **token** dan sekumpulan fungsi minimum yang wajib dimiliki oleh sebuah **Smart Contract**. **ERC-20 Standard** menyediakan sekumpulan aturan untuk menerbitkan sebuah **ERC-20 Token**.
 
 Selain **ERC-20** ada banyak **Technical Standard** lainnya yang tersedia seperti **ERC-223**, **ERC-721** dan sebagainya.
 
------------
-
-
+---
 
 ## ERC & EIP
 
-Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan. 
+Sebuah **ERC** akan memasuki beberapa tahapan, mulai dari pembangunan draft versi pertama yang dapat di **propose** oleh seseorang atau kelompok, selanjutnya **ERC** akan di **review** oleh siapapun yang tertarik ikut mengembangkan, draft akan mengalami revisi, update hingga penerimaan.
 
 Jika sebuah **ERC** sudah diterima selanjutnya disebut dengan **Ethereum Improvement Proposal (EIP)**. Di bawah ini adalah sekumpulan ERC Request yang kini telah menjadi **Ethereum Improvement Proposal (EIP)** :
 
 https://github.com/ethereum/EIPs/tree/master/EIPS
 
---------------
-
-
+---
 
 ## Coin & Token
 
-Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocurrency** yang memiliki **Blockchain** secara independen, **blockchain** di desain secara khusus untuk **Coin** tersebut. 
+Istilah **Coin** diberikan untuk **Digital Asset** pada sebuah **Native Cryptocurrency** yang memiliki **Blockchain** secara independen, **blockchain** di desain secara khusus untuk **Coin** tersebut.
 
 **Bitcoin** (**BTC**) di desain secara khusus untuk transaksi keuangan dan memiliki **blockchain** tersendiri. **Ethereum** (**ETH**) di desain secara untuk transaksi keuangan dan **General Purpose**, **ethereum** juga memiliki **blockchain** khusus untuk protokolnya sendiri.
 
 **Token** adalah sebuah **Digital Asset** pada sebuah Protokol **Cryptocurrency** yang telah berjalan dan didesain khusus untuk **General Purpose**, karakteristik **Cryptocurrency** yang mendukung pembuatan **token** melalui **smart contract** memiliki **blockchain** yang dapat menyimpan berbagai **token**.
 
---------------
-
-
+---
 
 ## Balance State Variable
 
@@ -2980,9 +2645,7 @@ Terdapat **balances variable** dengan tipe data **mapping** yang digunakan untuk
     mapping(address => uint256) internal balances;
 ```
 
-------------
-
-
+---
 
 ## Total Supply Variable
 
@@ -2994,9 +2657,7 @@ Terdapat **totalSupply variable** dengan tipe data **uint256**, digunakan untuk 
 
 Pada **case** kali ini kita akan menggunakan **visibility internal** dan membuat **function totalSupply()** sendiri.
 
---------
-
-
+---
 
 ## Function totalSupply()
 
@@ -3008,9 +2669,7 @@ Untuk menampilkan **totalSupply state variable** kita dapat membuat fungsi **tot
     }
 ```
 
------------
-
-
+---
 
 ## Function balanceOf()
 
@@ -3022,9 +2681,7 @@ Fungsi ini digunakan untuk mendapatkan saldo **state variable balances**. Di baw
     }
 ```
 
--------------
-
-
+---
 
 ## Function transfer()
 
@@ -3042,9 +2699,7 @@ Fungsi ini digunakan untuk melakukan transfer **token** dari **owner address** m
 
 Selanjutnya jika proses validasi selesai jumlah saldo milik **sender** harus dikurangi dengan jumlah yang dikirim, dan jumlah saldo penerima (**target address**) harus bertambah. Terakhir terdapat **event** yang harus di **trigger** saat melakukan kegiatan **Transfer**.
 
-------------
-
-
+---
 
 ## Function approve()
 
@@ -3061,9 +2716,7 @@ Selanjutnya terdapat **state variable allowed** dengan tipe data **mapping** yan
    }
 ```
 
------------
-
-
+---
 
 ## Function allowance()
 
@@ -3075,9 +2728,7 @@ Fungsi ini digunakan untuk mendapatkan informasi jumlah yang diizinkan suatu **o
   }
 ```
 
------------
-
-
+---
 
 ## Function transferFrom()
 
@@ -3094,47 +2745,33 @@ Fungsi ini digunakan untuk melakukan transfer sejumlah token dari **from address
     }
 ```
 
-Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah token yang dikirim, jumlah saldo milik **spender address** akan ditambah sesuai dengan jumlah token yang dikirim. 
+Selanjutnya saldo milik **from address** akan dikurangi sesuai dengan jumlah token yang dikirim, jumlah saldo milik **spender address** akan ditambah sesuai dengan jumlah token yang dikirim.
 
 Kemudian jumlah saldo yang diizinkan **from address** untuk **spender address** dalam **state variable allowed** akan dikurangi dengan jumlah yang token yang dikirimkan. Terakhir terdapat **event Transfer** yang harus di **trigger** saat mengeksekusi fungsi **transferFrom**.
 
--------------
-
-
+---
 
 # ERC-721 Token Standard
-
-
-
-
 
 # OpenZeppelin
 
 **OpenZeppelin** adalah **library** yang dapat membantu para **Smart Contract Developer** untuk membangun **battle-tested** **Smart Contract**, membantu membangun standar **Smart Contract** yang aman pada **Ethereum Smart Contract**.
 
------------
+---
 
+## Decimals
 
+---
 
-## Decimals 
+## Utils
 
-------
-
-
-
-## Utils 
-
--------
-
-
+---
 
 ### Context
 
---------
+---
 
 <img src="../assets/OpenZeppelin-Utils-Context.png" style="zoom:90%;" />
-
-
 
 # Web3.js
 
@@ -3152,9 +2789,7 @@ Untuk para **Front-end Developer**, **Web3.js API** dapat digunakan untuk berint
 
 https://eips.ethereum.org/EIPS/eip-1193
 
-----------
-
-
+---
 
 ## Installing Web3.js
 
@@ -3166,15 +2801,11 @@ Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
    npm install web3
    ```
 
-   
-
 2. **Install Web3 package** menggunakan **Yarn** :
 
    ```
    yarn add web3
    ```
-
-   
 
 3. Untuk **Web-based Development** lakukan linking ke :
 
@@ -3184,9 +2815,7 @@ Untuk menggunakan **Web3.js** kita dapat menggunakan beberapa metode :
 
 Selanjutnya kita harus membuat **Web3 Object** dan menentukan **provider** yang akan kita gunakan.
 
------------
-
-
+---
 
 ## Promise Events
 
@@ -3205,9 +2834,7 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 });
 ```
 
-----------
-
-
+---
 
 ## eth.subscribe
 
@@ -3225,31 +2852,27 @@ web3.eth.sendTransaction({from: '0x123...', data: '0x432...'})
 
 **Module** ini digunakan melakukan interaksi dengan **Ethereum Node Account**.
 
-----------
-
-
+---
 
 # DApps
 
-**DApps** adalah sebuah aplikasi yang berjalan dalam **blockchain**, pada **context** ini **blockhain** yang dimaksud adalah **Ethereum Blockchain**. 
+**DApps** adalah sebuah aplikasi yang berjalan dalam **blockchain**, pada **context** ini **blockhain** yang dimaksud adalah **Ethereum Blockchain**.
 
 **DApps** mengandalkan **Decentralized Storage** dan **Decentralized Communication**. **DApps** menyediakan **layer front-end** sebagai **user interface** untuk berinteraksi dengan **back-end** yang berasal dari sebuah **blockchain**.
 
-**DApps** atau **Decentralized Applications** kini telah menjadi ikon teknologi **WWW (World Wide Web)** berikutnya. **DApps** membawa gagasan **Smart Contract** menjadi lebih luas lagi, **DApps** adalah **Smart Contract** dengan **Web Front-end**. 
+**DApps** atau **Decentralized Applications** kini telah menjadi ikon teknologi **WWW (World Wide Web)** berikutnya. **DApps** membawa gagasan **Smart Contract** menjadi lebih luas lagi, **DApps** adalah **Smart Contract** dengan **Web Front-end**.
 
-**DApps** memperlakukan **Smart Contract** sebagai **back-end** untuk menentukan **business logic.** Keunggulannya dibandingkan aplikasi tercentral adalah **DApps** tidak memiliki **downtime** selama **platform blockchain ethereum** masih berjalan. 
+**DApps** memperlakukan **Smart Contract** sebagai **back-end** untuk menentukan **business logic.** Keunggulannya dibandingkan aplikasi tercentral adalah **DApps** tidak memiliki **downtime** selama **platform blockchain ethereum** masih berjalan.
 
-**Web3.js** membuat **developer** dapat berinteraksi langsung dengan node ethereum seperti menandatangani pesan, melakukan transaksi dan memanajemen kunci. **Web3.js** juga digunakan untuk membangun client-side application yang lebih interaktif. 
+**Web3.js** membuat **developer** dapat berinteraksi langsung dengan node ethereum seperti menandatangani pesan, melakukan transaksi dan memanajemen kunci. **Web3.js** juga digunakan untuk membangun client-side application yang lebih interaktif.
 
-**DApps** membantu menyediakan **User Interface (UI)** yang lebih interaktif dan dinamis. 
+**DApps** membantu menyediakan **User Interface (UI)** yang lebih interaktif dan dinamis.
 
----------
-
-
+---
 
 ## IPFS
 
-**InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran kecil, sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**. 
+**InterPLanetary File System (IPFS)** adalah tempat penyimpanan yang mengandalkan **Decentralized Storage Filesystem**. **InterPLanetary File System (IPFS)** sangat **reliable** untuk membangun **tamperproof files** dalam ukuran kecil, sedang atau besar yang dibutuhkan sebagai komponen penting dalam **Smart Contract**.
 
 Untuk menyimpan **blobs file** seperti **images**, **videos** dan sebagainya pada Protokol **Ethereum** masih belum **feasible** dan **expensive**, dan tidak didesain ke arah sini. DIsinilah peran **InterPLanetary File System (IPFS)**, biasanya data yang telah di **hash** akan disimpan dalam **Ethereum Blockchain** dan **blobs file** di distribusikan melalui **InterPLanetary File System (IPFS)**.
 
@@ -3257,51 +2880,35 @@ Untuk menggunakan **InterPLanetary File System (IPFS)** silahkan kunjungi :
 
 https://ipfs.io/
 
-----------------
-
-
+---
 
 ### Content Identifier (CID)
 
-----------------
+---
 
-**Content Identifier (CID)** adalah tanda pengenal unik menggunakan **Cryptographic Hash** dari **file** yang akan kita simpan dalam **InterPLanetary File System (IPFS)**. 
+**Content Identifier (CID)** adalah tanda pengenal unik menggunakan **Cryptographic Hash** dari **file** yang akan kita simpan dalam **InterPLanetary File System (IPFS)**.
 
-
-
-----------
-
-
+---
 
 ## Whisper
 
 **Whisper** adalah **Messaging Protocol** yang didesain untuk **Ethereum**.
 
-
-
 # Oracle
 
-**Oracle** memberikan kemampuan agar **Smart Contract** dapat berinteraksi dengan informasi ekstrinsik seperti informasi dunia nyata atau **off-chain**. Kapabilitas ini membuat inovasi dalam **Smart Contract** bisa lebih dinamis, fleksibel dan kompleks untuk memecahkan berbagai permasalahan dalam **domain blockchain**. 
+**Oracle** memberikan kemampuan agar **Smart Contract** dapat berinteraksi dengan informasi ekstrinsik seperti informasi dunia nyata atau **off-chain**. Kapabilitas ini membuat inovasi dalam **Smart Contract** bisa lebih dinamis, fleksibel dan kompleks untuk memecahkan berbagai permasalahan dalam **domain blockchain**.
 
---------------
+---
 
-
-
-# Ethereum Security Deep Dive 
-
-
-
-
+# Ethereum Security Deep Dive
 
 ## Reentrancy Attack
 
---------
-
-
+---
 
 # Private Ethereum Test Network
 
-Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaringan komputer untuk uji coba atau biasa di sebut dengan **Test Network**. Sebelumnya kita telah belajar membangun **Virtual Ethereum Network** pada **local computer** menggunakan **Ganache**, kini kita akan menggunakan **Geth**. 
+Dengan **Software Ethereum Client** seperti **Geth** kita dapat membangun jaringan komputer untuk uji coba atau biasa di sebut dengan **Test Network**. Sebelumnya kita telah belajar membangun **Virtual Ethereum Network** pada **local computer** menggunakan **Ganache**, kini kita akan menggunakan **Geth**.
 
 **Ethereum Private Network** tidak terhubung sama sekali dengan **Ethereum Main Network**. Di bawah ini 3 buah **Nodes** yang telah memasang **Software Ethereum Client** **Geth** berkomitmen untuk membangun sebuah **Private Ethereum Networks** :
 
@@ -3315,9 +2922,7 @@ Sebelum kita membangun **Private Ethereum Network** ada beberapa aktivitas yang 
 4. **Mining**
 5. **Transfer Ether**
 
---------------
-
-
+---
 
 # ETH Validator 2.0
 
@@ -3325,23 +2930,37 @@ Dalam **Ethereum Protocol**, **ETH Validator** dapat disebut juga sebagai **Mine
 
 Saat ini **Ethereum Main Net** masih mengandalkan **Proof-of-Work (PoW)**.
 
-**Blockchain** adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya **Double Spending**. Pemanfaatan **Blockchain** mendukung terciptanya standar pasar yang lebih adil dan transparan. 
+**Blockchain** adalah inovasi yang paling efektif dan teruji untuk mencegah terjadinya **Double Spending**. Pemanfaatan **Blockchain** mendukung terciptanya standar pasar yang lebih adil dan transparan.
 
-**Blockchain** adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat. 
+**Blockchain** adalah serangkaian konsep untuk membangun sistem penyimpanan data yang transparan dan resisten terhadap manipulasi. Jika terdapat kecacatan pada integritas data, pengujian dapat langsung dibuktikan oleh siapa saja setiap saat.
 
-Salah satu aspek Protokol **Ethereum** dipilih karena protokol tersebut mendukung pemanfaatan **Consensus Mechanism** berbasis **Proof of Stake (PoS)** yang lebih **eco-friendly**. 
+Salah satu aspek Protokol **Ethereum** dipilih karena protokol tersebut mendukung pemanfaatan **Consensus Mechanism** berbasis **Proof of Stake (PoS)** yang lebih **eco-friendly**.
 
-Protokol **Ethereum** dipilih karena berkomitmen meninggalkan **Consensus Proof of Work (PoW)** yang tidak ramah lingkungan, **Consensus Proof of Stake (PoS)** memberikan solusi skema insentif terbaru dari **Mining Reward menjadi Validator Reward.** 
+Protokol **Ethereum** dipilih karena berkomitmen meninggalkan **Consensus Proof of Work (PoW)** yang tidak ramah lingkungan, **Consensus Proof of Stake (PoS)** memberikan solusi skema insentif terbaru dari **Mining Reward menjadi Validator Reward.**
 
-Pada **Proof of Stake (PoS)** tidak perlu lagi investasi pada perangkat keras khusus yang membutuhkan konsumsi energi tinggi seperti **ASIC Machines** dan GPU Chips. Dari tahun 2017 sampai tahun 2021 konsumsi energinya sudah di atas 100 TeraWatt/jam. 
+Pada **Proof of Stake (PoS)** tidak perlu lagi investasi pada perangkat keras khusus yang membutuhkan konsumsi energi tinggi seperti **ASIC Machines** dan GPU Chips. Dari tahun 2017 sampai tahun 2021 konsumsi energinya sudah di atas 100 TeraWatt/jam.
 
-Pada **Consensus Proof of Stake (PoS)** siapapun yang ingin mendapatkan Validator Reward harus mempertaruhkan (staking) 32 ETH sebagai **collateral asset**. Juga tersedia alternative staking pool yang dapat digunakan para pemilik ETH untuk bisa melakukan **Staking** secara patungan berkelompok. 
+Pada **Consensus Proof of Stake (PoS)** siapapun yang ingin mendapatkan Validator Reward harus mempertaruhkan (staking) 32 ETH sebagai **collateral asset**. Juga tersedia alternative staking pool yang dapat digunakan para pemilik ETH untuk bisa melakukan **Staking** secara patungan berkelompok.
 
-Hal ini lah yang membuat **Consensus Mechanism Proof of Stake (PoS)** lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data **blockchain** secara kontinyu. 
+Hal ini lah yang membuat **Consensus Mechanism Proof of Stake (PoS)** lebih ramah terhadap lingkungan tanpa penggunaan energi yang berlebihan untuk mengamankan data **blockchain** secara kontinyu.
 
------------
+---
 
+# Blockchain Challenges
 
+Beberapa tantangan dalam **blockchain** adalah :
+
+1. **Storage**
+2. **Regulation Compliance**
+3. **Interoperability**
+4. **Energy Consumption**
+5. **Expertise**
+
+---
+
+# The Future Blockchain
+
+//Todo
 
 # Note 2021
 
@@ -3351,7 +2970,6 @@ Hal ini lah yang membuat **Consensus Mechanism Proof of Stake (PoS)** lebih rama
 4. Dukungan penulisan Smart Contract menggunakan bahasa Rust, C++, Python, Javascript & etc
 5. Innovation & Complexity Growth push developer to more competitive become specialist area
 6. Penerapan Note No 2 menimbulkan obselete for majority current DApps interacting with old state
-7. Taproot Upgrade pada Bitcoin Protocol menjadi penantang baru Smart Contract Ethereum Protocol 
+7. Taproot Upgrade pada Bitcoin Protocol menjadi penantang baru Smart Contract Ethereum Protocol
 8. Migrasi penggunaan Elliptic Curve Digital Signature (ECDS) ke Schnorr Signatures (Space & Anonymity Issue)
 9. New Business Model Validator as a Service
-
