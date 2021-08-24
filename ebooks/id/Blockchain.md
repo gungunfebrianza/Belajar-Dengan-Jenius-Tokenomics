@@ -48,6 +48,10 @@ Self-sovereign Identity, user memiliki kendali penuh atas informasi personal mer
 
 Untuk asset tracking terdapat case study menarik misalkan untuk memantau perpindahan emas bank central dari waktu ke waktu secara geografis. Memantau perpindahan berlian dan benda berharga lainnya yang di miliki oleh pengusaha. Distribusi vaksin dari manufaktur ke grosir sampai ke apoteker.
 
+### Special Cases - Mediachain
+
+Blockchain yang membantu musisi untuk mendapatkan royalti. Mediachain diakuisisi spotify agar bisa memecahkan permasalahan royalti yang mereka hadapi, dikarenakan sistem penyimpanan data mereka yang tercentral dan private para musisi bisa meragukan jumlah viewer atau consumer yang ada dalam spotify. Nah, dengan mediachain sistem penyimpanan data menjadi terdesentralisasi terkait viewer dan consumer yang mendengarkan lagu para musisi dengan begitu perhitungan royalty dianggap lebih terbuka. Jumlah viewer yang ada dalam aplikasi spotify secara aktual dapat dibandingkan dengan yang ada di dalam blockchain.
+
 
 
 ## Cryptocurrency & Digital Money
@@ -102,17 +106,39 @@ Untuk menjelaskan global state secara sederhana, sebagai contoh mas gun membuat 
 
 Ketika mas mengubah string maudy ayunda menjadi maudya ayunda faza pada blockchain di seluruh nodes ethereum maka mas gun telah melakukan global transition, ada perubahan literal value dari maudy ayunda ke maudya ayunda faza. Event perubahan ini dapat di capture dan perubahan state dapat diketahui siapa saja.
 
+### Permanent Algorithm
 
+Pada aplikasi smart contract sebelumnya my soulmate app, kita hanya mengandalkan tipe data string dan algoritma yang sangat sederhana. Pada real life cases tipe data yang digunakan dan algoritma yang digunakan cenderung kompleks, sebagai contoh untuk aplikasi dalam blockchain for identity seperti pencatatan ijazah. Kita dapat menggunakan tipe data struct yang di dalamnya terdiri dari sekumpulan tipe data lainnya misal string untuk nama mahasiswa, integer untuk tahun kelulusan, dan sebagainya.
+
+Aplikasi smart contract yang telah ditanam dalam blockchain bersifat permanent, algoritma di dalamnya tidak dapat diubah lagi sehingga smart contract bersifat deterministik. Input yang sama akan selalu menghasilkan output yang sama.
+
+### Fungible & Non-fungible Token
+
+Dalam Smart Contract kita juga dapat membuat Fungible & Non-fungible token,
+
+Dalam Protokol Ethereum terdapat standar untuk membangun fungible token yang juga dapat dijadikan sebagai medium of transaction. Misal kedepannya rumah makan ampera, membuat ampera token yang dapat digunakan untuk membeli nasi dan daging di ampera.
+
+Jadi kalau adik2 bertanya bikin token erc-20 mudah, iya mudah, namun untuk meyakinkan bahwa token yang adik2 buat memiliki nilai bukan hal yang mudah. Adopsi adalah perkara yang sulit.
+
+Pada fungible token, sebuah token dapat direcah sampai kedalam unit terkecil dan nilainya tetap setara. Sementara pada Non-Fungible Token, token tidak dapat direcah ke dalam unit terkecil karena memiliki set of characteristic yang unik dan spesial dalam kesatuan utuh. Karya seni, items, senjata, karakter dalam games dan real estate memiliki karakter non-fungible secara natural jika ditokenisasi.
 
 
 
 ## Counterfeit Product Protection
 
-
+Ketika seseorang membeli barang-barang mewah mereka dapat melihat certificate-online yang telah ditandatangi menggunakan algoritma kriptografi pemilik brand, setiap barang mewah memiliki unique identifier yang dapat digunakan untuk melacak supply-chainnya siapa desainernya, dari mana bahan mentahnya, dari distributor mana dan siapa yang melakukan manufaktur. Selanjutnya menggunakan Unique Identifier tadi pemilik brand dapat menambahkan nama pembeli ke dalam blockchain yang selanjutnya dapat diketahui publik dan diverifikasi siapa saja terkait ownership dari barang mewah yang telah dibeli.
 
 
 
 ## Mining & GPU
+
+Mining artinya menambang, pada dasarnya adalah aktivitas membantu mencatat transaksi dan memvalidasi kebenaran transaksi. Untuk memastikan setiap node memiliki salinan data yang sama diperlukan sebuah mekanisme untuk memvalidasi sebuah transaksi, maksudnya jika ada data yang akan ditambahkan ke dalam blockchain, data tersebut harus valid dan dapat diterima oleh semua node.
+
+Jadi bagaimana agar setiap node dalam jaringan komputer peer to peer dapat melakukan keputusan yang sama ? baik itu keputusan untuk menerima block data atau mereject suatu block data ?
+
+Dalam matematikan dan sains komputer permasalahan seperti ini termasuk kedalam problema klasik yang dikenal dengan sebutan Byzantine General Problem (BGP). Dalam sains komputer pemetaannya menjadi bagaimana agar setiap node dalam jaringan komputer P2P memiliki keputusan yang sama meskipun didalamnya terdapat node yang gagal berfungsi atau evil nodes.
+
+ 
 
 
 
@@ -126,7 +152,7 @@ Ketika mas mengubah string maudy ayunda menjadi maudya ayunda faza pada blockcha
 
 ## Blockchain for Indonesia
 
-
+Pemanfaatannya bisa untuk pajak dan beacukai.
 
 
 
