@@ -138,7 +138,13 @@ Jadi bagaimana agar setiap node dalam jaringan komputer peer to peer dapat melak
 
 Dalam matematikan dan sains komputer permasalahan seperti ini termasuk kedalam problema klasik yang dikenal dengan sebutan Byzantine General Problem (BGP). Dalam sains komputer pemetaannya menjadi bagaimana agar setiap node dalam jaringan komputer P2P memiliki keputusan yang sama meskipun didalamnya terdapat node yang gagal berfungsi atau evil nodes.
 
- 
+Misalkan terdapat 5 jendral semuanya berada dalam posisi yang berbeda-beda untuk menyerang suatu kota, setiap jendral harus memiliki keputusan yang sama yaitu menyerang atau mundur. Setiap jendral memiliki permasalahan komunikasi karena pesan yang dikoordinasikan sirkulasinya dapat bermasalah, pesan yang dikirimkan dapat di manipulasi oleh jendral yang berkhianat sehingga dapat menimbulkan kegagalan dalam peperangan.
+
+Para jendral ini direpresentasikan sebagai sebuah nodes dalam protokol blockchain, sesuai dengan gagasan leslie lamport tentang byzantine general problem di tahun 82 untuk memenangkan konsensus diperlukan 2/3 node yang jujur. inilah kenapa secara filosofi blockchain sebagai immutable ledger dapat dilumpuhkan dengan serangan 51% attack.
+
+**Byzantine Fault Tolerance (BFT)** adalah kemampuan suatu sistem untuk tetap dapat berjalan meskipun terdapat kegagalan yang berasal dari **Byzantine General Problem (BGP)**. Pada cases blockchain jika terdapat node yang gagal berfungsi atau node jahat sistem tetap dapat berjalan dengan baik.
+
+Ada berbagai algorithm yang dapat digunakan untuk membangun sistem blockchain yang memiliki karakteristik byzentine fault tolerance (BFT). Salah satu consensus algorithm yang terkenal adalah proof-of-work (PoW), satoshi nakamoto menambahkan konsep economics-incentive dan cryptography agar tercipta consensus algorithm yang dapat melindungi bitcoin blockchain. Sampai saat ini consensus algorithm PoW masih sukses melindungi protokol bitcoin.
 
 
 
@@ -146,7 +152,9 @@ Dalam matematikan dan sains komputer permasalahan seperti ini termasuk kedalam p
 
 ## Blockchain Development
 
-5 tahun terakhir from global to indonesia
+Tahun 2018, pemerintahan georgia menerapkan sistem pencatatan pemilik tanah menggunakan blockchain dan sudah terdaftar lebih dari 1,5 juta pemilik tanah. Sumbernya ini dari world economic forum.
+
+Tantangan besar penerapannya adalah masalah adopsi.
 
 
 
