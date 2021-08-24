@@ -78,11 +78,43 @@ Pada Cryptocurrency Kendali atas kekayaanpun tidak lagi pada bank central, kalau
 
 ## Smart Contract
 
+Smart Contract artinya kita dapat membuat program yang ditanam ke dalam blockchain. 
+
+### Decentralized Algorithm
+
+Dulu waktu saya kuliah pernah membuat program dekstop khusus untuk personal komputer menggunakan bahasa pemrograman delphi dan vb6, logic, payload dan application binary yang diproduksi tersedia dapat kita tanam dalam komputer kita atau orang lain.
+
+Problemnya adalah payload dan application binary dalam lokal komputer ternyata gampang sekali dieksploitasi.
+
+Kemudian ada era server & system programming, kita membuat web server dan database server yang programnya di tanam di server. Selanjutnya client bisa berupa aplikasi dekstop, aplikasi web atau aplikasi mobile berinteraksi dengan server. Artinya logic, payload dan application binary ada di server, client fokus pada request yang akan dikirimkan dan server akan memberikan response.
+
+Problemnya ternyata server juga ada waktunya bisa ditembus atau payload dan application binary di eksploitasi juga lewat internal threat. Ini balik lagi ke problema tadi yang sempat kita bahas terkait 4 faktor kenapa single entity atau manusia itu pasti memikul beban berat keamanan komputer. 
+
+Tiba masanya program yang ditanam kedalam blockchain, yaitu smart contract. Ditanam kedalam blockchain artinya program tertanam di dalam ribuan komputer dari berbagai belahan dunia yang memiliki salinan blockchain. Pertanyaanya bagaimana memanipulasi payload dan blockchain dalam ribuan komputer diberbagai belahan dunia? inilah kelebihan smart contract.
+
+### Global Computer
+
+Sebagai contoh dalam protokol Ethereum terdapat ribuan node yang terhubung dan mendapatkan salinan blockchain secara aktual. Nodes tersebut merepresentasikan sebuah global computer yang dapat kita program untuk membuat sebuah global state dan melakukan global state transition.
+
+### Global State & Transition
+
+Untuk menjelaskan global state secara sederhana, sebagai contoh mas gun membuat program smart contract bernama my soulmate app. Sebuah aplikasi untuk menanam nama pacar atau pasangan hidup ke dalam blockchain, jika mas gun mengisi pasangan hidup mas gun dalam aplikasi blockchain tersebut - misal Maudy Ayunda pastinya nama maudy ayunda akan tertanam di dalam blockchain yang tersimpan dalam ribuan full node ethereum client. Semua orang bisa mengetahuinya.
+
+Ketika mas mengubah string maudy ayunda menjadi maudya ayunda faza pada blockchain di seluruh nodes ethereum maka mas gun telah melakukan global transition, ada perubahan literal value dari maudy ayunda ke maudya ayunda faza. Event perubahan ini dapat di capture dan perubahan state dapat diketahui siapa saja.
+
+
+
 
 
 ## Counterfeit Product Protection
 
+
+
+
+
 ## Mining & GPU
+
+
 
 
 
@@ -90,9 +122,19 @@ Pada Cryptocurrency Kendali atas kekayaanpun tidak lagi pada bank central, kalau
 
 5 tahun terakhir from global to indonesia
 
+
+
 ## Blockchain for Indonesia
 
+
+
+
+
 ## Blockchain Architect
+
+
+
+
 
 ## Blockchain Learning Path
 
