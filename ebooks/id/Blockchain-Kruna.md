@@ -8,7 +8,20 @@
 
 
 
-Blockchain Digital Transformation in Government
+**Mastering Blockchain Architecture** 
+
+1. Types of Blockchain
+   - Public Blockchain
+   - Private Blockchain
+   - Federated Blockchain
+2. Smart Contract Applications
+   - Financial Services
+   - Mortgage Transaction
+   - Supply Chain Transparency
+   - Medical Research
+   - Digital Identity
+
+**Blockchain Digital Transformation in Government**
 
 1. Blockchain in Traffic Management
 2. Blockchain for Taxation
