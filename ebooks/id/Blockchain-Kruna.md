@@ -20,6 +20,19 @@
    - Supply Chain Transparency
    - Medical Research
    - Digital Identity
+3. Scalability 
+   - Sharding
+   - DAG-based
+   - Off-chain Payment Network
+     - Lightning Network
+     - Raiden Network
+   - Cross-chain Technology
+     - Multi-Centre Witness
+     - Side Chain
+     - Hash Locking
+     - Distributed Private Key Control Technology
+
+
 
 **Blockchain Digital Transformation in Government**
 
