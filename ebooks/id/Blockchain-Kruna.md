@@ -14,13 +14,19 @@
    - Public Blockchain
    - Private Blockchain
    - Federated Blockchain
-2. Smart Contract Applications
+2. Blockchain Architecture
+   - Data Layer
+   - Network Layer
+   - Consensus Layer
+   - Smart Contract Layer
+   - Application Layer
+3. Smart Contract Applications
    - Financial Services
    - Mortgage Transaction
    - Supply Chain Transparency
    - Medical Research
    - Digital Identity
-3. Scalability 
+4. Scalability 
    - Sharding
    - DAG-based
    - Off-chain Payment Network
