@@ -20,13 +20,20 @@
    - Consensus Layer
    - Smart Contract Layer
    - Application Layer
-3. Smart Contract Applications
+3. Consensus
+   - Proof of Work (PoW)
+   - Proof of Stake (PoS)
+   - Delegated Proof of Stake (DPoS)
+   - Proof of Burn (PoB)
+   - Proof of Authority (PoA)
+   - Hybrid Consensus
+4. Smart Contract Applications
    - Financial Services
    - Mortgage Transaction
    - Supply Chain Transparency
    - Medical Research
    - Digital Identity
-4. Scalability 
+5. Scalability 
    - Sharding
    - DAG-based
    - Off-chain Payment Network
