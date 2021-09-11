@@ -8,6 +8,17 @@
 
 Blockchain adalah sekumpulan konsep bagaimana membangun sistem penyimpanan data yang aman. Bagaimana membangun sistem penyimpanan data yang sebisa mungkin kebal terhadap manipulasi? 
 
+Blockchain adalah sekumpulan konsep bagaimana membangun sistem penyimpanan data yang aman. Bagaimana membangun sistem penyimpanan data yang sebisa mungkin kebal terhadap manipulasi?
+
+Pertama kita harus melepaskan diri dari ketergantungan untuk menyimpan data dalam jaringan komputer tersentral (Centralized Computer Network). Kenapa harus melepaskan diri dari ketergantungan untuk menyimpan data dalam jaringan komputer tersentral?
+
+Jawabannya sederhana karena pada jaringan komputer tersentral terdapat satu entitas baik itu individu atau organisasi yang memiliki kontrol penuh untuk mengelola data.
+
+Centralized Computer Network adalah subject to manipulation.
+
+Kedua kita harus menggunakan jaringan komputer terdesentralisasi (Decentralized Computer Network) untuk menyimpan data.
+
+
 Pada jaringan komputer tersentral sistem lebih mudah dimanipulasi karena dikendalikan oleh 1 entitas, baik itu individu ataupun organisasi. Kenapa single entity atau manusia itu buruk sekali untuk keamanan sistem komputer? ada empat masalah diantaranya adalah :
 
 1. Antagonist Entity & Personal/Organization Interest
