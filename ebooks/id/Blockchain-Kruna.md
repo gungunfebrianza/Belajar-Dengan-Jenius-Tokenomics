@@ -33,7 +33,11 @@
    - Supply Chain Transparency
    - Medical Research
    - Digital Identity
-5. Scalability 
+5. Tokenization
+   - Fungible Token
+   - Nonfungible Token
+   - Security Token
+6. Scalability 
    - Sharding
    - DAG-based
    - Off-chain Payment Network
@@ -56,3 +60,4 @@
 5. Blockchain in Healthcare
 6. Blockchain in Finance
 7. Blockchain in Identity Management
+
